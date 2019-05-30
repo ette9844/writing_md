@@ -18,13 +18,16 @@ SET PAGESIZE 100;
 >`PAGESIZE`는 테이블 헤더 밑에 출력되는 최대 행 수 이다.
 >설정한 숫자만큼의 행 마다 테이블 헤더가 붙는다.
 
+####
+####
 ```SQL
 COL `COLUMN_NAME` FORMAT a20;
 ```
->`COLUMN_NAME`에 해당하는 컬럼의 해
+>`COLUMN_NAME`에 해당하는 컬럼의 간격을 조정한다.
+>컬럼의 간격 때문에 가독성이 떨어질 때 사용한다.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3ODc2OTg3LDE5ODMzMjkyNzMsOTEzND
-I3MDldfQ==
+eyJoaXN0b3J5IjpbLTE0MjcxNjAxNjEsMTk4MzMyOTI3Myw5MT
+M0MjcwOV19
 -->
