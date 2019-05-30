@@ -13,14 +13,14 @@
 >
 >2. 새로운 사용자 생성
 >```SQL
->CREATE USER `USERNAME` IDENTIFIED BY `PASSWORD`
+>CREATE USER `USERNAME` IDENTIFIED BY `PASSWORD`;
 >```
->##### 
+>##### ```DEFAULT TABLESPACES ````
 	
 	
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MjAxNzA4OSwyMTEzNDg3NzUsNjg1Mj
+eyJoaXN0b3J5IjpbMTc0NzU5ODU0MCwyMTEzNDg3NzUsNjg1Mj
 YwODQ1LDIwNTc5NjkwNDUsMTgyNzkzMzcyM119
 -->
