@@ -15,12 +15,15 @@
 >```SQL
 >CREATE USER `USERNAME` IDENTIFIED BY `PASSWORD`;
 >```
->##### ```DEFAULT TABLESPACES ````
+> ```SQL
+> CREATE USER `USERNAME` IDENTIFIED BY `PASSWORD`;
+> DEFAULT TABLESPACE `TABLESPACE_NAME`
+>```
 	
 	
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzU5ODU0MCwyMTEzNDg3NzUsNjg1Mj
+eyJoaXN0b3J5IjpbLTY2NjQ1ODI0OSwyMTEzNDg3NzUsNjg1Mj
 YwODQ1LDIwNTc5NjkwNDUsMTgyNzkzMzcyM119
 -->
