@@ -34,11 +34,17 @@ GRANT DBA TO `USERNAME`;
 
 **4. 사용자 계정으로 DB에 접속하기**
 ```SQL
+CONNECT `USERNAME`;
+```
+```SQL
 SELECT USER FROM DUAL;
 ```
+>접속 후 해당 구문을 통해 현재 로그인한 사용자 이름을 조회할 수 있다.
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTg2MzU0MTgsLTQ4MzQ5OTUzMSwxMz
-kyMzg1NjUzLC0xNDU0MDM0MDE4LDIxMTM0ODc3NSw2ODUyNjA4
-NDUsMjA1Nzk2OTA0NSwxODI3OTMzNzIzXX0=
+eyJoaXN0b3J5IjpbMTEyNjYwMTY2NiwtNDgzNDk5NTMxLDEzOT
+IzODU2NTMsLTE0NTQwMzQwMTgsMjExMzQ4Nzc1LDY4NTI2MDg0
+NSwyMDU3OTY5MDQ1LDE4Mjc5MzM3MjNdfQ==
 -->
