@@ -4,13 +4,13 @@
 
 >새 사용자 생성하기
 >```
-	사용자명 입력: system
-	비밀번호 입력: [Oracle 설치시 등록한 비밀번호]
-	```
+>사용자명 입력: system
+>비밀번호 입력: [Oracle 설치시 등록한 비밀번호]
+	
 	
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTc5NjQ5MSwyMDU3OTY5MDQ1LDE4Mj
-c5MzM3MjNdfQ==
+eyJoaXN0b3J5IjpbNjg1MjYwODQ1LDIwNTc5NjkwNDUsMTgyNz
+kzMzcyM119
 -->
