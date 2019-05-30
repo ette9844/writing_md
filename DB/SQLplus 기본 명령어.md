@@ -37,9 +37,11 @@ GRANT DBA TO `USERNAME`;
 CONNECT `USERNAME`;
 비밀번호 입력: `PASSWORD`
 ```
+>`CONNECT` 구문을 사용하거나
 ```SQL
 CONN `USERNAME`/`PASSWORD`;
 ```
+>`CONNECT`의 축약형인 `CONN`으로 간편하게 접속할 수 있다.
 ```SQL
 SELECT USER FROM DUAL;
 ```
@@ -48,7 +50,7 @@ SELECT USER FROM DUAL;
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzA0Njc5LC00ODM0OTk1MzEsMTM5Mj
+eyJoaXN0b3J5IjpbMTMxNzc5NzQ3LC00ODM0OTk1MzEsMTM5Mj
 M4NTY1MywtMTQ1NDAzNDAxOCwyMTEzNDg3NzUsNjg1MjYwODQ1
 LDIwNTc5NjkwNDUsMTgyNzkzMzcyM119
 -->
