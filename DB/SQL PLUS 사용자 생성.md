@@ -8,6 +8,7 @@
 ```
 >이 때 주의해야 할 사항은 SQL문을 작성할 때에는 대, 소문자를 구분하지 않지만, 비밀번호 입력시에는 대소문자를 구분한다는 점이다.
 
+<BR/>
 
 **2. 새로운 사용자 생성**
 ```SQL
@@ -19,11 +20,16 @@ CREATE USER `USERNAME` IDENTIFIED BY `PASSWORD`;
  DEFAULT TABLESPACE `TABLESPACE_NAME`
  TEMPORARY TABLESPACE`TABLESPACE_NAME`;
 ```
+
+<BR/>
+
 **3. 사용자에게 롤 부여하기**
 ```sql
 GRANT DBA TO `USERNAME`;
 ```
 >`USERNAME`에게 DBA 권한을 부여하는 코드
+>
+<BR/>
 
 **4. 사용자 계정으로 DB에 접속하기**
 ```SQL
@@ -40,8 +46,9 @@ SELECT USER FROM DUAL;
 ```
 >접속 후 해당 구문을 통해 현재 로그인한 사용자 이름을 조회할 수 있다.
 
+<BR/>
 
-> Written with [StackEdit](https://stackedit.io/).
+Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEzNzQ3Njg2XX0=
+eyJoaXN0b3J5IjpbOTM1NzQ0NTY2LDcxMzc0NzY4Nl19
 -->
