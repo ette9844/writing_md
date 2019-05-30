@@ -6,17 +6,17 @@
 >1. SYSTEM 계정으로 접속 
 >```
 >사용자명 입력: system
->비밀번호 입력: [Oracle 설치시 등록한 비밀번호]
+>비밀번호 입력: `Oracle 설치시 등록한 비밀번호`
 >```
 >2. 새로운 사용자 생성
->```
->CREATE USER [USERNAME] IDENTIFIED BY [PASSWORD]
+>```SQL
+>CREATE USER `USERNAME` IDENTIFIED BY `PASSWORD`
 >```
 	
 	
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MDQ2NzgxNSw2ODUyNjA4NDUsMjA1Nz
+eyJoaXN0b3J5IjpbLTI5NTM2MTIyNyw2ODUyNjA4NDUsMjA1Nz
 k2OTA0NSwxODI3OTMzNzIzXX0=
 -->
