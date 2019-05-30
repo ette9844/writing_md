@@ -5,7 +5,7 @@
 </BR>
 >
 
->## 새 사용자 생성하기
+## 새 사용자 생성하기
 >
 >
 >**1. SYSTEM 계정으로 접속** 
@@ -30,7 +30,7 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDY1Mjg5OSwtMTQ1NDAzNDAxOCwyMT
+eyJoaXN0b3J5IjpbMTM5MjM4NTY1MywtMTQ1NDAzNDAxOCwyMT
 EzNDg3NzUsNjg1MjYwODQ1LDIwNTc5NjkwNDUsMTgyNzkzMzcy
 M119
 -->
