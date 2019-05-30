@@ -9,6 +9,8 @@
 >사용자명 입력: system
 >비밀번호 입력: `Oracle 설치시 등록한 비밀번호`
 >```
+>*이 때 주의해야 할 사항은 SQL문을 작성할 때에는 대, 소문자를 구분하지 않지만, 사용자명/비밀번호 입력시에는 대소문자를 구분한다는 점이다.
+>
 >2. 새로운 사용자 생성
 >```SQL
 >CREATE USER `USERNAME` IDENTIFIED BY `PASSWORD`
@@ -18,6 +20,6 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMzQ4Nzc1LDY4NTI2MDg0NSwyMDU3OT
-Y5MDQ1LDE4Mjc5MzM3MjNdfQ==
+eyJoaXN0b3J5IjpbMjA4NzE5MTYyMywyMTEzNDg3NzUsNjg1Mj
+YwODQ1LDIwNTc5NjkwNDUsMTgyNzkzMzcyM119
 -->
