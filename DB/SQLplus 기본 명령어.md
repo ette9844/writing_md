@@ -6,31 +6,32 @@
 >
 
 ## 새 사용자 생성하기
->
->
->**1. SYSTEM 계정으로 접속** 
->```
->사용자명 입력: system
->비밀번호 입력: `Oracle 설치시 등록한 비밀번호`
->```
+
+
+**1. SYSTEM 계정으로 접속** 
+```
+사용자명 입력: system
+비밀번호 입력: `Oracle 설치시 등록한 비밀번호`
+```
 >이 때 주의해야 할 사항은 SQL문을 작성할 때에는 대, 소문자를 구분하지 않지만, 사용자명/비밀번호 입력시에는 대소문자를 구분한다는 점이다.
->
->**2. 새로운 사용자 생성**
->```SQL
->CREATE USER `USERNAME` IDENTIFIED BY `PASSWORD`;
->```
+
+
+**2. 새로운 사용자 생성**
+```SQL
+CREATE USER `USERNAME` IDENTIFIED BY `PASSWORD`;
+```
 >해당 사용자의 테이블스페이스를 따로 지정하고 싶을 경우에는 아래 구문을 사용한다.
-> ```SQL
-> CREATE USER `USERNAME` IDENTIFIED BY `PASSWORD`
-> DEFAULT TABLESPACE `TABLESPACE_NAME`
-> TEMPORARY TABLESPACE`TABLESPACE_NAME`;
->```
->3. 
+ ```SQL
+ CREATE USER `USERNAME` IDENTIFIED BY `PASSWORD`
+ DEFAULT TABLESPACE `TABLESPACE_NAME`
+ TEMPORARY TABLESPACE`TABLESPACE_NAME`;
+```
+3. 
 	
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjM4NTY1MywtMTQ1NDAzNDAxOCwyMT
-EzNDg3NzUsNjg1MjYwODQ1LDIwNTc5NjkwNDUsMTgyNzkzMzcy
-M119
+eyJoaXN0b3J5IjpbLTQ4MzQ5OTUzMSwxMzkyMzg1NjUzLC0xND
+U0MDM0MDE4LDIxMTM0ODc3NSw2ODUyNjA4NDUsMjA1Nzk2OTA0
+NSwxODI3OTMzNzIzXX0=
 -->
