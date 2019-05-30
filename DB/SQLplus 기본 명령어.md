@@ -13,7 +13,7 @@
 사용자명 입력: system
 비밀번호 입력: `Oracle 설치시 등록한 비밀번호`
 ```
->이 때 주의해야 할 사항은 SQL문을 작성할 때에는 대, 소문자를 구분하지 않지만, 사용자명/비밀번호 입력시에는 대소문자를 구분한다는 점이다.
+>이 때 주의해야 할 사항은 SQL문을 작성할 때에는 대, 소문자를 구분하지 않지만, 비밀번호 입력시에는 대소문자를 구분한다는 점이다.
 
 
 **2. 새로운 사용자 생성**
@@ -35,6 +35,10 @@ GRANT DBA TO `USERNAME`;
 **4. 사용자 계정으로 DB에 접속하기**
 ```SQL
 CONNECT `USERNAME`;
+비밀번호 입력: `PASSWORD`
+```
+```SQL
+CONN `USERNAME`/`PASSWORD`;
 ```
 ```SQL
 SELECT USER FROM DUAL;
@@ -44,7 +48,7 @@ SELECT USER FROM DUAL;
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjYwMTY2NiwtNDgzNDk5NTMxLDEzOT
-IzODU2NTMsLTE0NTQwMzQwMTgsMjExMzQ4Nzc1LDY4NTI2MDg0
-NSwyMDU3OTY5MDQ1LDE4Mjc5MzM3MjNdfQ==
+eyJoaXN0b3J5IjpbMTU0NzA0Njc5LC00ODM0OTk1MzEsMTM5Mj
+M4NTY1MywtMTQ1NDAzNDAxOCwyMTEzNDg3NzUsNjg1MjYwODQ1
+LDIwNTc5NjkwNDUsMTgyNzkzMzcyM119
 -->
