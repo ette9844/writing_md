@@ -20,9 +20,11 @@ CREATE USER `USERNAME` IDENTIFIED BY `PASSWORD`;
  DEFAULT TABLESPACE `TABLESPACE_NAME`
  TEMPORARY TABLESPACE`TABLESPACE_NAME`;
 ```
-Oracle 12c 이후 버전에서는 `USERNAME`에 C##을 붙이지 않으면 오류가 생기는데, C##을 붙이고싶지 않을 경우, 
+Oracle 12c 이후 버전에서는 `USERNAME`에 C##을 붙이지 않으면 오류가 생기는데, C##을 붙이고 싶지 않을 경우, 아래 구문을 사용한다.
 ```SQL
-ALTER SESSION SET "_ORACLE_SC
+ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+```
+
 
 <BR/>
 
@@ -53,6 +55,6 @@ SELECT USER FROM DUAL;
 
 Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyNDE5NzkyLDkzNTc0NDU2Niw3MTM3ND
-c2ODZdfQ==
+eyJoaXN0b3J5IjpbMTU3MDUzMDk2Niw5MzU3NDQ1NjYsNzEzNz
+Q3Njg2XX0=
 -->
