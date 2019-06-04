@@ -30,9 +30,11 @@ COL `COLUMN_NAME` FORMAT a20;
 SELECT TABLE_NAME FROM USER_TABLES;
 ```
 >만들어진 테이블의 이름 확인
->해당 테이블의 테이블스페이스를 확인하고 싶으면 TABLESPACE_NAME을 At로 추가
+>해당 테이블의 테이블스페이스를 확인하고 싶으면 `TABLESPACE_NAME`을 Attribute로 추가
+
+
 Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjkxMDY4MCwxNjgzNDQ1NDEyLDE5OD
-MzMjkyNzMsOTEzNDI3MDldfQ==
+eyJoaXN0b3J5IjpbLTE4NDQ1NzUxNjcsMTY4MzQ0NTQxMiwxOT
+gzMzI5MjczLDkxMzQyNzA5XX0=
 -->
