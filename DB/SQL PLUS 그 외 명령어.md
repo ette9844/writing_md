@@ -26,6 +26,8 @@ COL `COLUMN_NAME` FORMAT a20;
 >`COLUMN_NAME`에 해당하는 컬럼의 간격을 조정한다.
 >컬럼의 간격 때문에 가독성이 떨어질 때 사용한다.
 
+<BR/>
+
 ```SQL
 SELECT TABLE_NAME FROM USER_TABLES;
 ```
@@ -35,6 +37,6 @@ SELECT TABLE_NAME FROM USER_TABLES;
 
 Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDQ1NzUxNjcsMTY4MzQ0NTQxMiwxOT
-gzMzI5MjczLDkxMzQyNzA5XX0=
+eyJoaXN0b3J5IjpbMTg5MzkzNzMzMiwtMTg0NDU3NTE2NywxNj
+gzNDQ1NDEyLDE5ODMzMjkyNzMsOTEzNDI3MDldfQ==
 -->
