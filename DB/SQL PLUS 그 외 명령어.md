@@ -34,9 +34,14 @@ SELECT TABLE_NAME FROM USER_TABLES;
 >만들어진 테이블의 이름 확인
 >해당 테이블의 테이블스페이스를 확인하고 싶으면 `TABLESPACE_NAME`을 Attribute로 추가
 
+<BR/>
 
+```SQL
+DESC 
+```
 Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzkzNzMzMiwtMTg0NDU3NTE2NywxNj
-gzNDQ1NDEyLDE5ODMzMjkyNzMsOTEzNDI3MDldfQ==
+eyJoaXN0b3J5IjpbLTIwMjkyNDg4MDIsMTg5MzkzNzMzMiwtMT
+g0NDU3NTE2NywxNjgzNDQ1NDEyLDE5ODMzMjkyNzMsOTEzNDI3
+MDldfQ==
 -->
