@@ -26,8 +26,11 @@ COL `COLUMN_NAME` FORMAT a20;
 >`COLUMN_NAME`에 해당하는 컬럼의 간격을 조정한다.
 >컬럼의 간격 때문에 가독성이 떨어질 때 사용한다.
 
+```SQL
+DESC USER_TABLE
+```
 Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzQ0NTQxMiwxOTgzMzI5MjczLDkxMz
-QyNzA5XX0=
+eyJoaXN0b3J5IjpbLTM2OTkyNDY1OSwxNjgzNDQ1NDEyLDE5OD
+MzMjkyNzMsOTEzNDI3MDldfQ==
 -->
