@@ -27,10 +27,12 @@ COL `COLUMN_NAME` FORMAT a20;
 >컬럼의 간격 때문에 가독성이 떨어질 때 사용한다.
 
 ```SQL
-DESC USER_TABLE
+SELECT TABLE_NAME FROM USER_TABLES;
 ```
+>만들어진 테이블의 이름 확인
+>해당 테이블의 테이블스페이스를 확인하고 싶으면 TABLESPACE_NAME을 At로 추가
 Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTkyNDY1OSwxNjgzNDQ1NDEyLDE5OD
+eyJoaXN0b3J5IjpbMTI4NjkxMDY4MCwxNjgzNDQ1NDEyLDE5OD
 MzMjkyNzMsOTEzNDI3MDldfQ==
 -->
