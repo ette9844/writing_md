@@ -104,7 +104,12 @@ $(function(){
 
 hide() : object.style.display = 'none';
 show(): 
+
+HIDE 애니메이션 설정
+$("button").click(function(){  
+	$("p").hide(1000);  	// 1000ms = 1초
+});
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzI0NDg5ODAsNDY1MzgzMjc2LC0xNT
-ExNDAwMzAwLC0xNTU4OTg1NDc0XX0=
+eyJoaXN0b3J5IjpbMTQxMzcwODk1MCw0NjUzODMyNzYsLTE1MT
+E0MDAzMDAsLTE1NTg5ODU0NzRdfQ==
 -->
