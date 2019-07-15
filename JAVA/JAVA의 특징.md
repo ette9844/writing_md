@@ -76,15 +76,16 @@ static void m(S s) {
 }
 ```
 
-## 3. 플랫폼에 독립적
+## 2. 플랫폼에 독립적
 
 >Windows OS에서 컴파일한 .class파일을 다른 OS (Linux/Mac/Unix등)에 붙여넣기 한 후 실행 가능하다.
 >
 >컴파일러와 실행기(인터프리터)가 분리되어 있어야 함.
+>
 
-## 4. JVM이 메모리 관리
+## 3. JVM이 메모리 관리
 
--실행하려면 JVM이 필요하다.
+>실행하려면 JVM이 필요하다.
 
 ★★클래스 실행 순서★★
 ex) 
@@ -119,5 +120,5 @@ classpath에서 클래스를 찾지 못하면 java 기본 라이브러리 경로
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxMjE3MzIxLC0xMDYyMDc3MTgzXX0=
+eyJoaXN0b3J5IjpbLTI1MjcwNjc1MCwtMTA2MjA3NzE4M119
 -->
