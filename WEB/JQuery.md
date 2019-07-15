@@ -89,7 +89,19 @@ $( "div:animated" );
 ## jQuery Start
 
 먼저 jquery 라이브러리를 사용할 수 있도록 외부 라이브러리를 가져오는 script태그를 작성한 후에 jquery 사용 스크립트 작성
+
+```HTML
+<!-- 외부 jquery 라이브러리 불러오기 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+<script>
+// JavaScript 작성..
+$(function(){
+	alert("first");
+});
+</script>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY1MzgzMjc2LC0xNTExNDAwMzAwLC0xNT
-U4OTg1NDc0XX0=
+eyJoaXN0b3J5IjpbMjYwNzc0Nzk3LDQ2NTM4MzI3NiwtMTUxMT
+QwMDMwMCwtMTU1ODk4NTQ3NF19
 -->
