@@ -1,7 +1,9 @@
 ## hide() & show()
 
 * hide() : object.style.display = 'none';
-* show(): object.style.display = `'inline' or 'block'`;
+요소 안보이게 하기
+* show() : object.style.display = `'inline' or 'block'`;
+요소 보이게 하기
 
 
 * hide(number)
@@ -18,6 +20,7 @@ $("button").click(function(){
 * fadeOut = 천천히 사라지기
 * fadeToggle = fadein + fadeout
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDEwMzM3ODZdfQ==
+eyJoaXN0b3J5IjpbNzA1NTY1NjU4XX0=
 -->
