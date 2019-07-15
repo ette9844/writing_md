@@ -19,11 +19,11 @@ JAVA, Python, C++, C# 등
 
 ### 캡슐화
 
-접근제어자를 통해 접근 통제
+>접근제어자를 통해 접근 통제
 getter setter로 캡슐화
 
 ### 다형성
-오버로딩 
+>오버로딩 
 오버라이딩
 
 ※ interface는 클래스가 아니므로 interface를 상속받아 하위클래스에서 재정의 하는 것은  엄밀히 말해 오버라이딩이 아님
@@ -48,7 +48,6 @@ public static void main() {
 	m(s);		
 }
 ```
----
 ```JAVA
 class S {
 	String toString() { return "설탕"; }
@@ -62,8 +61,8 @@ class SD extends S {
 	String toString() { return "디스플레이"; }
 }
 ```
--------------------------------------------------------------------------------
-// 오버라이딩을 하지 않아 결합도가 높은 코드
+---
+※ 오버라이딩을 하지 않아 **결합도**가 높은 코드
 ```JAVA
 static void m(S s) {
 	String str = "";
@@ -79,8 +78,9 @@ static void m(S s) {
 
 ## 3. 플랫폼에 독립적
 
--Windows OS에서 컴파일한 .class파일을 다른 OS (Linux/Mac/Unix등)에 붙여넣기 한 후 실행 가능하다.
--컴파일러와 실행기(인터프리터)가 분리되어 있어야 함.
+>Windows OS에서 컴파일한 .class파일을 다른 OS (Linux/Mac/Unix등)에 붙여넣기 한 후 실행 가능하다.
+>
+>컴파일러와 실행기(인터프리터)가 분리되어 있어야 함.
 
 ## 4. JVM이 메모리 관리
 
@@ -119,5 +119,5 @@ classpath에서 클래스를 찾지 못하면 java 기본 라이브러리 경로
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTA2Mzk3OSwtMTA2MjA3NzE4M119
+eyJoaXN0b3J5IjpbODMxMjE3MzIxLC0xMDYyMDc3MTgzXX0=
 -->
