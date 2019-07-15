@@ -114,6 +114,8 @@ $( "input[name='first_name']" );
 `// All currently animated divs.`
 
 `$( "div:animated" );`
+
+먼저 jquery 라이브러리를 사용할 수 있도록 외부 라이브러리를 가져오는 script태그를 작성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NDAyODIxNl19
+eyJoaXN0b3J5IjpbLTYyODIwODUwNV19
 -->
