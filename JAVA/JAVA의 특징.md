@@ -25,13 +25,16 @@ JAVA, Python, C++, C# 등
 -오버로딩 / 오버라이딩
 -interface는 클래스가 아니므로 interface를 상속받아 하위클래스에서 재정의 하는 것은  엄밀히 말해 오버라이딩이 아님
 
-<Overload:오버로드>
+***Overload: 오버로드***
 메서드들의 목적은 같으나 기능의 내용이 다른 것
+```JAVA
 int plus(int a, int b) { return a+b; }
 double plus(double a, double b) { return a+b; }
-
-<Override:오버라이드>
 ```
+---
+
+***Override: 오버라이드***
+```JAVA
 static void m(S s) {
 	sysout("우리 회사의 주력사업은:" + s.toString());
 }
@@ -43,7 +46,7 @@ public static void main() {
 }
 ```
 ---
-
+```JAVA
 class S {
 	String toString() { return "설탕"; }
 }
@@ -55,9 +58,10 @@ class SE extends S {
 class SD extends S {
 	String toString() { return "디스플레이"; }
 }
-
+```
 -------------------------------------------------------------------------------
 // 오버라이딩을 하지 않아 결합도가 높은 코드
+```JAVA
 static void m(S s) {
 	String str = "";
 	if(s instanceof SE)
@@ -68,7 +72,7 @@ static void m(S s) {
 		str = "설탕";
 	sysout("우리 회사의 주력사업은:" + str);
 }
-
+```
 
 *플랫폼에 독립적:
 -Windows OS에서 컴파일한 .class파일을 다른 OS (Linux/Mac/Unix등)에 붙여넣기 한 후 실행 가능하다.
@@ -110,5 +114,5 @@ classpath에서 클래스를 찾지 못하면 java 기본 라이브러리 경로
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzY4NzA5Nl19
+eyJoaXN0b3J5IjpbNzQ5MTc0NDg1XX0=
 -->
