@@ -31,6 +31,7 @@ int plus(int a, int b) { return a+b; }
 double plus(double a, double b) { return a+b; }
 
 <Override:오버라이드>
+```
 static void m(S s) {
 	sysout("우리 회사의 주력사업은:" + s.toString());
 }
@@ -40,7 +41,9 @@ public static void main() {
 	SE s = new SE();
 	m(s);		
 }
--------------------------------------------------------------------------------
+```
+---
+
 class S {
 	String toString() { return "설탕"; }
 }
@@ -107,5 +110,5 @@ classpath에서 클래스를 찾지 못하면 java 기본 라이브러리 경로
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2NjQxNTUyXX0=
+eyJoaXN0b3J5IjpbMTQxMzY4NzA5Nl19
 -->
