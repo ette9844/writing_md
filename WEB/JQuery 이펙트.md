@@ -5,7 +5,6 @@
 * show() : object.style.display = `'inline' or 'block'`;
 요소 보이게 하기
 
-
 * hide(number)
 ```HTML
 $("button").click(function(){  
@@ -20,7 +19,18 @@ $("button").click(function(){
 * fadeOut = 천천히 사라지기
 * fadeToggle = fadein + fadeout
 
+```JAVA
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeToggle();
+    $("#div2").fadeToggle("slow");
+    $("#div3").fadeToggle(3000);
+  });
+});
+```
+
+### slideUp() slideDown() slide
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1NTY1NjU4XX0=
+eyJoaXN0b3J5IjpbMTMyNjczMjAwNF19
 -->
