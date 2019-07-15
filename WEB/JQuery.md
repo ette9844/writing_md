@@ -103,7 +103,8 @@ $(function(){
 ```
 
 hide() : object.style.display = 'none';
-show(): object.style.display = 'inline'`or`'block';
+show(): object.style.display = `'inline' or 'block'`;
+
 
 
 hide(number)
@@ -120,6 +121,6 @@ fadein = 천천히 나타나기
 fadeout = 천천히 사라지기
 fadetoggle = fadein + fadeout
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTk4MDMzLDQ2NTM4MzI3NiwtMTUxMT
-QwMDMwMCwtMTU1ODk4NTQ3NF19
+eyJoaXN0b3J5IjpbLTU3OTIwMzMwMSw0NjUzODMyNzYsLTE1MT
+E0MDAzMDAsLTE1NTg5ODU0NzRdfQ==
 -->
