@@ -1,6 +1,7 @@
-## JQuery 공식 사이트 가이드
+## JQuery 공식 가이드
 
-[jQuery learn](https://learn.jquery.com/)
+[JQuery 공식 사이트 가이드](https://learn.jquery.com/)
+[W3Schools jQuery 튜토리얼](https://www.w3schools.com/jquery/default.asp)
 
 ## $ vs $()
 
@@ -64,7 +65,7 @@ $( "input[name='first_name']" );
 
 `$( "#contents ul.people li" );`
 
-## [link](https://learn.jquery.com/using-jquery-core/selecting-elements/#selecting-elements-with-a-comma-separated-list-of-selectors)Selecting Elements with a Comma-separated List of Selectors
+### Selecting Elements with a Comma-separated List of Selectors
 
 1
 
@@ -108,11 +109,11 @@ $( "input[name='first_name']" );
 
 `// All except the first three divs.`
 
-`$( "div:gt(2)" );`	// 
+`$( "div:gt(2)" );`	// 두번째 요소보다 큰
 
 `// All currently animated divs.`
 
 `$( "div:animated" );`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTA2NTAxMV19
+eyJoaXN0b3J5IjpbMTU2NDAyODIxNl19
 -->
