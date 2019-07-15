@@ -22,10 +22,23 @@ $. : jQuery에서 제공되는 prototype 사용
 $.ajax();
 ```
 
-## 
+## Attribute
+attribute를 셋팅하거나 그 값을 가져오는 역할
+
+매개변수 1개: 값 셋팅
+```JAVA
+$( "a" ).attr( "href", "allMyHrefsAreTheSameNow.html" );
+$( "a" ).attr({
+	 title: "all titles are the same too!",
+	 href: "somethingNew.html"
+});
+```
+
+매개변수 1개
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MjAzNzI4MV19
+eyJoaXN0b3J5IjpbNjQ5NzA0MTU0XX0=
 -->
