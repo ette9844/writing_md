@@ -60,11 +60,9 @@ $( "input[name='first_name']" );
 ```
 
 ### Selecting Elements by Compound CSS Selector
-
-1
-
-`$( "#contents ul.people li" );`
-
+```JAVA
+$( "#contents ul.people li" );
+```
 ### Selecting Elements with a Comma-separated List of Selectors
 
 1
@@ -96,5 +94,5 @@ $( "input[name='first_name']" );
 
 먼저 jquery 라이브러리를 사용할 수 있도록 외부 라이브러리를 가져오는 script태그를 작성한 후에 jquery 사용 스크립트 작성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTg5ODU0NzRdfQ==
+eyJoaXN0b3J5IjpbLTUzOTg0MTgzNywtMTU1ODk4NTQ3NF19
 -->
