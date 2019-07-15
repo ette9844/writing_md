@@ -103,7 +103,8 @@ $(function(){
 ```
 
 hide() : object.style.display = 'none';
-show(): 
+show(): object.style.display = 'inline'`or`'block';
+
 
 hide(number)
 >hide 애니메이션 설정
@@ -114,7 +115,11 @@ $("button").click(function(){
 });
 ```
 
+fadein / fadeout
+fadein = 천천히 나타나기
+fadeout = 천천히 사라지기
+fadetoggle = fadein + fadeout
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyNDQ0Mjg2LDQ2NTM4MzI3NiwtMTUxMT
+eyJoaXN0b3J5IjpbLTYzMTk4MDMzLDQ2NTM4MzI3NiwtMTUxMT
 QwMDMwMCwtMTU1ODk4NTQ3NF19
 -->
