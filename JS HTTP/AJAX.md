@@ -1,5 +1,3 @@
-
-
 ## 기존 a tag
 
 1. a태그 클릭
@@ -74,5 +72,5 @@ HTTP/1.1 : version
 * Method not allowed: 405
 * Internal Server Error: 505
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU3NTA1MCwtMzQzMzkyNzIwXX0=
+eyJoaXN0b3J5IjpbMjYzMTg2ODQyLC0zNDMzOTI3MjBdfQ==
 -->
