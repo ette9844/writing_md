@@ -101,7 +101,10 @@ $(function(){
 });
 </script>
 ```
+
+hide() : object.style.display = 'none';
+show(): 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwNzc0Nzk3LDQ2NTM4MzI3NiwtMTUxMT
-QwMDMwMCwtMTU1ODk4NTQ3NF19
+eyJoaXN0b3J5IjpbLTE3MzI0NDg5ODAsNDY1MzgzMjc2LC0xNT
+ExNDAwMzAwLC0xNTU4OTg1NDc0XX0=
 -->
