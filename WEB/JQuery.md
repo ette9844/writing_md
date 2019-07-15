@@ -16,7 +16,14 @@ $("h1").remove();
 $(document);	// document를 jquery 객체화
 ```
 
+$. : jQuery에서 제공되는 prototype 사용
+*주로 ajax를 호출할 때 사용 됨*
+```JAVA
+$.ajax();
+```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1MzY1NF19
+eyJoaXN0b3J5IjpbLTUzNDI2MDQ4M119
 -->
