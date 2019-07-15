@@ -57,9 +57,9 @@ http 구조: 요청, 응답
  ## server→client response 구조
  ![http response](https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/images/HTTP_ResponseMessageExample.png)
  ***Status Line***
-**HTTP/1.1 **: version
+**HTTP/1.1**: version
 **200**: status code 응답 코드
-**응답코드가 404일 경우: 404 not found
+응답코드가 **404**일 경우: 404 not found
 
 ## 응답 코드 Status Code
 
@@ -72,6 +72,6 @@ http 구조: 요청, 응답
 * Method not allowed: 405
 * Internal Server Error: 505
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzNjI4NzI2LC03MDM5MjMyNzQsMjYzMT
-g2ODQyLC0zNDMzOTI3MjBdfQ==
+eyJoaXN0b3J5IjpbMTc5NzI1ODA2OCwtNzAzOTIzMjc0LDI2Mz
+E4Njg0MiwtMzQzMzkyNzIwXX0=
 -->
