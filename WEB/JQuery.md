@@ -71,31 +71,8 @@ $( "input[name='first_name']" );
 
 `$( "div.myClass, ul.people" );`
 
-## [link](https://learn.jquery.com/using-jquery-core/selecting-elements/#pseudo-selectors)Pseudo-Selectors
+### Pseudo-Selectors
 
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
 
 `$( "a.external:first" );`
 
@@ -115,7 +92,9 @@ $( "input[name='first_name']" );
 
 `$( "div:animated" );`
 
-먼저 jquery 라이브러리를 사용할 수 있도록 외부 라이브러리를 가져오는 script태그를 작성
+## jQuery Start
+
+먼저 jquery 라이브러리를 사용할 수 있도록 외부 라이브러리를 가져오는 script태그를 작성한 후에 jquery 사용 스크립트 작성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODIwODUwNV19
+eyJoaXN0b3J5IjpbLTE1NTg5ODU0NzRdfQ==
 -->
