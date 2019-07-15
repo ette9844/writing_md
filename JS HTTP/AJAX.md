@@ -58,7 +58,7 @@ HTTP/1.1: version
  
  ## server→client response 구조
  ![http response](https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/images/HTTP_ResponseMessageExample.png)
- ***Response Line***
+ ***Status Line***
 HTTP/1.1 : version
 200: status code 응답 코드
 응답코드가 404일 경우: 404 not found
@@ -74,5 +74,5 @@ HTTP/1.1 : version
 * Method not allowed: 405
 * Internal Server Error: 505
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Mjk5MzU0MSwtMzQzMzkyNzIwXX0=
+eyJoaXN0b3J5IjpbLTEwOTU3NTA1MCwtMzQzMzkyNzIwXX0=
 -->
