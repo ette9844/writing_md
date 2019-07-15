@@ -106,7 +106,7 @@ hide() : object.style.display = 'none';
 show(): 
 
 hide(number)
->HIDE 애니메이션 설정
+>hide 애니메이션 설정
 타임아웃을 설정해 천천히 사라지도록 함
 ```HTML
 $("button").click(function(){  
@@ -115,6 +115,6 @@ $("button").click(function(){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzMjQ4NjM4LDQ2NTM4MzI3NiwtMTUxMT
+eyJoaXN0b3J5IjpbNzMyNDQ0Mjg2LDQ2NTM4MzI3NiwtMTUxMT
 QwMDMwMCwtMTU1ODk4NTQ3NF19
 -->
