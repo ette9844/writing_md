@@ -43,16 +43,16 @@ HTTP/1.1: version
 ### ※ get과 post의 차이
 
 **GET**
->- message body 사용 안함. 
->- 요청시 전달될 값이 URL뒷부분에 채워짐 
->= **query string** (ex. 이름=값&이름=값&... )
- >- 기본값(default)
+- message body 사용 안함. 
+- 요청시 전달될 값이 URL뒷부분에 채워짐 
+= **query string** (ex. 이름=값&이름=값&... )
+- 기본값(default)
  
  **POST**
->- message body 사용함. 
->- 요청시 전달될 값이 message body에 채워짐.
->- GET방식보다 보안상 좋다.
->- form태그의 method 속성값이 'post'인 경우
+- message body 사용함. 
+- 요청시 전달될 값이 message body에 채워짐.
+- GET방식보다 보안상 좋다.
+- form태그의 method 속성값이 'post'인 경우
  
  ## server→client response 구조
  ![http response](https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/images/HTTP_ResponseMessageExample.png)
@@ -72,5 +72,6 @@ HTTP/1.1 : version
 * Method not allowed: 405
 * Internal Server Error: 505
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzMTg2ODQyLC0zNDMzOTI3MjBdfQ==
+eyJoaXN0b3J5IjpbLTcwMzkyMzI3NCwyNjMxODY4NDIsLTM0Mz
+M5MjcyMF19
 -->
