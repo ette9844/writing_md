@@ -36,9 +36,9 @@ http 구조: 요청, 응답
 
 ![http request](https://www.lifewire.com/thmb/nmUWZwQj44TqI0AR0bnlhDnQfOs=/950x320/filters:no_upscale():max_bytes(150000):strip_icc()/HTTP_RequestMessageExample-5c82b349c9e77c0001a67620.png)
 ***Request Line***
-GET: http요청 방식 (GET/POST)
-/doc/test.html: URL
-HTTP/1.1: version
+**GET**: http요청 방식 (GET/POST)
+**/doc/test.html**: URL
+**HTTP/1.1**: version
 
 ### ※ get과 post의 차이
 
@@ -57,9 +57,9 @@ HTTP/1.1: version
  ## server→client response 구조
  ![http response](https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/images/HTTP_ResponseMessageExample.png)
  ***Status Line***
-HTTP/1.1 : version
-200: status code 응답 코드
-응답코드가 404일 경우: 404 not found
+**HTTP/1.1 **: version
+**200**: status code 응답 코드
+**응답코드가 404일 경우: 404 not found
 
 ## 응답 코드 Status Code
 
@@ -72,6 +72,6 @@ HTTP/1.1 : version
 * Method not allowed: 405
 * Internal Server Error: 505
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzkyMzI3NCwyNjMxODY4NDIsLTM0Mz
-M5MjcyMF19
+eyJoaXN0b3J5IjpbNTQzNjI4NzI2LC03MDM5MjMyNzQsMjYzMT
+g2ODQyLC0zNDMzOTI3MjBdfQ==
 -->
