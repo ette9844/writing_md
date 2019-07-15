@@ -35,10 +35,11 @@ $( "a" ).attr({
 ```
 
 매개변수 1개: 해당 attribute의 값 가져오기
-
-
+```JAVA
+$( "a" ).attr( "href" );
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk1MTA1OTldfQ==
+eyJoaXN0b3J5IjpbMzEyMjMzNjM1XX0=
 -->
