@@ -4,7 +4,6 @@
 요소 안보이게 하기
 * show() : object.style.display = `'inline' or 'block'`;
 요소 보이게 하기
-
 * hide(number)
 ```HTML
 $("button").click(function(){  
@@ -30,10 +29,16 @@ $(document).ready(function(){
 ```
 
 ## jQuery Slide
-* slideUp() :
-* slideDown() 
-* slideToggle()
-
+* slideUp() : 
+* slideDown() :  
+* slideToggle() = slideUp() + slideDown()
+```JAVA
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjIyNDI2ODNdfQ==
+eyJoaXN0b3J5IjpbODY5OTAwNDA4XX0=
 -->
