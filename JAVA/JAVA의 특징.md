@@ -90,6 +90,7 @@ static void m(S s) {
 ★★클래스 실행 순서★★
 ex) 
 C:\bin\A.java 내용
+```JAVA
 class A {
 	int i;
 	static int si;
@@ -98,9 +99,12 @@ class A {
 		A a = new A(); // A객체가 생성되었을 때에 비로소 HEAP 메모리에 할당 됨
 	}
 }
+```
 			// 한번 로드된 클래스는 JVM 메모리에 계속 남아있음
+```
 C:\> java -cp bin A	// 총 4개의 클래스가 로드 됨
 cp: classpath
+```
 classpath에서 클래스를 찾지 못하면 java 기본 라이브러리 경로에서 찾는다
 
 1) C:\bin\A.class 파일 찾기
@@ -120,5 +124,6 @@ classpath에서 클래스를 찾지 못하면 java 기본 라이브러리 경로
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjcwNjc1MCwtMTA2MjA3NzE4M119
+eyJoaXN0b3J5IjpbLTE1Mjg2NDUyOTgsLTEwNjIwNzcxODNdfQ
+==
 -->
