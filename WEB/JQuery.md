@@ -65,16 +65,15 @@ $( "#contents ul.people li" );
 ```
 ### Selecting Elements with a Comma-separated List of Selectors
 
-1
-
-`$( "div.myClass, ul.people" );`
+```JAVA
+$( "div.myClass, ul.people" );
+```
 
 ### Pseudo-Selectors
 
-
-`$( "a.external:first" );`
-
-`$( "tr:odd" );`
+```JAVA
+$( "a.external:first" );
+$( "tr:odd" );
 
 `// Select all input-like elements in a form (more on this below).`
 
@@ -94,5 +93,6 @@ $( "#contents ul.people li" );
 
 먼저 jquery 라이브러리를 사용할 수 있도록 외부 라이브러리를 가져오는 script태그를 작성한 후에 jquery 사용 스크립트 작성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTg0MTgzNywtMTU1ODk4NTQ3NF19
+eyJoaXN0b3J5IjpbLTE1MTE0MDAzMDAsLTE1NTg5ODU0NzRdfQ
+==
 -->
