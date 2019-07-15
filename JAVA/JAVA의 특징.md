@@ -19,11 +19,14 @@ JAVA, Python, C++, C# 등
 
 ### 캡슐화
 
-접근제어자를 통해 접근을 통제하고 getter setter로 캡슐화 한다.
+접근제어자를 통해 접근 통제
+getter setter로 캡슐화
 
 ### 다형성
--오버로딩 / 오버라이딩
--interface는 클래스가 아니므로 interface를 상속받아 하위클래스에서 재정의 하는 것은  엄밀히 말해 오버라이딩이 아님
+오버로딩 
+오버라이딩
+
+※ interface는 클래스가 아니므로 interface를 상속받아 하위클래스에서 재정의 하는 것은  엄밀히 말해 오버라이딩이 아님
 
 ***Overload: 오버로드***
 메서드들의 목적은 같으나 기능의 내용이 다른 것
@@ -116,5 +119,5 @@ classpath에서 클래스를 찾지 못하면 java 기본 라이브러리 경로
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjIwNzcxODNdfQ==
+eyJoaXN0b3J5IjpbMTUxOTA2Mzk3OSwtMTA2MjA3NzE4M119
 -->
