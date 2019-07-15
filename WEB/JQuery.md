@@ -105,11 +105,16 @@ $(function(){
 hide() : object.style.display = 'none';
 show(): 
 
-HIDE 애니메이션 설정
+hide(number)
+>HIDE 애니메이션 설정
+타임아웃을 설정해 천천히 사라지도록 함
+```HTML
 $("button").click(function(){  
 	$("p").hide(1000);  	// 1000ms = 1초
 });
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzcwODk1MCw0NjUzODMyNzYsLTE1MT
-E0MDAzMDAsLTE1NTg5ODU0NzRdfQ==
+eyJoaXN0b3J5IjpbOTMzMjQ4NjM4LDQ2NTM4MzI3NiwtMTUxMT
+QwMDMwMCwtMTU1ODk4NTQ3NF19
 -->
