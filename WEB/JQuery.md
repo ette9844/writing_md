@@ -75,24 +75,21 @@ $( "div.myClass, ul.people" );
 $( "a.external:first" );
 $( "tr:odd" );
 
-`// Select all input-like elements in a form (more on this below).`
+// Select all input-like elements in a form (more on this below).
+$( "#myForm :input" );
+$( "div:visible" );
 
-`$( "#myForm :input" );`
+// All except the first three divs.
+$( "div:gt(2)" );	// 두번째 요소보다 큰
 
-`$( "div:visible" );`
-
-`// All except the first three divs.`
-
-`$( "div:gt(2)" );`	// 두번째 요소보다 큰
-
-`// All currently animated divs.`
-
-`$( "div:animated" );`
+// All currently animated divs.
+$( "div:animated" );
+```
 
 ## jQuery Start
 
 먼저 jquery 라이브러리를 사용할 수 있도록 외부 라이브러리를 가져오는 script태그를 작성한 후에 jquery 사용 스크립트 작성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTE0MDAzMDAsLTE1NTg5ODU0NzRdfQ
-==
+eyJoaXN0b3J5IjpbNDY1MzgzMjc2LC0xNTExNDAwMzAwLC0xNT
+U4OTg1NDc0XX0=
 -->
