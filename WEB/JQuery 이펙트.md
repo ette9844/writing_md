@@ -1,4 +1,4 @@
-## hide() & show()
+## jQuery Hide & Show
 
 * hide() : object.style.display = 'none';
 요소 안보이게 하기
@@ -14,10 +14,10 @@ $("button").click(function(){
 >hide 애니메이션 설정
 타임아웃을 설정해 천천히 사라지도록 함
 
-## fadeIn & fadeOut & fadeToggle
-* fadeIn = 천천히 나타나기
-* fadeOut = 천천히 사라지기
-* fadeToggle = fadein + fadeout
+## jQuery Fade
+* fadeIn() : 천천히 나타나기
+* fadeOut() : 천천히 사라지기
+* fadeToggle() = fadein + fadeout
 
 ```JAVA
 $(document).ready(function(){
@@ -29,8 +29,11 @@ $(document).ready(function(){
 });
 ```
 
-### slideUp() slideDown() slide
+## jQuery Slide
+* slideUp() :
+* slideDown() 
+* slideToggle()
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjczMjAwNF19
+eyJoaXN0b3J5IjpbLTE2MjIyNDI2ODNdfQ==
 -->
