@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "JQuery 이펙트"
-subtitle:   "JQuery 이펙트"
+title:  "JQuery 선택자"
+subtitle:   "JQuery 선택자"
 categories: study
 tags: web
 ---
@@ -76,5 +76,5 @@ $(this).css("background-color", "yellow");
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzEzNDYwMDhdfQ==
+eyJoaXN0b3J5IjpbLTE5MDUxMDQ4NTZdfQ==
 -->
