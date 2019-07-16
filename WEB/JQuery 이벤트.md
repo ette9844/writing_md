@@ -46,12 +46,13 @@ hover(): mouseenter + mouseleave
 
 ## on() 이벤트 처리 함수
 
+### 단일 이벤트 핸들러 작성
 ```java
 $("p").on("click", function(){  
 $(this).hide();  
 });
 ```
-
+### 다수의 이벤트 핸들러 작성
 ```java
 $("p").on({  
 	mouseenter: function(){  
@@ -70,5 +71,5 @@ $("p").on({
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjEwNzE0NywtNjk1MTg0MzM3XX0=
+eyJoaXN0b3J5IjpbLTEzMzQ3NjU5MywtNjk1MTg0MzM3XX0=
 -->
