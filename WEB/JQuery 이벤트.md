@@ -15,6 +15,9 @@ $("#test").click(function(){
 	// TODO
 });
 ```
+
+## jQuery가 제공하는 다양한 이벤트 함수
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODM2MjYzXX0=
+eyJoaXN0b3J5IjpbMTU0OTIxMDkyM119
 -->
