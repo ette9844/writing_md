@@ -18,11 +18,13 @@ $("#test").click(function(){
 
 ## jQuery가 제공하는 다양한 이벤트 함수
 
-mouseleave: 
-hover(): 마우스가 올라갔다가 내려갔다가
+mouseenter: 마우스가 요소 내에 들어갔을 때
+mouseleave: 마우스가 요소 내에 나갔을 때
+
+hover(): mouseenter + mouseleave
 hover은 콜백함수가 2개
-첫번쨰 콜백함수는 마우스가 들어갔을때(mouse, 
+첫번째 콜백함수는 마우스가 들어갔을때(mouseenter), 
 두번째 콜백함수는 마우스가 나갔을때(mouseleave)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyMzYxOTQ4XX0=
+eyJoaXN0b3J5IjpbMTcxNjk3NDIzNl19
 -->
