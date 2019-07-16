@@ -67,6 +67,7 @@ $("p").on({
 });
 ```
 
+#### [.on( events [, selector ] [, data ], handler )](https://api.jquery.com/on/#on-events-selector-data-handler)
 
 **selector**
 
@@ -76,6 +77,6 @@ A selector string to filter the **descendants** of the selected elements that tr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTAyMzMzLC0xMzM0NzY1OTMsLTY5NT
-E4NDMzN119
+eyJoaXN0b3J5IjpbMTgzNzIxNjI3OSwtMTMzNDc2NTkzLC02OT
+UxODQzMzddfQ==
 -->
