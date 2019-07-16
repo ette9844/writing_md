@@ -20,11 +20,14 @@
 ```js
 $.ajax({
 	method: 'POST',
-	
+	success: function(data, textStatus, jqXHR){
+		// 요청이 성공되었을 때 이 function이 자동호출
+		// data: 응답 결과가  전송됨
+	}
 });
 ```
 ajax 타입은 다양한 property를 가지고 있음 (링크 참조)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3MDY5NDM3XX0=
+eyJoaXN0b3J5IjpbLTE5NjM0MDI2NzhdfQ==
 -->
