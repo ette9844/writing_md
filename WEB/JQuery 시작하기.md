@@ -31,18 +31,18 @@ $(function(){
 jQuery용 함수를 사용하기 위해서는 jQuery객체로 만드는 것이 선행되어야 한다.
 
 $(): jQuery 객체화
-```JAVA
+```javascript
 var obj = document.querySelector("h1");
 obj.remove();	// 에러 발생
 ```
-```JAVA
+```javascript
 $("h1").remove();
 $(document);	// document를 jquery 객체화
 ```
 
 $. : jQuery에서 제공되는 prototype 사용
 주로 ajax를 호출할 때 사용 됨
-```JAVA
+```javascript
 $.ajax();
 ```
 
@@ -50,7 +50,7 @@ $.ajax();
 attribute를 셋팅하거나 그 값을 가져오는 역할
 
 매개변수 1개: 값 셋팅
-```JAVA
+```javascript
 $( "a" ).attr( "href", "allMyHrefsAreTheSameNow.html" );
 $( "a" ).attr({
 	 title: "all titles are the same too!",
@@ -59,7 +59,7 @@ $( "a" ).attr({
 ```
 
 매개변수 1개: 해당 attribute의 값 가져오기
-```JAVA
+```javascript
 $( "a" ).attr( "href" );
 ```
 
@@ -69,32 +69,32 @@ $( "a" ).attr( "href" );
 
 ### Selecting Elements by ID
 
-```JAVA
+```javascript
 $( "#myId" ); // Note IDs must be unique per page.
 ```
 
 ### Selecting Elements by Class Name
-```JAVA
+```javascript
 $( ".myClass" );
 ```
 ### Selecting Elements by Attribute
-```JAVA
+```javascript
 $( "input[name='first_name']" );
 ```
 
 ### Selecting Elements by Compound CSS Selector
-```JAVA
+```javascript
 $( "#contents ul.people li" );
 ```
 ### Selecting Elements with a Comma-separated List of Selectors
 
-```JAVA
+```javascript
 $( "div.myClass, ul.people" );
 ```
 
 ### Pseudo-Selectors
 
-```JAVA
+```javascript
 $( "a.external:first" );
 $( "tr:odd" );
 
@@ -109,5 +109,6 @@ $( "div:gt(2)" );	// 두번째 요소보다 큰
 $( "div:animated" );
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjUwNDQ4MSwxNTQ0OTQwMDgzXX0=
+eyJoaXN0b3J5IjpbMTE2MTgyMTkxMCwxNzYyNTA0NDgxLDE1ND
+Q5NDAwODNdfQ==
 -->
