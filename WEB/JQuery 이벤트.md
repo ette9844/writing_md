@@ -47,12 +47,28 @@ hover(): mouseenter + mouseleave
 ## on() 이벤트 처리 함수
 
 ```java
+$("p").on("click", function(){  
+$(this).hide();  
+});
+```
 
+```java
+$("p").on({  
+	mouseenter: function(){  
+		$(this).css("background-color", "lightgray");  
+	},  
+	mouseleave: function(){  
+		$(this).css("background-color", "lightblue");  
+	},  
+	click: function(){  
+		$(this).css("background-color", "yellow");  
+	}  
+});
 ```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTk3ODA4MCwtNjk1MTg0MzM3XX0=
+eyJoaXN0b3J5IjpbLTI4MjEwNzE0NywtNjk1MTg0MzM3XX0=
 -->
