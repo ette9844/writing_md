@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "STL 컨테이너 메모/정리"
-subtitle:   "JQuery 이"
+title:  "JQuery 이펙트"
+subtitle:   "JQuery 이펙트"
 categories: study
 tags: web
 ---
@@ -49,5 +49,5 @@ $(document).ready(function(){
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDAxMDYzOSw4Njk5MDA0MDhdfQ==
+eyJoaXN0b3J5IjpbLTYxODc1NjkyNiw4Njk5MDA0MDhdfQ==
 -->
