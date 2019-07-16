@@ -5,9 +5,7 @@ subtitle:   "JQuery 이펙트"
 categories: study
 tags: web
 ---
-### 요소 style 설정하기
-this.style.background-color = "yellow";
-$(this).css("background-color", "yello");
+
 
 ### DOM 트리에서 요소 찾기
 ```JAVA
@@ -68,6 +66,15 @@ $("ul li:first").hide();
 $("ul li:first-child").hide();
 ```
 
+### 요소 style 설정하기
+
+```java
+// DOM
+this.style.background-color = "yellow";
+// JQuery
+$(this).css("background-color", "yellow");
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjE1MDgyN119
+eyJoaXN0b3J5IjpbLTE0NzEzNDYwMDhdfQ==
 -->
