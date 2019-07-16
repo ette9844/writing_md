@@ -71,7 +71,8 @@ after: 해당요소의 뒷쪽/다음 부분에
 remove: 요소 자체를 지운다
 empty: 하위 요소들만 지워, 요소 내부를 비운다
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjg1MDYwOCwxMDUzMTI4MDI4LDQ1OD
-A4NTk3M119
+eyJoaXN0b3J5IjpbMzM0OTE4NzgyLDEwNTMxMjgwMjgsNDU4MD
+g1OTczXX0=
 -->
