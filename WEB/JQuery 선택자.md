@@ -1,4 +1,11 @@
-
+---
+layout: post
+title:  "JQuery 이펙트"
+subtitle:   "JQuery 이펙트"
+categories: study
+tags: web
+---
+### 요소 style 설정하기
 this.style.background-color = "yellow";
 $(this).css("background-color", "yello");
 
@@ -62,5 +69,5 @@ $("ul li:first-child").hide();
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTkxNTM5Ml19
+eyJoaXN0b3J5IjpbLTQyNjE1MDgyN119
 -->
