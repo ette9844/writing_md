@@ -63,10 +63,15 @@ $("#btn2").click(function(){
 });
   ```
  
-append:해당 요소의 child로서 가장 끝에 **추가**
+#### append와 after의 차이점
+append: 해당 요소의 child로서 가장 끝에 **추가**
 after: 해당요소의 뒷쪽/다음 부분에 
   
+#### remove와 empty의 차이점
+remove: 요소 자체를 지운다
+empty: 하위 요소들만 지워, 요소 내부를 비운다
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTA4NjUwMzAsMTA1MzEyODAyOCw0NT
-gwODU5NzNdfQ==
+eyJoaXN0b3J5IjpbLTcxNjg1MDYwOCwxMDUzMTI4MDI4LDQ1OD
+A4NTk3M119
 -->
