@@ -43,7 +43,22 @@ $("div").find("*");
 });
 ```
 # Siblings
+-   `siblings()`
+-   `next()`
+-   `nextAll()`
+-   `nextUntil()`
+-   `prev()`
+-   `prevAll()`
+-   `prevUntil()`
 
+
+
+# Filtering
+- `first()` 
+- `last()`  
+- `eq()`
+- `filter()` 
+- `not()`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDg3MDAwOF19
+eyJoaXN0b3J5IjpbMTExMzM4MjY3M119
 -->
