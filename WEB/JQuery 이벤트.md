@@ -1,4 +1,6 @@
+## JQuery와 DOM의 클릭이벤트 처리
 
+### DOM
 ```java
 var testObj = document.querySelector("#test");
 testObj.addEventListener("click", function(){
@@ -9,6 +11,7 @@ testObj.addEventListener("click", function(){
 });
 ```
 
+### JQuery
 ```java
 // jQuery의 click(): 이벤트 감시용 함수 = 이벤트 핸들러
 $("#test").click(function(){
@@ -16,7 +19,7 @@ $("#test").click(function(){
 });
 ```
 
-## jQuery가 제공하는 다양한 이벤트 함수
+## JQuery가 제공하는 다양한 이벤트 함수
 
 ![jQuery event](https://github.com/ette9844/writing_md/blob/master/imgs/jquery_event.PNG?raw=true)
 
@@ -31,5 +34,5 @@ hover(): mouseenter + mouseleave
 >
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk5NTA1MDQxXX0=
+eyJoaXN0b3J5IjpbMTYwOTIwOTY0OF19
 -->
