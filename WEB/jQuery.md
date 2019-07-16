@@ -22,7 +22,7 @@ for(var i=0; i<pArr.length; i++){
 
 ### jQuery에서 p객체 찾기
 ```JAVA
-// 모든 p요소 찾기
+// querySelectorAll() 호출과 동일하게 작동
 var $pArr = $("p");
 // p객체들에 대한 각각의 이벤트 리스너 작성
 $pArr.click(function(){
@@ -49,7 +49,17 @@ document.querySelector("#test");
 // querySelector() 호출과 동일하게 작동
 var $testObj = $("#test");
 ```
+
+### W3S
+`$(this).hide()`  - hides the current element.
+
+`$("p").hide()`  - hides all <p> elements.
+
+`$(".test").hide()`  - hides all elements with class="test".
+
+`$("#test").hide()`  - hides the element with id="test".
+\
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4MjgzMzQ3XX0=
+eyJoaXN0b3J5IjpbMTU3NDQ1MjU2XX0=
 -->
