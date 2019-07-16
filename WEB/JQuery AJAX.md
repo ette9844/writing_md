@@ -2,7 +2,7 @@
 
 
 #### [jQuery.ajax( [settings ] )](https://api.jquery.com/jquery.ajax/#jQuery-ajax-settings)
-ajax 타입은 다양한 property를 가지고 있음 (링크 참조)
+JQuery ajax는 다양한 property를 가지고 있음 (링크 참조)
 
 ```js
 $.ajax({
@@ -36,5 +36,5 @@ $.ajax({
 `$.post(_URL,data,callback_);`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5MjA3MzY2XX0=
+eyJoaXN0b3J5IjpbLTE3Nzk1NDUyMDEsODE5MjA3MzY2XX0=
 -->
