@@ -57,8 +57,11 @@ var obj1 = $("#p1").css("color", "red");
 var obj2 = $("#p1").slideUp(2000);
 var obj3 = $("#p1").slideDown(2000);
 
-// 현재 사용중인 객체를 반환하므로 
+// 현재 사용중인 객체를 반환하므로 method chaining이 가능
+$("#p1").css("color", "red").slideUp(2000).slideDown(2000);
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyMjg1NDY3LC02MTg3NTY5MjYsODY5OT
+eyJoaXN0b3J5IjpbMjkxNTY5NjY3LC02MTg3NTY5MjYsODY5OT
 AwNDA4XX0=
 -->
