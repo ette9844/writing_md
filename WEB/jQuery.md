@@ -55,10 +55,13 @@ var $testObj = $("#test");
 ![jquery selector](https://github.com/ette9844/writing_md/blob/master/imgs/jquery_selector.PNG?raw=true)
 
 ```java
+// 첫번째 ul의 첫번째 li hide
 $("ul li:first").hide();
+// 모든 ul의 첫번째 li hide
 $("ul li:first-child").hide();
+
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDIxNzIzOSwtMzcwNDc0NzQ3XX0=
+eyJoaXN0b3J5IjpbLTg0MjMwODk0LC0zNzA0NzQ3NDddfQ==
 -->
