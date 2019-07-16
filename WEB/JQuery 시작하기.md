@@ -17,8 +17,7 @@ tags: web
 
 ```HTML
 <!-- 외부 jquery 라이브러리 불러오기 -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 // JavaScript 작성..
 $(function(){
@@ -110,5 +109,5 @@ $( "div:gt(2)" );	// 두번째 요소보다 큰
 $( "div:animated" );
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDk0MDA4M119
+eyJoaXN0b3J5IjpbMTc2MjUwNDQ4MSwxNTQ0OTQwMDgzXX0=
 -->
