@@ -36,7 +36,19 @@ $태그로 객체를 찾아오면 querySelectorAll과 같은 기능을 함. = �
 반복문을 사용하지 않아도 배열 내 모든 객체들에 대해 클릭 리스너를 작성할 수 있다
 
 
+
+
+```JAVA
+// id속성값이 test인 요소를 찾기
+// id속성값은 유일
+// querySelectorAll 사용하지 않아도 됨
+document.querySelector("#test");
+```
+
+```JAVA
+var $testObj = $("#test")
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODQ2NTQ2NF19
+eyJoaXN0b3J5IjpbLTE0NDE2MTE4NzddfQ==
 -->
