@@ -52,9 +52,10 @@ var $testObj = $("#test");
 
 ### W3Schools description
 
+![jquery selector](https://github.com/ette9844/writing_md/blob/master/imgs/jquery_selector.PNG?raw=true)
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDQ3NDc0N119
+eyJoaXN0b3J5IjpbLTY5ODY1ODY2NCwtMzcwNDc0NzQ3XX0=
 -->
