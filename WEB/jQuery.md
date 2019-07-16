@@ -22,7 +22,7 @@ for(var i=0; i<pArr.length; i++){
 
 ### jQuery에서 p객체 찾기
 ```JAVA
-// p요소 하나만 찾기
+// 모든 p요소 찾기
 var $pArr = $("p");
 // p객체들에 대한 각각의 이벤트 리스너 작성
 $pArr.click(function(){
@@ -38,5 +38,5 @@ $태그로 객체를 찾아오면 querySelectorAll과 같은 기능을 함. = �
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTU1NTMyNF19
+eyJoaXN0b3J5IjpbLTc2ODQ2NTQ2NF19
 -->
