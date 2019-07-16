@@ -52,7 +52,21 @@ alert("Value: " + $("#test").val());
 -   `after()`  - Inserts content after the selected elements
 -   `before()`  - Inserts content before the selected elements
 
+## append
+```javascript
+$("#btn1").click(function(){
+  $("p").append(" <b>Appended text</b>.");
+});
 
+$("#btn2").click(function(){
+  $("ol").append("<li>Appended item</li>");
+});
+  ```
+ 
+append:해당 요소의 child로서 가장 끝에 **추가**
+after: 해당요소의 뒷쪽/다음 부분에 
+  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzEyODAyOCw0NTgwODU5NzNdfQ==
+eyJoaXN0b3J5IjpbLTEwNTA4NjUwMzAsMTA1MzEyODAyOCw0NT
+gwODU5NzNdfQ==
 -->
