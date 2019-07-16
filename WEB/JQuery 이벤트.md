@@ -17,7 +17,9 @@ $("#test").click(function(){
 ```
 
 ## jQuery가 제공하는 다양한 이벤트 함수
-![enter image description here](https://github.com/ette9844/writing_md/blob/master/imgs/jquery_event.PNG?raw=true)
+
+![jQuery event](https://github.com/ette9844/writing_md/blob/master/imgs/jquery_event.PNG?raw=true)
+
 mouseenter: 마우스가 요소 내에 들어갔을 때
 
 mouseleave: 마우스가 요소 내에서 나갔을 때
@@ -29,5 +31,5 @@ hover(): mouseenter + mouseleave
 >
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MTc4MjUyXX0=
+eyJoaXN0b3J5IjpbNDk5NTA1MDQxXX0=
 -->
