@@ -59,6 +59,14 @@ $("div").find("*");
 - `eq()`
 - `filter()` 
 - `not()`
+
+```js
+// filtering 함수 first()사용
+$("div").first().css("background-color", "yellow");
+// = 선택자 first 사용
+$("div:first").css("background-color", "yellow");
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzM4MjY3M119
+eyJoaXN0b3J5IjpbLTI3NjI0Mjk5MF19
 -->
