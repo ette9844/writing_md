@@ -73,8 +73,7 @@ $("p").on({
 <br/>
 
 ### on함수의 특징 2
-DOM트리에 없는 요소(동적으로 추가된 요소)도 이벤트 핸들러를 미리 작성할 수 있다.
-
+DOM 트리에 없는 요소(동적으로 추가된 요소)도 이벤트 핸들러를 미리 작성할 수 있다.
 
 ```java
 // dom에서 div객체를 찾고 후손으로 추가될 p요소의 click 이벤트 핸들러
@@ -113,6 +112,6 @@ A function to execute when the event is triggered. The value  `false`  is also a
     
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTI3MTE2MywtMTMzNDc2NTkzLC02OT
+eyJoaXN0b3J5IjpbLTcyNzEyNjI0OSwtMTMzNDc2NTkzLC02OT
 UxODQzMzddfQ==
 -->
