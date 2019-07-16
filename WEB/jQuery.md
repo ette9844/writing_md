@@ -46,9 +46,10 @@ document.querySelector("#test");
 ```
 
 ```JAVA
-var $testObj = $("#test")
+// querySelector() 호출과 동일하게 작동
+var $testObj = $("#test");
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDE2MTE4NzddfQ==
+eyJoaXN0b3J5IjpbNjQ4MjgzMzQ3XX0=
 -->
