@@ -13,9 +13,37 @@
     
 -   **settings**
     
-    Type:  [PlainObject] (http://api.jquery.com/Types/#PlainObject) 객체 형
-    
+    Type:  [PlainObject](http://api.jquery.com/Types/#PlainObject) 객체 형태
+   
     A set of key/value pairs that configure the Ajax request. All settings are optional. A default can be set for any option with  [$.ajaxSetup()](https://api.jquery.com/jQuery.ajaxSetup/). See  [jQuery.ajax( settings )](https://api.jquery.com/jquery.ajax/#jQuery-ajax-settings)  below for a complete list of all settings.
+
+```js
+$.ajax({
+ accepts: {
+ mycustomtype: 'application/x-some-custom-type'
+ },
+
+ ``// Instructions for how to deserialize a `mycustomtype` ``
+
+ `converters: {`
+
+ `'text mycustomtype': function(result) {`
+
+ `// Do Stuff`
+
+ `return newresult;`
+
+ `}`
+
+ `},`
+
+ ``// Expect a `mycustomtype` back from server``
+
+ `dataType: 'mycustomtype'`
+
+`});`
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjc5MjAzMF19
+eyJoaXN0b3J5IjpbMTAwODcxMDg4OF19
 -->
