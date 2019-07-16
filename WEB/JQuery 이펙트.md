@@ -52,11 +52,13 @@ $(document).ready(function(){
 ## JQuery Chaining
 
 ```java
-// id가 p1인 요소 객체의 스타일을 설정하고 해당 요소 객체를 반환
-$("#p1").css("color", "red");
-$("#p1").slideUp(2000);
-.slideDown(2000);
+// obj1, 2, 3모두 id속성이 p1인 객체를 반환
+var obj1 = $("#p1").css("color", "red");
+var obj2 = $("#p1").slideUp(2000);
+var obj3 = $("#p1").slideDown(2000);
+
+// 현재 사용중인 객체를 반환하므로 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTM4OTU5MDksLTYxODc1NjkyNiw4Nj
-k5MDA0MDhdfQ==
+eyJoaXN0b3J5IjpbLTM2OTMwNTM5OCwtNjE4NzU2OTI2LDg2OT
+kwMDQwOF19
 -->
