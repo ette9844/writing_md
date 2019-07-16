@@ -68,8 +68,14 @@ $("p").on({
 ```
 
 
+**selector**
+
+Type:  [String](http://api.jquery.com/Types/#String)
+
+A selector string to filter the **descendants** of the selected elements that trigger the event. If the selector is  `null`  or omitted, the event is always triggered when it reaches the selected element.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ3NjU5MywtNjk1MTg0MzM3XX0=
+eyJoaXN0b3J5IjpbMTY4MTAyMzMzLC0xMzM0NzY1OTMsLTY5NT
+E4NDMzN119
 -->
