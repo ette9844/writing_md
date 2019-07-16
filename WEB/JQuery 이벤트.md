@@ -18,6 +18,7 @@ $("#test").click(function(){
 	// TODO
 });
 ```
+<br/>
 
 ## JQuery가 제공하는 다양한 이벤트 함수
 
@@ -34,5 +35,5 @@ hover(): mouseenter + mouseleave
 >
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTIwOTY0OF19
+eyJoaXN0b3J5IjpbLTY5NTE4NDMzN119
 -->
