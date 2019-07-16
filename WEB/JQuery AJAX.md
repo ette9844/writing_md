@@ -19,31 +19,12 @@
 
 ```js
 $.ajax({
- accepts: {
- mycustomtype: 'application/x-some-custom-type'
- },
-
- ``// Instructions for how to deserialize a `mycustomtype` ``
-
- `converters: {`
-
- `'text mycustomtype': function(result) {`
-
- `// Do Stuff`
-
- `return newresult;`
-
- `}`
-
- `},`
-
- ``// Expect a `mycustomtype` back from server``
-
- `dataType: 'mycustomtype'`
-
-`});`
+	method: 'POST',
+	
+});
 ```
+ajax 타입은 다양한 property를 가지고 있음 (링크 참조)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwODcxMDg4OF19
+eyJoaXN0b3J5IjpbNDE3MDY5NDM3XX0=
 -->
