@@ -2,7 +2,7 @@
 this.style.background-color = 'yellow';
 $(this).css("background-color", "yello");
 
-### DOM 트리에서 p 객체 찾기
+### DOM 트리에서 요소 찾기
 ```JAVA
 // p요소 하나만 찾기
 var pObj = document.querySelector("p");
@@ -20,7 +20,7 @@ for(var i=0; i<pArr.length; i++){
 	})(i);
 ```
 
-### jQuery에서 p객체 찾기
+### jQuery에서 요소 찾기
 ```JAVA
 // querySelectorAll() 호출과 동일하게 작동
 var $pArr = $("p");
@@ -37,7 +37,7 @@ $태그로 객체를 찾아오면 querySelectorAll과 같은 기능을 함. = �
 
 
 
-
+### id 식별자를 사용하여 요소 찾기
 ```JAVA
 // id속성값이 test인 요소를 찾기
 // id속성값은 유일
@@ -50,16 +50,14 @@ document.querySelector("#test");
 var $testObj = $("#test");
 ```
 
-### W3S
+### W3Schools description
+
 `$(this).hide()`  - hides the current element.
+`$("p").hide()`  - hides **all** elements.
+`$(".test").hide()`  - hides **all** elements with class="test".
+`$("#test").hide()`  - hides **the element** with id="test".
 
-`$("p").hide()`  - hides all <p> elements.
-
-`$(".test").hide()`  - hides all elements with class="test".
-
-`$("#test").hide()`  - hides the element with id="test".
-\
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDQ1MjU2XX0=
+eyJoaXN0b3J5IjpbLTcxNjA0MDkxMl19
 -->
