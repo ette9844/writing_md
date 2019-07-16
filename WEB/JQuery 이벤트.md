@@ -6,10 +6,10 @@ categories: study
 tags: web
 ---
 
-## JQuery와 DOM의 클릭이벤트 처리
+## JQuery와 JS의 클릭이벤트 처리
 
-### DOM
-```java
+### JS
+```javascript
 var testObj = document.querySelector("#test");
 testObj.addEventListener("click", function(){
 	var otherObj = document.querySelector("#other");
@@ -20,7 +20,7 @@ testObj.addEventListener("click", function(){
 ```
 
 ### JQuery
-```java
+```javascript
 // jQuery의 click(): 이벤트 감시용 함수 = 이벤트 핸들러
 $("#test").click(function(){
 	// TODO
@@ -51,13 +51,13 @@ hover(): mouseenter + mouseleave
 
 #### 단일 이벤트 핸들러 작성
 
-```java
+```javascript
 $("p").on("click", function(){  
 $(this).hide();  
 });
 ```
 #### 다수의 이벤트 핸들러 작성
-```java
+```javascript
 $("p").on({  
 	mouseenter: function(){  
 		$(this).css("background-color", "lightgray");  
@@ -75,7 +75,7 @@ $("p").on({
 ### on함수의 특징 2
 DOM 트리에 없는 요소(동적으로 추가된 요소)도 이벤트 핸들러를 미리 작성할 수 있다.
 
-```java
+```javascript
 // dom에서 div객체를 찾고 후손으로 추가될 p요소의 click 이벤트 핸들러
 $("div").on("click", "p", function(){
 	$(this).css("background-color", "yellow");
@@ -112,6 +112,6 @@ A function to execute when the event is triggered. The value  `false`  is also a
     
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzEyNjI0OSwtMTMzNDc2NTkzLC02OT
-UxODQzMzddfQ==
+eyJoaXN0b3J5IjpbLTYzMzUzNjk4OCwtNzI3MTI2MjQ5LC0xMz
+M0NzY1OTMsLTY5NTE4NDMzN119
 -->
