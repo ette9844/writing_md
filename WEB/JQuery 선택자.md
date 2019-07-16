@@ -8,7 +8,7 @@ tags: web
 
 
 ### DOM 트리에서 요소 찾기
-```JAVA
+```javascript
 // p요소 하나만 찾기
 var pObj = document.querySelector("p");
 // 모든 p요소 찾기
@@ -26,7 +26,7 @@ for(var i=0; i<pArr.length; i++){
 ```
 
 ### jQuery에서 요소 찾기
-```JAVA
+```javascript
 // querySelectorAll() 호출과 동일하게 작동
 var $pArr = $("p");
 // p객체들에 대한 각각의 이벤트 리스너 작성
@@ -43,14 +43,14 @@ $태그로 객체를 찾아오면 querySelectorAll과 같은 기능을 함. = �
 
 
 ### id 식별자를 사용하여 요소 찾기
-```JAVA
+```javascript
 // id속성값이 test인 요소를 찾기
 // id속성값은 유일
 // querySelectorAll 사용하지 않아도 됨
 document.querySelector("#test");
 ```
 
-```JAVA
+```javascript
 // querySelector() 호출과 동일하게 작동
 var $testObj = $("#test");
 ```
@@ -59,7 +59,7 @@ var $testObj = $("#test");
 
 ![jquery selector](https://github.com/ette9844/writing_md/blob/master/imgs/jquery_selector.PNG?raw=true)
 
-```java
+```javascript
 // 첫번째 ul의 첫번째 li hide
 $("ul li:first").hide();
 // 모든 ul의 첫번째 li hide
@@ -68,13 +68,14 @@ $("ul li:first-child").hide();
 
 ### 요소 style 설정하기
 
-```java
+```javascript
 // DOM
 this.style.background-color = "yellow";
 // JQuery
 $(this).css("background-color", "yellow");
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDUxMDQ4NTZdfQ==
+eyJoaXN0b3J5IjpbLTEwNDg1ODE1MTRdfQ==
 -->
