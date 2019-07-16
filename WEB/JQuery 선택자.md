@@ -34,6 +34,7 @@ $pArr.click(function(){
 	// TODO
 });
 ```
+
 변수 이름 앞에 $를 붙이는 이유는 jquery용 객체를 구분하기 위한 것일 뿐 큰 의미는 없다
 
 $태그로 객체를 찾아오면 querySelectorAll과 같은 기능을 함. = 배열로 리턴 됨
@@ -77,5 +78,5 @@ $(this).css("background-color", "yellow");
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDg1ODE1MTRdfQ==
+eyJoaXN0b3J5IjpbMTE0MTYyMjQzNiwtMTA0ODU4MTUxNF19
 -->
