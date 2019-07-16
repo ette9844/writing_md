@@ -46,6 +46,13 @@ n>
 alert("Value: " + $("#test").val());
 ```
 
+
+-   `append()`  - Inserts content at the end of the selected elements
+-   `prepend()`  - Inserts content at the beginning of the selected elements
+-   `after()`  - Inserts content after the selected elements
+-   `before()`  - Inserts content before the selected elements
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDU3MDc0NCw0NTgwODU5NzNdfQ==
+eyJoaXN0b3J5IjpbMTA1MzEyODAyOCw0NTgwODU5NzNdfQ==
 -->
