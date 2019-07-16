@@ -10,7 +10,18 @@ ajax 타입은 다양한 property를 가지고 있음 (링크 참조)
 $.ajax({
 	url: 'a.html',
 	// 요청시 전달할 data
-	// data: 'id=id1&pwd=p1',
+	data: 'id=id1&pwd=p1',
+	method: 'POST',	// 전송 방식 (default: GET)
+	success: function(data, textStatus, jqXHR){
+		// 요청이 성공되었을 때 이 function이 자동호출
+		// data: 응답 결과가 data로 전송됨
+	}
+});
+```
+
+```js
+$.ajax({
+	url: 'a.html',
 	// 객체 형태로도 전송 가능
 	data: { id: 'id1', pwd: 'p1' },
 	method: 'POST',	// 전송 방식 (default: GET)
@@ -20,8 +31,6 @@ $.ajax({
 	}
 });
 ```
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NTQ0MDgwOF19
+eyJoaXN0b3J5IjpbLTc3MTAwMDM2M119
 -->
