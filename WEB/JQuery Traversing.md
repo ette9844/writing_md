@@ -24,8 +24,26 @@ $(document).ready(function(){
 -   `children()`
 -   `find()`
 
-
+```js
+// 바로 밑 자식 찾기
+$(document).ready(function(){  
+$("div").children();  
+});
+$(document).ready(function(){  
+$("div").children("p.first");  
+});
+```
+```js
+//후손 찾기
+$(document).ready(function(){  
+$("div").find("span");  
+});
+$(document).ready(function(){  
+$("div").find("*");  
+});
+```
+# Siblings
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTA5MDk1OF19
+eyJoaXN0b3J5IjpbMTc4NDg3MDAwOF19
 -->
