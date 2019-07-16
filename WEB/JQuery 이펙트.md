@@ -48,6 +48,11 @@ $(document).ready(function(){
   });
 });
 ```
+
+## JQuery Chaining
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODc1NjkyNiw4Njk5MDA0MDhdfQ==
+eyJoaXN0b3J5IjpbLTE5Mzk4NDA3MywtNjE4NzU2OTI2LDg2OT
+kwMDQwOF19
 -->
