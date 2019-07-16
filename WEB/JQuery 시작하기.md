@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "JQuery 시작하기"
+subtitle:   "JQuery 시작하기"
+categories: study
+tags: web
+---
+
 ## JQuery 공식 가이드
 
 [JQuery 공식 사이트 가이드](https://learn.jquery.com/)
@@ -102,5 +110,5 @@ $( "div:gt(2)" );	// 두번째 요소보다 큰
 $( "div:animated" );
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3ODA3MjQ5XX0=
+eyJoaXN0b3J5IjpbMTU0NDk0MDA4M119
 -->
