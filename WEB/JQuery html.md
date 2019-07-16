@@ -71,8 +71,11 @@ after: 해당요소의 뒷쪽/다음 부분에
 remove: 요소 자체를 지운다
 empty: 하위 요소들만 지워, 요소 내부를 비운다
 
+### 
+addClass: style을 한꺼번에 입히기. 요소에 class 속성 추가하기
+css: style을 attribute별로 지정하기. 요소에 style attribute 추가
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0OTE4NzgyLDEwNTMxMjgwMjgsNDU4MD
-g1OTczXX0=
+eyJoaXN0b3J5IjpbLTg1NzI4NjgsMzM0OTE4NzgyLDEwNTMxMj
+gwMjgsNDU4MDg1OTczXX0=
 -->
