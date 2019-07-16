@@ -51,8 +51,12 @@ $(document).ready(function(){
 
 ## JQuery Chaining
 
-
+```java
+// id가 p1인 요소 객체의 스타일을 설정하고 해당 요소 객체를 반환
+$("#p1").css("color", "red");
+$("#p1").slideUp(2000);
+.slideDown(2000);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzk4NDA3MywtNjE4NzU2OTI2LDg2OT
-kwMDQwOF19
+eyJoaXN0b3J5IjpbLTExOTM4OTU5MDksLTYxODc1NjkyNiw4Nj
+k5MDA0MDhdfQ==
 -->
