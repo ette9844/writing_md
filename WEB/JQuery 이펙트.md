@@ -52,13 +52,13 @@ $(document).ready(function(){
 ## JQuery Chaining
 
 ```java
-// obj1, 2, 3모두 id속성이 p1인 객체를 반환
+// obj1, 2, 3모두 id속성이 p1인 객체를 반환받음
 var obj1 = $("#p1").css("color", "red");
 var obj2 = $("#p1").slideUp(2000);
 var obj3 = $("#p1").slideDown(2000);
 
 // 현재 사용중인 객체를 반환하므로 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTMwNTM5OCwtNjE4NzU2OTI2LDg2OT
-kwMDQwOF19
+eyJoaXN0b3J5IjpbMzAyMjg1NDY3LC02MTg3NTY5MjYsODY5OT
+AwNDA4XX0=
 -->
