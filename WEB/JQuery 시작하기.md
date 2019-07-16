@@ -108,7 +108,8 @@ $( "div:gt(2)" );	// 두번째 요소보다 큰
 // All currently animated divs.
 $( "div:animated" );
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTgyMTkxMCwxNzYyNTA0NDgxLDE1ND
+eyJoaXN0b3J5IjpbMTg1Mjk0NDI2MCwxNzYyNTA0NDgxLDE1ND
 Q5NDAwODNdfQ==
 -->
