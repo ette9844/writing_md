@@ -66,7 +66,14 @@ $("div").first().css("background-color", "yellow");
 // = 선택자 first 사용
 $("div:first").css("background-color", "yellow");
 ```
-
+```js
+// index 0부터 시작
+// 2번째 요소 
+$("div").eq(1).css("background-color", "yellow");
+```
+```js
+// not = 제외하고
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjI0Mjk5MF19
+eyJoaXN0b3J5IjpbLTIwMTM2Njg3MDhdfQ==
 -->
