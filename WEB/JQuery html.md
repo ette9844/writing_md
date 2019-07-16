@@ -36,6 +36,11 @@ n>
 </html>
 ```
 
+```javascript
+// form의 input요소에서 입력값을 get/set하는 함수
+alert("Value: " + $("#test").val());
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzg4NzQzNSw0NTgwODU5NzNdfQ==
+eyJoaXN0b3J5IjpbLTE1MTk3MDQyMDEsNDU4MDg1OTczXX0=
 -->
