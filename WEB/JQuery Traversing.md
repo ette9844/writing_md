@@ -1,7 +1,9 @@
+# Ancestors
+
+
 -   `parent()`
 -   `parents()`
 -   `parentsUntil()`
-- 
 
 
 ```js
@@ -17,9 +19,13 @@ $(document).ready(function(){
 });
 ```
 
-## # Descendants
+# Descendants
+
 -   `children()`
 -   `find()`
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDc2NTg0Nl19
+eyJoaXN0b3J5IjpbMTg0NTA5MDk1OF19
 -->
