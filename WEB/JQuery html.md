@@ -1,5 +1,10 @@
+## jQuery get / set
 
-```java
+get과 set함수 이름이 같다
+get() - 인자 필요 x
+set() - 인자 필요
+
+```javascript
 // JS
 $divObj.innerHTML = inner;
 // JQuery
@@ -42,5 +47,5 @@ alert("Value: " + $("#test").val());
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTk3MDQyMDEsNDU4MDg1OTczXX0=
+eyJoaXN0b3J5IjpbMjEwNDU3MDc0NCw0NTgwODU5NzNdfQ==
 -->
