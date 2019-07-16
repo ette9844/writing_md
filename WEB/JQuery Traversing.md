@@ -73,7 +73,9 @@ $("div").eq(1).css("background-color", "yellow");
 ```
 ```js
 // not = 제외하고
+// 제외할 요소를 인자로 전달 
+$("div").not($("#div").eq(1)).css("background-color", "yellow");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTM2Njg3MDhdfQ==
+eyJoaXN0b3J5IjpbMjA0NjAxNDcwMl19
 -->
