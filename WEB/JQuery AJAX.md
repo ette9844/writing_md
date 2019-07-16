@@ -1,6 +1,4 @@
-`$.get(_URL,callback_);`
-
-`$.post(_URL,data,callback_);`
+# JQuery AJAX
 
 
 #### [jQuery.ajax( [settings ] )](https://api.jquery.com/jquery.ajax/#jQuery-ajax-settings)
@@ -31,6 +29,12 @@ $.ajax({
 	}
 });
 ```
+
+이를 요청 방식별로 축약한 것이
+
+`$.get(_URL,callback_);`
+`$.post(_URL,data,callback_);`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTAwMDM2M119
+eyJoaXN0b3J5IjpbODE5MjA3MzY2XX0=
 -->
