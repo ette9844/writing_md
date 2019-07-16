@@ -46,13 +46,17 @@ hover(): mouseenter + mouseleave
 
 ## on() 이벤트 처리 함수
 
-### 단일 이벤트 핸들러 작성
+### on함수의 특징 1
+다수의 이벤트 핸들러 작성 가능
+
+#### 단일 이벤트 핸들러 작성
+
 ```java
 $("p").on("click", function(){  
 $(this).hide();  
 });
 ```
-### 다수의 이벤트 핸들러 작성
+#### 다수의 이벤트 핸들러 작성
 ```java
 $("p").on({  
 	mouseenter: function(){  
@@ -62,10 +66,11 @@ $("p").on({
 		$(this).css("background-color", "lightblue");  
 	},  
 	click: function(){  
-		$(this).css("background-color", "yellow");  
+		 $(this).css("background-color", "yellow");  
 	}  
 });
 ```
+### on함수의 특징 2
 
 ## [.on( events [, selector ] [, data ], handler )](https://api.jquery.com/on/#on-events-selector-data-handler)
 
@@ -81,7 +86,6 @@ Type:  [String](http://api.jquery.com/Types/#String)
 
 A selector string to filter the **descendants** of the selected elements that trigger the event. If the selector is  `null`  or omitted, the event is always triggered when it reaches the selected element.
 
-**jqudom트리에 없는 요소도 이벤트 핸들러를 미리 등록시켜놓을 수 있다.**
 ```java
 // dom에서 div객체를 찾고 후손으로 추가될 p요소의 click 이벤트 핸들러
 $("div").on("click", "p", function(){
@@ -104,6 +108,6 @@ A function to execute when the event is triggered. The value  `false`  is also a
     
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTI1ODc1NCwtMTMzNDc2NTkzLC02OT
+eyJoaXN0b3J5IjpbLTYwMDg4MTc0MywtMTMzNDc2NTkzLC02OT
 UxODQzMzddfQ==
 -->
