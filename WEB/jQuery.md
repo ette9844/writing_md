@@ -52,12 +52,9 @@ var $testObj = $("#test");
 
 ### W3Schools description
 
-`$(this).hide()`  - hides the current element.
-`$("p").hide()`  - hides **all** elements.
-`$(".test").hide()`  - hides **all** elements with class="test".
-`$("#test").hide()`  - hides **the element** with id="test".
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTU2NDI1Ml19
+eyJoaXN0b3J5IjpbLTM3MDQ3NDc0N119
 -->
