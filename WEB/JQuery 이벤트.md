@@ -81,8 +81,12 @@ Type:  [String](http://api.jquery.com/Types/#String)
 
 A selector string to filter the **descendants** of the selected elements that trigger the event. If the selector is  `null`  or omitted, the event is always triggered when it reaches the selected element.
 
+**jqudom트리에 없는 요소도 이벤트 핸들러를 미리 등록시켜놓을 수 있다.**
 ```java
-
+// dom에서 div객체를 찾고 후손으로 추가될 p요소의 click 이벤트 핸들러
+$("div").on("click", "p", function(){
+	$(this).css("background-color", "yellow");
+});
 ```
 
 **data**
@@ -97,8 +101,9 @@ Type:  [Function](http://api.jquery.com/Types/#Function)(  [Event](http://api.jq
     
 A function to execute when the event is triggered. The value  `false`  is also allowed as a shorthand for a function that simply does  `return false`.
     
+    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDA4NzYxMywtMTMzNDc2NTkzLC02OT
+eyJoaXN0b3J5IjpbLTE0OTI1ODc1NCwtMTMzNDc2NTkzLC02OT
 UxODQzMzddfQ==
 -->
