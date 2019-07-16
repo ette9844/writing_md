@@ -1,5 +1,5 @@
 
-this.style.background-color = 'yellow';
+this.style.background-color = "yellow";
 $(this).css("background-color", "yello");
 
 ### DOM 트리에서 요소 찾기
@@ -59,5 +59,5 @@ var $testObj = $("#test");
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjA0MDkxMl19
+eyJoaXN0b3J5IjpbMTI0OTU2NDI1Ml19
 -->
