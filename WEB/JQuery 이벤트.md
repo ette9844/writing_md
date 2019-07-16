@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "JQuery 이벤트"
+subtitle:   "JQuery 이벤트"
+categories: study
+tags: web
+---
+
 ## JQuery와 DOM의 클릭이벤트 처리
 
 ### DOM
@@ -35,5 +43,5 @@ hover(): mouseenter + mouseleave
 >
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTE4NDMzN119
+eyJoaXN0b3J5IjpbLTEzNTI4NDEzNTUsLTY5NTE4NDMzN119
 -->
