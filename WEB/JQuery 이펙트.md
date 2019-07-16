@@ -6,7 +6,6 @@ categories: study
 tags: web
 ---
 
-
 ## jQuery Hide & Show
 
 * hide() : object.style.display = 'none';
@@ -27,7 +26,7 @@ $("button").click(function(){
 * fadeOut() : 천천히 사라지기
 * fadeToggle() = fadein + fadeout
 
-```JAVA
+```javascript
 $(document).ready(function(){
   $("button").click(function(){
     $("#div1").fadeToggle();
@@ -41,7 +40,7 @@ $(document).ready(function(){
 * slideUp() : 
 * slideDown() :  
 * slideToggle() = slideUp() + slideDown()
-```JAVA
+```javascript
 $(document).ready(function(){
   $("#flip").click(function(){
     $("#panel").slideToggle("slow");
@@ -51,7 +50,7 @@ $(document).ready(function(){
 
 ## JQuery Chaining
 
-```java
+```javascript
 // obj1, 2, 3모두 id속성이 p1인 객체를 반환받음
 var obj1 = $("#p1").css("color", "red");
 var obj2 = $("#p1").slideUp(2000);
@@ -62,6 +61,6 @@ $("#p1").css("color", "red").slideUp(2000).slideDown(2000);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxNTY5NjY3LC02MTg3NTY5MjYsODY5OT
-AwNDA4XX0=
+eyJoaXN0b3J5IjpbLTE1MzUyNzU5MzAsLTYxODc1NjkyNiw4Nj
+k5MDA0MDhdfQ==
 -->
