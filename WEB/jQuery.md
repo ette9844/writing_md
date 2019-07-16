@@ -54,8 +54,11 @@ var $testObj = $("#test");
 
 ![jquery selector](https://github.com/ette9844/writing_md/blob/master/imgs/jquery_selector.PNG?raw=true)
 
+```java
+$("ul li:first").hide();
+$("ul li:first-child").hide();
+```
 
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODY1ODY2NCwtMzcwNDc0NzQ3XX0=
+eyJoaXN0b3J5IjpbLTM3NDIxNzIzOSwtMzcwNDc0NzQ3XX0=
 -->
