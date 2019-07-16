@@ -67,7 +67,13 @@ $("p").on({
 });
 ```
 
-#### [.on( events [, selector ] [, data ], handler )](https://api.jquery.com/on/#on-events-selector-data-handler)
+## [.on( events [, selector ] [, data ], handler )](https://api.jquery.com/on/#on-events-selector-data-handler)
+
+**events**
+
+Type:  [String](http://api.jquery.com/Types/#String)
+
+One or more space-separated event types and optional namespaces, such as "click" or "keydown.myPlugin".
 
 **selector**
 
@@ -75,8 +81,20 @@ Type:  [String](http://api.jquery.com/Types/#String)
 
 A selector string to filter the **descendants** of the selected elements that trigger the event. If the selector is  `null`  or omitted, the event is always triggered when it reaches the selected element.
 
+**data**
+    
+    Type:  [Anything](http://api.jquery.com/Types/#Anything)
+    
+    Data to be passed to the handler in  [`event.data`](https://api.jquery.com/event.data/)  when an event is triggered.
+    
+**handler**
+    
+    Type:  [Function](http://api.jquery.com/Types/#Function)(  [Event](http://api.jquery.com/Types/#Event)  eventObject [,  [Anything](http://api.jquery.com/Types/#Anything)  extraParameter ] [, ... ] )
+    
+    A function to execute when the event is triggered. The value  `false`  is also allowed as a shorthand for a function that simply does  `return false`.
+    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNzIxNjI3OSwtMTMzNDc2NTkzLC02OT
-UxODQzMzddfQ==
+eyJoaXN0b3J5IjpbLTIwNjE2OTU3MTMsLTEzMzQ3NjU5MywtNj
+k1MTg0MzM3XX0=
 -->
