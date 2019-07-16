@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "STL 컨테이너 메모/정리"
+subtitle:   "JQuery 이"
+categories: study
+tags: web
+---
+
+
 ## jQuery Hide & Show
 
 * hide() : object.style.display = 'none';
@@ -40,5 +49,5 @@ $(document).ready(function(){
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5OTAwNDA4XX0=
+eyJoaXN0b3J5IjpbLTI2NDAxMDYzOSw4Njk5MDA0MDhdfQ==
 -->
