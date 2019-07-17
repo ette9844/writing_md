@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JQuery 이펙트"
+title:  "[JQuery] JQuery 이펙트"
 subtitle:   "JQuery 이펙트"
 categories: study
 tags: web
@@ -61,6 +61,6 @@ $("#p1").css("color", "red").slideUp(2000).slideDown(2000);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzUyNzU5MzAsLTYxODc1NjkyNiw4Nj
-k5MDA0MDhdfQ==
+eyJoaXN0b3J5IjpbNTc2ODI1NjAsLTYxODc1NjkyNiw4Njk5MD
+A0MDhdfQ==
 -->
