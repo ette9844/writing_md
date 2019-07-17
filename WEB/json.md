@@ -74,6 +74,7 @@ $.ajax({
 	}
 });
 ```
+<br/>
 
 #### jsp에서 응답 형식을 json 형식으로 했을 경우
 ```js
@@ -96,7 +97,7 @@ $.ajax({
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4MTM1MTEsNTc3MzY1MTc5LC0xNzM4OT
-k5MTkyLC0yMDkyNTUyOTI5LC0xNTU4Mzg5NjgsLTE4NTgyNzc4
-ODgsLTE2MTYyOTczNTcsMjAzODM4MzgwXX0=
+eyJoaXN0b3J5IjpbMTYxODIyMzA5Niw1NzczNjUxNzksLTE3Mz
+g5OTkxOTIsLTIwOTI1NTI5MjksLTE1NTgzODk2OCwtMTg1ODI3
+Nzg4OCwtMTYxNjI5NzM1NywyMDM4MzgzODBdfQ==
 -->
