@@ -110,8 +110,8 @@ Type:  [Function](http://api.jquery.com/Types/#Function)(  [Event](http://api.jq
 A function to execute when the event is triggered. The value  `false`  is also allowed as a shorthand for a function that simply does  `return false`.
     
     
-
+trigger()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzUzNjk4OCwtNzI3MTI2MjQ5LC0xMz
-M0NzY1OTMsLTY5NTE4NDMzN119
+eyJoaXN0b3J5IjpbLTE1Mzk4MDMyNDEsLTYzMzUzNjk4OCwtNz
+I3MTI2MjQ5LC0xMzM0NzY1OTMsLTY5NTE4NDMzN119
 -->
