@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "JQuery 선택자"
+title:  "[JQuery] 
+JQuery 선택자"
 subtitle:   "JQuery 선택자"
 categories: study
 tags: web
@@ -105,6 +106,6 @@ for(var index=0; index<$ckArr.length; index++){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDE0Mjc1NywxMTQxNjIyNDM2LC0xMD
-Q4NTgxNTE0XX0=
+eyJoaXN0b3J5IjpbNzY5Nzc2Nzk3LDExNjAxNDI3NTcsMTE0MT
+YyMjQzNiwtMTA0ODU4MTUxNF19
 -->
