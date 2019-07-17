@@ -7,14 +7,15 @@
 <tr><td>12345</td><td>주소1</td></tr>
 ...
 ```
-서버가 응답하는 내용이 길어지면 응답 시간은 조금 길어지지만, client가 하는 일이 적어짐
+서버가 응답하는 내용이 길어지면 응답 시간은 조금 길어지지만, client가 하는 일이 적어진다.
 
 ```html
 우편번호:주소,12345:주소1,2345:주소2,34567:주소3,...
 ```
-서버가 응답하는 내용이 단순해지면 client에서 할일이 늘어남
+서버가 응답하는 내용이 단순해지면 client에서 할일이 늘어난다.
+데이터의 총량이 줄어들어 네트워크의 응답 비용이 감소하지만, **유지보수성이 떨어진다.**
 
-***최소한의 가독성을 유지한채 응답 비용을 줄이기 위해 json 형태로 응답을 한다***
+***최소한의 가독성을 유지한채 응답 비용을 줄이기 위해 json 형태로 응답을 한다.***
 
 ## 장점
 
@@ -43,6 +44,6 @@
 "value" or value: 숫자값은 "" 필요 없음
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTUyMzI1NywtMTU1ODM4OTY4LC0xOD
-U4Mjc3ODg4LC0xNjE2Mjk3MzU3LDIwMzgzODM4MF19
+eyJoaXN0b3J5IjpbLTIwOTI1NTI5MjksLTE1NTgzODk2OCwtMT
+g1ODI3Nzg4OCwtMTYxNjI5NzM1NywyMDM4MzgzODBdfQ==
 -->
