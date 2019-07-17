@@ -98,13 +98,13 @@ $.each($ckArr, function(index, obj){
 	// TODO
 });
 ```
-
+아래 반복문과 동일한 기능을 함
 ```js
 for(var index=0; index<$ckArr.length; index++){
 	var obj = $ckArr[i];
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Nzk1MDIzNCwxMTQxNjIyNDM2LC0xMD
+eyJoaXN0b3J5IjpbMTE2MDE0Mjc1NywxMTQxNjIyNDM2LC0xMD
 Q4NTgxNTE0XX0=
 -->
