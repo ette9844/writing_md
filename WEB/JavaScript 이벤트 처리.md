@@ -13,7 +13,7 @@ var ctrl = {
 	}
 	// block, inline을 번갈아 적용
 	toggle: function(elem){
-		if(elem.style.display == 'block') {
+		if(elem.style.display === 'block') {
 			ctrl.inline(elem);
 		} else {
 			ctrl.block(elem);
@@ -64,5 +64,6 @@ window.addEventListener("load", function(){
 ```
 재사용성을 높이고 js와 html 코드를 분리해 유지보수가 용이하다. (권장)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY2NTc4MDZdfQ==
+eyJoaXN0b3J5IjpbLTExMTYxNDI1NDksLTIwNTY2NTc4MDZdfQ
+==
 -->
