@@ -66,11 +66,13 @@ $.ajax({
 
 		var trs = "";
 		for(var i=0; i<jsonObjArr.length; i++){
-	var jsonObj = jsonObjArr[i];	// 객체 {}
-	console.log(jsonObj.d1 + ", " + jsonObj.d2);
-	trs += "<tr><td>"+jsonObj.d1+"</td><td>"+jsonObj.d2+"</td></tr>";
-}
-$("#divSearchZip>div>table").html(trs);
+			var jsonObj = jsonObjArr[i];	// 객체 {}
+			console.log(jsonObj.d1 + ", " + jsonObj.d2);
+			trs += "<tr><td>"+jsonObj.d1+"</td><td>"+jsonObj.d2+"</td></tr>";
+		}
+		$("#divSearchZip>div>table").html(trs);
+	}
+});
 ```
 
 #### jsp에서 응답 형식을 json 형식으로 했을 경우
@@ -80,10 +82,22 @@ $("#divSearchZip>div>table").html(trs);
 ```
 client 처리
 ```js
-}
+$.ajax({
+	url: '../b.jsp',
+	method: 'GET',
+	success: function(jsonObjArr){
+		var trs = "";
+			for(var i=0; i<jsonObjArr.length; i++){
+					var jsonObj = jsonObjArr[i];	// 객체 {}
+					// console.log(jsonObj.d1 + ", " + jsonObj.d2);
+					trs += "<tr><td>"+jsonObj.d1+"</td><td>"+jsonObj.d2+"</td></tr>";
+				}
+				$("#divSearchZip>div>table").html(trs);
+			}
+		});
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDA5MzI4LDU3NzM2NTE3OSwtMTczOD
-k5OTE5MiwtMjA5MjU1MjkyOSwtMTU1ODM4OTY4LC0xODU4Mjc3
-ODg4LC0xNjE2Mjk3MzU3LDIwMzgzODM4MF19
+eyJoaXN0b3J5IjpbLTE1NzEwNDcxNjcsNTc3MzY1MTc5LC0xNz
+M4OTk5MTkyLC0yMDkyNTUyOTI5LC0xNTU4Mzg5NjgsLTE4NTgy
+Nzc4ODgsLTE2MTYyOTczNTcsMjAzODM4MzgwXX0=
 -->
