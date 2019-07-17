@@ -75,8 +75,9 @@ this.style.background-color = "yellow";
 // JQuery
 $(this).css("background-color", "yellow");
 ```
-
+each()
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTYyMjQzNiwtMTA0ODU4MTUxNF19
+eyJoaXN0b3J5IjpbLTI0NTY0MTA1NCwxMTQxNjIyNDM2LC0xMD
+Q4NTgxNTE0XX0=
 -->
