@@ -13,7 +13,7 @@ console.log(a === b);		// false
 
 > a == b : 123 == 123
 > a === b : number === string
-> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjIzNjExODldfQ==
+eyJoaXN0b3J5IjpbLTE0ODU1MjgyNDEsLTE3MjIzNjExODldfQ
+==
 -->
