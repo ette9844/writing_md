@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JSON에 대하여"
+title:  "[JSON] JSON에 대하여"
 subtitle:   "JSON의 개념과 이를 사용하는 이유"
 categories: study
 tags: web
@@ -97,5 +97,5 @@ $.ajax({
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODIyMzA5Nl19
+eyJoaXN0b3J5IjpbLTExNTM3MjE3MjBdfQ==
 -->
