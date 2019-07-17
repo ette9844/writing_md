@@ -14,8 +14,8 @@
 ```html
 우편번호:주소,12345:주소1,2345:주소2,34567:주소3,...
 ```
-<p>서버가 응답하는 내용이 단순해지면 client에서 할일이 늘어난다.
-데이터의 총량이 줄어들어 네트워크의 응답 비용이 감소하지만, 유지보수성이 떨어진다. </p>
+<p>서버가 응답하는 내용이 단순해지면 client에서 할일이 늘어난다.</p>
+<p>데이터의 총량이 줄어들어 네트워크의 응답 비용이 감소하지만, 유지보수성이 떨어진다. </p>
 
 ***최소한의 가독성을 유지한채 응답 비용을 줄이기 위해 json 형태로 응답을 한다.***
 
@@ -47,7 +47,7 @@
 "value" or value: 숫자값은 "" 필요 없음
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0ODcyMTU1LC0yMDkyNTUyOTI5LC0xNT
-U4Mzg5NjgsLTE4NTgyNzc4ODgsLTE2MTYyOTczNTcsMjAzODM4
-MzgwXX0=
+eyJoaXN0b3J5IjpbLTI3MTA3OTc2MCwtMjA5MjU1MjkyOSwtMT
+U1ODM4OTY4LC0xODU4Mjc3ODg4LC0xNjE2Mjk3MzU3LDIwMzgz
+ODM4MF19
 -->
