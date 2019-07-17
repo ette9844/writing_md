@@ -90,7 +90,8 @@ each()
     The function that will be executed on every value.
 
 각 인덱스별 callback 함수가 자동 호출
-각 인덱스에 해당하는 요소 = 
+index
+obj = 각 index에 해당하는 요소
 ```js
 var $ckArr = $("input[type=checkbox]);
 $.each($ckArr, function(index, obj){
@@ -98,8 +99,12 @@ $.each($ckArr, function(index, obj){
 });
 ```
 
-``
+```js
+for(var index=0; index<$ckArr.length; index++){
+	var obj = $ckArr[i];
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODY3ODMyNjYsMTE0MTYyMjQzNiwtMT
-A0ODU4MTUxNF19
+eyJoaXN0b3J5IjpbLTY3Nzk1MDIzNCwxMTQxNjIyNDM2LC0xMD
+Q4NTgxNTE0XX0=
 -->
