@@ -87,17 +87,16 @@ $.ajax({
 	method: 'GET',
 	success: function(jsonObjArr){
 		var trs = "";
-			for(var i=0; i<jsonObjArr.length; i++){
-					var jsonObj = jsonObjArr[i];	// 객체 {}
-					// console.log(jsonObj.d1 + ", " + jsonObj.d2);
-					trs += "<tr><td>"+jsonObj.d1+"</td><td>"+jsonObj.d2+"</td></tr>";
-				}
-				$("#divSearchZip>div>table").html(trs);
-			}
-		});
+		for(var i=0; i<jsonObjArr.length; i++){
+			var jsonObj = jsonObjArr[i];	// 객체 {}
+			trs += "<tr><td>"+jsonObj.d1+"</td><td>"+jsonObj.d2+"</td></tr>";
+		}
+		$("#divSearchZip>div>table").html(trs);
+	}
+});
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzEwNDcxNjcsNTc3MzY1MTc5LC0xNz
-M4OTk5MTkyLC0yMDkyNTUyOTI5LC0xNTU4Mzg5NjgsLTE4NTgy
-Nzc4ODgsLTE2MTYyOTczNTcsMjAzODM4MzgwXX0=
+eyJoaXN0b3J5IjpbNzA4MTM1MTEsNTc3MzY1MTc5LC0xNzM4OT
+k5MTkyLC0yMDkyNTUyOTI5LC0xNTU4Mzg5NjgsLTE4NTgyNzc4
+ODgsLTE2MTYyOTczNTcsMjAzODM4MzgwXX0=
 -->
