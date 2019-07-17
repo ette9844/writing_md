@@ -3,11 +3,12 @@ JavaScript Object Notation
 
 ## JSON을 사용하는 이유
 
-### 1. 서버가 응답하는 내용이 
+### 1. 서버가 html태그를 포함해서 응답할 경우
 ```html
 <tr><th>우편번호</th><th>주소</th></tr>
 <tr><td>12345</td><td>주소1</td></tr>
 ```
+
 
 
 ```html
@@ -28,5 +29,5 @@ JavaScript Object Notation
 "property": 프로퍼티
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODM4MzgwXX0=
+eyJoaXN0b3J5IjpbLTE2MTYyOTczNTcsMjAzODM4MzgwXX0=
 -->
