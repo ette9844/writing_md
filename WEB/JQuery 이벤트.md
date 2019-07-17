@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JQuery 이벤트"
+title:  "[JQuery] JQuery 이벤트"
 subtitle:   "JQuery 이벤트"
 categories: study
 tags: web
@@ -112,6 +112,6 @@ A function to execute when the event is triggered. The value  `false`  is also a
     
 trigger()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzk4MDMyNDEsLTYzMzUzNjk4OCwtNz
-I3MTI2MjQ5LC0xMzM0NzY1OTMsLTY5NTE4NDMzN119
+eyJoaXN0b3J5IjpbMTcxNjgzNzI5NywtNjMzNTM2OTg4LC03Mj
+cxMjYyNDksLTEzMzQ3NjU5MywtNjk1MTg0MzM3XX0=
 -->
