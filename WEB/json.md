@@ -7,13 +7,14 @@
 <tr><td>12345</td><td>주소1</td></tr>
 ...
 ```
-서버가 응답하는 내용이 길어지면 응답 시간은 조금 길어지지만, client가 하는 일이 적어진다.
+<p>서버가 응답하는 내용이 길어지면 응답 시간은 조금 길어지지만, client가 하는 일이 적어진다.</p>
 
+<p>브라우저에서 응답을 받으면 응답내용을 parsing할 수 있으나, 안드로이드 앱에는 렌더링 엔진과 js해석기가 없기 때문에 html형태로 응답한 내용을 parsing할 수 없다.</p>
 
 ```html
 우편번호:주소,12345:주소1,2345:주소2,34567:주소3,...
 ```
-서버가 응답하는 내용이 단순해지면 client에서 할일이 늘어난다.
+<p>서버가 응답하는 내용이 단순해지면 client에서 할일이 늘어난다.
 데이터의 총량이 줄어들어 네트워크의 응답 비용이 감소하지만, **유지보수성이 떨어진다.**
 
 ***최소한의 가독성을 유지한채 응답 비용을 줄이기 위해 json 형태로 응답을 한다.***
@@ -45,7 +46,7 @@
 "value" or value: 숫자값은 "" 필요 없음
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzY5ODU3NSwtMjA5MjU1MjkyOSwtMT
-U1ODM4OTY4LC0xODU4Mjc3ODg4LC0xNjE2Mjk3MzU3LDIwMzgz
-ODM4MF19
+eyJoaXN0b3J5IjpbLTEwNjk4NDA4MDQsLTIwOTI1NTI5MjksLT
+E1NTgzODk2OCwtMTg1ODI3Nzg4OCwtMTYxNjI5NzM1NywyMDM4
+MzgzODBdfQ==
 -->
