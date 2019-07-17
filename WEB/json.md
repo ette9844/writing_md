@@ -7,14 +7,17 @@ JavaScript Object Notation
 ```html
 <tr><th>우편번호</th><th>주소</th></tr>
 <tr><td>12345</td><td>주소1</td></tr>
+...
 ```
+서버가 응답하는 내용이 길어지면 응답 시간은 조금 길어지지만, client가 하는 일이 적어짐
 
 
 
 ```html
-우편번호:주소,12345:주소1
+우편번호:주소,12345:주소1,2345:주소2,34567:주소3,...
 ```
 
+**최소한의 가독성을 유지한채 응답 비용을 줄이기 위해 json 형태로 응답을 한다***
 
 ## 장점
 
@@ -30,6 +33,6 @@ JavaScript Object Notation
 "문자열값": 숫자 값은 "" 필요 없음
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTgyNzc4ODgsLTE2MTYyOTczNTcsMj
-AzODM4MzgwXX0=
+eyJoaXN0b3J5IjpbLTkzNzQ5MTU1NSwtMTg1ODI3Nzg4OCwtMT
+YxNjI5NzM1NywyMDM4MzgzODBdfQ==
 -->
