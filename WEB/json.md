@@ -28,6 +28,7 @@
 
 
 ## JSON
+#### json
 ```json
 [
   {
@@ -46,6 +47,7 @@
 "property": 프로퍼티(속성)
 "value" or value: 숫자값은 "" 필요 없음
 
+#### client에서 json객체 처리하기 (웹)
 ```js
 var jsonObjArr = JSON.parse(data);	// json객체 형태로 변환 (javascript array)
 console.log(jsonObjArr);			// 배열 []
@@ -60,7 +62,7 @@ $("#divSearchZip>div>table").html(trs);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzg5OTkxOTIsLTIwOTI1NTI5MjksLT
-E1NTgzODk2OCwtMTg1ODI3Nzg4OCwtMTYxNjI5NzM1NywyMDM4
-MzgzODBdfQ==
+eyJoaXN0b3J5IjpbLTIwNDAzODY0ODQsLTE3Mzg5OTkxOTIsLT
+IwOTI1NTI5MjksLTE1NTgzODk2OCwtMTg1ODI3Nzg4OCwtMTYx
+NjI5NzM1NywyMDM4MzgzODBdfQ==
 -->
