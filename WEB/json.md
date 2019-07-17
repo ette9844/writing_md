@@ -28,7 +28,7 @@
 
 
 ## JSON
-#### json
+#### json 형태로 응답 작성
 ```json
 [
   {
@@ -62,7 +62,7 @@ $("#divSearchZip>div>table").html(trs);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDAzODY0ODQsLTE3Mzg5OTkxOTIsLT
-IwOTI1NTI5MjksLTE1NTgzODk2OCwtMTg1ODI3Nzg4OCwtMTYx
-NjI5NzM1NywyMDM4MzgzODBdfQ==
+eyJoaXN0b3J5IjpbNTc3MzY1MTc5LC0xNzM4OTk5MTkyLC0yMD
+kyNTUyOTI5LC0xNTU4Mzg5NjgsLTE4NTgyNzc4ODgsLTE2MTYy
+OTczNTcsMjAzODM4MzgwXX0=
 -->
