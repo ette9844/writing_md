@@ -23,13 +23,26 @@
 - [자바스크립트](https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8 "자바스크립트")의 문법을 채용했기 때문에 쉽게 사용할 수 있다.
 
 
+## JSON
+```json
+[
+  {
+    "d1":"우편번호",
+    "d2":"주소"
+  },
+  {
+    "d1":"12345",
+    "d2":"양천구 시흥시 구일234길 롯데타워"
+  }
+]
+```
 
-[]: 배열
+>[]: 배열
 {}: 객체
-"property": 프로퍼티
-"문자열값": 숫자 값은 "" 필요 없음
+"property": 프로퍼티(속성)
+"value" or value: 숫자값은 "" 필요 없음
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTgzODk2OCwtMTg1ODI3Nzg4OCwtMT
-YxNjI5NzM1NywyMDM4MzgzODBdfQ==
+eyJoaXN0b3J5IjpbLTIzOTUyMzI1NywtMTU1ODM4OTY4LC0xOD
+U4Mjc3ODg4LC0xNjE2Mjk3MzU3LDIwMzgzODM4MF19
 -->
