@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JQuery 시작하기"
+title:  "[JQuery] JQuery 시작하기"
 subtitle:   "JQuery 시작하기"
 categories: study
 tags: web
@@ -110,6 +110,6 @@ $( "div:animated" );
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Mjk0NDI2MCwxNzYyNTA0NDgxLDE1ND
-Q5NDAwODNdfQ==
+eyJoaXN0b3J5IjpbNTI3MzIyMDIsMTc2MjUwNDQ4MSwxNTQ0OT
+QwMDgzXX0=
 -->
