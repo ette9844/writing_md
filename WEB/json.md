@@ -27,7 +27,9 @@ JavaScript Object Notation
 []: 배열
 {}: 객체
 "property": 프로퍼티
+"문자열값": 숫자 값은 "" 필요 없음
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTYyOTczNTcsMjAzODM4MzgwXX0=
+eyJoaXN0b3J5IjpbLTE4NTgyNzc4ODgsLTE2MTYyOTczNTcsMj
+AzODM4MzgwXX0=
 -->
