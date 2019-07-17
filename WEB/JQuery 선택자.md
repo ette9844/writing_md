@@ -81,7 +81,6 @@ each()
 #### [jQuery.each( array, callback )](https://api.jquery.com/jQuery.each/#jQuery-each-array-callback)
 -   **array**
     Type:  [ArrayLikeObject](http://api.jquery.com/Types/#ArrayLikeObject)  =  배열
-   
     
     The array or array-like object to iterate over.
     
@@ -89,7 +88,18 @@ each()
     Type:  [Function](http://api.jquery.com/Types/#Function)(  [Integer](http://api.jquery.com/Types/#Integer)  indexInArray,  [Object](http://api.jquery.com/Types/#Object)  value )
     
     The function that will be executed on every value.
+
+각 인덱스별 callback 함수가 자동 호출
+각 인덱스에 해당하는 요소 = 
+```js
+var $ckArr = $("input[type=checkbox]);
+$.each($ckArr, function(index, obj){
+	// TODO
+});
+```
+
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4ODYxMjM0LDExNDE2MjI0MzYsLTEwND
-g1ODE1MTRdfQ==
+eyJoaXN0b3J5IjpbLTEwODY3ODMyNjYsMTE0MTYyMjQzNiwtMT
+A0ODU4MTUxNF19
 -->
