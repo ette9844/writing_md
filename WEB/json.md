@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "JSON에 대하여"
+subtitle:   "JSON의 개념과 이를 사용하는 이유"
+categories: study
+tags: web
+---
+
 ## JSON 이란?
 [JavaScript Object Notation](https://ko.wikipedia.org/wiki/JSON)
 
@@ -62,7 +70,7 @@ $("#divSearchZip>div>table").html(trs);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3MzY1MTc5LC0xNzM4OTk5MTkyLC0yMD
-kyNTUyOTI5LC0xNTU4Mzg5NjgsLTE4NTgyNzc4ODgsLTE2MTYy
-OTczNTcsMjAzODM4MzgwXX0=
+eyJoaXN0b3J5IjpbMTk2ODUzNjgzMCw1NzczNjUxNzksLTE3Mz
+g5OTkxOTIsLTIwOTI1NTI5MjksLTE1NTgzODk2OCwtMTg1ODI3
+Nzg4OCwtMTYxNjI5NzM1NywyMDM4MzgzODBdfQ==
 -->
