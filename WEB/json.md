@@ -57,11 +57,15 @@ tags: web
 
 #### client에서 json객체 처리하기 (웹)
 ```js
-var jsonObjArr = JSON.parse(data);	// json객체 형태로 변환 (javascript array)
-console.log(jsonObjArr);			// 배열 []
+$.ajax({
+	url: '../b.jsp',
+	method: 'GET',
+	success: function(){
+		var jsonObjArr = JSON.parse(data);	// json객체 형태로 변환 (javascript array)
+		console.log(jsonObjArr);			// 배열 []
 
-var trs = "";
-for(var i=0; i<jsonObjArr.length; i++){
+		var trs = "";
+		for(var i=0; i<jsonObjArr.length; i++){
 	var jsonObj = jsonObjArr[i];	// 객체 {}
 	console.log(jsonObj.d1 + ", " + jsonObj.d2);
 	trs += "<tr><td>"+jsonObj.d1+"</td><td>"+jsonObj.d2+"</td></tr>";
@@ -76,10 +80,10 @@ $("#divSearchZip>div>table").html(trs);
 ```
 client 처리
 ```js
-
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxMjU5ODUsNTc3MzY1MTc5LC0xNzM4OT
-k5MTkyLC0yMDkyNTUyOTI5LC0xNTU4Mzg5NjgsLTE4NTgyNzc4
-ODgsLTE2MTYyOTczNTcsMjAzODM4MzgwXX0=
+eyJoaXN0b3J5IjpbLTI1MDA5MzI4LDU3NzM2NTE3OSwtMTczOD
+k5OTE5MiwtMjA5MjU1MjkyOSwtMTU1ODM4OTY4LC0xODU4Mjc3
+ODg4LC0xNjE2Mjk3MzU3LDIwMzgzODM4MF19
 -->
