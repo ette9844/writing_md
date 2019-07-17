@@ -46,8 +46,21 @@
 "property": 프로퍼티(속성)
 "value" or value: 숫자값은 "" 필요 없음
 
+```js
+var jsonObjArr = JSON.parse(data);	// json객체 형태로 변환 (javascript array)
+console.log(jsonObjArr);	// 배열 []
+var trs = "";
+for(var i=0; i<jsonObjArr.length; i++){
+	var jsonObj = jsonObjArr[i];	// 객체 {}
+	console.log(jsonObj.d1 + ", " + jsonObj.d2);
+					trs += "<tr><td>"+jsonObj.d1+"</td><td>"+jsonObj.d2+"</td></tr>";
+				}
+				$("#divSearchZip>div>table").html(t
+rs);
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTA3OTc2MCwtMjA5MjU1MjkyOSwtMT
+eyJoaXN0b3J5IjpbMTA5OTAwNTAyMCwtMjA5MjU1MjkyOSwtMT
 U1ODM4OTY4LC0xODU4Mjc3ODg4LC0xNjE2Mjk3MzU3LDIwMzgz
 ODM4MF19
 -->
