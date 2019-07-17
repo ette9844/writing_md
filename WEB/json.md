@@ -57,6 +57,9 @@ tags: web
 
 #### jsp에서 json형태로 응답함을 명시
 ```js
+<%@ page language="java" contentType="application/json; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+```
 #### client에서 json객체 처리하기 (웹)
 ```js
 var jsonObjArr = JSON.parse(data);	// json객체 형태로 변환 (javascript array)
@@ -72,7 +75,7 @@ $("#divSearchZip>div>table").html(trs);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5Nzk0MDYwOCw1NzczNjUxNzksLTE3Mz
-g5OTkxOTIsLTIwOTI1NTI5MjksLTE1NTgzODk2OCwtMTg1ODI3
-Nzg4OCwtMTYxNjI5NzM1NywyMDM4MzgzODBdfQ==
+eyJoaXN0b3J5IjpbLTE5Nzk4NzEwODQsNTc3MzY1MTc5LC0xNz
+M4OTk5MTkyLC0yMDkyNTUyOTI5LC0xNTU4Mzg5NjgsLTE4NTgy
+Nzc4ODgsLTE2MTYyOTczNTcsMjAzODM4MzgwXX0=
 -->
