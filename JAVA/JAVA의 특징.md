@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "[JAVA] 자바 언어의 특징"
+subtitle:   "자바 언어의 특징"
+categories: study
+tags: web
+---
+
 ## 자바 언어의 특징
 
 1. 객체 지향 언어
@@ -124,6 +132,6 @@ classpath에서 클래스를 찾지 못하면 java 기본 라이브러리 경로
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjg2NDUyOTgsLTEwNjIwNzcxODNdfQ
-==
+eyJoaXN0b3J5IjpbMTMyMDQ5MDA0MiwtMTUyODY0NTI5OCwtMT
+A2MjA3NzE4M119
 -->
