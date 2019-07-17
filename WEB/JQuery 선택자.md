@@ -77,7 +77,19 @@ $(this).css("background-color", "yellow");
 ```
 each()
 
+-util
+#### [jQuery.each( array, callback )](https://api.jquery.com/jQuery.each/#jQuery-each-array-callback)
+-   **array**
+    Type:  [ArrayLikeObject](http://api.jquery.com/Types/#ArrayLikeObject)  =  배열
+   
+    
+    The array or array-like object to iterate over.
+    
+-   **callback**
+    Type:  [Function](http://api.jquery.com/Types/#Function)(  [Integer](http://api.jquery.com/Types/#Integer)  indexInArray,  [Object](http://api.jquery.com/Types/#Object)  value )
+    
+    The function that will be executed on every value.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTY0MTA1NCwxMTQxNjIyNDM2LC0xMD
-Q4NTgxNTE0XX0=
+eyJoaXN0b3J5IjpbMzg4ODYxMjM0LDExNDE2MjI0MzYsLTEwND
+g1ODE1MTRdfQ==
 -->
