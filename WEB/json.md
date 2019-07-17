@@ -9,6 +9,7 @@
 ```
 서버가 응답하는 내용이 길어지면 응답 시간은 조금 길어지지만, client가 하는 일이 적어진다.
 
+
 ```html
 우편번호:주소,12345:주소1,2345:주소2,34567:주소3,...
 ```
@@ -44,6 +45,7 @@
 "value" or value: 숫자값은 "" 필요 없음
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTI1NTI5MjksLTE1NTgzODk2OCwtMT
-g1ODI3Nzg4OCwtMTYxNjI5NzM1NywyMDM4MzgzODBdfQ==
+eyJoaXN0b3J5IjpbLTcyMzY5ODU3NSwtMjA5MjU1MjkyOSwtMT
+U1ODM4OTY4LC0xODU4Mjc3ODg4LC0xNjE2Mjk3MzU3LDIwMzgz
+ODM4MF19
 -->
