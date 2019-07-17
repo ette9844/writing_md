@@ -48,19 +48,19 @@
 
 ```js
 var jsonObjArr = JSON.parse(data);	// json객체 형태로 변환 (javascript array)
-console.log(jsonObjArr);	// 배열 []
+console.log(jsonObjArr);			// 배열 []
+
 var trs = "";
 for(var i=0; i<jsonObjArr.length; i++){
 	var jsonObj = jsonObjArr[i];	// 객체 {}
 	console.log(jsonObj.d1 + ", " + jsonObj.d2);
-					trs += "<tr><td>"+jsonObj.d1+"</td><td>"+jsonObj.d2+"</td></tr>";
-				}
-				$("#divSearchZip>div>table").html(t
-rs);
+	trs += "<tr><td>"+jsonObj.d1+"</td><td>"+jsonObj.d2+"</td></tr>";
+}
+$("#divSearchZip>div>table").html(trs);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTAwNTAyMCwtMjA5MjU1MjkyOSwtMT
-U1ODM4OTY4LC0xODU4Mjc3ODg4LC0xNjE2Mjk3MzU3LDIwMzgz
-ODM4MF19
+eyJoaXN0b3J5IjpbLTE3Mzg5OTkxOTIsLTIwOTI1NTI5MjksLT
+E1NTgzODk2OCwtMTg1ODI3Nzg4OCwtMTYxNjI5NzM1NywyMDM4
+MzgzODBdfQ==
 -->
