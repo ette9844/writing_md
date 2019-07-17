@@ -55,11 +55,6 @@ tags: web
 "property": 프로퍼티(속성)
 "value" or value: 숫자값은 "" 필요 없음
 
-#### jsp에서 json형태로 응답함을 명시
-```js
-<%@ page language="java" contentType="application/json; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-```
 #### client에서 json객체 처리하기 (웹)
 ```js
 var jsonObjArr = JSON.parse(data);	// json객체 형태로 변환 (javascript array)
@@ -74,8 +69,17 @@ for(var i=0; i<jsonObjArr.length; i++){
 $("#divSearchZip>div>table").html(trs);
 ```
 
+#### jsp에서 응답 형식을 json 형식으로 했을 경우
+```js
+<%@ page language="java" contentType="application/json; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+```
+client 처리
+```js
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk4NzEwODQsNTc3MzY1MTc5LC0xNz
-M4OTk5MTkyLC0yMDkyNTUyOTI5LC0xNTU4Mzg5NjgsLTE4NTgy
-Nzc4ODgsLTE2MTYyOTczNTcsMjAzODM4MzgwXX0=
+eyJoaXN0b3J5IjpbMzUxMjU5ODUsNTc3MzY1MTc5LC0xNzM4OT
+k5MTkyLC0yMDkyNTUyOTI5LC0xNTU4Mzg5NjgsLTE4NTgyNzc4
+ODgsLTE2MTYyOTczNTcsMjAzODM4MzgwXX0=
 -->
