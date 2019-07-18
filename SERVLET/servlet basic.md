@@ -22,8 +22,8 @@ main() 없이 실행
 (servlet 엔진이 자동 호출해주는 메서드)
 
 ### servlet 소스 작성
-프로젝트 내 Java Resource>src 폴더에 작성
+프로젝트 내 Java Resource>src 폴더에 Servlet파일로 작성
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTE2MzE2Nl19
+eyJoaXN0b3J5IjpbLTE5NDYwNzAxODNdfQ==
 -->
