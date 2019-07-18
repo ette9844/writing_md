@@ -26,7 +26,12 @@ main() 없이 실행
 
 servlet이 만들어질때 web.xml에 servlet element와  servlet-mapping element가 자동 추가되지만
 servlet을 삭제해도 추가된 요소가 자동 삭제되지는 않는다
+
+### servlet 실행하기
+localhost:8080/`project_name` `servlet-mapping`
+
+ex) http://localhost:8080/servlet1/first
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjIxMDY2NywxMDU4MDYyOTIzLC0xOT
-Q2MDcwMTgzXX0=
+eyJoaXN0b3J5IjpbMTMzMjIzNjAxOCwyMTI2MjEwNjY3LDEwNT
+gwNjI5MjMsLTE5NDYwNzAxODNdfQ==
 -->
