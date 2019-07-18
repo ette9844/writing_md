@@ -12,6 +12,7 @@ main() 없이 실행
 `public void doGet(HttpServletRequest, HttpServletResponse)` 를 오버라이딩
 4) 요청 방식이 POST인 경우
 `public void doPOST(HttpServletRequest, HttpServletResponse)`를 오버라이딩
+(servlet 엔진이 자동 호출해주는 메서드)
 
 그 외
 **~~Middlet~~** 
@@ -20,5 +21,5 @@ main() 없이 실행
 **~~Applet~~**
 웹 브라우저에서 실행되는 특수 어플리케이션
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTk4Mjg5MF19
+eyJoaXN0b3J5IjpbLTE2MjQ2Mzc3NDddfQ==
 -->
