@@ -14,7 +14,15 @@ checked: B가 기본 선택되어있도록 함
 <button><img src="a.jpg"></button>
 ```
 
+#### 플랫폼
+어플리케이션이 실행되는 환경
+
+#### 자바플랫폼
+자바 어플리케이션이 실행되는 환경
+
+#### Standard Application
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQxMzQ0ODJdfQ==
+eyJoaXN0b3J5IjpbLTEzMjU4MDI2ODEsLTExNjQxMzQ0ODJdfQ
+==
 -->
