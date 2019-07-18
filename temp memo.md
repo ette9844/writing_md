@@ -31,8 +31,10 @@ Application이 실행되는 환경
 * Web Application
 * EJB (분산 프로그래밍) Application
 
-#### 3) JAVA ME
+#### 3) JAVA ME (Micro Edition)
+* SmartCard Application
+* Embedded Application
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzc3NDIxNzksLTExNjQxMzQ0ODJdfQ
+eyJoaXN0b3J5IjpbLTE4MzYxMDAxODksLTExNjQxMzQ0ODJdfQ
 ==
 -->
