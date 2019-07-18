@@ -7,7 +7,7 @@
 * 언어: java
 * 웹서버: Tomcat, resin, 웹로직, 웹스피어, 제우스 ...
 
-
+>다른 server side 기술과는 다르게 다양한 웹서버에서 사용 가능
 
 ### asp
 * 언어: visualBasic
@@ -16,6 +16,13 @@
 ### php
 * 언어: c, perl
 * 웹서버: apache
+
+>
+
+
+#### Tomcat + 
+Tomcat 서버는 불안정 하기 때문에 다른 서버를 연동해서 사용하기도 함.
+tomcat에서는 servlet, jsp 엔진이 제공되고, apache에서는 웺
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1MzYxMDMyXX0=
+eyJoaXN0b3J5IjpbMTc1MjM5Mjk2MV19
 -->
