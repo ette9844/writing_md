@@ -30,8 +30,21 @@ servlet을 삭제해도 추가된 요소가 자동 삭제되지는 않는다
 ### servlet 실행하기
 localhost:8080/`project_name` `servlet-mapping`
 
-ex) http://localhost:8080/servlet1/first
+ex) web.xml
+```html
+<servlet>
+    <description></description>
+    <display-name>FirstServlet</display-name>
+    <servlet-name>FirstServlet</servlet-name>
+    <servlet-class>control.FirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstServlet</servlet-name>
+    <url-pattern>/first</url-pattern>
+  </servlet-mapping>
+```
+http://localhost:8080/servlet1/first
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjIzNjAxOCwyMTI2MjEwNjY3LDEwNT
+eyJoaXN0b3J5IjpbMTkyMDU5Njc4MCwyMTI2MjEwNjY3LDEwNT
 gwNjI5MjMsLTE5NDYwNzAxODNdfQ==
 -->
