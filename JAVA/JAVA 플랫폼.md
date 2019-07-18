@@ -18,6 +18,11 @@ Application이 실행되는 환경
 ### 3) JAVA ME (Micro Edition)
 * SmartCard Application
 * Embedded Application
+
+## 자바 플랫폼 구성요소
+
+JVM + SE API [java.lang, java.util, java.sql, java.net ...]
+JVM + SE, EE API
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU0NzY0OF19
+eyJoaXN0b3J5IjpbMjEyOTM3MzI0MSwtMTU5NTQ3NjQ4XX0=
 -->
