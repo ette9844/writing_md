@@ -13,11 +13,11 @@ Connection conn = ~
 String selectSQL = "SELECT * FROM customer WHERE id=?";
 PreparedStatement pstmt = ~
 ```
-5. SQL 결과 수신
+4. SQL 결과 수신
 ```java
 ResultSet rs =  pstmt.executeQuery(selectSQL);
 ```
-6. 결과 수신
+5. 결과 수신
 ```java
 if(rs.next()) {
 	if(pwd.equals(rs.getString("pwd")){
@@ -25,6 +25,13 @@ if(rs.next()) {
 	}
 }
 ```
+
+6. 연결 닫기
+```java
+rs.close();
+pstmt.close();
+conn.close();
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzgxMTg3MzFdfQ==
+eyJoaXN0b3J5IjpbNDk3NDU0ODgzXX0=
 -->
