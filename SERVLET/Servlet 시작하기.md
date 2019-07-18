@@ -48,6 +48,9 @@ http://localhost:8080/servlet1/first
 
 >servlet엔진이 url과 같은 url-pattern 요소를 찾고, 해당 mapping의 servlet-name을 찾고, 해당 이름과 동일한 servlet element를 찾아 실행함.
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTg1MzEyMSwtOTY1NzE2NDY4XX0=
+eyJoaXN0b3J5IjpbLTE1MDQwMzAwNTMsLTIyNTg1MzEyMSwtOT
+Y1NzE2NDY4XX0=
 -->
