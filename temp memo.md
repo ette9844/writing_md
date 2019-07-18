@@ -15,14 +15,17 @@ checked: B가 기본 선택되어있도록 함
 ```
 
 #### 플랫폼
-어플리케이션이 실행되는 환경
+Application이 실행되는 환경
 
 #### 자바플랫폼
-자바 어플리케이션이 실행되는 환경
+자바 Application이 실행되는 환경
 
-#### Standard Application
-
+#### 1) JAVA SE (Standard Edition)
+* 자바 언어 기반의 Application
+Standard Application
+#### C/S Application (Client/Server)
+#### UI Application
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU4MDI2ODEsLTExNjQxMzQ0ODJdfQ
+eyJoaXN0b3J5IjpbLTE2MTE1NDkzMjIsLTExNjQxMzQ0ODJdfQ
 ==
 -->
