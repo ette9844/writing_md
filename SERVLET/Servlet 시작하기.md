@@ -12,7 +12,7 @@ main() 없이 실행
 **~~Applet~~**
 웹 브라우저에서 실행되는 특수 어플리케이션
 
-### spec
+## spec
 1) public class
 2) extends HttpServlet
 3) 요청 방식이 GET인 경우 
@@ -47,6 +47,7 @@ url:
 http://localhost:8080/servlet1/first
 
 >servlet엔진이 url과 같은 url-pattern 요소를 찾고, 해당 mapping의 servlet-name을 찾고, 해당 이름과 동일한 servlet element를 찾아 실행함.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTcxNjQ2OF19
+eyJoaXN0b3J5IjpbLTIyNTg1MzEyMSwtOTY1NzE2NDY4XX0=
 -->
