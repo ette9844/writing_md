@@ -31,6 +31,7 @@ servlet-api.jar
 필요
 
 >dynamic web module version = servlet 버전
+>2.X 버전은 web.xml을 반드시 만들어야 함
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3Njc1NzU2NiwtMTU5NTQ3NjQ4XX0=
+eyJoaXN0b3J5IjpbMjM0MzA0OTMzLC0xNTk1NDc2NDhdfQ==
 -->
