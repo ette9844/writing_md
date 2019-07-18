@@ -43,8 +43,11 @@ ex) web.xml
     <url-pattern>/first</url-pattern>
   </servlet-mapping>
 ```
+url: 
 http://localhost:8080/servlet1/first
+
+servlet엔진이 url과 같은 url-pattern 요소를 찾고, 해당 mapping의 servlet-name을 찾고, 해당 이름과 동일한 servlet element를 찾아 실행함.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDU5Njc4MCwyMTI2MjEwNjY3LDEwNT
+eyJoaXN0b3J5IjpbMTI0NDc5MDYzMiwyMTI2MjEwNjY3LDEwNT
 gwNjI5MjMsLTE5NDYwNzAxODNdfQ==
 -->
