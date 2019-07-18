@@ -26,8 +26,11 @@ JVM + SE API [ java.lang, java.util, java.sql, java.net ... ]
 
 #### 웹 프로그래밍
 JVM + SE, EE API [ javax.servlet.http, javax.servlet.jsp ... ]
-jsp-api.jar
+>jsp-api.jar
 servlet-api.jar
+필요
+
+>dynamic web module version = servlet 버전
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDY3NDEyMDUsLTE1OTU0NzY0OF19
+eyJoaXN0b3J5IjpbMTY3Njc1NzU2NiwtMTU5NTQ3NjQ4XX0=
 -->
