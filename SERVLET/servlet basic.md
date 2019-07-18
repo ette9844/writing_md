@@ -24,8 +24,8 @@ main() 없이 실행
 ### servlet 소스 작성
 프로젝트 내 Java Resource>src 폴더에 Servlet파일로 작성
 
-servlet이 만들어질때 web.xml에 servlet element와  servlet element mapping이 자동 추가되지만
-servlet을 삭제해도 추가된 요소가 
+servlet이 만들어질때 web.xml에 servlet element와  servlet-mapping element가 자동 추가되지만
+servlet을 삭제해도 추가된 요소가 자동 삭제되지는 않는다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDQ0MzIxOCwtMTk0NjA3MDE4M119
+eyJoaXN0b3J5IjpbMTA1ODA2MjkyMywtMTk0NjA3MDE4M119
 -->
