@@ -3,10 +3,19 @@
 .html, .js, .css, .jpg, .txt ...
 
 ## ServerSide 기술
-### jsp
+### jsp / servlet
 * 언어: java
-* dn
-visualBasic
+* 웹서버: Tomcat, resin, 웹로직, 웹스피어, 제우스 ...
+
+
+
+### asp
+* 언어: visualBasic
+* 웹서버: IIS
+
+### php
+* 언어: c, perl
+* 웹서버: apache
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDI3NjU2MDRdfQ==
+eyJoaXN0b3J5IjpbOTY1MzYxMDMyXX0=
 -->
