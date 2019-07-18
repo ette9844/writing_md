@@ -17,7 +17,7 @@
 * 언어: c, perl
 * 웹서버: apache
 
->
+>기존에 apache나 IIS를 사용하던 차에 java기반 웹서버로 전향하기 위해 기존 서버에 tomcat (등의 자바 기반 웹서버)를 
 
 
 <hr>
@@ -26,5 +26,5 @@
 Tomcat 서버는 불안정 하기 때문에 다른 서버를 **연동**해서 사용하기도 함.
 Tomcat에서는 servlet, jsp 엔진이 제공되고, apache에서는 웹서버의 역할을 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzc5NjEwODVdfQ==
+eyJoaXN0b3J5IjpbMTkyNjUzNDE4Nl19
 -->
