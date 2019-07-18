@@ -23,8 +23,9 @@ Application이 실행되는 환경
 
 #### 기본 자바 프로그래밍
 JVM + SE API [ java.lang, java.util, java.sql, java.net ... ]
+
 #### 웹 프로그래밍
 JVM + SE, EE API [ javax.servlet.http, javax.servlet.jsp ... ]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjU0MzMyMywtMTU5NTQ3NjQ4XX0=
+eyJoaXN0b3J5IjpbLTE0OTg4ODE2NTUsLTE1OTU0NzY0OF19
 -->
