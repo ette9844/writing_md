@@ -33,15 +33,14 @@ Forwards a request from a servlet to another resource (servlet, JSP file, or HTM
 Uncommitted output in the response buffer is automatically cleared before the forward.
 응답 버퍼가 forward되기 바로 직전에 clear된다.
 
-```ㅓㅁ
-		// http://localhost:8080/servlet4/move
+```java
+// http://localhost:8080/servlet4/move
 		// 서버 사이드에서 login.html을 요청하고 client로 전송
 		// sendRedirect보다 많이 쓰임
 
-		// **서버 사이드에서의 이동 방법 : Forwarding!**
-		// RequestDispatcher: 기존 페이지의 request를 다른 페이지에게 전달한다
-		RequestDispatcher rd = request.getRequestDispatcher(path);
-		// forward: 전달하고 돌아오지 않는다 = 페이지 이동
+
+RequestDispatcher rd = request.getRequestDispatcher(path);
+```		
 
 ## Include
 [servlet API](https://docs.oracle.com/javaee/5/api/)
@@ -52,5 +51,5 @@ Includes the content of a resource (servlet, JSP page, HTML file) in the respons
 		// request: 전달하고 다시 돌아온다 = 포함한다
 		rd.include(request, response);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTg3OTk3MiwtMTI4NzE0ODU5MV19
+eyJoaXN0b3J5IjpbMjkxNzQ2NTU1LC0xMjg3MTQ4NTkxXX0=
 -->
