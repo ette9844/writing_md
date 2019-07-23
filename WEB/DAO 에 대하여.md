@@ -59,18 +59,25 @@ public Ex2() throws NotFoundException {
 
 <br/>
 
-## Service Layer
-servlet에서 DAO를 직접 호출하는 게 아닌
-
-sevlet이 하는 역할을 더욱 세분화
-1. 
-2. 요청에 대한 처리
-
 ---
 
 **※ 무조건 throws로 servlet에 넘겨주는게 좋다고 할 수는 없다. 상황에 따라 유연하게 대체해야한다.**
 
 throws를 사용해야 할 때, try-catch를 사용해야 할때를 구분해야한다
+
+<br/>
+
+
+## Service Layer
+servlet에서 DAO를 직접 호출하는 게 아닌
+servlet은 service layer와 함께 동작하고, service layer에서 DAO를 호출하는 구조.
+
+
+sevlet이 하는 역할을 더욱 세분화
+1. 결과에 대한 분석
+2. 요청에 대한 처리
+
+
 
 ---
 **+) 비지니스 로직**
@@ -78,6 +85,6 @@ throws를 사용해야 할 때, try-catch를 사용해야 할때를 구분해야
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDIxODA2NCw4MTA3NzY4MCwxNDYyMz
+eyJoaXN0b3J5IjpbMTU5MDUzOTgyNyw4MTA3NzY4MCwxNDYyMz
 AyMjMsLTcwMTQ1NjM5XX0=
 -->
