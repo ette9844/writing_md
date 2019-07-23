@@ -23,8 +23,9 @@ checked: B가 기본 선택되어있도록 함
 >`+` : public
 >`:String` : return type
 
+#### 비지니스 로직
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk4MzgyODgsLTExNjQxMzQ0ODJdfQ
-==
+eyJoaXN0b3J5IjpbLTEyODYzNTY2MywtMTE2OTgzODI4OCwtMT
+E2NDEzNDQ4Ml19
 -->
