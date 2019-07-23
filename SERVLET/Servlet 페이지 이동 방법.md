@@ -28,10 +28,12 @@ rd.forward(request, response);
 ## Forward
 [servlet API](https://docs.oracle.com/javaee/5/api/)
 Forwards a request from a servlet to another resource (servlet, JSP file, or HTML file) on the server.
-기존 페이지의 request를 서버상의 다른 페이지에게 전달한다
+기존 페이지의 request를 서버상의 다른 페이지에게 전달(forward)한다.
+
 Uncommitted output in the response buffer is automatically cleared before the forward.
 응답 버퍼가 forward되기 바로 직전에 clear된다.
 
+```ㅓㅁ
 		// http://localhost:8080/servlet4/move
 		// 서버 사이드에서 login.html을 요청하고 client로 전송
 		// sendRedirect보다 많이 쓰임
@@ -50,6 +52,5 @@ Includes the content of a resource (servlet, JSP page, HTML file) in the respons
 		// request: 전달하고 다시 돌아온다 = 포함한다
 		rd.include(request, response);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzAxMzQxMjgsLTEyODcxNDg1OTFdfQ
-==
+eyJoaXN0b3J5IjpbMTEyMTg3OTk3MiwtMTI4NzE0ODU5MV19
 -->
