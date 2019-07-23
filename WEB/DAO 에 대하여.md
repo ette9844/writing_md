@@ -36,7 +36,7 @@ DB와의 일처리를 담당하는 CLASS
 servlet이 어떤 예외가 발생했는지 확인 가능.
 예외에 대한 반응을 사용자에게 보여줄 수 있다.
 
-EX)
+EX) DAO.java
 ```java
 try{
 	// TODO
@@ -74,5 +74,5 @@ throws를 사용해야 할 때, try-catch를 사용해야 할때를 구분해야
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ5NjE4NzhdfQ==
+eyJoaXN0b3J5IjpbMTM1MTMzMTM0XX0=
 -->
