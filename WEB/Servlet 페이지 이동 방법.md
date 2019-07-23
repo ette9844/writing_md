@@ -1,8 +1,12 @@
-// 페이지 이동 방법 1 - 성공
-		//location객체의 href 속성을 주는 것과 같은 동작
-//		response.sendRedirect("http://www.google.com");
-		
-		// 페이지 이동 방법 2 - 실패: 응답코드 404 /servlet4/http://www.google.com
+## 페이지 이동 방법 1
+```java
+response.sendRedirect("http://www.google.com");
+```
+>결과: 성공
+location객체의 href 속성을 주는 것과 같은 동작
+
+## 페이지 이동 방법 2 
+- 실패: 응답코드 404 /servlet4/http://www.google.com
 //		String path = "http://www.google.com";
 //		RequestDispatcher rd = request.getRequestDispatcher(path);
 //		rd.forward(request, response);	// 같은 webcontext의 하위 url로만 이동할 수 있다.
@@ -25,5 +29,5 @@
 		// request: 전달하고 다시 돌아온다 = 포함한다
 		rd.include(request, response);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY0Mjc3ODM2XX0=
+eyJoaXN0b3J5IjpbLTEwODEyNzQ0NjksMzY0Mjc3ODM2XX0=
 -->
