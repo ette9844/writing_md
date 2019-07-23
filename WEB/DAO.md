@@ -27,6 +27,9 @@ DB와의 일처리를 담당하는 CLASS
 
 ### 1) 예외 처리를 DAO 내에서 try-catch로 처리
 오류 메세지가 Tomcat console에 출력되어, servlet과 사용자UI에서는 어떠한 오류가 발생했는지 확인 불가
+
+반환값을 NULL로 설정할 경우, servlet 개발자는 늘 반환값이 NULL인지를 검사해야한다. (자칫하면 NullPointException에 빠지게 됨)
+→ 좋은 코드가 아니다.
 ### 2) 예외 처리를 throws로 넘겨 servlet에서 처리
 
 
@@ -44,6 +47,6 @@ DB와의 일처리를 담당하는 CLASS
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzUyMDY2MCwtODc5MTA0MjE4LC04MT
+eyJoaXN0b3J5IjpbLTE3NDgyNDIxOCwtODc5MTA0MjE4LC04MT
 UyMzAxMDYsLTc1ODk0MTUzXX0=
 -->
