@@ -72,10 +72,11 @@ servlet에서 DAO를 직접 호출하는 게 아닌
 servlet은 service layer와 함께 동작하고, service layer에서 DAO를 호출하는 구조.
 
 기능별로 service layer를 생성
-1. 결과에 대한 분석
-2. 요청에 대한 처리
 
-* 장점:
+※ 현업에서 많이 사용되는 구조: DAO + Service Layer
+
+
+**Service Layer를 작성하는 이유**
 - service layer와 DAO는 웹 뿐만 아니라 다른 자바 애플리케이션에서 재사용될 수 있다.
 - 유지 보수에 좋다.
 
@@ -87,6 +88,6 @@ servlet은 service layer와 함께 동작하고, service layer에서 DAO를 호�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4MTAyMzQ5LDgxMDc3NjgwLDE0NjIzMD
+eyJoaXN0b3J5IjpbODU2MjQ4MTE1LDgxMDc3NjgwLDE0NjIzMD
 IyMywtNzAxNDU2MzldfQ==
 -->
