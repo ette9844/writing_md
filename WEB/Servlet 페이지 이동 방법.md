@@ -3,6 +3,8 @@
 response.sendRedirect("http://www.google.com");
 ```
 >결과: 성공
+>링크: `http://www.google.com`
+
 location객체의 href 속성을 주는 것과 같은 동작
 
 ## 페이지 이동 방법 2 
@@ -34,6 +36,6 @@ rd.forward(request, response);
 		// request: 전달하고 다시 돌아온다 = 포함한다
 		rd.include(request, response);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NjIyMjU1OCwtMTA4MTI3NDQ2OSwzNj
-QyNzc4MzZdfQ==
+eyJoaXN0b3J5IjpbLTEzNTc2MTI2LC0xMDgxMjc0NDY5LDM2ND
+I3NzgzNl19
 -->
