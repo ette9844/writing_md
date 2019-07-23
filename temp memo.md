@@ -13,6 +13,9 @@ checked: B가 기본 선택되어있도록 함
 ```html
 <button><img src="a.jpg"></button>
 ```
+
+#### 패키지 이름
+패키지 -> 회사 도메인을 꺼꾸로 작성하는 게 관례
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODIxMTc1OCwtMTE2NDEzNDQ4Ml19
+eyJoaXN0b3J5IjpbNDI3Mjc4NjYzLC0xMTY0MTM0NDgyXX0=
 -->
