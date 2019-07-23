@@ -72,11 +72,11 @@ throws를 사용해야 할 때, try-catch를 사용해야 할때를 구분해야
 
 
 
-
+---
 **+) 비지니스 로직**
 :DB 연결, 요청 송신, SQL 결과값 받기, DB 닫기
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMTQ1NjM5XX0=
+eyJoaXN0b3J5IjpbLTQzNDg2MTQ0LC03MDE0NTYzOV19
 -->
