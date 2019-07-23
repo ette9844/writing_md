@@ -81,15 +81,29 @@ int m (int a) {
 	}
 }
 ```
+>결과값의 의미를 침범
+
 ---
 ### 객체지향 언어
-
-
+```java
+try{
+	m(1);
+} catch(Exception e) {
+	sop(e.getMessage());
+}
+```
+```java
+void m(int a) throws Exception {
+	if(a >= 10) {
+		throw new Exception("error");
+	}
+}
+```
 ---
 **+) 비지니스 로직**
 :DB 연결, 요청 송신, SQL 결과값 받기, DB 닫기
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDYzMzIwMjksLTcwMTQ1NjM5XX0=
+eyJoaXN0b3J5IjpbMTIxMTAzNzU5NSwtNzAxNDU2MzldfQ==
 -->
