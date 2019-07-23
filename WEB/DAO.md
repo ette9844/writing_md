@@ -11,8 +11,10 @@
 **요청에 대한 처리** 
 
 클라이언트의 요청 받기
-검색 결과 분석
-DB CLASS 호출 등
+DB CLASS 호출
+결과 분석
+결과에 따른 응답 생성
+응답 송신 등
 
 ## DAO
 **DB와의 일처리 담당**
@@ -26,6 +28,6 @@ DB와의 일처리를 담당하는 CLASS
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2NDU0MTk4LC04MTUyMzAxMDYsLTc1OD
-k0MTUzXX0=
+eyJoaXN0b3J5IjpbLTg3OTEwNDIxOCwtODE1MjMwMTA2LC03NT
+g5NDE1M119
 -->
