@@ -45,11 +45,13 @@ try{
 }
 ```
 ```java
-try{
-	// TODO
-} catch(Exception e) {
-	// 사용자 정의 Exception 강제 발생
-	throw new NotFoundExveption(e.getMessage());
+public Ex1() throws NotFoundException {
+	try{
+		// TODO
+	} catch(Exception e) {
+		// 사용자 정의 Exception 강제 발생
+		throw new NotFoundExveption(e.getMessage());
+	}
 }
 ```
 
@@ -74,5 +76,5 @@ throws를 사용해야 할 때, try-catch를 사용해야 할때를 구분해야
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTMzMTM0XX0=
+eyJoaXN0b3J5IjpbNjI0NzU3MDMzXX0=
 -->
