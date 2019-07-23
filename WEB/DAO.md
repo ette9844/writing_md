@@ -23,10 +23,20 @@ DB CLASS 호출
 DB와의 일처리를 담당하는 CLASS
 
 
+## 예외처리
 
-1) 예외 처리를 DAO 내에서 try-catch로 처리
-오류 메세지가 Tomcat console에 출력되어, servlet과 사용자UI에서는 어떠한 오류가 
-2) 예외 처리를 throws로 넘겨 servlet에서 처리
+### 1) 예외 처리를 DAO 내에서 try-catch로 처리
+오류 메세지가 Tomcat console에 출력되어, servlet과 사용자UI에서는 어떠한 오류가 발생했는지 확인 불가
+### 2) 예외 처리를 throws로 넘겨 servlet에서 처리
+
+
+
+
+
+
+
+
+
 
 
 **+) 비지니스 로직**
@@ -34,6 +44,6 @@ DB와의 일처리를 담당하는 CLASS
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTExOTU4NCwtODc5MTA0MjE4LC04MT
+eyJoaXN0b3J5IjpbMjEyNzUyMDY2MCwtODc5MTA0MjE4LC04MT
 UyMzAxMDYsLTc1ODk0MTUzXX0=
 -->
