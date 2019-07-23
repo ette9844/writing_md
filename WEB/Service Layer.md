@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "[Service Layer] Service Layer 와 DAO"
+subtitle:   "Service Layer란 무엇이고, 왜 사용하는가?"
+categories: study
+tags: web, java, servlet
+---
+
 ## Service Layer
 servlet에서 DAO를 직접 호출하는 게 아닌
 servlet은 service layer와 함께 동작하고, service layer에서 DAO를 호출하는 구조.
@@ -22,6 +30,6 @@ servlet, DAO, service layer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4NTQ2NDg5LDE4NTUwMDE0NjUsMTQ4NT
-Y5NzE0MywtMTM2MDgzMTIwNl19
+eyJoaXN0b3J5IjpbLTU4Mzk1OTY5OSw3MDg1NDY0ODksMTg1NT
+AwMTQ2NSwxNDg1Njk3MTQzLC0xMzYwODMxMjA2XX0=
 -->
