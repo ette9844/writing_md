@@ -82,12 +82,9 @@ servlet은 service layer와 함께 동작하고, service layer에서 DAO를 호�
 
 
 
----
-**+) 비지니스 로직**
-:DB 연결, 요청 송신, SQL 결과값 받기, DB 닫기
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2MTI4MjMzLDgxMDc3NjgwLDE0NjIzMD
+eyJoaXN0b3J5IjpbNjc4NDcxNjUzLDgxMDc3NjgwLDE0NjIzMD
 IyMywtNzAxNDU2MzldfQ==
 -->
