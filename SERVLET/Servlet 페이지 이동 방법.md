@@ -28,7 +28,7 @@ rd.forward(request, response);
 ## Forward
 [servlet API](https://docs.oracle.com/javaee/5/api/)
 Forwards a request from a servlet to another resource (servlet, JSP file, or HTML file) on the server.
-서버의 다른 리소스
+기존 페이지의 request를 서버상의 다른 페이지에게 전달한다
 Uncommitted output in the response buffer is automatically cleared before the forward.
 응답 버퍼가 forward되기 바로 직전에 clear된다.
 
@@ -42,9 +42,14 @@ Uncommitted output in the response buffer is automatically cleared before the fo
 		// forward: 전달하고 돌아오지 않는다 = 페이지 이동
 
 ## Include
+[servlet API](https://docs.oracle.com/javaee/5/api/)
+Includes the content of a resource (servlet, JSP page, HTML file) in the response. In essence, this method enables programmatic server-side includes.
+콘텐트의 리소스에 다른 페이지의 결과값을 포함한다.
+
 		rd.forward(request, response);
 		// request: 전달하고 다시 돌아온다 = 포함한다
 		rd.include(request, response);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODcxNDg1OTFdfQ==
+eyJoaXN0b3J5IjpbLTE0NzAxMzQxMjgsLTEyODcxNDg1OTFdfQ
+==
 -->
