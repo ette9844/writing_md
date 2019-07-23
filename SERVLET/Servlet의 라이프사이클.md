@@ -6,7 +6,9 @@ doPost
 doGet
 destroy
 
-forwar
+forwarding
+
+MVC구조
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDAyMTMwNSw1MDg1NjEwNjZdfQ==
+eyJoaXN0b3J5IjpbLTE3MDg3Nzg2NTcsNTA4NTYxMDY2XX0=
 -->
