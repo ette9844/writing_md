@@ -71,7 +71,7 @@ throws를 사용해야 할 때, try-catch를 사용해야 할때를 구분해야
 servlet에서 DAO를 직접 호출하는 게 아닌
 servlet은 service layer와 함께 동작하고, service layer에서 DAO를 호출하는 구조.
 
-기능별로 service layer를 생성
+기능별로 service layer를 생성한다.
 
 ※ 현업에서 많이 사용되는 구조: DAO + Service Layer
 
@@ -88,6 +88,6 @@ servlet은 service layer와 함께 동작하고, service layer에서 DAO를 호�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2MjQ4MTE1LDgxMDc3NjgwLDE0NjIzMD
+eyJoaXN0b3J5IjpbMzg2MTI4MjMzLDgxMDc3NjgwLDE0NjIzMD
 IyMywtNzAxNDU2MzldfQ==
 -->
