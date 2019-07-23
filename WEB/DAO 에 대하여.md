@@ -49,7 +49,7 @@ try{
 
 **※ 무조건 throws로 servlet에 넘겨주는게 좋다고 할 수는 없다. 상황에 따라 유연하게 대체해야한다.**
 
-throws를 사용해야 할 ㄸ
+throws를 사용해야 할 때, try-catch를 사용해야 할때를 구분해야한다
 
 
 
@@ -65,5 +65,5 @@ throws를 사용해야 할 ㄸ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTUzNjg4MF19
+eyJoaXN0b3J5IjpbMjA5ODQ3MDEwXX0=
 -->
