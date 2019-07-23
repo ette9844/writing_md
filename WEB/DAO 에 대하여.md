@@ -68,13 +68,21 @@ throws를 사용해야 할 때, try-catch를 사용해야 할때를 구분해야
 절차지향 언어`(C)`에서는 return값으로 성공/실패 여부를 판별했다면, 
 객체지향 언어`(Java)`에서는 예외처리를 통해 성공/실패 여부를 판별한다.
 
+### 절차지향 언어
 ```c
 int result = m(1);
 ```
 ```c
 int m (int a) {
-	if(a<10)
+	if(a<10) {
+		return 1; 	// 성공
+	} else {
+		return -1;	// 실패
+	}
 }
+```
+---
+### 객체지향 언어
 
 
 ---
@@ -83,5 +91,5 @@ int m (int a) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTk0MjQ4NSwtNzAxNDU2MzldfQ==
+eyJoaXN0b3J5IjpbLTExMDYzMzIwMjksLTcwMTQ1NjM5XX0=
 -->
