@@ -36,7 +36,9 @@ DB와의 일처리를 담당하는 CLASS
 servlet이 어떤 예외가 발생했는지 확인 가능.
 예외에 대한 반응을 사용자에게 보여줄 수 있다.
 
-* 무조건 throws로 servlet에 넘겨주는게 좋다고 할 수는 없다. 상황에 따라 유연하게 대쳏
+<br/>
+
+**※ 무조건 throws로 servlet에 넘겨주는게 좋다고 할 수는 없다. 상황에 따라 유연하게 대체해야한다.**
 
 
 
@@ -52,6 +54,6 @@ servlet이 어떤 예외가 발생했는지 확인 가능.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDY5NzU4MiwtODc5MTA0MjE4LC04MT
-UyMzAxMDYsLTc1ODk0MTUzXX0=
+eyJoaXN0b3J5IjpbLTE3NzQ1MjA2NTMsLTg3OTEwNDIxOCwtOD
+E1MjMwMTA2LC03NTg5NDE1M119
 -->
