@@ -8,13 +8,13 @@ servlet은 service layer와 함께 동작하고, service layer에서 DAO를 호�
 
 
 **Service Layer를 작성하는 이유**
-- service layer와 DAO는 웹 뿐만 아니라 다른 자바 애플리케이션에서 재사용될 수 있다.
-- 유지 보수에 좋다.
-
+- **재사용성 ↑**: service layer와 DAO는 웹 뿐만 아니라 다른 자바 애플리케이션에서 재사용될 수 있다. 
+- **유지 보수**에 좋다.
+- servlet의 할일이 줄어듬.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjA4MzEyMDZdfQ==
+eyJoaXN0b3J5IjpbMTQ4NTY5NzE0MywtMTM2MDgzMTIwNl19
 -->
