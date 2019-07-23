@@ -58,6 +58,11 @@ public Ex2() throws NotFoundException {
 ```
 
 <br/>
+
+## Service Layer
+servlet에서 DAO를 직접 호출하는 게 아닌
+
+
 ---
 
 **※ 무조건 throws로 servlet에 넘겨주는게 좋다고 할 수는 없다. 상황에 따라 유연하게 대체해야한다.**
@@ -70,6 +75,6 @@ throws를 사용해야 할 때, try-catch를 사용해야 할때를 구분해야
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwNzc2ODAsMTQ2MjMwMjIzLC03MDE0NT
-YzOV19
+eyJoaXN0b3J5IjpbLTc2ODM4ODUwNyw4MTA3NzY4MCwxNDYyMz
+AyMjMsLTcwMTQ1NjM5XX0=
 -->
