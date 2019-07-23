@@ -38,14 +38,16 @@ servlet이 어떤 예외가 발생했는지 확인 가능.
 
 EX) DAO.java
 ```java
-try{
-	// TODO
-} catch(Exception e) {
-	dos.writeUTF(e.getMessage());
+public Ex2(){
+	try{
+		// TODO
+	} catch(Exception e) {
+		dos.writeUTF(e.getMessage());
+	}
 }
 ```
 ```java
-public Ex1() throws NotFoundException {
+public Ex2() throws NotFoundException {
 	try{
 		// TODO
 	} catch(Exception e) {
@@ -76,5 +78,5 @@ throws를 사용해야 할 때, try-catch를 사용해야 할때를 구분해야
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0NzU3MDMzXX0=
+eyJoaXN0b3J5IjpbLTcwMTQ1NjM5XX0=
 -->
