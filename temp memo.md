@@ -18,9 +18,13 @@ checked: B가 기본 선택되어있도록 함
 회사 도메인을 꺼꾸로 작성하는 게 관례
 
 #### UML
-+login(String, String): String
-+: public
-:String : return type1
+`+dupchk(String): String`
+`+login(String, String): String`
+>`+` : public
+>`:String` : return type
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTAwNDc3OCwtMTE2NDEzNDQ4Ml19
+eyJoaXN0b3J5IjpbLTExNjk4MzgyODgsLTExNjQxMzQ0ODJdfQ
+==
 -->
