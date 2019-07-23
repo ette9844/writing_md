@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "[JQuery] 
+JQuery 선택자"
+subtitle:   "DAO"
+categories: study
+tags: web, java, servlet
+---
+
 ## 기존
 서블릿에서 DB 연결, 연결, 요청 송신, SQL 결과값 받기, DB 닫기 등의 역할을 모두 담당했음.
 
@@ -69,6 +78,6 @@ throws를 사용해야 할 때, try-catch를 사용해야 할때를 구분해야
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzYwMzg2Myw4MTA3NzY4MCwxNDYyMz
-AyMjMsLTcwMTQ1NjM5XX0=
+eyJoaXN0b3J5IjpbNTA3MzAwNzUsODEwNzc2ODAsMTQ2MjMwMj
+IzLC03MDE0NTYzOV19
 -->
