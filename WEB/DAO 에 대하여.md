@@ -81,7 +81,7 @@ int m (int a) {
 	}
 }
 ```
->결과값의 의미를 침범
+>성공 실패 여부가 결과값의 의미를 침범.
 
 ---
 ### 객체지향 언어
@@ -99,11 +99,13 @@ void m(int a) throws Exception {
 	}
 }
 ```
+>결과값은 결과값의 의미로만 사용됨. 
+>성공/실패 여부는 예외처리로 처리.
 ---
 **+) 비지니스 로직**
 :DB 연결, 요청 송신, SQL 결과값 받기, DB 닫기
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTAzNzU5NSwtNzAxNDU2MzldfQ==
+eyJoaXN0b3J5IjpbMTQ2MjMwMjIzLC03MDE0NTYzOV19
 -->
