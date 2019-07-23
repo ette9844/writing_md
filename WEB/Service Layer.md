@@ -3,7 +3,7 @@ layout: post
 title:  "[Service Layer] Service Layer 와 DAO"
 subtitle:   "Service Layer란 무엇이고, 왜 사용하는가?"
 categories: study
-tags: web, java, servlet
+tags: web, java
 ---
 
 ## Service Layer
@@ -30,6 +30,6 @@ servlet, DAO, service layer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Mzk1OTY5OSw3MDg1NDY0ODksMTg1NT
-AwMTQ2NSwxNDg1Njk3MTQzLC0xMzYwODMxMjA2XX0=
+eyJoaXN0b3J5IjpbLTExMzM4NTYyOTgsNzA4NTQ2NDg5LDE4NT
+UwMDE0NjUsMTQ4NTY5NzE0MywtMTM2MDgzMTIwNl19
 -->
