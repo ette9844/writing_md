@@ -13,15 +13,15 @@ servlet은 service layer와 함께 동작하고, service layer에서 DAO를 호�
 - servlet의 할일이 줄어듬.
 
 ## 구조
-**Three Tier 구조**
+* **Three Tier 구조**
 Client - Server - DB
 
-Server 내에서도 **세가지 레이어**가 있는 구조
+* Server 내에서도 **세가지 레이어**가 있는 구조
 servlet, DAO, service layer
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTAwMTQ2NSwxNDg1Njk3MTQzLC0xMz
-YwODMxMjA2XX0=
+eyJoaXN0b3J5IjpbNzA4NTQ2NDg5LDE4NTUwMDE0NjUsMTQ4NT
+Y5NzE0MywtMTM2MDgzMTIwNl19
 -->
