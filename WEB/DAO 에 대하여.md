@@ -38,14 +38,18 @@ servlet이 어떤 예외가 발생했는지 확인 가능.
 
 ```java
 try{
+	// TODO
 } catch(Exception e) {
-	dos.
+	dos.writeUTF(e.getMessage());
 }
 ```
 
 <br/>
+---
 
 **※ 무조건 throws로 servlet에 넘겨주는게 좋다고 할 수는 없다. 상황에 따라 유연하게 대체해야한다.**
+
+throws를 사용해야 할 ㄸ
 
 
 
@@ -61,5 +65,5 @@ try{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MjU5MjM5Ml19
+eyJoaXN0b3J5IjpbMTk0NTUzNjg4MF19
 -->
