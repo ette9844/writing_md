@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "[JQuery] 
-JQuery 선택자"
-subtitle:   "DAO"
+title:  "[DAO] DAO에 대하여 (with servlet)"
+subtitle:   "DAO를 사용하는 이유와 예외처리"
 categories: study
 tags: web, java, servlet
 ---
@@ -78,6 +77,6 @@ throws를 사용해야 할 때, try-catch를 사용해야 할때를 구분해야
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3MzAwNzUsODEwNzc2ODAsMTQ2MjMwMj
-IzLC03MDE0NTYzOV19
+eyJoaXN0b3J5IjpbLTIxMzM5MDgxOTEsODEwNzc2ODAsMTQ2Mj
+MwMjIzLC03MDE0NTYzOV19
 -->
