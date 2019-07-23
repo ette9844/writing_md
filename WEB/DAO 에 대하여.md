@@ -65,7 +65,7 @@ public Ex2() throws NotFoundException {
 throws를 사용해야 할 때, try-catch를 사용해야 할때를 구분해야한다
 
 
-
+절차지향 언어(C)에서는 return값으로 성공/실패 여부를 판별했다면, 객체지향 언어
 
 
 
@@ -78,5 +78,5 @@ throws를 사용해야 할 때, try-catch를 사용해야 할때를 구분해야
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDg2MTQ0LC03MDE0NTYzOV19
+eyJoaXN0b3J5IjpbMTc2MzY3Njc2NiwtNzAxNDU2MzldfQ==
 -->
