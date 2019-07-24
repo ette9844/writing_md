@@ -1,8 +1,9 @@
-## Reques
+## Request 관련 함수
 
 
 ```java
-protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+protected void doGet(HttpServletRequest request, HttpServletResponse response) 
+		throws ServletException, IOException {
 
 		// request: 요청할 때마다 만들어지고 소멸하는 객체
 		
@@ -83,6 +84,8 @@ request body ex)
 `owner=ette9844&repo=writing_md&branch=master`
 
 즉, doGet에서는 아무런 영향이 없고, doPost에서만 유의미한 함수이다. (※표준화된 방법)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjEyNDc5MDIsMTUzNDY4NTkzNV19
+eyJoaXN0b3J5IjpbMjA1OTc5OTI3OCwxNTM0Njg1OTM1XX0=
 -->
