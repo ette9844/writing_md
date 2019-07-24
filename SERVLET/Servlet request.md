@@ -68,7 +68,14 @@ Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
 Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G970N Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/9.2 Chrome/67.0.3396.87 Mobile Safari/537.36
 ```
 
+```java
+request.setCharacterEncoding();
+```
+Overrides the name of the character encoding used in the **body of this request.**
 
+**body of this request**:
+GET 방식에는 없다. POST 방식에만 존재
+owner=ette9844&repo=writing_md&branch=master
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDY4NTkzNV19
+eyJoaXN0b3J5IjpbMTI3NTQ1OTA2MywxNTM0Njg1OTM1XX0=
 -->
