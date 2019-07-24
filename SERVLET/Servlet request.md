@@ -74,8 +74,10 @@ request.setCharacterEncoding();
 Overrides the name of the character encoding used in the **body of this request.**
 
 **body of this request**:
-GET 방식에는 없다. POST 방식에만 존재
-owner=ette9844&repo=writing_md&branch=master
+GET 방식에는 없다. POST 방식에만 존재.
+doGet에서는 아무런 영향이 없고, doPost에서만 유의미한 함수. (표준화된 방법)
+request body ex)
+`owner=ette9844&repo=writing_md&branch=master`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTQ1OTA2MywxNTM0Njg1OTM1XX0=
+eyJoaXN0b3J5IjpbLTEwMzkxNTA1NTcsMTUzNDY4NTkzNV19
 -->
