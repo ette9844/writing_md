@@ -72,13 +72,13 @@ Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G970N Build/PPR1.180610.011) AppleWebK
 
 #### Path에서 주의해야할 점
 현재 페이지: http://localhost:8080/servlet5/jq/a.html 일때,
-* URI의 '/'
+* URI의 '/path'
 지금 사용중인 web context의 하위 경로
 `String path = "/result";` 
 → http://localhost:8080/servlet5/result
 
 
-* html의	'/'
+* html의	'/path'
 Root Web Context에 있는 자원
 `<form action="/result"></form>`
 → http://localhost:8080/result
@@ -116,5 +116,5 @@ request.setAttribute("attr3", Integer.valueOf(3));
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDAwNzg4MywxMDAxNjYwNzM0XX0=
+eyJoaXN0b3J5IjpbNDE5NzE2NjksMTAwMTY2MDczNF19
 -->
