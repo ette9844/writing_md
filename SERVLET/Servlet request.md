@@ -91,12 +91,15 @@ request body ex)
 request.setAttribute("attr3", 3);
 ```
 `setAttribute(String, Object)`이기 때문에
-3(int)는 Integer로 auto boxing된다
+3(int)는 컴파일시에 Integer로 **Auto Boxing**된다
 
 ```java
-request.setAttribute("attr3", 
+request.setAttribute("attr3", Integer.valueOf(3));
 ```
+이후, 최종적으로 Object 타입으로 Upcasting 된다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3NjMyMjA4LDIwNTk3OTkyNzgsMTUzND
-Y4NTkzNV19
+eyJoaXN0b3J5IjpbMTM5MDA5OTI5MCwyMDU5Nzk5Mjc4LDE1Mz
+Q2ODU5MzVdfQ==
 -->
