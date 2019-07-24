@@ -90,7 +90,7 @@ request body ex)
 ```java
 request.setAttribute("attr3", 3);
 ```
-`setAttribute(String, Object)` 는 두번째이기 때문에
+`setAttribute` 의 두번째 매개변수가 Object 타입이기 때문에
 3(int)는 컴파일시에 Integer로 **Auto Boxing**된다
 
 ```java
@@ -100,6 +100,6 @@ request.setAttribute("attr3", Integer.valueOf(3));
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDU5OTY5OCwyMDU5Nzk5Mjc4LDE1Mz
-Q2ODU5MzVdfQ==
+eyJoaXN0b3J5IjpbLTExNTQ2MTk2MTEsMjA1OTc5OTI3OCwxNT
+M0Njg1OTM1XX0=
 -->
