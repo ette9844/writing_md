@@ -1,3 +1,6 @@
+## Reques
+
+
 ```java
 protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -68,16 +71,18 @@ Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
 Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G970N Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/9.2 Chrome/67.0.3396.87 Mobile Safari/537.36
 ```
 
+### setCharacterEncoding()
 ```java
-request.setCharacterEncoding();
+request.setCharacterEncoding("UTF-8");
 ```
 Overrides the name of the character encoding used in the **body of this request.**
 
 **body of this request**:
 GET 방식에는 없다. POST 방식에만 존재.
-doGet에서는 아무런 영향이 없고, doPost에서만 유의미한 함수. (표준화된 방법)
 request body ex)
 `owner=ette9844&repo=writing_md&branch=master`
+
+즉, doGet에서는 아무런 영향이 없고, doPost에서만 유의미한 함수이다. (※표준화된 방법)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzkxNTA1NTcsMTUzNDY4NTkzNV19
+eyJoaXN0b3J5IjpbLTE1MjEyNDc5MDIsMTUzNDY4NTkzNV19
 -->
