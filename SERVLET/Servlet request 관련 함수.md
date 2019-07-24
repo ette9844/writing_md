@@ -83,6 +83,8 @@ request body ex)
 
 즉, doGet에서는 아무런 영향이 없고, doPost에서만 유의미한 함수이다. (※표준화된 방법)
 
+<br/>
+
 ## Attribute
 ### setAttribute
 
@@ -99,5 +101,5 @@ request.setAttribute("attr3", Integer.valueOf(3));
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDQyMTU5MV19
+eyJoaXN0b3J5IjpbMTAwMTY2MDczNF19
 -->
