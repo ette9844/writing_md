@@ -60,15 +60,15 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
 ----------------------크롬에서 요청했을 때
 <<user-agent>>
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36
-----------------------
+----------------------IE에서 요청했을 때
 <<user-agent>>
 Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
-----------------------
-`<<user-agent>>
+----------------------모바일 웹에서 요청했을 때
+<<user-agent>>
 Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G970N Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/9.2 Chrome/67.0.3396.87 Mobile Safari/537.36
-----------------------``
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTk0NDQ5MF19
+eyJoaXN0b3J5IjpbMTUzNDY4NTkzNV19
 -->
