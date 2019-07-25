@@ -20,12 +20,12 @@
 = `_jspService()`내부에 저장 될 java 구문
 = 요청시마다 처리 될 java 구문
 
-```html
+```java
 <li>scriptlet: _jspService()내부에 저장될 자바구문: 요청시마다 처리될 구문
-            <% int num = 1;	// _jspService()내부에 선언되는 지역 변수
-               System.out.println(num);
-            %></li>
+<% int num = 1;	// _jspService()내부에 선언되는 지역 변수
+   System.out.println(num);
+%></li>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4ODk0NTQ2LDE4MDAxOTMzODZdfQ==
+eyJoaXN0b3J5IjpbLTIwNTA0MDI1MDEsMTgwMDE5MzM4Nl19
 -->
