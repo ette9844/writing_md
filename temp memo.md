@@ -30,7 +30,10 @@ checked: B가 기본 선택되어있도록 함
 
 `ctrl` + `shift` + `m`: 자동import
 `ctrl` + `s`: 저장 + 자동 import
+
+#### 특정 파일 내에서 한글 깨짐이 발생할 때
+우클 > property > resources > encoing > others > utf-8
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2Nzc2ODI3NCwxMTI0NDc4NDQ1LC0xMT
-Y5ODM4Mjg4LC0xMTY0MTM0NDgyXX0=
+eyJoaXN0b3J5IjpbMzU2MjAwMzgxLC0yNjc3NjgyNzQsMTEyND
+Q3ODQ0NSwtMTE2OTgzODI4OCwtMTE2NDEzNDQ4Ml19
 -->
