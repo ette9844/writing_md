@@ -18,10 +18,10 @@ EX) menu.html
 2. 
 
 
-## 객체 모델링 패턴
 ## MVC 패턴
 **Model - View - Controller**
 
+객체 모델링 패턴의 한 종류.
 유지보수성이 높다. 
 대형 (기업체) 프로젝트에서 사용하기 좋다.
 
@@ -35,5 +35,5 @@ EX) menu.html
 > 비지니스 로직 호출  `service.login()` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NjA2NDY1NV19
+eyJoaXN0b3J5IjpbLTEzMTg2NjEyOTBdfQ==
 -->
