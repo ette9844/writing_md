@@ -47,7 +47,11 @@
 
 ### expression
 **<%= %>**
+서버 쪽에서 실행 될 java 구문
+= `_jspService()`내부에 저장 될 java 구문
+= 요청시마다 처리 될 java 구문
 
+**out.print메서드가 자동 호출 됨**
 
 
 
@@ -57,7 +61,7 @@
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDgyMjgxNTQsNTE5MTU5NTc2LC0yOD
-k5OTk3MTYsMTk1NDk1MzU4OSwtMjA1MDQwMjUwMSwxODAwMTkz
-Mzg2XX0=
+eyJoaXN0b3J5IjpbNDk3NzI1MTc0LC0xMTA4MjI4MTU0LDUxOT
+E1OTU3NiwtMjg5OTk5NzE2LDE5NTQ5NTM1ODksLTIwNTA0MDI1
+MDEsMTgwMDE5MzM4Nl19
 -->
