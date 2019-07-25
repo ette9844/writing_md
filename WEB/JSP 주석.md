@@ -36,7 +36,10 @@
 >`out.print(num)`: _jsp.java 파일 내부의 out 변수등 _jsp.java 파일 내에 선언되어 있는 변수를 사용할 수 있다.
 > `out.print(request.getParameter("opt")`: _jsp.java 파일 내부의 request, response등 _jspService의 매개변수를 사용할 수 있다.
 > 
+
+**미세 팁:** 
+eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDk1MzU4OSwtMjA1MDQwMjUwMSwxOD
-AwMTkzMzg2XX0=
+eyJoaXN0b3J5IjpbLTI4OTk5OTcxNiwxOTU0OTUzNTg5LC0yMD
+UwNDAyNTAxLDE4MDAxOTMzODZdfQ==
 -->
