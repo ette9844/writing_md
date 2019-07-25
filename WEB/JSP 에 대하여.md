@@ -77,14 +77,16 @@ _jspService( request, response ) 자동 호출
 
 WEBSERVER [톰캣]
 
-웹서버 영역 
-.html, .htm, .js, .css, .txt, .jpg ...
-파일을 찾아 파일 내용을 응답
+### 웹서버 영역 
+* .html, .htm, .js, .css, .txt, .jpg ...
+* 파일을 찾아 파일 내용을 응답
 
-엔진 영역
-.jsp /login
+웹서버 영역이 처리할 수 없는 확장자는 엔진 영역으로 위임
+### 엔진 영역
+jsp 엔진
+servlet 엔진 - web.xml 파일의 url pattern에 해당하는 servlet class 찾기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDkyOTA2MiwtMTgzNzM5MDIyNiwxMz
-Y5ODEwMzk3LDUwNzQxODM0OSwxNzgyMzg0NzM4LDEwODM4ODky
-NTJdfQ==
+eyJoaXN0b3J5IjpbLTE0NDI2Mzg3ODUsLTE4MzczOTAyMjYsMT
+M2OTgxMDM5Nyw1MDc0MTgzNDksMTc4MjM4NDczOCwxMDgzODg5
+MjUyXX0=
 -->
