@@ -165,7 +165,7 @@ out.write(" <li><a href=\"display.html\">ì‹œêµ°êµ¬</a></li>\r\n");
 ```
 >include한 링크의 내용이 out.write의 인자로 포함.
 
----
+ 
 **Include 태그 <jsp:include page="menu.html"/>**
 ```java
 org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "jq/menu.html", out, false);
@@ -174,12 +174,47 @@ org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "jq/menu.
 ><% %> 태그 내에 include 함수를 호출한 것과 같다.
 >동적인 결과를 포함시키고자 할 때 좋다.
 
+---
+
+EX)
+a.jsp
+```java
+<%int i = 10;%>
+```
+b.jsp
+```java
+<%@include file = "a.jsp"%>
+<% int i=99; %>   <%-- error: 중복된 변수 선언 --%>
+<%=i%>
+```
+>b_jsp.java
+>```java
+>int i=0;
+>int i =99; // X
+>out.print(i);
+>```
+
+
+c.jsp
+```java
+<jsp:include page = "a.jsp"/>
+<%=i%>    <%-- error: a.jsp 내의 변수 사용 불가 --%>
+```
+>c_jsp.java
+>```java
+>org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "a.jsp", out, false);
+>```
+
+
+
+
+---
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTE3NDkzMCwtNDQ4MTcyNzk3LDIwMj
-Q5OTEyMTMsLTE4MTA2MzY1MzksLTU3ODE1ODE5NSwtOTEyMTE3
-NDk1LDQ5NzcyNTE3NCwtMTEwODIyODE1NCw1MTkxNTk1NzYsLT
-I4OTk5OTcxNiwxOTU0OTUzNTg5LC0yMDUwNDAyNTAxLDE4MDAx
-OTMzODZdfQ==
+eyJoaXN0b3J5IjpbOTYyNDU0MDIyLC00NDgxNzI3OTcsMjAyND
+k5MTIxMywtMTgxMDYzNjUzOSwtNTc4MTU4MTk1LC05MTIxMTc0
+OTUsNDk3NzI1MTc0LC0xMTA4MjI4MTU0LDUxOTE1OTU3NiwtMj
+g5OTk5NzE2LDE5NTQ5NTM1ODksLTIwNTA0MDI1MDEsMTgwMDE5
+MzM4Nl19
 -->
