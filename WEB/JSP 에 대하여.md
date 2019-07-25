@@ -53,6 +53,7 @@ first_jsp class의 _jspService 메서드는 servlet의 doGet / doPost와 유사
 
 [사진]
 이런식으로 작성한 html이 _jspService의 out.write()의 인자로 작성되기 때문에 의미 없는 띄어쓰기나 들여쓰기는 지양하는 것이 좋다. 
+
 최적화된 띄어쓰기 / 들여쓰기를 할 것.
 
 ## jsp 엔진이 하는 일
@@ -73,6 +74,6 @@ HttpServletRequest, HttpServletResponse 객체 생성
 _jspService( request, response ) 자동 호출
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1Mjc0NzE2LDEzNjk4MTAzOTcsNTA3ND
-E4MzQ5LDE3ODIzODQ3MzgsMTA4Mzg4OTI1Ml19
+eyJoaXN0b3J5IjpbLTE4MzczOTAyMjYsMTM2OTgxMDM5Nyw1MD
+c0MTgzNDksMTc4MjM4NDczOCwxMDgzODg5MjUyXX0=
 -->
