@@ -3,7 +3,10 @@
 servlet으로 응답 작업까지 하기에는 내용이 너무 많다.
 JSP를 사용하면 훨씬 단순하게 응답 작업을 작성할 수 있다. 
 
-SERVLET: 요청받아
+ **SERVLET**:  ㅋ
+* 요청받아 (`request.getParameter()`)
+* 비지니스 로직 호출
+* **JSP**: 프레젠테이션 로직 담당
 
 EX) menu.html
 ```html
@@ -19,5 +22,5 @@ EX) menu.html
 1. servlet일 경우
 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzQ0NTU2N119
+eyJoaXN0b3J5IjpbMjk3NzY5Mjc4XX0=
 -->
