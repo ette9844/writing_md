@@ -33,7 +33,13 @@ checked: B가 기본 선택되어있도록 함
 
 #### 특정 파일 내에서 한글 깨짐이 발생할 때
 우클 > property > resources > encoing > others > utf-8
+
+
+#### html 파일 -> jsp 파일 변경
+1) 소스코드의 encoding 변경
+2) page 지시자로 응답 형식 지정
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2MjAwMzgxLC0yNjc3NjgyNzQsMTEyND
-Q3ODQ0NSwtMTE2OTgzODI4OCwtMTE2NDEzNDQ4Ml19
+eyJoaXN0b3J5IjpbODg0OTI4NDg0LDM1NjIwMDM4MSwtMjY3Nz
+Y4Mjc0LDExMjQ0Nzg0NDUsLTExNjk4MzgyODgsLTExNjQxMzQ0
+ODJdfQ==
 -->
