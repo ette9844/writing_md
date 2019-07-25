@@ -89,11 +89,22 @@ cnt = <%=cnt %>
 >
 
 
+
+page directive
+
+dm
+```java
+<%@page contentType="text/html;charset=UTF-8" %>
+```
+```java
+response.setContentType("text/html; charset=UTF-8");
+```
+
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTA2MzY1MzksLTU3ODE1ODE5NSwtOT
-EyMTE3NDk1LDQ5NzcyNTE3NCwtMTEwODIyODE1NCw1MTkxNTk1
-NzYsLTI4OTk5OTcxNiwxOTU0OTUzNTg5LC0yMDUwNDAyNTAxLD
-E4MDAxOTMzODZdfQ==
+eyJoaXN0b3J5IjpbMzQwNTc4NDI5LC0xODEwNjM2NTM5LC01Nz
+gxNTgxOTUsLTkxMjExNzQ5NSw0OTc3MjUxNzQsLTExMDgyMjgx
+NTQsNTE5MTU5NTc2LC0yODk5OTk3MTYsMTk1NDk1MzU4OSwtMj
+A1MDQwMjUwMSwxODAwMTkzMzg2XX0=
 -->
