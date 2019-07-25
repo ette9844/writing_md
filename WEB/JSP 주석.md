@@ -160,9 +160,6 @@ err.jsp
 
  
 **Include 태그 <jsp:include page="menu.html"/>**
-```java
-org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "jq/menu.html", out, false);
-```
 * 실행시에 링크를 include 매서드의 인자로 전달하여 결과만 포함.
 * <% %> 태그 내에 include 함수를 호출한 것과 같다.
 * 동적인 결과를 포함시키고자 할 때 좋다.
@@ -206,9 +203,9 @@ c.jsp
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDc5MzcwNTYsLTQ0ODE3Mjc5NywyMD
-I0OTkxMjEzLC0xODEwNjM2NTM5LC01NzgxNTgxOTUsLTkxMjEx
-NzQ5NSw0OTc3MjUxNzQsLTExMDgyMjgxNTQsNTE5MTU5NTc2LC
-0yODk5OTk3MTYsMTk1NDk1MzU4OSwtMjA1MDQwMjUwMSwxODAw
-MTkzMzg2XX0=
+eyJoaXN0b3J5IjpbLTE1MDU3Mjk2NiwtNDQ4MTcyNzk3LDIwMj
+Q5OTEyMTMsLTE4MTA2MzY1MzksLTU3ODE1ODE5NSwtOTEyMTE3
+NDk1LDQ5NzcyNTE3NCwtMTEwODIyODE1NCw1MTkxNTk1NzYsLT
+I4OTk5OTcxNiwxOTU0OTUzNTg5LC0yMDUwNDAyNTAxLDE4MDAx
+OTMzODZdfQ==
 -->
