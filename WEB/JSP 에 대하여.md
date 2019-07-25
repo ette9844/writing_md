@@ -45,7 +45,12 @@ HttpServlet
  |  상속
 HttpJspBase
  |  상속
-first_jsp ㅊ
+first_jsp
+
+
+first_jsp class의 _jspService 메서드는 servlet의 doGet / doPost와 유사
+
+first.jsp 요청
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Nzk5MDU3NCwxMDgzODg5MjUyXX0=
+eyJoaXN0b3J5IjpbLTk5NDI3NTA5NSwxMDgzODg5MjUyXX0=
 -->
