@@ -1,9 +1,17 @@
 ## JSP 구성 요소
 
 1. scripting 요소
-&nbsp;&nbsp;&nbsp;*
-3. directive 요소
-4. action tag 요소
+&nbsp;&nbsp;&nbsp;* scriptlet
+&nbsp;&nbsp;&nbsp;* expression
+&nbsp;&nbsp;&nbsp;* declaration
+
+2. directive 요소
+&nbsp;&nbsp;&nbsp;* page directive
+&nbsp;&nbsp;&nbsp;* include directive
+&nbsp;&nbsp;&nbsp;* taglib directive
+3. action tag 요소
+&nbsp;&nbsp;&nbsp;* standard action tag
+&nbsp;&nbsp;&nbsp;* declaration
 
 ## Scripting 요소
 
@@ -184,5 +192,5 @@ c.jsp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjc0MDQwNDQsNzY5ODU5NDc2XX0=
+eyJoaXN0b3J5IjpbMTA2NDcwMjE2LDc2OTg1OTQ3Nl19
 -->
