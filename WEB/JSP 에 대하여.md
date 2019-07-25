@@ -34,6 +34,10 @@ EX) menu.html
 > 요청 받기 `request.getParameter()`
 > 비지니스 로직 호출  `service.login()` 
 
+
+add and remove 하면 tomcat 폴더내 wtpwebapps 폴더에 webContent 하위 항목들이 복사된다.(배포된다)
+
+servlet, dao드
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Mzg4OTI1Ml19
+eyJoaXN0b3J5IjpbLTExMjg1MzQ2NzcsMTA4Mzg4OTI1Ml19
 -->
