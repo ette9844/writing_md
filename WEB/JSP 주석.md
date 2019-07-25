@@ -156,23 +156,17 @@ err.jsp
 ### ※ 지시자를 이용한 포함 vs 태그를 이용한 포함
 
 **Include 지시자 <%@include file="menu.html"%>**
-```java
-out.write(" <li><a href=\"#\">ê²Œì‹œíŒ</a></li>\r\n");
-out.write(" <li><a href=\"#\">ê³µì§€ì‚¬í•­</a></li>\r\n");
-out.write(" <li><a href=\"login.html\">ë¡œê·¸ì¸</a></li>\r\n");
-out.write(" <li><a href=\"join.html\">ê°€ìž…</a></li>\r\n");
-out.write(" <li><a href=\"display.html\">ì‹œêµ°êµ¬</a></li>\r\n");
-```
->include한 링크의 내용이 out.write의 인자로 포함.
+* include한 링크의 내용이 out.write의 인자로 포함.
 
  
 **Include 태그 <jsp:include page="menu.html"/>**
 ```java
 org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "jq/menu.html", out, false);
 ```
->실행시에 링크를 include 매서드의 인자로 전달하여 결과만 포함.
-><% %> 태그 내에 include 함수를 호출한 것과 같다.
->동적인 결과를 포함시키고자 할 때 좋다.
+* 실행시에 링크를 include 매서드의 인자로 전달하여 결과만 포함.
+* <% %> 태그 내에 include 함수를 호출한 것과 같다.
+* 동적인 결과를 포함시키고자 할 때 좋다.
+* 일반 html 파일에서는 사용할 수 없다.
 
 ---
 
@@ -212,9 +206,9 @@ c.jsp
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyNDU0MDIyLC00NDgxNzI3OTcsMjAyND
-k5MTIxMywtMTgxMDYzNjUzOSwtNTc4MTU4MTk1LC05MTIxMTc0
-OTUsNDk3NzI1MTc0LC0xMTA4MjI4MTU0LDUxOTE1OTU3NiwtMj
-g5OTk5NzE2LDE5NTQ5NTM1ODksLTIwNTA0MDI1MDEsMTgwMDE5
-MzM4Nl19
+eyJoaXN0b3J5IjpbLTIwNDc5MzcwNTYsLTQ0ODE3Mjc5NywyMD
+I0OTkxMjEzLC0xODEwNjM2NTM5LC01NzgxNTgxOTUsLTkxMjEx
+NzQ5NSw0OTc3MjUxNzQsLTExMDgyMjgxNTQsNTE5MTU5NTc2LC
+0yODk5OTk3MTYsMTk1NDk1MzU4OSwtMjA1MDQwMjUwMSwxODAw
+MTkzMzg2XX0=
 -->
