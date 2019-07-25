@@ -22,10 +22,17 @@
 
 ```java
 <li>scriptlet: _jspService()내부에 저장될 자바구문: 요청시마다 처리될 구문
-<% int num = 1;	// _jspService()내부에 선언되는 지역 변수
+<% int num = 1;
    System.out.println(num);
+   out.print(num);
+   out.print(request.getParameter("opt");
 %></li>
 ```
+
+>int num: _jspService()내부에 선언되는 지역 변수
+>out.print(num): _jsp.java 파일 내부의 out 변수를 사용할 수 있다.
+>_jsp.java 파일 내부의 out 변수를 사용할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTA0MDI1MDEsMTgwMDE5MzM4Nl19
+eyJoaXN0b3J5IjpbLTUzMzE3OTkxNSwtMjA1MDQwMjUwMSwxOD
+AwMTkzMzg2XX0=
 -->
