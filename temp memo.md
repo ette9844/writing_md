@@ -36,10 +36,11 @@ checked: B가 기본 선택되어있도록 함
 
 
 #### html 파일 -> jsp 파일 변경
-1) 소스코드의 encoding 변경
-2) page 지시자로 응답 형식 지정
+1) html의 확장자를 jsp로 변경
+2) jsp 파일의 encoding 변경
+3) page 지시자로 응답 형식 지정
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0OTI4NDg0LDM1NjIwMDM4MSwtMjY3Nz
-Y4Mjc0LDExMjQ0Nzg0NDUsLTExNjk4MzgyODgsLTExNjQxMzQ0
-ODJdfQ==
+eyJoaXN0b3J5IjpbLTE2NDY4NzU5NTYsMzU2MjAwMzgxLC0yNj
+c3NjgyNzQsMTEyNDQ3ODQ0NSwtMTE2OTgzODI4OCwtMTE2NDEz
+NDQ4Ml19
 -->
