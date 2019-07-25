@@ -13,10 +13,11 @@
 </div>
 ```
 
-scriptlet: 
+### scriptlet
 <% %>
-서버 쪽에서 실행될 java 구문 작성
-_jspService()내부에 저장될 java 구문
+서버 쪽에서 실행 될 java 구문
+= `_jspService()`내부에 저장 될 java 구문
+= 요청시마다 처리 될 java 구문
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzQ3MzQ1LDE4MDAxOTMzODZdfQ==
+eyJoaXN0b3J5IjpbLTEwMjMzNDk4MTMsMTgwMDE5MzM4Nl19
 -->
