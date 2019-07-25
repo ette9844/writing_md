@@ -73,7 +73,18 @@ if (없을 경우) {
 HttpServletRequest, HttpServletResponse 객체 생성
 _jspService( request, response ) 자동 호출
 ```
+
+
+WEBSERVER [톰캣]
+
+웹서버 영역 
+.html, .htm, .js, .css, .txt, .jpg ...
+파일을 찾아 파일 내용을 응답
+
+엔진 영역
+.jsp /login
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzczOTAyMjYsMTM2OTgxMDM5Nyw1MD
-c0MTgzNDksMTc4MjM4NDczOCwxMDgzODg5MjUyXX0=
+eyJoaXN0b3J5IjpbLTE0NDkyOTA2MiwtMTgzNzM5MDIyNiwxMz
+Y5ODEwMzk3LDUwNzQxODM0OSwxNzgyMzg0NzM4LDEwODM4ODky
+NTJdfQ==
 -->
