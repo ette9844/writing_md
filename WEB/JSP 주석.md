@@ -16,6 +16,7 @@
 scriptlet: 
 <% %>
 서버 쪽에서 실행될 java 구문 작성
+_jspService()내부에 저장될 java 구문
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1OTk0MjcwLDE4MDAxOTMzODZdfQ==
+eyJoaXN0b3J5IjpbMjA4MzQ3MzQ1LDE4MDAxOTMzODZdfQ==
 -->
