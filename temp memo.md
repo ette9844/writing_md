@@ -27,7 +27,10 @@ checked: B가 기본 선택되어있도록 함
 
 #### import java.util.*
 `.*` 연산자는 import한 요소가 명확하지 않아, 유지보수에 좋지 않기 때문에 지양한다.
+
+`ctrl` + `shift` + `m`: 자동import
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDQ0MjczOSwtMTE2OTgzODI4OCwtMT
+eyJoaXN0b3J5IjpbMTEyNDQ3ODQ0NSwtMTE2OTgzODI4OCwtMT
 E2NDEzNDQ4Ml19
 -->
