@@ -18,8 +18,14 @@ EX) menu.html
 2. 
 
 
+## 객체 모델링 패턴
+## MVC 패턴
+유지보수성이 높다. 
+대형 (기업체) 프로젝트에서 사용하기 좋다.
 
-
+### Model
+### View
+### Control
 
  **SERVLET**:  ***컨트롤러*** 로직 담당
 * 요청 받기 `request.getParameter()`
@@ -29,5 +35,5 @@ EX) menu.html
 
 **JSP**: ***프레젠테이션*** 로직 담당
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4NDE0MTE3XX0=
+eyJoaXN0b3J5IjpbNTAxOTA3NzMwXX0=
 -->
