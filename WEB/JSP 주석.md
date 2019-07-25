@@ -161,12 +161,13 @@ a.jsp
 b.jsp
 ```java
 <%@include file = "a.jsp"%>
-<%int
+<% int i=99; %>   <%-- error: 중복된 변수 선언 --%>
 <%=i%>
 ```
 >b_jsp.java
 >```java
 >int i=0;
+>int i =99; // X
 >out.print(i);
 >```
 
@@ -176,6 +177,10 @@ c.jsp
 <jsp:include page = "a.jsp"/>
 <%=i%>    <%-- error: a.jsp 내의 변수 사용 불가 --%>
 ```
+>```java
+>org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "a.jsp", out, false);
+```
+
 **Include 지시자 <%@include %>**
 ```java
 out.write(" <li><a href=\"#\">ê²Œì‹œíŒ</a></li>\r\n");
@@ -196,7 +201,7 @@ org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "jq/menu.
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDgyODQ2NiwtNDQ4MTcyNzk3LDIwMj
+eyJoaXN0b3J5IjpbMTc5MzI2MjIwOCwtNDQ4MTcyNzk3LDIwMj
 Q5OTEyMTMsLTE4MTA2MzY1MzksLTU3ODE1ODE5NSwtOTEyMTE3
 NDk1LDQ5NzcyNTE3NCwtMTEwODIyODE1NCw1MTkxNTk1NzYsLT
 I4OTk5OTcxNiwxOTU0OTUzNTg5LC0yMDUwNDAyNTAxLDE4MDAx
