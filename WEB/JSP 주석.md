@@ -62,13 +62,15 @@
 ```
 >`<%=num%>`: _jsp.java 에서 out.print(num); 으로 변환 됨.
 
-
+```java
+<% int cnt = 0; %>
+참여인원 <%= ++cnt %>명
 
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODE1ODE5NSwtOTEyMTE3NDk1LDQ5Nz
-cyNTE3NCwtMTEwODIyODE1NCw1MTkxNTk1NzYsLTI4OTk5OTcx
-NiwxOTU0OTUzNTg5LC0yMDUwNDAyNTAxLDE4MDAxOTMzODZdfQ
-==
+eyJoaXN0b3J5IjpbLTExOTIxNzcyNDAsLTU3ODE1ODE5NSwtOT
+EyMTE3NDk1LDQ5NzcyNTE3NCwtMTEwODIyODE1NCw1MTkxNTk1
+NzYsLTI4OTk5OTcxNiwxOTU0OTUzNTg5LC0yMDUwNDAyNTAxLD
+E4MDAxOTMzODZdfQ==
 -->
