@@ -50,10 +50,14 @@ first_jsp
 
 first_jsp class의 _jspService 메서드는 servlet의 doGet / doPost와 유사
 
+## jsp 엔진이 하는 일
+
 first.jsp 요청
 	first.jsp 전용 객체 존재여부 파악
 	없을 경우 전용 클래스 (first_jsp.class) 존재여부 파악
-	없을 경우 전용 자바 파일 생성 (
+	없을 경우 
+	1. 전용 자바 파일 생성 (first_jsp.java)
+	2. 이를 컴파일 하여 class 생성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2ODk5MTExLDEwODM4ODkyNTJdfQ==
+eyJoaXN0b3J5IjpbMTc4MjM4NDczOCwxMDgzODg5MjUyXX0=
 -->
