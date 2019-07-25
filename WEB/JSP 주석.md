@@ -46,6 +46,7 @@
 
 
 ### Expression
+
 **<%= %>**
 
 서버 쪽에서 실행 될 java 구문
@@ -140,11 +141,16 @@ err.jsp
 >`isErrorPage`: 에러 페이지 선언. 에러 페이지에서는 exception 변수를 선언할 수 있다.
 
 
+
+## Include
+
+<%@include %>
+
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTQ1NjMyLDIwMjQ5OTEyMTMsLTE4MT
-A2MzY1MzksLTU3ODE1ODE5NSwtOTEyMTE3NDk1LDQ5NzcyNTE3
-NCwtMTEwODIyODE1NCw1MTkxNTk1NzYsLTI4OTk5OTcxNiwxOT
-U0OTUzNTg5LC0yMDUwNDAyNTAxLDE4MDAxOTMzODZdfQ==
+eyJoaXN0b3J5IjpbLTEwNTQwODk3OTAsMjAyNDk5MTIxMywtMT
+gxMDYzNjUzOSwtNTc4MTU4MTk1LC05MTIxMTc0OTUsNDk3NzI1
+MTc0LC0xMTA4MjI4MTU0LDUxOTE1OTU3NiwtMjg5OTk5NzE2LD
+E5NTQ5NTM1ODksLTIwNTA0MDI1MDEsMTgwMDE5MzM4Nl19
 -->
