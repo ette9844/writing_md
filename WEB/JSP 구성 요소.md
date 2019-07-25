@@ -99,13 +99,13 @@ _jsp.java 파일이 만들어질 때 필요한 정보를 설정한다.
 페이지 지시자는 가독성을 위해 jsp 페이지의 가장 윗줄에 적는 것이 관례.
 
 #### page directive 주요 설정
-**(1) contentType**
+*(1) contentType*
 ```java
 <%-- 응답 형식 지정 --%>
 <%@page contentType="text/html;charset=UTF-8" %>
 ```
 
-**(2) import**
+*(2) import*
 ```java
 <%-- import --%>
 <%@page import="java.util.List"%>
@@ -114,7 +114,8 @@ _jsp.java 파일이 만들어질 때 필요한 정보를 설정한다.
 ```java
 response.setContentType("text/html; charset=UTF-8");
 ```
-**(3) buffer**
+
+*(3) buffer*
 ```java
 <%-- 버퍼 크기 지정 --%>
 <%@page buffer="1000kb"%>
@@ -122,7 +123,7 @@ response.setContentType("text/html; charset=UTF-8");
 ```
 >none으로 지정하면 버퍼에 모아서 전송하지 않고 바로바로 전송.
 
-**(4) errorPage, isErrorPage**
+*(4) errorPage, isErrorPage*
 JSP페이지에서 try-catch로 예외처리하는 대신 error page 속성 설정을 통해 예외처리 전용 페이지에서 처리하도록 한다.
 ```java
 <%@page errorPage="err.jsp" %>
@@ -141,7 +142,7 @@ err.jsp
 
 
 
-## Include
+### Include Directive
 
 **<%@include %>**
 
@@ -192,5 +193,5 @@ c.jsp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1MTExNzYxLDc2OTg1OTQ3Nl19
+eyJoaXN0b3J5IjpbNzg1NTkxNTU1LDc2OTg1OTQ3Nl19
 -->
