@@ -107,22 +107,26 @@ EX)
 <% List<String> list;
    Map<String, Object> map;
 %>
-<%-- 버퍼 크기 지정 --%>
-<%@page buffer="1000kb"%>
-<%@page buffer="none"%>
-
 ```
 ```java
 response.setContentType("text/html; charset=UTF-8");
 ```
+
+```java
+<%-- 버퍼 크기 지정 --%>
+<%@page buffer="1000kb"%>
+<%@page buffer="none"%>
+```
+>none으로 지정하면 버퍼에 모아서 전송하지 않고 바로바로 전송.
+
 
 
 
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDk2MTc0NiwyMDI0OTkxMjEzLC0xOD
-EwNjM2NTM5LC01NzgxNTgxOTUsLTkxMjExNzQ5NSw0OTc3MjUx
-NzQsLTExMDgyMjgxNTQsNTE5MTU5NTc2LC0yODk5OTk3MTYsMT
-k1NDk1MzU4OSwtMjA1MDQwMjUwMSwxODAwMTkzMzg2XX0=
+eyJoaXN0b3J5IjpbMjg4NDg5MTgzLDIwMjQ5OTEyMTMsLTE4MT
+A2MzY1MzksLTU3ODE1ODE5NSwtOTEyMTE3NDk1LDQ5NzcyNTE3
+NCwtMTEwODIyODE1NCw1MTkxNTk1NzYsLTI4OTk5OTcxNiwxOT
+U0OTUzNTg5LC0yMDUwNDAyNTAxLDE4MDAxOTMzODZdfQ==
 -->
