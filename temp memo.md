@@ -32,7 +32,10 @@ checked: B가 기본 선택되어있도록 함
 `ctrl` + `s`: 저장 + 자동 import
 
 #### 특정 파일 내에서 한글 깨짐이 발생할 때
-우클 > `properties` > `resource` > `text encoding` > others > utf-8 > apply`
+
+**※ 편집기에 띄워져있는 깨진 파일을 모두 닫고 진행**
+
+우클 > `properties` > `resource` > `text encoding` > `others` 체크 > `utf-8` 로 설정 > `apply`
 
 
 #### html 파일 -> jsp 파일 변경
@@ -40,7 +43,7 @@ checked: B가 기본 선택되어있도록 함
 2) jsp 파일의 encoding 변경
 3) page 지시자로 응답 형식 지정
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwNjUwNjgwLDM1NjIwMDM4MSwtMjY3Nz
-Y4Mjc0LDExMjQ0Nzg0NDUsLTExNjk4MzgyODgsLTExNjQxMzQ0
-ODJdfQ==
+eyJoaXN0b3J5IjpbLTE2MzkwODUyMzUsMzU2MjAwMzgxLC0yNj
+c3NjgyNzQsMTEyNDQ3ODQ0NSwtMTE2OTgzODI4OCwtMTE2NDEz
+NDQ4Ml19
 -->
