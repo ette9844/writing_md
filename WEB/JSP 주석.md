@@ -157,7 +157,15 @@ err.jsp
 a.jsp
   <%int i = 10;%>
 b.jsp
-  <%@include fil
+```java
+<%@include file = "a.jsp"%>
+<%=i%>
+```
+c.jsp
+```java
+<jsp:include page = "a.jsp"/>
+<%=i%>  <%-- a.jsp 내의 변수 사용 불가 --%>
+```
 **Include 지시자 <%@include %>**
 ```java
 out.write(" <li><a href=\"#\">ê²Œì‹œíŒ</a></li>\r\n");
@@ -178,7 +186,7 @@ org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "jq/menu.
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2Nzc5NDk3MiwtNDQ4MTcyNzk3LDIwMj
+eyJoaXN0b3J5IjpbMTczMzgzNzIwMiwtNDQ4MTcyNzk3LDIwMj
 Q5OTEyMTMsLTE4MTA2MzY1MzksLTU3ODE1ODE5NSwtOTEyMTE3
 NDk1LDQ5NzcyNTE3NCwtMTEwODIyODE1NCw1MTkxNTk1NzYsLT
 I4OTk5OTcxNiwxOTU0OTUzNTg5LC0yMDUwNDAyNTAxLDE4MDAx
