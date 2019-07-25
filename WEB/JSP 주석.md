@@ -12,6 +12,10 @@
   </ul>
 </div>
 ```
+
+scriptlet: 
+<% %>
+서버 쪽에서 실행될 java 구문 작성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDE5MzM4Nl19
+eyJoaXN0b3J5IjpbMjc1OTk0MjcwLDE4MDAxOTMzODZdfQ==
 -->
