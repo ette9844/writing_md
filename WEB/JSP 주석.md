@@ -127,15 +127,19 @@ response.setContentType("text/html; charset=UTF-8");
   	fis = new FileInputStream(fileName);
 %>
 ```
-`
->현재 페이지에서 예외가 발생하면 err.jsp로 **forward**한다.
+```java
+err.jsp
+<%@page isErrorPage="true"%>
+```
+>`errorPage`: 현재 페이지에서 예외가 발생하면 err.jsp로 **forward**한다.
+>`isErrorPage`: 에러 페이지 선언. 에러 페이지에서는 exception 변수를 선언할 수 있다.
 
 
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTk2MTc1MiwyMDI0OTkxMjEzLC0xOD
-EwNjM2NTM5LC01NzgxNTgxOTUsLTkxMjExNzQ5NSw0OTc3MjUx
-NzQsLTExMDgyMjgxNTQsNTE5MTU5NTc2LC0yODk5OTk3MTYsMT
-k1NDk1MzU4OSwtMjA1MDQwMjUwMSwxODAwMTkzMzg2XX0=
+eyJoaXN0b3J5IjpbLTIwMzgyNTQ5ODYsMjAyNDk5MTIxMywtMT
+gxMDYzNjUzOSwtNTc4MTU4MTk1LC05MTIxMTc0OTUsNDk3NzI1
+MTc0LC0xMTA4MjI4MTU0LDUxOTE1OTU3NiwtMjg5OTk5NzE2LD
+E5NTQ5NTM1ODksLTIwNTA0MDI1MDEsMTgwMDE5MzM4Nl19
 -->
