@@ -1,20 +1,3 @@
-```html
-<div>
-  <h3>JSP 구성요소</h3>
-  <ul>
-    <li>html요소</li>
-      <!-- html 주석 : out.write의 인자가 된다-->
-    </li>
-    <li>JSP 요소
-      <%--jsp 주석 : jsp.java파일이 만들어 질때 제외됨. out.write의 인자 x--%>
-      <%--보안상 jsp 주석을 사용하는 것을 권장. : 페이지 소스 보기에 jsp 주석이 표기되지 않음--%>
-    </li>
-  </ul>
-</div>
-```
-* html 요소
-* JSP 요소
-
 ## JSP 구성 요소
 
 1. scripting 요소
@@ -200,5 +183,5 @@ c.jsp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5ODU5NDc2XX0=
+eyJoaXN0b3J5IjpbLTEwMjU0NDU4MzIsNzY5ODU5NDc2XX0=
 -->
