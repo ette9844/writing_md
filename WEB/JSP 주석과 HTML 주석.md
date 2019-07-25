@@ -19,7 +19,8 @@ tags: web, jsp
 ```
 >_jsp.java 파일이 만들어 질때 **제외됨**.
 >`out.write`의 인자가 되지 않는다.
->보안상 jsp 주석을 사용하는 것을 권장. : 페이지 소스 보기에 jsp 주석이 표기되지 않음
+>보안상 jsp파일을 작성할 때에는 jsp 주석을 사용하는 것을 권장. 
+> 페이지 소스 보기에 jsp 주석이 표기되지 않기 때문
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MDQ3Njg0Ml19
+eyJoaXN0b3J5IjpbMTY4NzAyMjI4NV19
 -->
