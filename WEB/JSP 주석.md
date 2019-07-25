@@ -25,14 +25,18 @@
 <% int num = 1;
    System.out.println(num);
    out.print(num);
-   out.print(request.getParameter("opt");
+%><br>
+<% out.print(request.getParameter("opt");
+%><br>
+<% out.print(new java.util.Date());
 %></li>
 ```
 
->int num: _jspService()내부에 선언되는 지역 변수
+>`int num`: _jspService()내부에 선언되는 지역 변수
 >`out.print(num)`: _jsp.java 파일 내부의 out 변수등 _jsp.java 파일 내에 선언되어 있는 변수를 사용할 수 있다.
-> _jsp.java 파일 내부의 request, response등 `_jspService`의 매개변수를 사용할 수 있다.
+> `out.print(request.getParameter("opt")`: _jsp.java 파일 내부의 request, response등 _jspService의 매개변수를 사용할 수 있다.
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQ0OTExMDYsLTIwNTA0MDI1MDEsMT
-gwMDE5MzM4Nl19
+eyJoaXN0b3J5IjpbMTk1NDk1MzU4OSwtMjA1MDQwMjUwMSwxOD
+AwMTkzMzg2XX0=
 -->
