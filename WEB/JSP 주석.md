@@ -30,9 +30,9 @@
 ```
 
 >int num: _jspService()내부에 선언되는 지역 변수
->out.print(num): _jsp.java 파일 내부의 out 변수를 사용할 수 있다.
->_jsp.java 파일 내부의 out 변수를 사용할 수 있다.
+>`out.print(num)`: _jsp.java 파일 내부의 out 변수등 _jsp.java 파일 내에 선언되어 있는 변수를 사용할 수 있다.
+> _jsp.java 파일 내부의 request, response등 `_jspService`의 매개변수를 사용할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzE3OTkxNSwtMjA1MDQwMjUwMSwxOD
-AwMTkzMzg2XX0=
+eyJoaXN0b3J5IjpbLTEwNTQ0OTExMDYsLTIwNTA0MDI1MDEsMT
+gwMDE5MzM4Nl19
 -->
