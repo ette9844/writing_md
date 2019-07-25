@@ -53,28 +53,22 @@ first_jsp class의 _jspService 메서드는 servlet의 doGet / doPost와 유사
 
 ## jsp 엔진이 하는 일
 
-first.jsp 요청
-	first.jsp 전용 객체 존재여부 파악
-	없을 경우 전용 클래스 (first_jsp.class) 존재여부 파악
-	없을 경우 
-	1. 전용 자바 파일 생성 (first_jsp.java)
-	2. 이를 컴파일 하여 class 생성
-
 ```text
 first.jsp 요청
 first.jsp 전용 객체 존재여부 파악
 if (없을 경우) 
 	전용 클래스 (first_jsp.class) 존재여부 파악
-	if 없을 경우 
-				1. 전용 자바 파일 생성 (first_jsp.java)
-				2. 이를 컴파일 하여 class 생성
-			객체 생성
-			jspInit() 자동 호출
+	if (없을 경우) {
+		전용 자바 파일 생성 (first_jsp.java)
+		이를 컴파일 하여 class 생성
+	}
+	객체 생성
+	jspInit() 자동 호출
 
-		HttpServletRequest, HttpServletResponse 객체 생성
-		_jspService( request, response ) 자동 호출
+HttpServletRequest, HttpServletResponse 객체 생성
+_jspService( request, response ) 자동 호출
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM4OTQ5NywxNzgyMzg0NzM4LDEwOD
-M4ODkyNTJdfQ==
+eyJoaXN0b3J5IjpbNTA3NDE4MzQ5LDE3ODIzODQ3MzgsMTA4Mz
+g4OTI1Ml19
 -->
