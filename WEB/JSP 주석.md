@@ -41,13 +41,23 @@
 > `out.print(new java.util.Date())`: java의 다양한 library도 사용할 수 있다.
 
 **※ 처리 순서 주의**
+`<% %>`
+`<script></script>`
+
+
+### expression
+**<%= %>**
+
+
+
+
 
 
 
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDUyODIzNDcsNTE5MTU5NTc2LC0yOD
+eyJoaXN0b3J5IjpbLTExMDgyMjgxNTQsNTE5MTU5NTc2LC0yOD
 k5OTk3MTYsMTk1NDk1MzU4OSwtMjA1MDQwMjUwMSwxODAwMTkz
 Mzg2XX0=
 -->
