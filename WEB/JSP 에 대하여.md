@@ -20,19 +20,20 @@ EX) menu.html
 
 ## 객체 모델링 패턴
 ## MVC 패턴
-Model - View - Controller
+**Model - View - Controller**
+
 유지보수성이 높다. 
 대형 (기업체) 프로젝트에서 사용하기 좋다.
 
-### Model
-**SERVICE / DAO** : ***비지니스*** 로직 담당
-### View
-**JSP**: ***프레젠테이션*** 로직 담당
-### Control
- **SERVLET**:  ***컨트롤러*** 로직 담당
+
+**SERVICE / DAO** : ***비지니스*** 로직 담당 (Model)
+
+**JSP**: ***프레젠테이션*** 로직 담당 (View)
+
+ **SERVLET**:  ***컨트롤러*** 로직 담당 (Controller)
 > 요청 받기 `request.getParameter()`
 > 비지니스 로직 호출  `service.login()` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyMDI5ODRdfQ==
+eyJoaXN0b3J5IjpbMTU5NjA2NDY1NV19
 -->
