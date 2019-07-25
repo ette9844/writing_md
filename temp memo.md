@@ -29,8 +29,8 @@ checked: B가 기본 선택되어있도록 함
 `.*` 연산자는 import한 요소가 명확하지 않아, 유지보수에 좋지 않기 때문에 지양한다.
 
 `ctrl` + `shift` + `m`: 자동import
-
+`ctrl` + `s`: 저장 + 자동 import
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDQ3ODQ0NSwtMTE2OTgzODI4OCwtMT
-E2NDEzNDQ4Ml19
+eyJoaXN0b3J5IjpbLTI2Nzc2ODI3NCwxMTI0NDc4NDQ1LC0xMT
+Y5ODM4Mjg4LC0xMTY0MTM0NDgyXX0=
 -->
