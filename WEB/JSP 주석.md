@@ -14,10 +14,18 @@
 ```
 
 ### scriptlet
-<% %>
+**<% %>**
+
 서버 쪽에서 실행 될 java 구문
 = `_jspService()`내부에 저장 될 java 구문
 = 요청시마다 처리 될 java 구문
+
+```html
+<li>scriptlet: _jspService()내부에 저장될 자바구문: 요청시마다 처리될 구문
+            <% int num = 1;	// _jspService()내부에 선언되는 지역 변수
+               System.out.println(num);
+            %></li>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjMzNDk4MTMsMTgwMDE5MzM4Nl19
+eyJoaXN0b3J5IjpbNDg4ODk0NTQ2LDE4MDAxOTMzODZdfQ==
 -->
