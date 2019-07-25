@@ -39,7 +39,13 @@ add and remove 하면 tomcat 폴더내 wtpwebapps 폴더에 webContent 하위 �
 
 servlet, dao등의 java class 파일은 에 복사된다.
 
-jsp 파일은 브라우저에서 first.jsp를 처음 요청할 때 tomcat 폴더 내 work 폴더에 generate 된다.
+jsp 파일은 브라우저에서 해당 jsp를 처음 요청할 때 tomcat 폴더 내 work 폴더에 generate 된다.
+
+HttpServlet 
+ |  상속
+HttpJspBase
+ |  상속
+first_jsp ㅊ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDMwNzAwMzQsMTA4Mzg4OTI1Ml19
+eyJoaXN0b3J5IjpbMTM3Nzk5MDU3NCwxMDgzODg5MjUyXX0=
 -->
