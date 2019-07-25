@@ -26,14 +26,14 @@ EX) menu.html
 대형 (기업체) 프로젝트에서 사용하기 좋다.
 
 
-**SERVICE / DAO** : ***비지니스*** 로직 담당 (Model)
+**SERVICE / DAO** : ***비지니스*** 로직 담당 / **Model**
 
-**JSP**: ***프레젠테이션*** 로직 담당 (View)
+**JSP**: ***프레젠테이션*** 로직 담당 / **View**
 
- **SERVLET**:  ***컨트롤러*** 로직 담당 (Controller)
+ **SERVLET**:  ***컨트롤러*** 로직 담당 / **Controller**
 > 요청 받기 `request.getParameter()`
 > 비지니스 로직 호출  `service.login()` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTg2NjEyOTBdfQ==
+eyJoaXN0b3J5IjpbMTA4Mzg4OTI1Ml19
 -->
