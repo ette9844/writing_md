@@ -47,6 +47,7 @@ HttpJspBase
  |  상속
 first_jsp
 
+jsp 는 특수 servlet으로 볼 수 있다.
 
 first_jsp class의 _jspService 메서드는 servlet의 doGet / doPost와 유사
 
@@ -59,5 +60,6 @@ first.jsp 요청
 	1. 전용 자바 파일 생성 (first_jsp.java)
 	2. 이를 컴파일 하여 class 생성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjM4NDczOCwxMDgzODg5MjUyXX0=
+eyJoaXN0b3J5IjpbNDU0MjEyNDE5LDE3ODIzODQ3MzgsMTA4Mz
+g4OTI1Ml19
 -->
