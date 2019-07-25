@@ -98,25 +98,23 @@ cnt = <%=cnt %>
 _jsp.java 파일이 만들어질 때 필요한 정보를 설정한다.
 페이지 지시자는 가독성을 위해 jsp 페이지의 가장 윗줄에 적는 것이 관례.
 
-(1) contentType
+### page directive 주요 설정
+**(1) contentType**
 ```java
 <%-- 응답 형식 지정 --%>
 <%@page contentType="text/html;charset=UTF-8" %>
 ```
 
-(2) import
+**(2) import**
 ```java
 <%-- import --%>
 <%@page import="java.util.List"%>
 <%@page import="java.util.Map"%>
-<% List<String> list;
-   Map<String, Object> map;
-%>
 ```
 ```java
 response.setContentType("text/html; charset=UTF-8");
 ```
-(3) buffer
+**(3) buffer**
 ```java
 <%-- 버퍼 크기 지정 --%>
 <%@page buffer="1000kb"%>
@@ -145,8 +143,8 @@ err.jsp
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjgyMDIzNywyMDI0OTkxMjEzLC0xOD
-EwNjM2NTM5LC01NzgxNTgxOTUsLTkxMjExNzQ5NSw0OTc3MjUx
-NzQsLTExMDgyMjgxNTQsNTE5MTU5NTc2LC0yODk5OTk3MTYsMT
-k1NDk1MzU4OSwtMjA1MDQwMjUwMSwxODAwMTkzMzg2XX0=
+eyJoaXN0b3J5IjpbLTcxMTQ1NjMyLDIwMjQ5OTEyMTMsLTE4MT
+A2MzY1MzksLTU3ODE1ODE5NSwtOTEyMTE3NDk1LDQ5NzcyNTE3
+NCwtMTEwODIyODE1NCw1MTkxNTk1NzYsLTI4OTk5OTcxNiwxOT
+U0OTUzNTg5LC0yMDUwNDAyNTAxLDE4MDAxOTMzODZdfQ==
 -->
