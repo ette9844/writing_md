@@ -16,7 +16,7 @@
 * html 요소
 * JSP 요소
 
-### scriptlet
+### Scriptlet
 **<% %>**
 
 서버 쪽에서 실행 될 java 구문
@@ -45,8 +45,9 @@
 `<script></script>`
 
 
-### expression
+### Expression
 **<%= %>**
+
 서버 쪽에서 실행 될 java 구문
 = `_jspService()`내부에 저장 될 java 구문
 = 요청시마다 처리 될 java 구문
@@ -62,15 +63,21 @@
 ```
 >`<%=num%>`: _jsp.java 에서 out.print(num); 으로 변환 됨.
 
+
+### Declaration
+
+**<%! %>**
+
 ```java
 <% int cnt = 0; %>
-참여인원 <%= ++cnt %>명
+참여인원 <%=++cnt %>명
+```
 
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTIxNzcyNDAsLTU3ODE1ODE5NSwtOT
-EyMTE3NDk1LDQ5NzcyNTE3NCwtMTEwODIyODE1NCw1MTkxNTk1
-NzYsLTI4OTk5OTcxNiwxOTU0OTUzNTg5LC0yMDUwNDAyNTAxLD
-E4MDAxOTMzODZdfQ==
+eyJoaXN0b3J5IjpbNjc0ODc0MzIyLC01NzgxNTgxOTUsLTkxMj
+ExNzQ5NSw0OTc3MjUxNzQsLTExMDgyMjgxNTQsNTE5MTU5NTc2
+LC0yODk5OTk3MTYsMTk1NDk1MzU4OSwtMjA1MDQwMjUwMSwxOD
+AwMTkzMzg2XX0=
 -->
