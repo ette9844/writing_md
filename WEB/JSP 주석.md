@@ -155,16 +155,26 @@ err.jsp
 
 ### ※ 지시자를 이용한 포함 vs 태그를 이용한 포함
 a.jsp
-  <%int i = 10;%>
+```java
+<%int i = 10;%>
+```
 b.jsp
 ```java
 <%@include file = "a.jsp"%>
+<%int
 <%=i%>
 ```
+>b_jsp.java
+>```java
+>int i=0;
+>out.print(i);
+>```
+
+
 c.jsp
 ```java
 <jsp:include page = "a.jsp"/>
-<%=i%>  <%-- a.jsp 내의 변수 사용 불가 --%>
+<%=i%>    <%-- error: a.jsp 내의 변수 사용 불가 --%>
 ```
 **Include 지시자 <%@include %>**
 ```java
@@ -186,7 +196,7 @@ org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "jq/menu.
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzgzNzIwMiwtNDQ4MTcyNzk3LDIwMj
+eyJoaXN0b3J5IjpbMTcwMDgyODQ2NiwtNDQ4MTcyNzk3LDIwMj
 Q5OTEyMTMsLTE4MTA2MzY1MzksLTU3ODE1ODE5NSwtOTEyMTE3
 NDk1LDQ5NzcyNTE3NCwtMTEwODIyODE1NCw1MTkxNTk1NzYsLT
 I4OTk5OTcxNiwxOTU0OTUzNTg5LC0yMDUwNDAyNTAxLDE4MDAx
