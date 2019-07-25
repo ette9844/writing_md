@@ -37,7 +37,9 @@ EX) menu.html
 
 add and remove 하면 tomcat 폴더내 wtpwebapps 폴더에 webContent 하위 항목들이 복사된다.(배포된다)
 
-servlet, dao드
+servlet, dao등의 java class 파일은 에 복사된다.
+
+jsp 파일은 브라우저에서 first.jsp를 처음 요청할 때 tomcat 폴더 내 work 폴더에 generate 된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjg1MzQ2NzcsMTA4Mzg4OTI1Ml19
+eyJoaXN0b3J5IjpbLTE5MDMwNzAwMzQsMTA4Mzg4OTI1Ml19
 -->
