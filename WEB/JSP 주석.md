@@ -12,10 +12,14 @@
   </ul>
 </div>
 ```
-## JSP 구성 요소
 * html 요소
 * JSP 요소
 
+## JSP 구성 요소
+
+1. scripting 요소
+2. directive 요소
+3. action tag 요소
 ### Scriptlet
 **<% %>**
 
@@ -149,8 +153,8 @@ err.jsp
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQwODk3OTAsMjAyNDk5MTIxMywtMT
-gxMDYzNjUzOSwtNTc4MTU4MTk1LC05MTIxMTc0OTUsNDk3NzI1
-MTc0LC0xMTA4MjI4MTU0LDUxOTE1OTU3NiwtMjg5OTk5NzE2LD
-E5NTQ5NTM1ODksLTIwNTA0MDI1MDEsMTgwMDE5MzM4Nl19
+eyJoaXN0b3J5IjpbLTY5ODc5ODA3MCwyMDI0OTkxMjEzLC0xOD
+EwNjM2NTM5LC01NzgxNTgxOTUsLTkxMjExNzQ5NSw0OTc3MjUx
+NzQsLTExMDgyMjgxNTQsNTE5MTU5NTc2LC0yODk5OTk3MTYsMT
+k1NDk1MzU4OSwtMjA1MDQwMjUwMSwxODAwMTkzMzg2XX0=
 -->
