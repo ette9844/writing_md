@@ -119,6 +119,8 @@ response.setContentType("text/html; charset=UTF-8");
 ```
 >none으로 지정하면 버퍼에 모아서 전송하지 않고 바로바로 전송.
 
+**(2) errorPage**
+JSP페이지에서 try-catch로 예외처리하는 대신 error page 속성 설정을 통해 예외처리 전용 페이지에서 처리하도록 한다.
 ```java
 <%@page errorPage="err.jsp" %>
 <%
@@ -138,8 +140,8 @@ err.jsp
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzgyNTQ5ODYsMjAyNDk5MTIxMywtMT
-gxMDYzNjUzOSwtNTc4MTU4MTk1LC05MTIxMTc0OTUsNDk3NzI1
-MTc0LC0xMTA4MjI4MTU0LDUxOTE1OTU3NiwtMjg5OTk5NzE2LD
-E5NTQ5NTM1ODksLTIwNTA0MDI1MDEsMTgwMDE5MzM4Nl19
+eyJoaXN0b3J5IjpbLTMyMDM3NTgyNSwyMDI0OTkxMjEzLC0xOD
+EwNjM2NTM5LC01NzgxNTgxOTUsLTkxMjExNzQ5NSw0OTc3MjUx
+NzQsLTExMDgyMjgxNTQsNTE5MTU5NTc2LC0yODk5OTk3MTYsMT
+k1NDk1MzU4OSwtMjA1MDQwMjUwMSwxODAwMTkzMzg2XX0=
 -->
