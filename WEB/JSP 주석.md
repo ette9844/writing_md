@@ -81,16 +81,17 @@ scriptlet
 declaration
 ```java
 <%!
-int cnt; // 인스턴스 변수
-int co
-%></li>
+int cnt = 0; // 인스턴스 변수
+void m() { out.println(cnt); }
+%>
+cnt = <%=cnt %>
 ```
 
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTMwMjA0NjIsLTU3ODE1ODE5NSwtOT
-EyMTE3NDk1LDQ5NzcyNTE3NCwtMTEwODIyODE1NCw1MTkxNTk1
-NzYsLTI4OTk5OTcxNiwxOTU0OTUzNTg5LC0yMDUwNDAyNTAxLD
-E4MDAxOTMzODZdfQ==
+eyJoaXN0b3J5IjpbMTkxNzk5NjcyNCwtNTc4MTU4MTk1LC05MT
+IxMTc0OTUsNDk3NzI1MTc0LC0xMTA4MjI4MTU0LDUxOTE1OTU3
+NiwtMjg5OTk5NzE2LDE5NTQ5NTM1ODksLTIwNTA0MDI1MDEsMT
+gwMDE5MzM4Nl19
 -->
