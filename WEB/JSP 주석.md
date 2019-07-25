@@ -96,10 +96,14 @@ cnt = <%=cnt %>
 
 EX)
 ```java
-<%-- import -->
+<%-- 응답 형식 지정 --%>
 <%@page contentType="text/html;charset=UTF-8" %>
-<%-- import -->
+<%-- import --%>
 <%@page import="java.util.List"%>
+<%@page import="java.util.Map"%>
+<% List<String> list;
+   Map<String, Object> map;
+%>
 ```
 ```java
 response.setContentType("text/html; charset=UTF-8");
@@ -108,7 +112,7 @@ response.setContentType("text/html; charset=UTF-8");
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzI5MTczMCwtMTgxMDYzNjUzOSwtNT
+eyJoaXN0b3J5IjpbMTU0MzQ2MTUxMCwtMTgxMDYzNjUzOSwtNT
 c4MTU4MTk1LC05MTIxMTc0OTUsNDk3NzI1MTc0LC0xMTA4MjI4
 MTU0LDUxOTE1OTU3NiwtMjg5OTk5NzE2LDE5NTQ5NTM1ODksLT
 IwNTA0MDI1MDEsMTgwMDE5MzM4Nl19
