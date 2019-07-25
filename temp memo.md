@@ -25,7 +25,9 @@ checked: B가 기본 선택되어있도록 함
 
 #### 비지니스 로직
 
+#### import java.util.*
+`.*` 연산자는 import한 요소가 명확하지 않아, 유지보수에 좋지 않기 때문에 지양한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODYzNTY2MywtMTE2OTgzODI4OCwtMT
+eyJoaXN0b3J5IjpbMTQwMDQ0MjczOSwtMTE2OTgzODI4OCwtMT
 E2NDEzNDQ4Ml19
 -->
