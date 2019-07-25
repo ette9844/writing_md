@@ -1,5 +1,6 @@
 ## JSP 를 사용하는 이유
 
+
 servlet으로 응답 작업까지 하기에는 내용이 너무 많다.
 JSP를 사용하면 훨씬 단순하게 응답 작업을 작성할 수 있다. 
 
@@ -41,8 +42,10 @@ _jspService( request, response ) 자동 호출
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 
 
+#### 참고하면 좋은 게시글
+[MVC 패턴]()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM5Mjg5NzksLTE4MzczOTAyMjYsMT
-M2OTgxMDM5Nyw1MDc0MTgzNDksMTc4MjM4NDczOCwxMDgzODg5
-MjUyXX0=
+eyJoaXN0b3J5IjpbLTg0MzYxMzQwMywtMTgzNzM5MDIyNiwxMz
+Y5ODEwMzk3LDUwNzQxODM0OSwxNzgyMzg0NzM4LDEwODM4ODky
+NTJdfQ==
 -->
