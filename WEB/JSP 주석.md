@@ -68,6 +68,9 @@
 
 **<%! %>**
 
+_jspService() 외부에 저장될 자바구문, 멤버 필드나 메서드
+
+scriptlet
 ```java
 <% int cnt = 0; %>
 참여인원 <%=++cnt %>명
@@ -75,14 +78,19 @@
 >참여인원이 계속 한명.
 >요청이 들어올 때마다 _jspService내 **지역변수** cnt가 0으로 초기화 되기 때문.
 
+declaration
 ```java
+<%!
+int cnt; // 인스턴스 변수
+int co
+%></li>
 ```
 
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0NTU1NDc4LC01NzgxNTgxOTUsLTkxMj
-ExNzQ5NSw0OTc3MjUxNzQsLTExMDgyMjgxNTQsNTE5MTU5NTc2
-LC0yODk5OTk3MTYsMTk1NDk1MzU4OSwtMjA1MDQwMjUwMSwxOD
-AwMTkzMzg2XX0=
+eyJoaXN0b3J5IjpbLTEwOTMwMjA0NjIsLTU3ODE1ODE5NSwtOT
+EyMTE3NDk1LDQ5NzcyNTE3NCwtMTEwODIyODE1NCw1MTkxNTk1
+NzYsLTI4OTk5OTcxNiwxOTU0OTUzNTg5LC0yMDUwNDAyNTAxLD
+E4MDAxOTMzODZdfQ==
 -->
