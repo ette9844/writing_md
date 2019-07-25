@@ -94,6 +94,9 @@ cnt = <%=cnt %>
 
 **<%@ %>**
 
+페이지 지시자.
+페이지 지시자는 가독성을 위해 jsp 페이지의 가장 윗줄에 적는 것이 관례.
+
 EX)
 ```java
 <%-- 응답 형식 지정 --%>
@@ -112,7 +115,7 @@ response.setContentType("text/html; charset=UTF-8");
 **미세 팁:** 
 eclipse에서 jsp오류가 없는데도 빨간 줄이 안없어질 경우에는 편집기에 열려있는 jsp 파일을 닫았다가 다시 열어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzQ2MTUxMCwtMTgxMDYzNjUzOSwtNT
+eyJoaXN0b3J5IjpbMjAyNDk5MTIxMywtMTgxMDYzNjUzOSwtNT
 c4MTU4MTk1LC05MTIxMTc0OTUsNDk3NzI1MTc0LC0xMTA4MjI4
 MTU0LDUxOTE1OTU3NiwtMjg5OTk5NzE2LDE5NTQ5NTM1ODksLT
 IwNTA0MDI1MDEsMTgwMDE5MzM4Nl19
