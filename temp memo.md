@@ -43,10 +43,11 @@ checked: B가 기본 선택되어있도록 함
 2) jsp 파일의 encoding 변경
 3) page 지시자로 응답 형식 지정
 
-#### eclipse 대소문자 토글
-`ctrl` + `shift` + `y` 
+#### eclipse 대소문자 토글 단축키
+`ctrl` + `shift` + `y` : 대문자 -> 소문자
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzcyMDUyOCwtMTYzOTA4NTIzNSwzNT
-YyMDAzODEsLTI2Nzc2ODI3NCwxMTI0NDc4NDQ1LC0xMTY5ODM4
-Mjg4LC0xMTY0MTM0NDgyXX0=
+eyJoaXN0b3J5IjpbNzc4NzI4NDk4LC0xNjM5MDg1MjM1LDM1Nj
+IwMDM4MSwtMjY3NzY4Mjc0LDExMjQ0Nzg0NDUsLTExNjk4Mzgy
+ODgsLTExNjQxMzQ0ODJdfQ==
 -->
