@@ -146,6 +146,9 @@ err.jsp
 
 **<%@include %>**
 
+include 지시자
+include한 링크의 내용이 out.write의 인자로 포함됨
+
 ### ※ 지시자를 이용한 포함 vs 태그를 이용한 포함
 
 **Include 지시자 <%@include file="menu.html"%>**
@@ -153,8 +156,10 @@ err.jsp
 
  
 **Include 태그 <jsp:include page="menu.html"/>**
+
 * 실행시에 링크를 include 매서드의 인자로 전달하여 결과만 포함.
 * <% %> 태그 내에 include 함수를 호출한 것과 같다.
+<% rd.include(~~); %>`
 * 동적인 결과를 포함시키고자 할 때 좋다.
 * 일반 html 파일에서는 사용할 수 없다.
 
@@ -193,6 +198,6 @@ c.jsp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTM5NDg2Miw3ODU1OTE1NTUsNzY5OD
+eyJoaXN0b3J5IjpbLTMwMzMxMjA3Nyw3ODU1OTE1NTUsNzY5OD
 U5NDc2XX0=
 -->
