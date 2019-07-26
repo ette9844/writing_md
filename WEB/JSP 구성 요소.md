@@ -157,11 +157,12 @@ include한 링크의 내용이 out.write의 인자로 포함됨
  
 **Include 태그 <jsp:include page="menu.html"/>**
 
-* 실행시에 링크를 include 매서드의 인자로 전달하여 결과만 포함.
+* 동적 포함:
+* 실행시에 링크를 include 매서드의 인자로 전달하여 결과값만 포함.
 * <% %> 태그 내에 include 함수를 호출한 것과 같다.
-<% rd.include(~~); %>`
+`<% rd.include(~~); %>`
 * 동적인 결과를 포함시키고자 할 때 좋다.
-* 일반 html 파일에서는 사용할 수 없다.
+* 일반 html 파일에서는 사용할 수 없는 태그
 
 ---
 
@@ -198,6 +199,6 @@ c.jsp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzMxMjA3Nyw3ODU1OTE1NTUsNzY5OD
+eyJoaXN0b3J5IjpbLTIzMzI2NDE4Nyw3ODU1OTE1NTUsNzY5OD
 U5NDc2XX0=
 -->
