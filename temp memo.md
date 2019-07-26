@@ -42,8 +42,11 @@ checked: B가 기본 선택되어있도록 함
 1) html의 확장자를 jsp로 변경
 2) jsp 파일의 encoding 변경
 3) page 지시자로 응답 형식 지정
+
+#### eclipse 대소문자 토글
+`ctrl` + `shift` + `y` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzkwODUyMzUsMzU2MjAwMzgxLC0yNj
-c3NjgyNzQsMTEyNDQ3ODQ0NSwtMTE2OTgzODI4OCwtMTE2NDEz
-NDQ4Ml19
+eyJoaXN0b3J5IjpbMTY5MzcyMDUyOCwtMTYzOTA4NTIzNSwzNT
+YyMDAzODEsLTI2Nzc2ODI3NCwxMTI0NDc4NDQ1LC0xMTY5ODM4
+Mjg4LC0xMTY0MTM0NDgyXX0=
 -->
