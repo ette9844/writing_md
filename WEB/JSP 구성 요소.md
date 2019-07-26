@@ -19,7 +19,7 @@
 **<% %>**
 
 서버 쪽에서 실행 될 java 구문
-= `_jspService()`내부에 저장 될 java 구문
+= `_jspService()`**내부**에 저장 될 java 구문
 = 요청시마다 처리 될 java 구문
 
 ```java
@@ -49,7 +49,7 @@
 **<%= %>**
 
 서버 쪽에서 실행 될 java 구문
-= `_jspService()`내부에 저장 될 java 구문
+= `_jspService()`**내부**에 저장 될 java 구문
 = 요청시마다 처리 될 java 구문
 
 **out.print메서드가 자동 호출 됨**
@@ -68,7 +68,7 @@
 
 **<%! %>**
 
-_jspService() 외부에 저장될 자바구문, 멤버 필드나 메서드
+_jspService() **외부**에 저장될 자바구문, 멤버 필드나 메서드
 
 scriptlet
 ```java
@@ -92,7 +92,7 @@ cnt = <%=cnt %>
 
 ### Page Directive
 
-**<%@ %>**
+**<%@page %>**
 
 페이지 지시자.
 _jsp.java 파일이 만들어질 때 필요한 정보를 설정한다.
@@ -193,5 +193,6 @@ c.jsp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1NTkxNTU1LDc2OTg1OTQ3Nl19
+eyJoaXN0b3J5IjpbLTg1MTM5NDg2Miw3ODU1OTE1NTUsNzY5OD
+U5NDc2XX0=
 -->
