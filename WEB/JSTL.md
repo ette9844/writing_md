@@ -101,10 +101,10 @@ ${i}<br>
 </c:forEach>
 ${sum}
 ```
->값 누적 = 변수 새로 선언 --%>
-  <%--변수 중복이 아닌 이미 선언되어있는 변수의 값을 바꾸는 것임 --%>
+>값 누적은 c:set으로 변수를 새로 선언하여 진행된다.
+>이는 변수 중복이 아닌 이미 선언되어있는 변수의 값을 바꾸는 것임.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTA1NjUzMSwxNTEyMjc4MDA3LC0xMj
+eyJoaXN0b3J5IjpbMTc5MDYwNzc4MSwxNTEyMjc4MDA3LC0xMj
 Y4ODgzMzg2LDg5NTk2NzI3NSw3NTg3MDI2NzEsLTEyNzk5OTg0
 NDYsOTA1NDMyMTddfQ==
 -->
