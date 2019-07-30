@@ -89,9 +89,14 @@ ${i}<br>
 ${i}<br>
 </c:forEach>
 ```
+>step생략 은 step="1"과 동일
+
+```html
+
+```
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjI5NTY1MjAsMTUxMjI3ODAwNywtMT
-I2ODg4MzM4Niw4OTU5NjcyNzUsNzU4NzAyNjcxLC0xMjc5OTk4
-NDQ2LDkwNTQzMjE3XX0=
+eyJoaXN0b3J5IjpbLTM0MzQ5ODUyLDE1MTIyNzgwMDcsLTEyNj
+g4ODMzODYsODk1OTY3Mjc1LDc1ODcwMjY3MSwtMTI3OTk5ODQ0
+Niw5MDU0MzIxN119
 -->
