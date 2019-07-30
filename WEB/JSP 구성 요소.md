@@ -345,13 +345,13 @@ java언어이지만, 연산 결과는 javaScript와 비슷하다.
 
 EL 내장 객체
 <주요 내장 객체>
-* requestScope
+* requestScope: request의 attribute
 
-* param: ew
+* param: request의 parameter
 요청 전달 데이터에 관련된 Map 자료구조
 `${param.foo}` 는 `<%=request.getParameter("foo")%>`와 같다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTQ0Njc2NDMsMTQ0NjQ0NDYyOSw3MD
-czMDY1MTEsNzg1NTkxNTU1LDc2OTg1OTQ3Nl19
+eyJoaXN0b3J5IjpbLTY3NzUxMTk4NCwxNDQ2NDQ0NjI5LDcwNz
+MwNjUxMSw3ODU1OTE1NTUsNzY5ODU5NDc2XX0=
 -->
