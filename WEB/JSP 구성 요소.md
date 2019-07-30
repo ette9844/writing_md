@@ -201,6 +201,7 @@ c.jsp
 
 
 Expression Language = EL
+EL 산술 연산자
 <table border="1">
           <thead>
         <tr><td><b>EL Expression</b></td>
@@ -263,6 +264,6 @@ java언어이지만, 연산 결과는 javaScript와 비슷하다.
 * EL 표현식과 jQuery의 선택자를 헷갈리지 말아야한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODU2NTI1NCwxNDQ2NDQ0NjI5LDcwNz
-MwNjUxMSw3ODU1OTE1NTUsNzY5ODU5NDc2XX0=
+eyJoaXN0b3J5IjpbMzgzNTgzMzMzLDE0NDY0NDQ2MjksNzA3Mz
+A2NTExLDc4NTU5MTU1NSw3Njk4NTk0NzZdfQ==
 -->
