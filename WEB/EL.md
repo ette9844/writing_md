@@ -157,8 +157,9 @@ java언어이지만, 연산 결과는 javaScript와 비슷하다.
 * ${`Map`.`key`}
 * ${`JavaBean`.`property`}
 
+### JavaBean?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzNTI0OTMxLC05MDgwODYyMjVdfQ==
+eyJoaXN0b3J5IjpbLTYzMjI5MzMzMywtOTA4MDg2MjI1XX0=
 -->
