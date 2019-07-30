@@ -57,8 +57,11 @@ ex) set태그에 대한 tld 파일 내부
 
 
 ### 3. if
-
+```html
+<c:if test="${param.foo == 'hello'}">환영합니다</c:if> 
+```
+>test속성값에는 조건문을 EL표기법으로 써줘야 함
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4MjcyMTc5LDg5NTk2NzI3NSw3NTg3MD
+eyJoaXN0b3J5IjpbNTc4NTQ2NjA1LDg5NTk2NzI3NSw3NTg3MD
 I2NzEsLTEyNzk5OTg0NDYsOTA1NDMyMTddfQ==
 -->
