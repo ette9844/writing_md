@@ -176,7 +176,16 @@ ex) Swing의 JButton, Android Studio의 Button등
 4) property용 public setter/getter 메서드 필요
 
 ```java
-
+public Ex {
+	private String id;
+	private boolean power;
+	
+	// 생성자
+	public Ex() {}
+	public void setId(String id){this.id = id;}
+	public void setPower(boolean power
+}
+```
 
 
 
@@ -184,6 +193,6 @@ ex) Swing의 JButton, Android Studio의 Button등
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1ODg4MTM4LDc0NjY2NDkwLC02MzIyOT
-MzMzMsLTkwODA4NjIyNV19
+eyJoaXN0b3J5IjpbMTg1NzU1MTgwNCw3NDY2NjQ5MCwtNjMyMj
+kzMzMzLC05MDgwODYyMjVdfQ==
 -->
