@@ -24,7 +24,7 @@ EL에서 불가능한 반복문, 조건문, 변수 처리를 하기 위한 EL기
 
 **tld 파일 경로:** 
 ```
-JavaResources\Libraries\Web App\Library\jstl1.2\META_INF\c.tld
+JavaResources\Libraries\Web App\Library\jstl1.2\META_INF\
 ```
 tld 파일 내부에는 jstl 태그의 사용법이 적혀있다.
 
@@ -129,8 +129,8 @@ ${s}<br>
 >items 속성을 통해 확장된 for문을 사용할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODYyODEyOSwxNjg5Mjg0Nzg3LC01Nj
-E4MjgwMiwxNzkwNjA3NzgxLDE1MTIyNzgwMDcsLTEyNjg4ODMz
-ODYsODk1OTY3Mjc1LDc1ODcwMjY3MSwtMTI3OTk5ODQ0Niw5MD
-U0MzIxN119
+eyJoaXN0b3J5IjpbLTE3OTMzMjk2MjAsMTY4OTI4NDc4NywtNT
+YxODI4MDIsMTc5MDYwNzc4MSwxNTEyMjc4MDA3LC0xMjY4ODgz
+Mzg2LDg5NTk2NzI3NSw3NTg3MDI2NzEsLTEyNzk5OTg0NDYsOT
+A1NDMyMTddfQ==
 -->
