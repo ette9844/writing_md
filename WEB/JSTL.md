@@ -1,5 +1,9 @@
 ## JSTL
 
+Jsp Standard Tag Library
+
+EL에서 불가능한 반복문, 조건문, 변수 처리를 하기 위한 EL기반의 태그 라이브러리
+
 ### 1. 적용법
 [JSTL 다운로드 링크1](https://mvnrepository.com/artifact/javax.servlet/jstl)
 [JSTL 다운로드 링크2](http://www.java2s.com/Code/Jar/j/Downloadjstl12jar.htm)
@@ -8,5 +12,5 @@
 2. 압축을 풀고 프로젝트의 WebContent>WEB_INF>lib 폴더 아래에 붙여넣는다.
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTIwNTY4NjJdfQ==
+eyJoaXN0b3J5IjpbLTExNDY2OTM2NDddfQ==
 -->
