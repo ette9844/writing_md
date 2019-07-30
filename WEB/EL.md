@@ -163,18 +163,23 @@ ex) ${ requestScope.c.id } 에서 c: JavaBean, id: property
 * param: request의 parameter에 관련된 Map 자료구조
 `${param.foo}` 는 `<%=request.getParameter("foo")%>`와 동일
 
-ServletContext: 지금 사용중인 웹 어플리케이션에 대한 정보
-`javax.servlet.ServletContext`
+JAVA EE
+>`javax.servlet.ServletContext`:  
+>웹 어플리케이션에 대한 정보
+`
 
-PageContext: 지금 사용중인 JSP에 대한 정보
+PageContext: JSP에 대한 정보
 `javax.servlet.PageContext`
 
 JAVA SE
-	java.lang.Class: 클래스 정보
-	java.lang.Object
-	java.io.File
+>	java.lang.Class: 클래스 정보
+	java.lang.Object : 객체 정보
+	java.io.File : 파일 정보
+
+
+이렇듯 정보가 담겨있는 API를 메타 혹은 메타 API라고 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxNjkwMjI4LDEyNzQ5NDIzNjYsNzA2OT
-IzMDE2LDExMTM5NTAxMjEsNzQ2NjY0OTAsLTYzMjI5MzMzMywt
-OTA4MDg2MjI1XX0=
+eyJoaXN0b3J5IjpbLTY4MDkyNTcwOSwxMjc0OTQyMzY2LDcwNj
+kyMzAxNiwxMTEzOTUwMTIxLDc0NjY2NDkwLC02MzIyOTMzMzMs
+LTkwODA4NjIyNV19
 -->
