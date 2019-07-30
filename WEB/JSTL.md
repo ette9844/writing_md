@@ -26,7 +26,14 @@ EL에서 불가능한 반복문, 조건문, 변수 처리를 하기 위한 EL기
 ```
 JavaResources\Libraries\Web App\Library\jstl1.2\META_INF\c.tld
 ```
-tld
+tld 파일 내부에는 jstl 태그의 사용법이 적혀있다.
+```html
+ex) jsp 파일 내부
+<c:set var="" value=""></c:set>
+```
+```html
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzA1Nzc2MSw5MDU0MzIxN119
+eyJoaXN0b3J5IjpbLTE5ODU3NzQ0MzUsOTA1NDMyMTddfQ==
 -->
