@@ -213,7 +213,10 @@ c.jsp
                 <br>이 페이지는 MVC 구조를 사용하고있기 때문에, jsp는 forward함수(controller 역할)를 사용하지 않는다.
                 <br>jsp는 뷰어의 역할에 충실. jsp가 controller인 경우가 거의 없기 때문에 사용할 일이 별로 없다.
                 <hr>
-                -*useBean tag: 주석처리 된 태그의 역할을 하는 태그
+                -*useBean  tag: 
+                javaBean을 사용한다! 컴포넌트 조건을 만족한 클래스를 사용할 수 있음. javaBean이 아닌 클래스는 사용할 수 없다. <EL 문법이 더 많이 쓰임
+           
+                주석처리 된 태그의 역할을 하는 태그
                 <jsp:useBean class="com.my.vo.Customer" id="c" scope="request"/>
                 <%--com.my.vo.Customer c = (Customer)request.getAttribute("c");
                   if(c == null){
@@ -232,7 +235,7 @@ c.jsp
                 <jsp:getProperty name="c" property="post"/><%--아래 코드와 동일한 기능의 tag를 만들 수 없다--%>
                 <%--=c.getPost().getZipcode() --%>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODMyNDgxMzIsLTkzMzgxNzE2NywxND
-Q2NDQ0NjI5LDcwNzMwNjUxMSw3ODU1OTE1NTUsNzY5ODU5NDc2
-XX0=
+eyJoaXN0b3J5IjpbNDc4MjIzMzgzLC05MzM4MTcxNjcsMTQ0Nj
+Q0NDYyOSw3MDczMDY1MTEsNzg1NTkxNTU1LDc2OTg1OTQ3Nl19
+
 -->
