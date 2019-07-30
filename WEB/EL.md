@@ -147,14 +147,6 @@ java언어이지만, 연산 결과는 javaScript와 비슷하다.
 
 >문자열 비교: equals() 사용하지 않음 == 로 비교
 
-### EL 내장 객체
-**<주요 내장 객체>**
-* requestScope: request의 attribute에 관련된 Map 자료구조
-`${requestScope.foo}` 는 `<%=request.getAttribute("foo")%>`와 동일
-
-* param: request의 parameter에 관련된 Map 자료구조
-`${param.foo}` 는 `<%=request.getParameter("foo")%>`와 동일
-
 
 ### EL의 .연산자
 * ${`Map`.`key`}
@@ -163,11 +155,26 @@ ex) ${ param.foo }
 ex) ${ requestScope.c.id } 에서 c: JavaBean, id: property
 
 
-ServletContext: 웹 어플리케이션에 대한 정보
+### EL 내장 객체
+**<주요 내장 객체>**
+* requestScope: request의 attribute에 관련된 Map 자료구조
+`${requestScope.foo}` 는 `<%=request.getAttribute("foo")%>`와 동일
+
+* param: request의 parameter에 관련된 Map 자료구조
+`${param.foo}` 는 `<%=request.getParameter("foo")%>`와 동일
+
+ServletContext: 지금 사용중인 웹 어플리케이션에 대한 정보
 `javax.servlet.ServletContext`
+
 PageContext: 지금 사용중인 JSP에 대한 정보
+`javax.servlet.PageContext`
+
+JAVA SE
+	java.lang.Class: 클래스 정보
+	java.lang.Object
+	java.io.File
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTAyNjYwNjcsMTI3NDk0MjM2Niw3MD
-Y5MjMwMTYsMTExMzk1MDEyMSw3NDY2NjQ5MCwtNjMyMjkzMzMz
-LC05MDgwODYyMjVdfQ==
+eyJoaXN0b3J5IjpbNTUxNjkwMjI4LDEyNzQ5NDIzNjYsNzA2OT
+IzMDE2LDExMTM5NTAxMjEsNzQ2NjY0OTAsLTYzMjI5MzMzMywt
+OTA4MDg2MjI1XX0=
 -->
