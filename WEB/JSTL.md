@@ -29,10 +29,8 @@ JavaResources\Libraries\Web App\Library\jstl1.2\META_INF\c.tld
 tld 파일 내부에는 jstl 태그의 사용법이 적혀있다.
 ```html
 ex) jsp 파일 내부
-<body>
 <c:set var="num" value="1"/>
 c:set으로 선언한 num 변수: ${num}
-</body>
 ```
 ```html
 ex) set태그에 대한 tld 파일 내부
@@ -55,6 +53,6 @@ ex) set태그에 대한 tld 파일 내부
 결과값:  1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4NzAyNjcxLC0xMjc5OTk4NDQ2LDkwNT
-QzMjE3XX0=
+eyJoaXN0b3J5IjpbNzU4MDIwODI0LDc1ODcwMjY3MSwtMTI3OT
+k5ODQ0Niw5MDU0MzIxN119
 -->
