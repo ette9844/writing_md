@@ -197,8 +197,9 @@ c.jsp
 
 
 
+## Action Tag 요소
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3MzA2NTExLDc4NTU5MTU1NSw3Njk4NT
-k0NzZdfQ==
+eyJoaXN0b3J5IjpbMTQ0NjQ0NDYyOSw3MDczMDY1MTEsNzg1NT
+kxNTU1LDc2OTg1OTQ3Nl19
 -->
