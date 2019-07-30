@@ -175,6 +175,7 @@ ex) Swing의 JButton, Android Studio의 Button등
 3) property용 mf는 public 이면 안된다
 4) property용 public setter/getter 메서드 필요
 
+자바빈의 포맷으로 만들어진 클래스
 ```java
 public Ex {
 	private String id;
@@ -182,6 +183,8 @@ public Ex {
 	
 	// 생성자
 	public Ex() {}
+
+	// setter, getter
 	public void setId(String id){this.id = id;}
 	public void setPower(boolean power){this.power = power;}
 	public String getId(){return id;}
@@ -189,12 +192,14 @@ public Ex {
 }
 ```
 
+Eclipse의 자동 source 생성 메서드를 통해 만들면 자바빈의 조건을 만족하는 클래스가 만들어진다.
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjUwNDU0NDgsNzQ2NjY0OTAsLTYzMj
-I5MzMzMywtOTA4MDg2MjI1XX0=
+eyJoaXN0b3J5IjpbMTA2MDE0MTU0MCw3NDY2NjQ5MCwtNjMyMj
+kzMzMzLC05MDgwODYyMjVdfQ==
 -->
