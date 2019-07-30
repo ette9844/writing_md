@@ -39,7 +39,8 @@ ex) set태그에 대한 tld 파일 내부
         Sets the result of an expression evaluation in a 'scope'
     </description>
     <name>set</name> <!--태그이름-->
-    <tag-class>org.apache.taglibs.standard.tag.rt.core.SetTag</tag-class>
+    <!--태그를 호출했을 시 실제로 불러지는 class-->
+    <tag-class>org.apache.taglibs.standard.tag.rt.core.SetTag</tag-class> 
     <body-content>JSP</body-content>
     <attribute> <!--속성들-->
         <description>
@@ -53,6 +54,6 @@ ex) set태그에 대한 tld 파일 내부
 결과값:  1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4MDIwODI0LDc1ODcwMjY3MSwtMTI3OT
+eyJoaXN0b3J5IjpbODk1OTY3Mjc1LDc1ODcwMjY3MSwtMTI3OT
 k5ODQ0Niw5MDU0MzIxN119
 -->
