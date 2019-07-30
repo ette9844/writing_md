@@ -163,6 +163,9 @@ ex) ${ requestScope.c.id } 에서 c: JavaBean, id: property
 * param: request의 parameter에 관련된 Map 자료구조
 `${param.foo}` 는 `<%=request.getParameter("foo")%>`와 동일
 
+* pageContext: 밑의 pageContext와 동일. 사용중인 jsp에 대한 모든 정보가 담겨있다.
+* applicationScope: servlet
+
 ### context
 JAVA EE
 >javax.servlet.ServletContext:  
@@ -206,7 +209,7 @@ sop(pageContext.getResponse());
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MzgxODQxNywxMjc0OTQyMzY2LDcwNj
-kyMzAxNiwxMTEzOTUwMTIxLDc0NjY2NDkwLC02MzIyOTMzMzMs
-LTkwODA4NjIyNV19
+eyJoaXN0b3J5IjpbNDc2Mzk3MDg2LDEyNzQ5NDIzNjYsNzA2OT
+IzMDE2LDExMTM5NTAxMjEsNzQ2NjY0OTAsLTYzMjI5MzMzMywt
+OTA4MDg2MjI1XX0=
 -->
