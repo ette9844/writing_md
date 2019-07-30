@@ -158,8 +158,10 @@ java언어이지만, 연산 결과는 javaScript와 비슷하다.
 * ${`JavaBean`.`property`}
 
 ### JavaBean?
-
+UI적인 Component는 다양한 property를 제공하고 있다.
+ex) Swing의 JButton, 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjI5MzMzMywtOTA4MDg2MjI1XX0=
+eyJoaXN0b3J5IjpbMjA2MTg4ODY2MCwtNjMyMjkzMzMzLC05MD
+gwODYyMjVdfQ==
 -->
