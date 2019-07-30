@@ -32,8 +32,23 @@ ex) jsp 파일 내부
 <c:set var="" value=""></c:set>
 ```
 ```html
-
+ex) set태그에 대한 tld 파일 내부
+<tag>
+    <description>
+        Sets the result of an expression evaluation in a 'scope'
+    </description>
+    <name>set</name> <!--태그이름-->
+    <tag-class>org.apache.taglibs.standard.tag.rt.core.SetTag</tag-class>
+    <body-content>JSP</body-content>
+    <attribute> <!--속성들-->
+        <description>
+		...
+        </description>
+        <name>var</name>
+        <required>false</required> <!--필수 속성이 아님-->
+        <rtexprvalue>false</rtexprvalue>
+    </attribute>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODU3NzQ0MzUsOTA1NDMyMTddfQ==
+eyJoaXN0b3J5IjpbLTEyNzk5OTg0NDYsOTA1NDMyMTddfQ==
 -->
