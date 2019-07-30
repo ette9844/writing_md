@@ -183,7 +183,9 @@ public Ex {
 	// 생성자
 	public Ex() {}
 	public void setId(String id){this.id = id;}
-	public void setPower(boolean power
+	public void setPower(boolean power){this.power = power;}
+	public String getId(){return id;}
+	public boolean isPower(){return power;}
 }
 ```
 
@@ -193,6 +195,6 @@ public Ex {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NzU1MTgwNCw3NDY2NjQ5MCwtNjMyMj
-kzMzMzLC05MDgwODYyMjVdfQ==
+eyJoaXN0b3J5IjpbLTEzNjUwNDU0NDgsNzQ2NjY0OTAsLTYzMj
+I5MzMzMywtOTA4MDg2MjI1XX0=
 -->
