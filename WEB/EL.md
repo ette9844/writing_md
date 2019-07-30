@@ -1,4 +1,7 @@
 ## Expression Language = EL
+
+html 사이에서 scriptlet 열고 닫고 하면 유지보수가 힘들다.
+        
 jsp의 getProperty, setProperty 태그의 확장성이 떨어지는 점을 보완하기 위해 사용. (EL외에도 JSTL을 사용하기도 함)
 
 
@@ -162,6 +165,7 @@ ex) ${ requestScope.c.id } 에서 c: JavaBean, id: property
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2OTIzMDE2LDExMTM5NTAxMjEsNzQ2Nj
-Y0OTAsLTYzMjI5MzMzMywtOTA4MDg2MjI1XX0=
+eyJoaXN0b3J5IjpbMTI3NDk0MjM2Niw3MDY5MjMwMTYsMTExMz
+k1MDEyMSw3NDY2NjQ5MCwtNjMyMjkzMzMzLC05MDgwODYyMjVd
+fQ==
 -->
