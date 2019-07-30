@@ -177,8 +177,20 @@ JAVA SE
 
 
 이렇듯 정보가 담겨있는 API를 메타 혹은 메타 API라고 한다.
+
+_jsp.java 파일에 자동으로 메타 API의 지역 변수가 만들어진다.
+```java
+final javax.servlet.jsp.PageContext pageContext;
+javax.servlet.http.HttpSession session = null;
+final javax.servlet.ServletContext application;
+final javax.servlet.ServletConfig config;
+javax.servlet.jsp.JspWriter out = null;
+final java.lang.Object page = this;
+javax.servlet.jsp.JspWriter _jspx_out = null;
+javax.servlet.jsp.PageContext _jspx_page_context = null;
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Nzg4NzAyOSwxMjc0OTQyMzY2LDcwNj
-kyMzAxNiwxMTEzOTUwMTIxLDc0NjY2NDkwLC02MzIyOTMzMzMs
-LTkwODA4NjIyNV19
+eyJoaXN0b3J5IjpbLTE4MTgzODY4MTMsMTI3NDk0MjM2Niw3MD
+Y5MjMwMTYsMTExMzk1MDEyMSw3NDY2NjQ5MCwtNjMyMjkzMzMz
+LC05MDgwODYyMjVdfQ==
 -->
