@@ -76,6 +76,7 @@ ex) set태그에 대한 tld 파일 내부
 >java의 switch-case-case-default 구문과 유사
 
 ### 4. 반복문
+#### forEach
 ```html
 <c:forEach var="i" begin="1" end="5" step="2">
 ${i}
@@ -83,7 +84,7 @@ ${i}
 ```
 >변수 i값을 출력할 때는 expression language 사용
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4NjE1Nzk4LDE1MTIyNzgwMDcsLTEyNj
-g4ODMzODYsODk1OTY3Mjc1LDc1ODcwMjY3MSwtMTI3OTk5ODQ0
-Niw5MDU0MzIxN119
+eyJoaXN0b3J5IjpbLTg0MjE0MTQyMiwxNTEyMjc4MDA3LC0xMj
+Y4ODgzMzg2LDg5NTk2NzI3NSw3NTg3MDI2NzEsLTEyNzk5OTg0
+NDYsOTA1NDMyMTddfQ==
 -->
