@@ -83,8 +83,15 @@ ${i}<br>
 </c:forEach>
 ```
 >변수 i값을 출력할 때는 expression language 사용
+
+```html
+<c:forEach var="i" begin="1" end="5">
+${i}<br>
+</c:forEach>
+```
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTQ3NDkxMiwxNTEyMjc4MDA3LC0xMj
-Y4ODgzMzg2LDg5NTk2NzI3NSw3NTg3MDI2NzEsLTEyNzk5OTg0
-NDYsOTA1NDMyMTddfQ==
+eyJoaXN0b3J5IjpbLTEwNjI5NTY1MjAsMTUxMjI3ODAwNywtMT
+I2ODg4MzM4Niw4OTU5NjcyNzUsNzU4NzAyNjcxLC0xMjc5OTk4
+NDQ2LDkwNTQzMjE3XX0=
 -->
