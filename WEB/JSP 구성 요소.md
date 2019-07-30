@@ -347,11 +347,11 @@ EL 내장 객체
 <주요 내장 객체>
 * requestScope
 
-* param
+* param: ew
 요청 전달 데이터에 관련된 Map 자료구조
 `${param.foo}` 는 `<%=request.getParameter("foo")%>`와 같다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyMTcxNTQ5LDE0NDY0NDQ2MjksNzA3Mz
-A2NTExLDc4NTU5MTU1NSw3Njk4NTk0NzZdfQ==
+eyJoaXN0b3J5IjpbLTIwOTQ0Njc2NDMsMTQ0NjQ0NDYyOSw3MD
+czMDY1MTEsNzg1NTkxNTU1LDc2OTg1OTQ3Nl19
 -->
