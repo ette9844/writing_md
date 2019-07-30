@@ -112,8 +112,22 @@ ${sum}
 ```
 >값 누적은 c:set으로 변수를 새로 선언하여 진행된다.
 >이는 변수 중복이 아닌 이미 선언되어있는 변수의 값을 바꾸는 것임.
+
+**확장된 for문**
+(servlet)
+```java
+List<String> list = new ArrayList<>();
+list.add("one"); list.add("two"); list.add("three");
+request.setAttribute("list", list);
+```
+(jsp)
+```html
+<c:forEach var="s" items="${requestScope.list}">
+${s}<br>
+</c:forEach>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTgyODAyLDE3OTA2MDc3ODEsMTUxMj
-I3ODAwNywtMTI2ODg4MzM4Niw4OTU5NjcyNzUsNzU4NzAyNjcx
-LC0xMjc5OTk4NDQ2LDkwNTQzMjE3XX0=
+eyJoaXN0b3J5IjpbMTEwNTcyMTQ0OCwtNTYxODI4MDIsMTc5MD
+YwNzc4MSwxNTEyMjc4MDA3LC0xMjY4ODgzMzg2LDg5NTk2NzI3
+NSw3NTg3MDI2NzEsLTEyNzk5OTg0NDYsOTA1NDMyMTddfQ==
 -->
