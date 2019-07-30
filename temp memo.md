@@ -53,9 +53,12 @@ checked: B가 기본 선택되어있도록 함
 include 지시자로 한 페이지를 다른  페이지에 포함 시킬때 두 페이지의 contentType이 일치해야한다.
 대소문자까지 맞춰야한다.
 혹은 한 페이지에만 응답 형식을 써준다.
+
+#### xml 선언부 주의사항
+xml 선언부 앞에는 공백, 주석도 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg5NTc0NzAsLTkyMTE3NjUzMCw3Nz
-g3Mjg0OTgsLTE2MzkwODUyMzUsMzU2MjAwMzgxLC0yNjc3Njgy
-NzQsMTEyNDQ3ODQ0NSwtMTE2OTgzODI4OCwtMTE2NDEzNDQ4Ml
-19
+eyJoaXN0b3J5IjpbMTgyMTA2NjgxMCwtMTkxODk1NzQ3MCwtOT
+IxMTc2NTMwLDc3ODcyODQ5OCwtMTYzOTA4NTIzNSwzNTYyMDAz
+ODEsLTI2Nzc2ODI3NCwxMTI0NDc4NDQ1LC0xMTY5ODM4Mjg4LC
+0xMTY0MTM0NDgyXX0=
 -->
