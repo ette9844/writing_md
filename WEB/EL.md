@@ -190,14 +190,16 @@ javax.servlet.jsp.JspWriter _jspx_out = null;
 javax.servlet.jsp.PageContext _jspx_page_context = null;
 ```
 
+JSP에 대한 정보 가져오기
 ```java
-application = pageContext.getServletContext();
-config = pageContext.getServletConfig();
-session = pageContext.getSession();
-out = pageContext.getOut();
+<%
+sop(pageContext.getOut());
+sop(pageContext.getRequest());
+sop(pageContext.getResponse());
+%>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjUwMjMxNiwxMjc0OTQyMzY2LDcwNj
-kyMzAxNiwxMTEzOTUwMTIxLDc0NjY2NDkwLC02MzIyOTMzMzMs
-LTkwODA4NjIyNV19
+eyJoaXN0b3J5IjpbLTIwODE2Mzc4NTYsMTI3NDk0MjM2Niw3MD
+Y5MjMwMTYsMTExMzk1MDEyMSw3NDY2NjQ5MCwtNjMyMjkzMzMz
+LC05MDgwODYyMjVdfQ==
 -->
