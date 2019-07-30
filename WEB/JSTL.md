@@ -66,6 +66,14 @@ ex) set태그에 대한 tld 파일 내부
 >else태그는 없다.  
 >그러나 switch 대신 사용할 수 있는 choose태그가 존재한다.
 
+**if-빈문자열 처리**
+```html
+<%--c:if test="${param.foo == null || param.foo == ''}"--%>
+<c:if test="${empty param.foo}">
+  <%--요청 전달 데이터가 없는 경우 empty로 간결하게 표현 가능--%>
+</c:if>
+```
+
 #### choose
 ```html
 <c:choose>
@@ -130,8 +138,8 @@ ${s}<br>
 >items 속성을 통해 확장된 for문을 사용할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAwOTEwNTA3LDE2ODkyODQ3ODcsLTU2MT
-gyODAyLDE3OTA2MDc3ODEsMTUxMjI3ODAwNywtMTI2ODg4MzM4
-Niw4OTU5NjcyNzUsNzU4NzAyNjcxLC0xMjc5OTk4NDQ2LDkwNT
-QzMjE3XX0=
+eyJoaXN0b3J5IjpbOTg3Mjg1MjYyLDYwMDkxMDUwNywxNjg5Mj
+g0Nzg3LC01NjE4MjgwMiwxNzkwNjA3NzgxLDE1MTIyNzgwMDcs
+LTEyNjg4ODMzODYsODk1OTY3Mjc1LDc1ODcwMjY3MSwtMTI3OT
+k5ODQ0Niw5MDU0MzIxN119
 -->
