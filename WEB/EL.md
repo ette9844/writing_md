@@ -190,7 +190,12 @@ javax.servlet.jsp.JspWriter _jspx_out = null;
 javax.servlet.jsp.PageContext _jspx_page_context = null;
 ```
 
-JSP에 대한 정보 가져오기
+application변수로 웹 어플리케이션에 대한 정보 가져오기
+```java
+<%=application.getRealPath("a.jpg")%>
+```
+
+pageContext변수로 JSP에 대한 정보 가져오기
 ```java
 <%
 sop(pageContext.getOut());
@@ -198,8 +203,10 @@ sop(pageContext.getRequest());
 sop(pageContext.getResponse());
 %>
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODE2Mzc4NTYsMTI3NDk0MjM2Niw3MD
+eyJoaXN0b3J5IjpbLTE0Nzg4MjE3MjEsMTI3NDk0MjM2Niw3MD
 Y5MjMwMTYsMTExMzk1MDEyMSw3NDY2NjQ5MCwtNjMyMjkzMzMz
 LC05MDgwODYyMjVdfQ==
 -->
