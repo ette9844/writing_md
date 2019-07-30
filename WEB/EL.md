@@ -2,7 +2,7 @@
 
 html 사이에서 scriptlet 열고 닫고 하면 유지보수가 힘들다.
         
-jsp의 getProperty, setProperty 태그의 확장성이 떨어지는 점을 보완하기 위해 사용. (EL외에도 JSTL을 사용하기도 함)
+jsp의 getProperty, setProperty 태그의 **확장성**이 떨어지는 점을 보완하기 위해 사용. (EL외에도 JSTL을 사용하기도 함)
 
 
 ### EL 산술 연산자
@@ -222,7 +222,7 @@ ex) 불가능
 **JspStandardTagLibrary (JSTL)!**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDAxNzk3Myw0NzYzOTcwODYsMTI3ND
-k0MjM2Niw3MDY5MjMwMTYsMTExMzk1MDEyMSw3NDY2NjQ5MCwt
-NjMyMjkzMzMzLC05MDgwODYyMjVdfQ==
+eyJoaXN0b3J5IjpbLTEzMTY1NzE1MzEsNDc2Mzk3MDg2LDEyNz
+Q5NDIzNjYsNzA2OTIzMDE2LDExMTM5NTAxMjEsNzQ2NjY0OTAs
+LTYzMjI5MzMzMywtOTA4MDg2MjI1XX0=
 -->
