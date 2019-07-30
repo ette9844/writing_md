@@ -261,9 +261,66 @@ EL 산술 연산자
 java언어이지만, 연산 결과는 javaScript와 비슷하다.
 
 
-* EL 표현식과 jQuery의 선택자를 헷갈리지 말아야한다.
+※ EL 표현식과 jQuery의 선택자를 헷갈리지 말아야한다.
 
+EL 비교 연산자
+<table border="1">
+          <thead>
+        <tr><td><b>EL Expression</b></td>
+        <td><b>Result</b></td>
+      </tr></thead>
+      <tbody><tr>
+        <td>${1 &lt; 2}</td>
+        <td>true</td>
+      </tr>
+      <tr>
+        <td>${1 lt 2}</td>
+        <td>true</td>
+      </tr>
+      <tr>
+        <td>${1 &gt; (4/2)}</td>
+        <td>false</td>
+      </tr>
+      <tr>
+        <td>${1 gt (4/2)}</td>
+        <td>false</td>
+      </tr>
+      <tr>
+        <td>${4.0 &gt;= 3}</td>
+        <td>true</td>
+      </tr>
+      <tr>
+        <td>${4.0 ge 3}</td>
+        <td>true</td>
+      </tr>
+      <tr>
+        <td>${4 &lt;= 3}</td>
+        <td>false</td>
+      </tr>
+      <tr>
+        <td>${4 le 3}</td>
+        <td>false</td>
+      </tr>
+      <tr>
+        <td>${100.0 == 100}</td>
+        <td>true</td>
+      </tr>
+      <tr>
+        <td>${100.0 eq 100}</td>
+        <td>true</td>
+      </tr>
+      <tr>
+        <td>${(10*10) != 100}</td>
+        <td>false</td>
+      </tr>
+      <tr>
+        <td>${(10*10) ne 100}</td>
+        <td>false</td>
+      </tr>
+    </tbody></table>
+
+>문자열 비교: equals() X == O
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzNTgzMzMzLDE0NDY0NDQ2MjksNzA3Mz
-A2NTExLDc4NTU5MTU1NSw3Njk4NTk0NzZdfQ==
+eyJoaXN0b3J5IjpbLTE0OTkxMTYwOTUsMTQ0NjQ0NDYyOSw3MD
+czMDY1MTEsNzg1NTkxNTU1LDc2OTg1OTQ3Nl19
 -->
