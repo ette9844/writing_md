@@ -18,6 +18,7 @@ EL에서 불가능한 반복문, 조건문, 변수 처리를 하기 위한 EL기
 ```
 >prefix에는 tld 파일의 `<short-name>`태그 내용을 작성
 >uri에는 tld 파일의 `<uri>` 태그 내용을 작성
+>여기서는 예시로 c.tld, jstl core모듈을 가져왔다.
 
 
 해당 uri를 만족하는 tld 파일을 찾아가는 태그
@@ -129,8 +130,8 @@ ${s}<br>
 >items 속성을 통해 확장된 for문을 사용할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTMzMjk2MjAsMTY4OTI4NDc4NywtNT
-YxODI4MDIsMTc5MDYwNzc4MSwxNTEyMjc4MDA3LC0xMjY4ODgz
-Mzg2LDg5NTk2NzI3NSw3NTg3MDI2NzEsLTEyNzk5OTg0NDYsOT
-A1NDMyMTddfQ==
+eyJoaXN0b3J5IjpbNjAwOTEwNTA3LDE2ODkyODQ3ODcsLTU2MT
+gyODAyLDE3OTA2MDc3ODEsMTUxMjI3ODAwNywtMTI2ODg4MzM4
+Niw4OTU5NjcyNzUsNzU4NzAyNjcxLC0xMjc5OTk4NDQ2LDkwNT
+QzMjE3XX0=
 -->
