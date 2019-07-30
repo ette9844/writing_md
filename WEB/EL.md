@@ -207,11 +207,12 @@ sop(pageContext.getResponse());
 %>
 ```
 
+### el 표기법을 변수에 담기
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzY5Mjc5NCw0NzYzOTcwODYsMTI3ND
-k0MjM2Niw3MDY5MjMwMTYsMTExMzk1MDEyMSw3NDY2NjQ5MCwt
-NjMyMjkzMzMzLC05MDgwODYyMjVdfQ==
+eyJoaXN0b3J5IjpbLTE4ODEwNDUyNDUsNDc2Mzk3MDg2LDEyNz
+Q5NDIzNjYsNzA2OTIzMDE2LDExMTM5NTAxMjEsNzQ2NjY0OTAs
+LTYzMjI5MzMzMywtOTA4MDg2MjI1XX0=
 -->
