@@ -46,8 +46,13 @@ checked: B가 기본 선택되어있도록 함
 #### eclipse 대소문자 토글 단축키
 `ctrl` + `shift` + `y` : 대문자 -> 소문자
 
+
+#### Tomcat에서의 include 지시자 주의점
+include 지시자로 한 페이지를 다른  페이지에 포함 시킬때 두 페이지의 contentType이 일치해야한다.
+대소문자까지 맞춰야한다.
+혹은 한 페이지에만 응답 형식을 써준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4NzI4NDk4LC0xNjM5MDg1MjM1LDM1Nj
-IwMDM4MSwtMjY3NzY4Mjc0LDExMjQ0Nzg0NDUsLTExNjk4Mzgy
-ODgsLTExNjQxMzQ0ODJdfQ==
+eyJoaXN0b3J5IjpbLTkyMTE3NjUzMCw3Nzg3Mjg0OTgsLTE2Mz
+kwODUyMzUsMzU2MjAwMzgxLC0yNjc3NjgyNzQsMTEyNDQ3ODQ0
+NSwtMTE2OTgzODI4OCwtMTE2NDEzNDQ4Ml19
 -->
