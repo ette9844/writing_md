@@ -55,10 +55,13 @@ include 지시자로 한 페이지를 다른  페이지에 포함 시킬때 두 
 혹은 한 페이지에만 응답 형식을 써준다.
 
 #### xml 선언부 주의사항
-xml 선언부 앞에는 공백, 주석도 
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+```
+xml 선언부 앞에는 공백, 주석도 넣어서는 안된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTA2NjgxMCwtMTkxODk1NzQ3MCwtOT
-IxMTc2NTMwLDc3ODcyODQ5OCwtMTYzOTA4NTIzNSwzNTYyMDAz
-ODEsLTI2Nzc2ODI3NCwxMTI0NDc4NDQ1LC0xMTY5ODM4Mjg4LC
-0xMTY0MTM0NDgyXX0=
+eyJoaXN0b3J5IjpbLTE4OTgwODY4OTEsLTE5MTg5NTc0NzAsLT
+kyMTE3NjUzMCw3Nzg3Mjg0OTgsLTE2MzkwODUyMzUsMzU2MjAw
+MzgxLC0yNjc3NjgyNzQsMTEyNDQ3ODQ0NSwtMTE2OTgzODI4OC
+wtMTE2NDEzNDQ4Ml19
 -->
