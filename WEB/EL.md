@@ -1,5 +1,6 @@
 ## Expression Language = EL
-jsp의 getProperty, setProperty 태그의 확장성이 떨어지는 점을 보완하기 윟
+jsp의 getProperty, setProperty 태그의 확장성이 떨어지는 점을 보완하기 위해 사용. (EL외에도 JSTL을 사용하기도 함)
+
 
 ### EL 산술 연산자
 <table border="1">
@@ -153,5 +154,5 @@ java언어이지만, 연산 결과는 javaScript와 비슷하다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjM0ODk2MjMsLTkwODA4NjIyNV19
+eyJoaXN0b3J5IjpbMTA1MzcwNjA3LC05MDgwODYyMjVdfQ==
 -->
