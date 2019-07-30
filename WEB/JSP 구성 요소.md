@@ -201,12 +201,68 @@ c.jsp
 
 
 Expression Language = EL
-정수를 정수로 나눈 결과가 실수가 나올 수 ㅇ
+<table border="1">
+          <thead>
+        <tr><td><b>EL Expression</b></td>
+        <td><b>Result</b></td>
+      </tr></thead>
+      <tbody><tr>
+        <td>${1}</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>${1 + 2}</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>${1.2 + 2.3}</td>
+        <td>3.5</td>
+      </tr>
+      <tr>
+        <td>${1.2E4 + 1.4}</td>
+        <td>12001.4</td>
+      </tr>
+      <tr>
+        <td>${-4 - 2}</td>
+        <td>-6</td>
+      </tr>
+      <tr>
+        <td>${21 * 2}</td>
+        <td>42</td>
+      </tr>
+      <tr>
+        <td>${3/4}</td>
+        <td>0.75</td>
+      </tr>
+      <tr>
+        <td>${3 div 4}</td>
+        <td>0.75</td>
+      </tr>
+      <tr>
+        <td>${3/0}</td>
+        <td>Infinity</td>
+      </tr>
+      <tr>
+        <td>${10%4}</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>${10 mod 4}</td>
+        <td>2</td>
+      </tr>
+    <tr>
+      <td>${(1==2) ? 3 : 4}</td>
+      <td>4</td>
+    </tr>
+    </tbody></table>
+
+정수를 정수로 나눈 결과가 실수가 나올 수 있다.
+java언어이지만, 연산 결과는 javaScript와 비슷하다.
 
 
 * EL 표현식과 jQuery의 선택자를 헷갈리지 말아야한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODQ3OTkwOCwxNDQ2NDQ0NjI5LDcwNz
+eyJoaXN0b3J5IjpbMTgyODU2NTI1NCwxNDQ2NDQ0NjI5LDcwNz
 MwNjUxMSw3ODU1OTE1NTUsNzY5ODU5NDc2XX0=
 -->
