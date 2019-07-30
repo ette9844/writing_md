@@ -153,6 +153,12 @@ java언어이지만, 연산 결과는 javaScript와 비슷하다.
 `${param.foo}` 는 `<%=request.getParameter("foo")%>`와 동일
 
 
+### EL의 .연산자
+* ${`Map`.`key`}
+* ${`JavaBean`.`property`}
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzcwNjA3LC05MDgwODYyMjVdfQ==
+eyJoaXN0b3J5IjpbNTQzNTI0OTMxLC05MDgwODYyMjVdfQ==
 -->
