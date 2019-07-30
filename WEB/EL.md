@@ -1,5 +1,7 @@
 ## Expression Language = EL
-EL 산술 연산자
+jsp의 getProperty, setProperty 태그의 확장성이 떨어지는 점을 보완하기 윟
+
+### EL 산술 연산자
 <table border="1">
           <thead>
         <tr><td><b>EL Expression</b></td>
@@ -61,7 +63,7 @@ java언어이지만, 연산 결과는 javaScript와 비슷하다.
 
 ※ ${ EL 표현식 }과 $( jQuery의 선택자 )를 헷갈리지 말아야한다.
 
-**EL 비교 연산자**
+### EL 비교 연산자
 숫자 비교
 <table border="1">
           <thead>
@@ -141,13 +143,15 @@ java언어이지만, 연산 결과는 javaScript와 비슷하다.
 
 >문자열 비교: equals() 사용하지 않음 == 로 비교
 
-EL 내장 객체
-<주요 내장 객체>
+### EL 내장 객체
+**<주요 내장 객체>**
 * requestScope: request의 attribute에 관련된 Map 자료구조
 `${requestScope.foo}` 는 `<%=request.getAttribute("foo")%>`와 동일
 
 * param: request의 parameter에 관련된 Map 자료구조
 `${param.foo}` 는 `<%=request.getParameter("foo")%>`와 동일
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODA4NjIyNV19
+eyJoaXN0b3J5IjpbLTE0NjM0ODk2MjMsLTkwODA4NjIyNV19
 -->
