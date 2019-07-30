@@ -257,13 +257,14 @@ EL 산술 연산자
     </tr>
     </tbody></table>
 
-정수를 정수로 나눈 결과가 실수가 나올 수 있다.
+>정수를 정수로 나눈 결과가 실수가 나올 수 있다.
 java언어이지만, 연산 결과는 javaScript와 비슷하다.
 
 
 ※ EL 표현식과 jQuery의 선택자를 헷갈리지 말아야한다.
 
 EL 비교 연산자
+숫자 비교
 <table border="1">
           <thead>
         <tr><td><b>EL Expression</b></td>
@@ -318,9 +319,30 @@ EL 비교 연산자
         <td>false</td>
       </tr>
     </tbody></table>
+<br/>
 
->문자열 비교: equals() X == O
+문자 비교
+<table border="1">
+          <thead>
+            <tr><td><b>EL Expression</b></td>
+            <td><b>Result</b></td>
+          </tr></thead>
+          <tbody><tr>
+            <td>${'a' &lt; 'b'}</td>
+            <td>true</td>
+          </tr>
+          <tr>
+            <td>${'hip' &gt; 'hit'}</td>
+            <td>false</td>
+          </tr>
+          <tr>
+            <td>${'4' &gt; 3}</td>
+            <td>true</td>
+          </tr>
+        </tbody></table>
+
+>문자열 비교: equals() 사용하지 않음 == 로 비교
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTkxMTYwOTUsMTQ0NjQ0NDYyOSw3MD
+eyJoaXN0b3J5IjpbLTEzOTY1MDgxMjIsMTQ0NjQ0NDYyOSw3MD
 czMDY1MTEsNzg1NTkxNTU1LDc2OTg1OTQ3Nl19
 -->
