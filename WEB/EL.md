@@ -219,10 +219,10 @@ ex) 불가능
 ```
 
 이러한 반복문, 조건문, 변수 처리를 하기 위해서, EL기반의 태그 라이브러리를 사용해야 한다!
-**JSTL!**
+**JspStandardTagLibrary (JSTL)!**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzg3MTY0MjEsNDc2Mzk3MDg2LDEyNz
-Q5NDIzNjYsNzA2OTIzMDE2LDExMTM5NTAxMjEsNzQ2NjY0OTAs
-LTYzMjI5MzMzMywtOTA4MDg2MjI1XX0=
+eyJoaXN0b3J5IjpbMTc0NDAxNzk3Myw0NzYzOTcwODYsMTI3ND
+k0MjM2Niw3MDY5MjMwMTYsMTExMzk1MDEyMSw3NDY2NjQ5MCwt
+NjMyMjkzMzMzLC05MDgwODYyMjVdfQ==
 -->
