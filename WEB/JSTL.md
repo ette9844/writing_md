@@ -91,8 +91,16 @@ ${i}<br>
 ```
 >step생략 은 step="1"과 동일
 
+```html
+<c:forEach var="i" begin="1" end="20" step="3" varStatus="status"> 
+${status.count} : ${i}<br>
+</c:forEach>
+```
+>varStatus.count를 통해 반복 회차를 알 수 있다.
+>varStatus는 객체타입이고 이를 참조할 변수 이름을 적는다.
 
-1~10까지의 합을 구하는 jstl 코드
+
+**1~10까지의 합을 구하는 jstl 코드**
 ```html
 1~10까지의 합:
 <c:set var="sum" value="0"/>
@@ -104,7 +112,7 @@ ${sum}
 >값 누적은 c:set으로 변수를 새로 선언하여 진행된다.
 >이는 변수 중복이 아닌 이미 선언되어있는 변수의 값을 바꾸는 것임.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDYwNzc4MSwxNTEyMjc4MDA3LC0xMj
-Y4ODgzMzg2LDg5NTk2NzI3NSw3NTg3MDI2NzEsLTEyNzk5OTg0
-NDYsOTA1NDMyMTddfQ==
+eyJoaXN0b3J5IjpbLTEwNjc4NTU0MzcsMTc5MDYwNzc4MSwxNT
+EyMjc4MDA3LC0xMjY4ODgzMzg2LDg5NTk2NzI3NSw3NTg3MDI2
+NzEsLTEyNzk5OTg0NDYsOTA1NDMyMTddfQ==
 -->
