@@ -346,12 +346,11 @@ java언어이지만, 연산 결과는 javaScript와 비슷하다.
 EL 내장 객체
 <주요 내장 객체>
 * requestScope: request의 attribute에 관련된 Map 자료구조
-`${requestScope.foo}` 는 <%=request.getAttribute("foo"
+`${requestScope.foo}` 는 `<%=request.getAttribute("foo")%>`와 동일
 
 * param: request의 parameter에 관련된 Map 자료구조
-`${param.foo}` 는 `<%=request.getParameter("foo")%>`와 같다
-
+`${param.foo}` 는 `<%=request.getParameter("foo")%>`와 동일
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDIxMjU1NywxNDQ2NDQ0NjI5LDcwNz
-MwNjUxMSw3ODU1OTE1NTUsNzY5ODU5NDc2XX0=
+eyJoaXN0b3J5IjpbLTE1MTUxNjYxODQsMTQ0NjQ0NDYyOSw3MD
+czMDY1MTEsNzg1NTkxNTU1LDc2OTg1OTQ3Nl19
 -->
