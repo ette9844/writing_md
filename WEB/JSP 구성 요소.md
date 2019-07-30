@@ -261,7 +261,7 @@ EL 산술 연산자
 java언어이지만, 연산 결과는 javaScript와 비슷하다.
 
 
-※ $EL 표현식과 jQuery의 선택자를 헷갈리지 말아야한다.
+※ ${ EL 표현식 }과 $( jQuery의 선택자 )를 헷갈리지 말아야한다.
 
 **EL 비교 연산자**
 숫자 비교
@@ -350,6 +350,6 @@ EL 내장 객체
 * requestScope
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjgxMDgyOTcsMTQ0NjQ0NDYyOSw3MD
-czMDY1MTEsNzg1NTkxNTU1LDc2OTg1OTQ3Nl19
+eyJoaXN0b3J5IjpbMTE4NzkyMDI5MCwxNDQ2NDQ0NjI5LDcwNz
+MwNjUxMSw3ODU1OTE1NTUsNzY5ODU5NDc2XX0=
 -->
