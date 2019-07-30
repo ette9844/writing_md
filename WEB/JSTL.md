@@ -91,12 +91,20 @@ ${i}<br>
 ```
 >step생략 은 step="1"과 동일
 
-```html
 
+1~10까지의 합을 구하는 jstl 코드
+```html
+1~10까지의 합:
+<c:set var="sum" value="0"/>
+<c:forEach var="i" begin="1" end="10">
+  <c:set var="sum" value="${sum + i}"/>
+</c:forEach>
+${sum}
 ```
->
+>값 누적 = 변수 새로 선언 --%>
+  <%--변수 중복이 아닌 이미 선언되어있는 변수의 값을 바꾸는 것임 --%>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MzI1OTQzOCwxNTEyMjc4MDA3LC0xMj
+eyJoaXN0b3J5IjpbLTUyMTA1NjUzMSwxNTEyMjc4MDA3LC0xMj
 Y4ODgzMzg2LDg5NTk2NzI3NSw3NTg3MDI2NzEsLTEyNzk5OTg0
 NDYsOTA1NDMyMTddfQ==
 -->
