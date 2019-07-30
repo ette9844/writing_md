@@ -199,7 +199,14 @@ c.jsp
 
 ## Action Tag 요소
 
+
+Expression Language = EL
+정수를 정수로 나눈 결과가 실수가 나올 수 ㅇ
+
+
+* EL 표현식과 jQuery의 선택자를 헷갈리지 말아야한다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NjQ0NDYyOSw3MDczMDY1MTEsNzg1NT
-kxNTU1LDc2OTg1OTQ3Nl19
+eyJoaXN0b3J5IjpbMTk3ODQ3OTkwOCwxNDQ2NDQ0NjI5LDcwNz
+MwNjUxMSw3ODU1OTE1NTUsNzY5ODU5NDc2XX0=
 -->
