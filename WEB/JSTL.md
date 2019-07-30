@@ -91,6 +91,7 @@ ${i}<br>
 ```
 >step생략 은 step="1"과 동일
 
+**varStatus**
 ```html
 <c:forEach var="i" begin="1" end="20" step="3" varStatus="status"> 
 ${status.count} : ${i}<br>
@@ -112,7 +113,7 @@ ${sum}
 >값 누적은 c:set으로 변수를 새로 선언하여 진행된다.
 >이는 변수 중복이 아닌 이미 선언되어있는 변수의 값을 바꾸는 것임.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjc4NTU0MzcsMTc5MDYwNzc4MSwxNT
-EyMjc4MDA3LC0xMjY4ODgzMzg2LDg5NTk2NzI3NSw3NTg3MDI2
-NzEsLTEyNzk5OTg0NDYsOTA1NDMyMTddfQ==
+eyJoaXN0b3J5IjpbLTU2MTgyODAyLDE3OTA2MDc3ODEsMTUxMj
+I3ODAwNywtMTI2ODg4MzM4Niw4OTU5NjcyNzUsNzU4NzAyNjcx
+LC0xMjc5OTk4NDQ2LDkwNTQzMjE3XX0=
 -->
