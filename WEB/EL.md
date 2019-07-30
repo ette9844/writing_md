@@ -163,9 +163,11 @@ ex) ${ param.foo }
 ex) ${ requestScope.c.id } 에서 c: JavaBean, id: property
 
 
-
+ServletContext: 웹 어플리케이션에 대한 정보
+`javax.servlet.ServletContext`
+PageContext: 지금 사용중인 JSP에 대한 정보
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDk0MjM2Niw3MDY5MjMwMTYsMTExMz
-k1MDEyMSw3NDY2NjQ5MCwtNjMyMjkzMzMzLC05MDgwODYyMjVd
-fQ==
+eyJoaXN0b3J5IjpbLTEwNTAyNjYwNjcsMTI3NDk0MjM2Niw3MD
+Y5MjMwMTYsMTExMzk1MDEyMSw3NDY2NjQ5MCwtNjMyMjkzMzMz
+LC05MDgwODYyMjVdfQ==
 -->
