@@ -208,11 +208,18 @@ sop(pageContext.getResponse());
 ```
 
 ### el 표기법을 변수에 담기
-
+el은 
+out.print로 출력하는 일까지 합쳐져있기 때문에
+변수에 넣을 수 없다
+ㅇ
+ex) 불가능
+```java
+String foo = ${param.foo}%>
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODEwNDUyNDUsNDc2Mzk3MDg2LDEyNz
-Q5NDIzNjYsNzA2OTIzMDE2LDExMTM5NTAxMjEsNzQ2NjY0OTAs
-LTYzMjI5MzMzMywtOTA4MDg2MjI1XX0=
+eyJoaXN0b3J5IjpbMTM1NDYxODQxMCw0NzYzOTcwODYsMTI3ND
+k0MjM2Niw3MDY5MjMwMTYsMTExMzk1MDEyMSw3NDY2NjQ5MCwt
+NjMyMjkzMzMzLC05MDgwODYyMjVdfQ==
 -->
