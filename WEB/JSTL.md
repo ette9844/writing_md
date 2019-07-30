@@ -60,8 +60,16 @@ ex) set태그에 대한 tld 파일 내부
 ```html
 <c:if test="${param.foo == 'hello'}">환영합니다</c:if> 
 ```
->test속성값에는 조건문을 EL표기법으로 써줘야 함
+>test속성값에는 조건문을 EL표기법으로 써줘야 함.
+>else태그는 없다.  
+>그러나 switch 대신 사용할 수 있는 choose태그가 존재한다.
+
+### 4. choose = switch
+```html
+
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4NTQ2NjA1LDg5NTk2NzI3NSw3NTg3MD
-I2NzEsLTEyNzk5OTg0NDYsOTA1NDMyMTddfQ==
+eyJoaXN0b3J5IjpbLTEyNjg4ODMzODYsODk1OTY3Mjc1LDc1OD
+cwMjY3MSwtMTI3OTk5ODQ0Niw5MDU0MzIxN119
 -->
