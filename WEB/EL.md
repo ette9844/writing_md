@@ -161,13 +161,14 @@ java언어이지만, 연산 결과는 javaScript와 비슷하다.
 
 JavaBean = JavaComponent
 
-Java Component의 조건
+**Java Component의 조건**
 1) public class 여야한다
 2) public 매개변수 없는 생성자 필요
 3) property용 mf는 public 이면 안된다
 4) property용 public setter/getter 메서드 필요
 
-재사용성이 높은 큰 덩어리(클래스의 모임)
+재사용성이 높은 큰 덩어리.
+클래스(+ α)의 모임.
 시중에 다양한 Component가 제공되고 있다. 유료로 구매하면 쉽게 응용하여 사용할 수 있다.
 UI적인 Component는 다양한 property를 제공하고 있다.
 property는 사용자가 설정
@@ -177,6 +178,6 @@ ex) Swing의 JButton, Android Studio의 Button등
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTg1NDAwMTQsNzQ2NjY0OTAsLTYzMj
-I5MzMzMywtOTA4MDg2MjI1XX0=
+eyJoaXN0b3J5IjpbMTQ2ODcyOTM3Miw3NDY2NjQ5MCwtNjMyMj
+kzMzMzLC05MDgwODYyMjVdfQ==
 -->
