@@ -158,13 +158,18 @@ java언어이지만, 연산 결과는 javaScript와 비슷하다.
 * ${`JavaBean`.`property`}
 
 ### JavaBean?
-다양한 Component가 제공되고 있다. 유료로 구매하면 쉽게 응용하여 사용할 수 있다.
+
+
+
+시중에 다양한 Component가 제공되고 있다. 유료로 구매하면 쉽게 응용하여 사용할 수 있다.
 UI적인 Component는 다양한 property를 제공하고 있다.
+property는 사용자가 설정
+
 
 ex) Swing의 JButton, Android Studio의 Button등
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDc2NDk3Myw3NDY2NjQ5MCwtNjMyMj
-kzMzMzLC05MDgwODYyMjVdfQ==
+eyJoaXN0b3J5IjpbLTE4MzYzMDAwNDEsNzQ2NjY0OTAsLTYzMj
+I5MzMzMywtOTA4MDg2MjI1XX0=
 -->
