@@ -64,12 +64,17 @@ ex) set태그에 대한 tld 파일 내부
 >else태그는 없다.  
 >그러나 switch 대신 사용할 수 있는 choose태그가 존재한다.
 
-### 4. choose = switch
+### 4. choose
 ```html
-
+<c:choose>
+  <c:when test="${param.foo == 'hello'}">환영합니다</c:when>
+  <c:when test="${param.foo == 'bye'}">안녕히가세요</c:when>
+  <c:otherwise>${param.foo}</c:otherwise>
+</c:choose>
 ```
-
+>java의 switch-case-case-default 구문과 유사
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjg4ODMzODYsODk1OTY3Mjc1LDc1OD
-cwMjY3MSwtMTI3OTk5ODQ0Niw5MDU0MzIxN119
+eyJoaXN0b3J5IjpbMTUxMjI3ODAwNywtMTI2ODg4MzM4Niw4OT
+U5NjcyNzUsNzU4NzAyNjcxLC0xMjc5OTk4NDQ2LDkwNTQzMjE3
+XX0=
 -->
