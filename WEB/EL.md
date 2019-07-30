@@ -155,7 +155,9 @@ java언어이지만, 연산 결과는 javaScript와 비슷하다.
 
 ### EL의 .연산자
 * ${`Map`.`key`}
+ex) ${ param.foo }
 * ${`JavaBean`.`property`}
+ex) ${ requestScope.c.id }
 
 ### JavaBean?
 
@@ -200,6 +202,6 @@ Eclipse의 자동 source 생성 메서드를 통해 만들면 자바빈의 조�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDE0MTU0MCw3NDY2NjQ5MCwtNjMyMj
-kzMzMzLC05MDgwODYyMjVdfQ==
+eyJoaXN0b3J5IjpbODc4MjQ5OTM2LDc0NjY2NDkwLC02MzIyOT
+MzMzMsLTkwODA4NjIyNV19
 -->
