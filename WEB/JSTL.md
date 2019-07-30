@@ -16,7 +16,12 @@ EL에서 불가능한 반복문, 조건문, 변수 처리를 하기 위한 EL기
 ```java
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 ```
->JavaResources>Libraries>
+>prefix에는 tld 파일의 <short-name>태그 ㄴ
+
+
+해당 uri를 만족하는 tld 파일을 찾아가는 태그
+**tld 파일 경로:** 
+JavaResources\Libraries\Web App Library\jstl1.2\META_INF\c.tld
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjEzMTY0NCw5MDU0MzIxN119
+eyJoaXN0b3J5IjpbMTA0NDIyNzY3MSw5MDU0MzIxN119
 -->
