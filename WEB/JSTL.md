@@ -76,9 +76,11 @@ ex) set태그에 대한 tld 파일 내부
 >java의 switch-case-case-default 구문과 유사
 
 ### 4. 반복문
+```html
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjQ1MTg3MiwxNTEyMjc4MDA3LC0xMj
+eyJoaXN0b3J5IjpbMTUxNjAxNTQwNywxNTEyMjc4MDA3LC0xMj
 Y4ODgzMzg2LDg5NTk2NzI3NSw3NTg3MDI2NzEsLTEyNzk5OTg0
 NDYsOTA1NDMyMTddfQ==
 -->
