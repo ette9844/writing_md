@@ -56,7 +56,8 @@ ex) set태그에 대한 tld 파일 내부
 결과값:  1
 
 
-### 3. if
+### 3. 조건문
+#### if
 ```html
 <c:if test="${param.foo == 'hello'}">환영합니다</c:if> 
 ```
@@ -64,7 +65,7 @@ ex) set태그에 대한 tld 파일 내부
 >else태그는 없다.  
 >그러나 switch 대신 사용할 수 있는 choose태그가 존재한다.
 
-### 4. choose
+#### choose
 ```html
 <c:choose>
   <c:when test="${param.foo == 'hello'}">환영합니다</c:when>
@@ -73,8 +74,11 @@ ex) set태그에 대한 tld 파일 내부
 </c:choose>
 ```
 >java의 switch-case-case-default 구문과 유사
+
+### 4. 반복문
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMjI3ODAwNywtMTI2ODg4MzM4Niw4OT
-U5NjcyNzUsNzU4NzAyNjcxLC0xMjc5OTk4NDQ2LDkwNTQzMjE3
-XX0=
+eyJoaXN0b3J5IjpbLTM1NjQ1MTg3MiwxNTEyMjc4MDA3LC0xMj
+Y4ODgzMzg2LDg5NTk2NzI3NSw3NTg3MDI2NzEsLTEyNzk5OTg0
+NDYsOTA1NDMyMTddfQ==
 -->
