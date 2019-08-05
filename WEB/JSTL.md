@@ -60,19 +60,21 @@ ex) set태그에 대한 tld 파일 내부
 엄밀히 말하면 c:set태그는 변수 선언이라기 보다는
 pageContext / request / session / application 네개의 객체의 attribute(속성)으로 추가하는 것과 같음.
 ```java
-<%--동일--%>
 <c:set var="a" value="hello"/>
-
+=
 <pageContext.setAttribute("a", "hello");%>
 
 <c:set var="b" value="b1" scope="request"/>
+=
 <%pageContext.setAttribute("b", "b1",  PageContext.REQUEST_SCOPE);%>
 <%request.setAttribute("b", "b1");
 
 <c:remove var="a"/>
+=
 <%pageContext.removeAttribute("a");%>
 
 <c:remove var="b" scope="request"/>
+=
 <%pageContext.removeAttribute("b", PageContext.REQUEST_SCOPE);%>
 <%request.removeAttribute("b");%>
 ```
@@ -163,7 +165,7 @@ ${s}<br>
 >items 속성을 통해 확장된 for문을 사용할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTE4MjY5NSwzMjI2NjE3NDcsNjAwOT
+eyJoaXN0b3J5IjpbMTI0NzkyMTE2MiwzMjI2NjE3NDcsNjAwOT
 EwNTA3LDE2ODkyODQ3ODcsLTU2MTgyODAyLDE3OTA2MDc3ODEs
 MTUxMjI3ODAwNywtMTI2ODg4MzM4Niw4OTU5NjcyNzUsNzU4Nz
 AyNjcxLC0xMjc5OTk4NDQ2LDkwNTQzMjE3XX0=
