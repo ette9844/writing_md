@@ -165,13 +165,16 @@ ${s}<br>
 ```
 >items 속성을 통해 확장된 for문을 사용할 수 있다.
 
+intArray={10, 20, 30, 40, 50, 60};
 ```html
-<c:forEach var="i" begin="2" end="4" items="${requestScope.intArray}">
+<c:forEach var="i" begin="2" end="4" items="${intArray}">
+  ${i}
+</c:forEach>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1NzU2Njc5LDEyNDc5MjExNjIsMzIyNj
-YxNzQ3LDYwMDkxMDUwNywxNjg5Mjg0Nzg3LC01NjE4MjgwMiwx
-NzkwNjA3NzgxLDE1MTIyNzgwMDcsLTEyNjg4ODMzODYsODk1OT
-Y3Mjc1LDc1ODcwMjY3MSwtMTI3OTk5ODQ0Niw5MDU0MzIxN119
-
+eyJoaXN0b3J5IjpbMTgzODAxNDY4MCwxMjQ3OTIxMTYyLDMyMj
+Y2MTc0Nyw2MDA5MTA1MDcsMTY4OTI4NDc4NywtNTYxODI4MDIs
+MTc5MDYwNzc4MSwxNTEyMjc4MDA3LC0xMjY4ODgzMzg2LDg5NT
+k2NzI3NSw3NTg3MDI2NzEsLTEyNzk5OTg0NDYsOTA1NDMyMTdd
+fQ==
 -->
