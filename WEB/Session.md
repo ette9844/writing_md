@@ -1,3 +1,4 @@
+[교재 132p]
 
 PageContext : PageContext
 request: HttpServletRequest
@@ -19,10 +20,13 @@ ${applicationScope.attrName}
 <%=application.getAttribute("attrName")%>
 ```
 
-### 생명주기 짧은 순
+### LifeScope이 작은 순
 PageContext < request < session < application
+
+### ${attrName}
+lifeScope이 작은 순으로 해당 attrName 항목을 검사하고 
 
 session은 클라이언트 별로 생성, 강제로 종료하거나 30분간 사용하지 않을 시 종료 됨. -> 로그인 정보 표기에 좋음
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTU3OTg1MCwxNDYwNDczNDkwXX0=
+eyJoaXN0b3J5IjpbLTczMzAyMzgzMSwxNDYwNDczNDkwXX0=
 -->
