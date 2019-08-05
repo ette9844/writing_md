@@ -61,10 +61,15 @@ ex) set태그에 대한 tld 파일 내부
 pageContext / request / session / application 네개의 객체의 attribute(속성)으로 추가하는 것과 같음.
 ```java
 <%--동일--%>
-<c:set var="a" valus="hello"/>
+<c:set var="a" value="hello"/>
 <pageContext.setAttribute("a", "hello");%>
 
-<c:set var="b" value=
+<c:set var="b" value="b1" scope="request"/>
+<%pageContext.setAttribute("b", "b1",  PageContext.REQUEST_SCOPE);%>
+<%request.setAttribute("b", "b1");
+
+<c:remove var="a"/>
+<%pageContext.removeAttri
 ```
 
 ### 3. 조건문
@@ -153,7 +158,7 @@ ${s}<br>
 >items 속성을 통해 확장된 for문을 사용할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM3OTUzNjYsMzIyNjYxNzQ3LDYwMD
+eyJoaXN0b3J5IjpbLTE2MDQwMTYyODIsMzIyNjYxNzQ3LDYwMD
 kxMDUwNywxNjg5Mjg0Nzg3LC01NjE4MjgwMiwxNzkwNjA3Nzgx
 LDE1MTIyNzgwMDcsLTEyNjg4ODMzODYsODk1OTY3Mjc1LDc1OD
 cwMjY3MSwtMTI3OTk5ODQ0Niw5MDU0MzIxN119
