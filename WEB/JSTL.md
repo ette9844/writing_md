@@ -137,6 +137,7 @@ ${status.count} : ${i}<br>
 >varStatus.count를 통해 반복 회차를 알 수 있다.
 >varStatus는 객체타입이고 이를 참조할 변수 이름을 적는다.
 
+이 외에도 varStatus는 index, begin, end, step, first, last, current등의 다양한 참조변수를 제공한다.
 
 **1~10까지의 합을 구하는 jstl 코드**
 ```html
@@ -173,9 +174,9 @@ intArray={10, 20, 30, 40, 50, 60};
 ```
 >30 40 50 출력
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDI2ODkxOSwxMjQ3OTIxMTYyLDMyMj
-Y2MTc0Nyw2MDA5MTA1MDcsMTY4OTI4NDc4NywtNTYxODI4MDIs
-MTc5MDYwNzc4MSwxNTEyMjc4MDA3LC0xMjY4ODgzMzg2LDg5NT
-k2NzI3NSw3NTg3MDI2NzEsLTEyNzk5OTg0NDYsOTA1NDMyMTdd
-fQ==
+eyJoaXN0b3J5IjpbLTk5ODg4MDIzMiwxMzUwMjY4OTE5LDEyND
+c5MjExNjIsMzIyNjYxNzQ3LDYwMDkxMDUwNywxNjg5Mjg0Nzg3
+LC01NjE4MjgwMiwxNzkwNjA3NzgxLDE1MTIyNzgwMDcsLTEyNj
+g4ODMzODYsODk1OTY3Mjc1LDc1ODcwMjY3MSwtMTI3OTk5ODQ0
+Niw5MDU0MzIxN119
 -->
