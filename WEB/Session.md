@@ -24,9 +24,9 @@ ${applicationScope.attrName}
 PageContext < request < session < application
 
 ### ${attrName}
-lifeScope이 작은 순으로 해당 attrName 항목을 검사하고 
+lifeScope이 작은 순으로 해당 attrName 항목을 검사하고 없으면 빈 문자열을 반환.
 
 session은 클라이언트 별로 생성, 강제로 종료하거나 30분간 사용하지 않을 시 종료 됨. -> 로그인 정보 표기에 좋음
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzAyMzgzMSwxNDYwNDczNDkwXX0=
+eyJoaXN0b3J5IjpbLTcwMTA3MDU2NywxNDYwNDczNDkwXX0=
 -->
