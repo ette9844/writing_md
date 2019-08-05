@@ -56,6 +56,11 @@ ex) set태그에 대한 tld 파일 내부
 ```
 결과값:  1
 
+#### 주의사항
+```java
+<c:set var="a" valus="hello"/>
+<pageContext.setAttribute("a", "hello");%>
+```
 
 ### 3. 조건문
 #### if
@@ -143,8 +148,8 @@ ${s}<br>
 >items 속성을 통해 확장된 for문을 사용할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyNjYxNzQ3LDYwMDkxMDUwNywxNjg5Mj
-g0Nzg3LC01NjE4MjgwMiwxNzkwNjA3NzgxLDE1MTIyNzgwMDcs
-LTEyNjg4ODMzODYsODk1OTY3Mjc1LDc1ODcwMjY3MSwtMTI3OT
-k5ODQ0Niw5MDU0MzIxN119
+eyJoaXN0b3J5IjpbMzg4NjY0NjM5LDMyMjY2MTc0Nyw2MDA5MT
+A1MDcsMTY4OTI4NDc4NywtNTYxODI4MDIsMTc5MDYwNzc4MSwx
+NTEyMjc4MDA3LC0xMjY4ODgzMzg2LDg5NTk2NzI3NSw3NTg3MD
+I2NzEsLTEyNzk5OTg0NDYsOTA1NDMyMTddfQ==
 -->
