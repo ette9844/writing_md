@@ -62,6 +62,7 @@ pageContext / request / session / application 네개의 객체의 attribute(속�
 ```java
 <%--동일--%>
 <c:set var="a" value="hello"/>
+
 <pageContext.setAttribute("a", "hello");%>
 
 <c:set var="b" value="b1" scope="request"/>
@@ -69,7 +70,11 @@ pageContext / request / session / application 네개의 객체의 attribute(속�
 <%request.setAttribute("b", "b1");
 
 <c:remove var="a"/>
-<%pageContext.removeAttri
+<%pageContext.removeAttribute("a");%>
+
+<c:remove var="b" scope="request"/>
+<%pageContext.removeAttribute("b", PageContext.REQUEST_SCOPE);%>
+<%request.removeAttribute("b");%>
 ```
 
 ### 3. 조건문
@@ -158,8 +163,8 @@ ${s}<br>
 >items 속성을 통해 확장된 for문을 사용할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQwMTYyODIsMzIyNjYxNzQ3LDYwMD
-kxMDUwNywxNjg5Mjg0Nzg3LC01NjE4MjgwMiwxNzkwNjA3Nzgx
-LDE1MTIyNzgwMDcsLTEyNjg4ODMzODYsODk1OTY3Mjc1LDc1OD
-cwMjY3MSwtMTI3OTk5ODQ0Niw5MDU0MzIxN119
+eyJoaXN0b3J5IjpbMTc0MTE4MjY5NSwzMjI2NjE3NDcsNjAwOT
+EwNTA3LDE2ODkyODQ3ODcsLTU2MTgyODAyLDE3OTA2MDc3ODEs
+MTUxMjI3ODAwNywtMTI2ODg4MzM4Niw4OTU5NjcyNzUsNzU4Nz
+AyNjcxLC0xMjc5OTk4NDQ2LDkwNTQzMjE3XX0=
 -->
