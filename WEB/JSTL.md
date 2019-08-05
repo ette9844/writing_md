@@ -125,6 +125,7 @@ ${i}<br>
 ${i}<br>
 </c:forEach>
 ```
+
 >step생략 은 step="1"과 동일
 
 **varStatus**
@@ -164,9 +165,13 @@ ${s}<br>
 ```
 >items 속성을 통해 확장된 for문을 사용할 수 있다.
 
+```html
+re
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzkyMTE2MiwzMjI2NjE3NDcsNjAwOT
-EwNTA3LDE2ODkyODQ3ODcsLTU2MTgyODAyLDE3OTA2MDc3ODEs
-MTUxMjI3ODAwNywtMTI2ODg4MzM4Niw4OTU5NjcyNzUsNzU4Nz
-AyNjcxLC0xMjc5OTk4NDQ2LDkwNTQzMjE3XX0=
+eyJoaXN0b3J5IjpbNDQyNjI1NTQ4LDEyNDc5MjExNjIsMzIyNj
+YxNzQ3LDYwMDkxMDUwNywxNjg5Mjg0Nzg3LC01NjE4MjgwMiwx
+NzkwNjA3NzgxLDE1MTIyNzgwMDcsLTEyNjg4ODMzODYsODk1OT
+Y3Mjc1LDc1ODcwMjY3MSwtMTI3OTk5ODQ0Niw5MDU0MzIxN119
+
 -->
