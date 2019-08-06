@@ -45,7 +45,7 @@ ex) web.xml
   </servlet-mapping>
 ```
 url: 
-http://localhost:8080/servlet1/first
+`http://localhost:8080/servlet1/first`
 
 >servlet엔진이 url과 같은 url-pattern 요소를 찾고, 해당 mapping의 servlet-name을 찾고, 해당 이름과 동일한 servlet element를 찾아 실행함.
 
@@ -65,6 +65,6 @@ WEB-INF 폴더에 url로 직접 접근할 수 없기 때문에,
 web.xml내의 url-pattern으로 해당 servlet에 접근한다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4NzY3NzY4LC0xNzQ5OTgzNzE0LDE3ND
-czNzk0MzVdfQ==
+eyJoaXN0b3J5IjpbMTg4MDU1MjM1MCwtMTc0OTk4MzcxNCwxNz
+Q3Mzc5NDM1XX0=
 -->
