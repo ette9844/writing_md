@@ -76,8 +76,8 @@ class C extends P {
 }
 ```
 >n()는 m()의 오타
->@Override annotation을 작성할 시, 컴파일 하면서  
+>@Override 을 작성할 시, 컴파일 하면서 에러를 잡아준다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwNTA5NDE0LC0xNTA0MDMwMDUzLC0yMj
+eyJoaXN0b3J5IjpbMTgxMzg2NzkwLC0xNTA0MDMwMDUzLC0yMj
 U4NTMxMjEsLTk2NTcxNjQ2OF19
 -->
