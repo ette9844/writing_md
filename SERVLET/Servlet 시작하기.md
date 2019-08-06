@@ -65,8 +65,9 @@ WEB-INF 폴더에 url로 직접 접근할 수 없기 때문에,
 web.xml내의 url-pattern으로 해당 servlet에 접근한다
 
 ### @Override
-컴파일 타임에 영향을 미치는 annotation
 
+컴파일 타임에 영향을 미치는 annotation의 한 종류
+*annotation: 주석, @Override 표기 등
 ```java
 class P { void m(){} }
 class C extends P {
@@ -74,8 +75,9 @@ class C extends P {
 	void n(){}		
 }
 ```
->// m()의 오타: @Override 어노테이션을 통해서 컴파일 타임에 에러를 
+>n()는 m()의 오타
+>@Override annotation을 작성할 시, 컴파일 하면서  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDY4MTcyODksLTE1MDQwMzAwNTMsLT
-IyNTg1MzEyMSwtOTY1NzE2NDY4XX0=
+eyJoaXN0b3J5IjpbNTEwNTA5NDE0LC0xNTA0MDMwMDUzLC0yMj
+U4NTMxMjEsLTk2NTcxNjQ2OF19
 -->
