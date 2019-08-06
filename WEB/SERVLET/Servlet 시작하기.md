@@ -65,8 +65,11 @@ WEB-INF 폴더에 url로 직접 접근할 수 없기 때문에,
 web.xml내의 url-pattern으로 해당 servlet에 접근한다
 
 ## Annotation
-주석, @Override 표기 등
-### @Override
+자바 어노테이션은 자바 소스 코드에 추가하여 사용할 수 있는 **메타데이터**의 일종이다. 
+보통 **@ 기호**를 앞에 붙여서 사용한다. 
+JDK 1.5 버전 이상에서 사용 가능하다.
+
+## @Override
 컴파일 타임에 영향을 미치는 annotation의 한 종류
 ```java
 class P { void m(){} }
@@ -78,7 +81,7 @@ class C extends P {
 >n()는 m()의 오타
 >@Override 을 작성할 시, 컴파일 하면서 에러를 잡아준다. 
 
-### @WebServlet
+## @WebServlet
 `@WebServlet(urlPatterns="/first")`
 `@WebServlet(urlPatterns = {"/test", "/test2"}`
 
@@ -139,5 +142,6 @@ public class testServlet extends HttpServlet {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDk5ODM3MTQsMTc0NzM3OTQzNV19
+eyJoaXN0b3J5IjpbMTQ0MTg1NDcxNSwtMTc0OTk4MzcxNCwxNz
+Q3Mzc5NDM1XX0=
 -->
