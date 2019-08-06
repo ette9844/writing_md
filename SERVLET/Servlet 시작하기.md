@@ -66,7 +66,16 @@ web.xml내의 url-pattern으로 해당 servlet에 접근한다
 
 ### @Override
 컴파일 타임에 영향을 미치는 annotation
+
+```java
+class P { void m(){} }
+class C extends P {
+	@Override		// override annotation
+	void n(){}		
+}
+```
+>// m()의 오타: @Override 어노테이션을 통해서 컴파일 타임에 에러를 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjMxODQyLC0xNTA0MDMwMDUzLC0yMj
-U4NTMxMjEsLTk2NTcxNjQ2OF19
+eyJoaXN0b3J5IjpbLTE2MDY4MTcyODksLTE1MDQwMzAwNTMsLT
+IyNTg1MzEyMSwtOTY1NzE2NDY4XX0=
 -->
