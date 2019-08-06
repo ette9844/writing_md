@@ -100,9 +100,16 @@ class C extends P {
 >@Retention(value=`RUNTIME`): 실행시에 일을하는 annotation
 
 #### 그 외 다양한 @WebServlet annotation의 attribute
+```java
+@WebServlet(urlPatterns = {"/test", "/test2"}, 
+			loadOnStartup = 1, 
+			initParams = @WebInitParam(name="charset", value="UTF-8"))
 ```
+* loadOnStarup
+```html
 
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDYxMTg3NiwxNzQ3Mzc5NDM1XX0=
+eyJoaXN0b3J5IjpbLTE4MjI4OTczNjUsMTc0NzM3OTQzNV19
 -->
