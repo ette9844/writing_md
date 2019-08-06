@@ -79,8 +79,11 @@ class C extends P {
 >@Override 을 작성할 시, 컴파일 하면서 에러를 잡아준다. 
 
 ### @WebServlet
-`@WebServlet(urlPatterns=()`
+`@WebServlet(urlPatterns="/first")`
+
+서블릿 3.0 버전 부터 사용 가능한 annotation
+해당 annotation을 사용하면 web.xml 파일에 따로 등록하지 않아도 서블릿으로 등록된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTA4OTczMywtMTUwNDAzMDA1MywtMj
+eyJoaXN0b3J5IjpbMTg2ODI3ODA0NCwtMTUwNDAzMDA1MywtMj
 I1ODUzMTIxLC05NjU3MTY0NjhdfQ==
 -->
