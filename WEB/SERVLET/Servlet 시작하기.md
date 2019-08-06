@@ -105,7 +105,7 @@ class C extends P {
 			loadOnStartup = 1, 
 			initParams = @WebInitParam(name="charset", value="UTF-8"))
 ```
-* loadOnStartup
+**loadOnStartup**
 ```html
 <servlet>
   ...
@@ -115,8 +115,16 @@ class C extends P {
 보통 초기화 작업은 상대적으로 시간이 오래 걸리기 때문에, 처음 서블릿을 사용하는 시점보다는 웹 컨테이너를 처음 구동하는 시점에 초기화를 진행하는 것이 좋다.
 이를 위한 설정이 loadOnStartup.
 
-* 
+**initParams**
+```html
+<servlet>
+  ...
+  <init-param>
+    <param-name>
+  </init-param>
+</servlet>
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTA5MzAzNywxNzQ3Mzc5NDM1XX0=
+eyJoaXN0b3J5IjpbLTExMzI1OTc2NDUsMTc0NzM3OTQzNV19
 -->
