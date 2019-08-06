@@ -127,7 +127,7 @@ class C extends P {
 ```
 서블릿의 초기화 파라미터를 지정할 때 사용 함.
 
-짖초기화 파라미터로 맴버 변수 초기화
+지정된 초기화 파라미터로 맴버 변수 초기화
 ```java
 @WebServlet(~~)
 public class testServlet extends HttpServlet {
@@ -140,5 +140,5 @@ public class testServlet extends HttpServlet {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NTA0MjIxNywxNzQ3Mzc5NDM1XX0=
+eyJoaXN0b3J5IjpbLTM1NjY4MjA2NCwxNzQ3Mzc5NDM1XX0=
 -->
