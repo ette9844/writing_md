@@ -127,6 +127,18 @@ class C extends P {
 ```
 서블릿의 초기화 파라미터를 지정할 때 사용 함.
 
+짖초기화 파라미터로 맴버 변수 초기화
+```java
+@WebServlet(~~)
+public class testServlet extends HttpServlet {
+	private String charset;
+    public void init(ServletConfig sc) throws ServletException {
+    	super.init(sc);
+    	charset = this.getInitParameter(charset);
+    }
+}
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDYzMjUxMSwxNzQ3Mzc5NDM1XX0=
+eyJoaXN0b3J5IjpbLTQ0NTA0MjIxNywxNzQ3Mzc5NDM1XX0=
 -->
