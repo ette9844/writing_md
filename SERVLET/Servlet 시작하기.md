@@ -56,15 +56,17 @@ http://localhost:8080/servlet1/first
 &nbsp;&nbsp;&nbsp;&nbsp;└WEB-INF
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└web.xml [FirstServlet.class 에 해당 url-pattern 매핑]
 nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;└classes
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└FirstServlet.class
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└classes
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└FirstServlet.class
 
-http://localhost:8080/servlet11/WEB-INF/classes/FirstServlet
+`http://localhost:8080/servlet11/WEB-INF/classes/FirstServlet`
+WEB-INF 폴더에 url로 직접 접근할 수 없기 때문에,
+`http://localhost:8080/servlet11/first`
+web.xml내의 url-pattern으로 해당 servlet에 접근한다
 
-
-@Override
+### @Override
 컴파일 타임에 영향을 미치는 annotation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDcwNDM4NDUsLTE1MDQwMzAwNTMsLT
-IyNTg1MzEyMSwtOTY1NzE2NDY4XX0=
+eyJoaXN0b3J5IjpbMTkwNjMxODQyLC0xNTA0MDMwMDUzLC0yMj
+U4NTMxMjEsLTk2NTcxNjQ2OF19
 -->
