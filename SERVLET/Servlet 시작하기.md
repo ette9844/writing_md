@@ -51,7 +51,10 @@ http://localhost:8080/servlet1/first
 
 
 
+### 웹 컨텍스트 구조
+웹컨텍스트 루트 (ex
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjI5NzE2NywtMTUwNDAzMDA1MywtMj
-I1ODUzMTIxLC05NjU3MTY0NjhdfQ==
+eyJoaXN0b3J5IjpbLTE0MDQ0Mzg3OTksLTE1MDQwMzAwNTMsLT
+IyNTg1MzEyMSwtOTY1NzE2NDY4XX0=
 -->
