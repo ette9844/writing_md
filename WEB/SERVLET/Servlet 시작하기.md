@@ -69,6 +69,7 @@ web.xml내의 url-pattern으로 해당 servlet에 접근한다
 <url-pattern>/</url-pattern>
 <url-pattern>/*</url-pattern>
 <url-pattern>*.sds</url-pattern>
+
 <url-pattern>*</url-pattern>
 ```
 >/ : jsp를 제외한 모든 요청
@@ -77,6 +78,6 @@ web.xml내의 url-pattern으로 해당 servlet에 접근한다
 *: 에러발생. *만 단독으로 사용할 수 없다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODU3NzM5MywxODgwNTUyMzUwLC0xNz
-Q5OTgzNzE0LDE3NDczNzk0MzVdfQ==
+eyJoaXN0b3J5IjpbMjI1MzE1OTY1LDE4ODA1NTIzNTAsLTE3ND
+k5ODM3MTQsMTc0NzM3OTQzNV19
 -->
