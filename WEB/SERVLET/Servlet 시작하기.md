@@ -87,7 +87,11 @@ class C extends P {
 
 3.0 이후 버전 부터 eclipse에서 servlet 생성시 @WebServlet 어노테이션이 자동으로 추가 됨
 
+하나의 servlet의 urlPattern을 String 배열을 통해 여러개 지정할 수 있다.
+
 ```
+*@WebServlet 어노테이션 descripton*
+
 @Target(value={TYPE})  
 @Retention(value=RUNTIME)  
 @Documented
@@ -95,5 +99,5 @@ class C extends P {
 >@Target(value={`TYPE`}): 클래스 선언 윗부분에 붙는 annotation
 >@Retention(value=`RUNTIME`): 실행시에 일을하는 annotation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjU3MDU3MzhdfQ==
+eyJoaXN0b3J5IjpbMTc0NzM3OTQzNV19
 -->
