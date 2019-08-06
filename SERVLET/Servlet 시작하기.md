@@ -4,6 +4,7 @@ let = booklet : 소책자, 별책부록 에서 따옴
 
 **서버**에서 실행되는 특수 어플리케이션
 main() 없이 실행
+서블릿 엔진 [컨테이너]가 실행시켜준다.
 
 그 외
 **~~Middlet~~** 
@@ -51,6 +52,6 @@ http://localhost:8080/servlet1/first
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQwMzAwNTMsLTIyNTg1MzEyMSwtOT
-Y1NzE2NDY4XX0=
+eyJoaXN0b3J5IjpbLTQ0MjI5NzE2NywtMTUwNDAzMDA1MywtMj
+I1ODUzMTIxLC05NjU3MTY0NjhdfQ==
 -->
