@@ -64,10 +64,10 @@ WEB-INF 폴더에 url로 직접 접근할 수 없기 때문에,
 `http://localhost:8080/servlet11/first`
 web.xml내의 url-pattern으로 해당 servlet에 접근한다
 
+## Annotation
+주석, @Override 표기 등
 ### @Override
-
 컴파일 타임에 영향을 미치는 annotation의 한 종류
-*annotation: 주석, @Override 표기 등
 ```java
 class P { void m(){} }
 class C extends P {
@@ -77,7 +77,9 @@ class C extends P {
 ```
 >n()는 m()의 오타
 >@Override 을 작성할 시, 컴파일 하면서 에러를 잡아준다. 
+
+### @WebServlet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzg2NzkwLC0xNTA0MDMwMDUzLC0yMj
-U4NTMxMjEsLTk2NTcxNjQ2OF19
+eyJoaXN0b3J5IjpbLTQwMTMwMzI1NCwtMTUwNDAzMDA1MywtMj
+I1ODUzMTIxLC05NjU3MTY0NjhdfQ==
 -->
