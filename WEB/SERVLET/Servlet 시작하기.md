@@ -90,6 +90,9 @@ class C extends P {
 @Target(value={TYPE})  
 @Retention(value=RUNTIME)  
 @Documented
+```
+>@Target(value={`TYPE`}): 클래스 선언 윗부분에 붙는 annotation
+>@Retention(value=`RUNTIME`): 실행시에 일을하는 annotation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNTEyOTYyXX0=
+eyJoaXN0b3J5IjpbLTMxODU0MTkzOF19
 -->
