@@ -52,9 +52,11 @@ http://localhost:8080/servlet1/first
 
 
 ### 웹 컨텍스트 구조
-웹컨텍스트 루트 (ex
-
+웹컨텍스트 루트 (ex. /servlet11)
+&nbsp;&nbsp;&nbsp;&nbsp;↓
+&nbsp;WEB-INF
+&nbsp;&nbsp;↓
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQ0Mzg3OTksLTE1MDQwMzAwNTMsLT
+eyJoaXN0b3J5IjpbLTEwODAxOTMwNDQsLTE1MDQwMzAwNTMsLT
 IyNTg1MzEyMSwtOTY1NzE2NDY4XX0=
 -->
