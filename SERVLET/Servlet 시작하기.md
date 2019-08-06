@@ -56,10 +56,15 @@ http://localhost:8080/servlet1/first
 &nbsp;&nbsp;&nbsp;&nbsp;└WEB-INF
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└web.xml [FirstServlet.class 에 해당 url-pattern 매핑]
 nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└classes
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└FirstServlet.
+&nbsp;&nbsp;&nbsp;&nbsp;└classes
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└FirstServlet.class
 
+http://localhost:8080/servlet11/WEB-INF/classes/FirstServlet
+
+
+@Override
+컴파일 타임에 영향을 미치는 annotation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTQ0MDk4NywtMTUwNDAzMDA1MywtMj
-I1ODUzMTIxLC05NjU3MTY0NjhdfQ==
+eyJoaXN0b3J5IjpbLTIwMDcwNDM4NDUsLTE1MDQwMzAwNTMsLT
+IyNTg1MzEyMSwtOTY1NzE2NDY4XX0=
 -->
