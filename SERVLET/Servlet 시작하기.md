@@ -53,13 +53,13 @@ http://localhost:8080/servlet1/first
 
 ### 웹 컨텍스트 구조
 웹컨텍스트 루트 (ex. /servlet11)
-&nbsp;&nbsp;&nbsp;&nbsp;↓
-&nbsp;&nbsp;&nbsp;&nbsp;WEB-INF
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;web.xml [FirstServlet.class 에 해당 url-pattern 매핑]
+&nbsp;&nbsp;&nbsp;&nbsp;└WEB-INF
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└web.xml [FirstServlet.class 에 해당 url-pattern 매핑]
 nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;web.xml [FirstServlet.class 에 해당 url-pattern 매핑]
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└classes
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└FirstServlet.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQ0ODAzNzYsLTE1MDQwMzAwNTMsLT
-IyNTg1MzEyMSwtOTY1NzE2NDY4XX0=
+eyJoaXN0b3J5IjpbMTk1MTQ0MDk4NywtMTUwNDAzMDA1MywtMj
+I1ODUzMTIxLC05NjU3MTY0NjhdfQ==
 -->
