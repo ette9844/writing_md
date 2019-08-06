@@ -120,11 +120,13 @@ class C extends P {
 <servlet>
   ...
   <init-param>
-    <param-name>
+    <param-name>charset</param-name>
+    <param-value>UTF-8</param-value>
   </init-param>
 </servlet>
 ```
+서블릿의 초기화 파라미터를 지정할 때 사용 함.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI1OTc2NDUsMTc0NzM3OTQzNV19
+eyJoaXN0b3J5IjpbLTk3MDYzMjUxMSwxNzQ3Mzc5NDM1XX0=
 -->
