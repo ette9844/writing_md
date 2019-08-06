@@ -98,6 +98,11 @@ class C extends P {
 ```
 >@Target(value={`TYPE`}): 클래스 선언 윗부분에 붙는 annotation
 >@Retention(value=`RUNTIME`): 실행시에 일을하는 annotation
+
+#### 그 외 다양한 @WebServlet annotation의 attribute
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzM3OTQzNV19
+eyJoaXN0b3J5IjpbMTgzMDYxMTg3NiwxNzQ3Mzc5NDM1XX0=
 -->
