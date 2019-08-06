@@ -105,11 +105,11 @@ class C extends P {
 			loadOnStartup = 1, 
 			initParams = @WebInitParam(name="charset", value="UTF-8"))
 ```
-* loadOnStarup
+* loadOnStartup
 ```html
-
+<load
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjI4OTczNjUsMTc0NzM3OTQzNV19
+eyJoaXN0b3J5IjpbLTIxNTgzMjA5NSwxNzQ3Mzc5NDM1XX0=
 -->
