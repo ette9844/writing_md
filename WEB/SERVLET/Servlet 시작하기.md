@@ -80,6 +80,7 @@ class C extends P {
 
 ### @WebServlet
 `@WebServlet(urlPatterns="/first")`
+`@WebServlet(urlPatterns = {"/test", "/test2"}`
 
 서블릿 3.0 버전 부터 사용 가능한 annotation
 해당 annotation을 사용하면 web.xml 파일에 따로 등록하지 않아도 서블릿으로 등록된다.
@@ -94,5 +95,5 @@ class C extends P {
 >@Target(value={`TYPE`}): 클래스 선언 윗부분에 붙는 annotation
 >@Retention(value=`RUNTIME`): 실행시에 일을하는 annotation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODU0MTkzOF19
+eyJoaXN0b3J5IjpbLTEwMjU3MDU3MzhdfQ==
 -->
