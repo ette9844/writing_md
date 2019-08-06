@@ -64,6 +64,7 @@ WEB-INF 폴더에 url로 직접 접근할 수 없기 때문에,
 `http://localhost:8080/servlet11/first`
 web.xml내의 url-pattern으로 해당 servlet에 접근한다
 
+## rl pattern wild card
 ```html
 <url-pattern>/</url-pattern>
 ```
@@ -72,6 +73,6 @@ web.xml내의 url-pattern으로 해당 servlet에 접근한다
 *.sds: 확장자가 sds인 모든 요청
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQwOTA3NjMsMTg4MDU1MjM1MCwtMT
+eyJoaXN0b3J5IjpbLTEwMjA5MDYxMjksMTg4MDU1MjM1MCwtMT
 c0OTk4MzcxNCwxNzQ3Mzc5NDM1XX0=
 -->
