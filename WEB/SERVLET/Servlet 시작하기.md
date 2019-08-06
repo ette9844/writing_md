@@ -85,6 +85,11 @@ class C extends P {
 해당 annotation을 사용하면 web.xml 파일에 따로 등록하지 않아도 서블릿으로 등록된다.
 
 3.0 이후 버전 부터 eclipse에서 servlet 생성시 @WebServlet 어노테이션이 자동으로 추가 됨
+
+```
+@Target(value={TYPE})  
+@Retention(value=RUNTIME)  
+@Documented
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODgzNzQ2MTldfQ==
+eyJoaXN0b3J5IjpbMzkyNTEyOTYyXX0=
 -->
