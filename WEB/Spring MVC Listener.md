@@ -3,7 +3,12 @@
 ## spring에서 사용되는 ServletContextListener
 
 #### ContextLoaderListener
-
+```html
+<listener>
+  <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listen
+```
+내부 동작
 ```java
 public class ContextLoaderListener implements ServletContextListener{
 	// 톰캣 구동되자마자 contextInitialized 호출
@@ -25,6 +30,6 @@ public class ContextLoaderListener implements ServletContextListener{
 
 이 둘을 분리하여 관리
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5MDc5ODQsNjYxNTcyNCwtMTUyNTQzMz
-ExMl19
+eyJoaXN0b3J5IjpbMTYxMjg3NzMwLDMwOTA3OTg0LDY2MTU3Mj
+QsLTE1MjU0MzMxMTJdfQ==
 -->
