@@ -6,8 +6,9 @@
 ```html
 <listener>
   <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listen
+</listener>
 ```
+
 내부 동작
 ```java
 public class ContextLoaderListener implements ServletContextListener{
@@ -21,7 +22,7 @@ public class ContextLoaderListener implements ServletContextListener{
 	}
 }
 ```
-
+### * Spring MVC 구조
 1. 비지니스로직용 객체 관리: DAO, SERVICE
 → applicationContext.xml에서 관리
 
@@ -30,6 +31,6 @@ public class ContextLoaderListener implements ServletContextListener{
 
 이 둘을 분리하여 관리
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjg3NzMwLDMwOTA3OTg0LDY2MTU3Mj
-QsLTE1MjU0MzMxMTJdfQ==
+eyJoaXN0b3J5IjpbMTM4NzMxNTQ4OSwzMDkwNzk4NCw2NjE1Nz
+I0LC0xNTI1NDMzMTEyXX0=
 -->
