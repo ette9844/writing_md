@@ -1,3 +1,5 @@
+
+
 ## spring에서 사용되는 ServletContextListener
 
 #### ContextLoaderListener
@@ -23,5 +25,6 @@ public class ContextLoaderListener implements ServletContextListener{
 
 이 둘을 분리하여 관리
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxNTcyNCwtMTUyNTQzMzExMl19
+eyJoaXN0b3J5IjpbMzA5MDc5ODQsNjYxNTcyNCwtMTUyNTQzMz
+ExMl19
 -->
