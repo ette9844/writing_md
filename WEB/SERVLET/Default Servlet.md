@@ -18,6 +18,17 @@
 2. 그 외의 확장자 (.do, .sds, cns ... 등)인 경우에는 웹 컨텍스트\WEB-INF\web.xml에 설정된 url-pattern으로 처리
 
 
+**웹 컨텍스트\WEB-INF\web.xml**
+```html
+<servlet>
+  <servlet-name>dispatcher</servlet-name>
+  <servlet-calss>DefaultServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>default</servlet-name>
+  <url-pattern>/</url pattern>
+</servlet-mapping>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5OTQzMDgxXX0=
+eyJoaXN0b3J5IjpbODY0NTEzNzE5XX0=
 -->
