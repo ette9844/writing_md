@@ -31,7 +31,8 @@
 ```
 default servlet을 덮어쓴다
 
-
+jsp를 제외한 모든 요청을 default servlet이 처리해준다.
+jsp는 `<servlet-name>jsp</servlet-name>`가 처리해준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MzUxNzIxMF19
+eyJoaXN0b3J5IjpbMTUxNDM0OTU5M119
 -->
