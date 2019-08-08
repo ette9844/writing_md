@@ -33,14 +33,18 @@
 
 ### use case의 순서 표현
 use case사이에서의 흐름은 표현하지 않는다.
+상세 흐름은 use case명세서에 작성
 ```
 고객->검색->등록 (X)
 
 고객->검색
-고객->등록(O)
+고객->등록 (O)
+
+팀원->휴가신청->팀장->휴가승인 (X)
+
+팀원->휴가신청
+팀장->휴가승인 (O)
 ```
-
-
 ## 2) class diagram
 
 ## 3) sequence diagram
@@ -48,7 +52,7 @@ use case사이에서의 흐름은 표현하지 않는다.
 객체들끼리 주고받는 메시지의 순서를 시간의 흐름에 따라 보여주는 그림이다. ​
 use case 간의 메시지 이동을 표기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMzExNzM1NSw1MjQxMTIxMiwtOTg1Nj
-gzODY1LC04OTY3NTE5NDQsNTI3NDY4ODEsLTE5OTk5NzkwMTRd
-fQ==
+eyJoaXN0b3J5IjpbLTE4ODMwNDM4NDQsNTI0MTEyMTIsLTk4NT
+Y4Mzg2NSwtODk2NzUxOTQ0LDUyNzQ2ODgxLC0xOTk5OTc5MDE0
+XX0=
 -->
