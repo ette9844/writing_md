@@ -75,8 +75,13 @@ use case사이에서의 흐름은 표현하지 않는다.
 
 객체들끼리 주고받는 메시지의 순서를 시간의 흐름에 따라 보여주는 그림이다. ​
 use case 간의 메시지 이동을 표기
+
+## UML 소프트웨어
+EA: Enterprise Architect
+STAR UML
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM5OTYxMjAsNTI0MTEyMTIsLTk4NT
-Y4Mzg2NSwtODk2NzUxOTQ0LDUyNzQ2ODgxLC0xOTk5OTc5MDE0
-XX0=
+eyJoaXN0b3J5IjpbMTQ2MDgxNzM2MCw1MjQxMTIxMiwtOTg1Nj
+gzODY1LC04OTY3NTE5NDQsNTI3NDY4ODEsLTE5OTk5NzkwMTRd
+fQ==
 -->
