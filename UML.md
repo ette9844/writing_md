@@ -78,8 +78,8 @@ use case사이에서의 흐름은 표현하지 않는다.
 ## 2) class diagram
 * IS-A 
 * HAS-A
--life cycle이 서로 다를  때 : aggregation
--life cycle이 서로 같을  때 : composition
+-life scope이 서로 다를  때 : aggregation
+-life scope이 서로 같을  때 : composition
 
 ###  aggregation
 두 객체의 life scope이 다를 경우
@@ -129,7 +129,7 @@ EA: Enterprise Architect (기업용)
 
 >setter getter generator plugin을 통해 setter/getter를 자동 작성할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk1MzUwNTMwLDk4OTM0NDkzMiwxOTA3ND
-k3NDc1LDUyNDExMjEyLC05ODU2ODM4NjUsLTg5Njc1MTk0NCw1
-Mjc0Njg4MSwtMTk5OTk3OTAxNF19
+eyJoaXN0b3J5IjpbNjI5MTk4NDAyLDQ5NTM1MDUzMCw5ODkzND
+Q5MzIsMTkwNzQ5NzQ3NSw1MjQxMTIxMiwtOTg1NjgzODY1LC04
+OTY3NTE5NDQsNTI3NDY4ODEsLTE5OTk5NzkwMTRdfQ==
 -->
