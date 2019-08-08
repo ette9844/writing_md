@@ -10,6 +10,12 @@
     
 사용자들이 진정으로 도움을 받을 수 있는 시스템을 만들 확률을 높임
 
+### use case diagram 구성요소
+1. 액터
+2. use case
+
+
+
 ## 2) class diagram
 
 ## 3) sequence diagram
@@ -17,6 +23,6 @@
 객체들끼리 주고받는 메시지의 순서를 시간의 흐름에 따라 보여주는 그림이다. ​
 use case 간의 메시지 이동을 표기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTY4Mzg2NSwtODk2NzUxOTQ0LDUyNz
-Q2ODgxLC0xOTk5OTc5MDE0XX0=
+eyJoaXN0b3J5IjpbNTI0MTEyMTIsLTk4NTY4Mzg2NSwtODk2Nz
+UxOTQ0LDUyNzQ2ODgxLC0xOTk5OTc5MDE0XX0=
 -->
