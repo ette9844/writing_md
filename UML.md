@@ -82,7 +82,8 @@ use case사이에서의 흐름은 표현하지 않는다.
 -객체와 맴베변수의 life scope이 서로 같을  때 : composition
 
 [그림: uml class diagram]
->너무 세세한 부분
+>너무 세세한 부분 까지 표현할 필요 없이 핵심부분만 표현.
+>모든 관계를 다 표현하면 너무 복잡해져 보기 힘들어진다.
 
 ###  aggregation
 두 객체의 life scope이 다를 경우
@@ -137,8 +138,8 @@ EA: Enterprise Architect (기업용)
 
 >setter getter generator plugin을 통해 setter/getter를 자동 작성할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzAyODkwMywxMjg0MjQ5Njk4LDYyOT
-E5ODQwMiw0OTUzNTA1MzAsOTg5MzQ0OTMyLDE5MDc0OTc0NzUs
-NTI0MTEyMTIsLTk4NTY4Mzg2NSwtODk2NzUxOTQ0LDUyNzQ2OD
-gxLC0xOTk5OTc5MDE0XX0=
+eyJoaXN0b3J5IjpbLTE1MTUyMjM5MzAsMTI4NDI0OTY5OCw2Mj
+kxOTg0MDIsNDk1MzUwNTMwLDk4OTM0NDkzMiwxOTA3NDk3NDc1
+LDUyNDExMjEyLC05ODU2ODM4NjUsLTg5Njc1MTk0NCw1Mjc0Nj
+g4MSwtMTk5OTk3OTAxNF19
 -->
