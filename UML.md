@@ -20,11 +20,14 @@
 
 [그림: 액터 식별 방법]
 * 액터는 액터간에 직접관계를 맺을 수 없다. 
->직원만 액터에 해당
+>위 그림에서는 직원만 액터에 해당
 * 액터는 use case와 직접관계를 맺는다.
 
 ### 2. use case
-사용자와 교류없이 시스템
+- 사용자 관점에서 정의해야 한다.
+- 사용자와 교류없이 시스템 내부에서 수행되는 기능은 use case가 아니다.
+반드시 하나 이상의 액터와 상호작용해야한다.
+What을 표현하며 How를 표현하지 않는다.
 
 ## 2) class diagram
 
@@ -33,7 +36,7 @@
 객체들끼리 주고받는 메시지의 순서를 시간의 흐름에 따라 보여주는 그림이다. ​
 use case 간의 메시지 이동을 표기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjc1MDU1MCw1MjQxMTIxMiwtOTg1Nj
-gzODY1LC04OTY3NTE5NDQsNTI3NDY4ODEsLTE5OTk5NzkwMTRd
-fQ==
+eyJoaXN0b3J5IjpbNTA1MTYxMDQyLDUyNDExMjEyLC05ODU2OD
+M4NjUsLTg5Njc1MTk0NCw1Mjc0Njg4MSwtMTk5OTk3OTAxNF19
+
 -->
