@@ -1,6 +1,6 @@
-UML을 작성하고 프레젠테이션에 첨가하지만, 그 흐름이나 HOW에 대해 세세하게 설명하지 말 것.
-세부사항은 질문이 들어올 경우에만 말한다.
 프레젠테이션을 듣는 사람 중에는 세세하게 설명해도 못 알아듣는 사람이 있다는 점에 유의할 것.
+UML을 작성하고 프레젠테이션에 첨가하지만, 그 흐름이나 HOW에 대해 세세하게 설명하지 말아야 한다.
+세부사항은 질문이 들어올 경우에만 말한다.
 
 ## 1) use case diagram
 
@@ -74,6 +74,10 @@ use case사이에서의 흐름은 표현하지 않는다.
 * use case 사이의 흐름이 **선택적으로 사용**됨을 의미한다.
 
 ## 2) class diagram
+IS-A : aggregation composition 집합관계
+HAS-A : HAS-A관계가 성립
+life cycle이 서로 다를  때 : aggregation
+
 
 ## 3) sequence diagram
 
@@ -86,7 +90,7 @@ EA: Enterprise Architect (기업용)
 
 >setter getter generator plugin을 통해 setter/getter를 자동 작성할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3OTE5MzQ0LDk4OTM0NDkzMiwxOTA3ND
-k3NDc1LDUyNDExMjEyLC05ODU2ODM4NjUsLTg5Njc1MTk0NCw1
-Mjc0Njg4MSwtMTk5OTk3OTAxNF19
+eyJoaXN0b3J5IjpbMTgzMTcxMTA4OSw5ODkzNDQ5MzIsMTkwNz
+Q5NzQ3NSw1MjQxMTIxMiwtOTg1NjgzODY1LC04OTY3NTE5NDQs
+NTI3NDY4ODEsLTE5OTk5NzkwMTRdfQ==
 -->
