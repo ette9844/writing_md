@@ -1,12 +1,12 @@
-1. 카테고리별로 나눠서 게시판 출력
-　전체 / 어학 / 취업 / 자격증 / 코딩
-　default: 전체
-2. 게시글 작성란
-　페이지 상단에 입력란(트위터 벤치마킹)
-　textarea 입력란, 게시 버튼, 
-3. 해시태그 검색 기능
+1) use case diagram
+
+유스 케이스(use case)는 사용자의 입장에서 본 시스템의 행동을 일컫는다.
+
+
+2) class diagram
+3) sequence diagram
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk5NzkwMTRdfQ==
+eyJoaXN0b3J5IjpbMTYyOTQ0NTIxMiwtMTk5OTk3OTAxNF19
 -->
