@@ -118,6 +118,11 @@ public class Customer{
 >```
 >customer 객체와 post객체의 life scope 이 동일
 
+
+---
+### dependency
+메서드의 매개변수나 리턴값으로 해당 클래스를 사용할 때
+
 ## 3) sequence diagram
 
 객체들끼리 주고받는 메시지의 순서를 시간의 흐름에 따라 보여주는 그림이다. ​
@@ -129,8 +134,8 @@ EA: Enterprise Architect (기업용)
 
 >setter getter generator plugin을 통해 setter/getter를 자동 작성할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTQwODE5MTksNjI5MTk4NDAyLDQ5NT
-M1MDUzMCw5ODkzNDQ5MzIsMTkwNzQ5NzQ3NSw1MjQxMTIxMiwt
-OTg1NjgzODY1LC04OTY3NTE5NDQsNTI3NDY4ODEsLTE5OTk5Nz
-kwMTRdfQ==
+eyJoaXN0b3J5IjpbMTI4NDI0OTY5OCw2MjkxOTg0MDIsNDk1Mz
+UwNTMwLDk4OTM0NDkzMiwxOTA3NDk3NDc1LDUyNDExMjEyLC05
+ODU2ODM4NjUsLTg5Njc1MTk0NCw1Mjc0Njg4MSwtMTk5OTk3OT
+AxNF19
 -->
