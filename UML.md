@@ -80,9 +80,9 @@ use case 간의 메시지 이동을 표기
 EA: Enterprise Architect (기업용)
 [STAR UML](http://staruml.io/) (개인용)
 
-setter getter generator plugin을 통해 setter/getter를 자동 작성할 수 있다.
+>setter getter generator plugin을 통해 setter/getter를 자동 작성할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzAxODQwLDE5MDc0OTc0NzUsNTI0MT
+eyJoaXN0b3J5IjpbOTg5MzQ0OTMyLDE5MDc0OTc0NzUsNTI0MT
 EyMTIsLTk4NTY4Mzg2NSwtODk2NzUxOTQ0LDUyNzQ2ODgxLC0x
 OTk5OTc5MDE0XX0=
 -->
