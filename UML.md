@@ -82,7 +82,8 @@ use case사이에서의 흐름은 표현하지 않는다.
 -life cycle이 서로 같을  때 : composition
 
 ###  aggregation
-한 객체가 생성되거나 소멸될때 다른 객체도 같이 생성/소멸 되지 않는 관계
+두 객체의 life scope이 다를 경우
+ex) Customer ◇ㅡ Post : customer has a post
 ```java
 public class Customer{
 	private Post post;
@@ -91,7 +92,9 @@ public class Customer{
 	}
 }
 ```
->
+>```java
+>Customer c = new Customer();
+>c=n
 
 
 ### composition
@@ -107,7 +110,7 @@ public class Customer{
 }
 ```
 >```java
->new Customer();
+>Customer c = new Customer();
 >c=null; 	//c 내부에서 생성된 post도 같이 garbage collect됨
 >```
 >customer 객체와 post객체의 life cycle이 동일
@@ -123,7 +126,7 @@ EA: Enterprise Architect (기업용)
 
 >setter getter generator plugin을 통해 setter/getter를 자동 작성할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyMDMxNzgxLDk4OTM0NDkzMiwxOTA3ND
-k3NDc1LDUyNDExMjEyLC05ODU2ODM4NjUsLTg5Njc1MTk0NCw1
-Mjc0Njg4MSwtMTk5OTk3OTAxNF19
+eyJoaXN0b3J5IjpbLTE1NTA3MzQ2NjAsOTg5MzQ0OTMyLDE5MD
+c0OTc0NzUsNTI0MTEyMTIsLTk4NTY4Mzg2NSwtODk2NzUxOTQ0
+LDUyNzQ2ODgxLC0xOTk5OTc5MDE0XX0=
 -->
