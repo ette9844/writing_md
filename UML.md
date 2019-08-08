@@ -66,7 +66,7 @@ use case사이에서의 흐름은 표현하지 않는다.
 >예매 취소 경우, 2시간 이내에는 환불하기 가능
 >그 외에는 환불 불가.
 
-* 점선 사용, `<<extend>>` 표기
+* 점선 사용, 역방향 화살표, `<<extend>>` 표기
 * use case 사이의 흐름이 **선택적으로 사용**됨을 의미한다.
 
 ## 2) class diagram
@@ -76,7 +76,7 @@ use case사이에서의 흐름은 표현하지 않는다.
 객체들끼리 주고받는 메시지의 순서를 시간의 흐름에 따라 보여주는 그림이다. ​
 use case 간의 메시지 이동을 표기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTg4NDc4NzksNTI0MTEyMTIsLTk4NT
+eyJoaXN0b3J5IjpbLTE1NTM5OTYxMjAsNTI0MTEyMTIsLTk4NT
 Y4Mzg2NSwtODk2NzUxOTQ0LDUyNzQ2ODgxLC0xOTk5OTc5MDE0
 XX0=
 -->
