@@ -74,10 +74,16 @@ use case사이에서의 흐름은 표현하지 않는다.
 * use case 사이의 흐름이 **선택적으로 사용**됨을 의미한다.
 
 ## 2) class diagram
-IS-A : aggregation composition 집합관계
-HAS-A : HAS-A관계가 성립
-life cycle이 서로 다를  때 : aggregation
+* IS-A 
+* HAS-A
 
+### HAS-A 관계일 때
+* aggregation
+* composition
+life cycle이 서로 다를  때 : aggregation
+life cycle이 서로 같을  때 : composition
+한 객체가 생성될때 다른 객체도 같이 생성되고
+한 객체가 소멸될 때 다른 객체도 같이 소멸되는 관계
 
 ## 3) sequence diagram
 
@@ -90,7 +96,7 @@ EA: Enterprise Architect (기업용)
 
 >setter getter generator plugin을 통해 setter/getter를 자동 작성할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTcxMTA4OSw5ODkzNDQ5MzIsMTkwNz
+eyJoaXN0b3J5IjpbLTg0NTEzMDcwOSw5ODkzNDQ5MzIsMTkwNz
 Q5NzQ3NSw1MjQxMTIxMiwtOTg1NjgzODY1LC04OTY3NTE5NDQs
 NTI3NDY4ODEsLTE5OTk5NzkwMTRdfQ==
 -->
