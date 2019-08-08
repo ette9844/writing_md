@@ -64,6 +64,7 @@ use case사이에서의 흐름은 표현하지 않는다.
 
 * 점선 사용, `<<include>>` 표기
 * use case사이의 관계로 흐름이 **반드시** 사용됨을 의미한다.
+* 실제 코드 내에 include 된 use case를 호출하는 코득
 
 #### 확장 관계 extend
 [사진: extend]
@@ -76,12 +77,12 @@ use case사이에서의 흐름은 표현하지 않는다.
 ## 2) class diagram
 * IS-A 
 * HAS-A
+-life cycle이 서로 다를  때 : aggregation
+-life cycle이 서로 같을  때 : composition
 
 ###  aggregation
-### composition
 
-life cycle이 서로 다를  때 : aggregation
-life cycle이 서로 같을  때 : composition
+### composition
 한 객체가 생성될때 다른 객체도 같이 생성되고
 한 객체가 소멸될 때 다른 객체도 같이 소멸되는 관계
 EX)
@@ -105,7 +106,7 @@ EA: Enterprise Architect (기업용)
 
 >setter getter generator plugin을 통해 setter/getter를 자동 작성할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzQ2OTg5Niw5ODkzNDQ5MzIsMTkwNz
-Q5NzQ3NSw1MjQxMTIxMiwtOTg1NjgzODY1LC04OTY3NTE5NDQs
-NTI3NDY4ODEsLTE5OTk5NzkwMTRdfQ==
+eyJoaXN0b3J5IjpbODAzODMzMjcwLDk4OTM0NDkzMiwxOTA3ND
+k3NDc1LDUyNDExMjEyLC05ODU2ODM4NjUsLTg5Njc1MTk0NCw1
+Mjc0Njg4MSwtMTk5OTk3OTAxNF19
 -->
