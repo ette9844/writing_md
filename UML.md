@@ -64,7 +64,7 @@ use case사이에서의 흐름은 표현하지 않는다.
 
 * 점선 사용, `<<include>>` 표기
 * use case사이의 관계로 흐름이 **반드시** 사용됨을 의미한다.
-* 실제 코드 내에 include 된 use case를 호출하는 코득
+* 실제 코드 내에 include 된 use case를 호출하는 코드가 있어야 성립.
 
 #### 확장 관계 extend
 [사진: extend]
@@ -73,6 +73,7 @@ use case사이에서의 흐름은 표현하지 않는다.
 
 * 점선 사용, 역방향 화살표, `<<extend>>` 표기
 * use case 사이의 흐름이 **선택적으로 사용**됨을 의미한다.
+* 실제 코드 내에 extend 된 use case를 선택적으로 호출하는 코드가 있어야 성립.
 
 ## 2) class diagram
 * IS-A 
@@ -94,6 +95,8 @@ public class Customer{
 	}
 }
 ```
+>new Customer();
+>customer 객체와 post객체의 
 
 ## 3) sequence diagram
 
@@ -106,7 +109,7 @@ EA: Enterprise Architect (기업용)
 
 >setter getter generator plugin을 통해 setter/getter를 자동 작성할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzODMzMjcwLDk4OTM0NDkzMiwxOTA3ND
+eyJoaXN0b3J5IjpbODQ1MTYwNDM2LDk4OTM0NDkzMiwxOTA3ND
 k3NDc1LDUyNDExMjEyLC05ODU2ODM4NjUsLTg5Njc1MTk0NCw1
 Mjc0Njg4MSwtMTk5OTk3OTAxNF19
 -->
