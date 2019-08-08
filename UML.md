@@ -77,11 +77,11 @@ use case사이에서의 흐름은 표현하지 않는다.
 use case 간의 메시지 이동을 표기
 
 ## UML 소프트웨어
-EA: Enterprise Architect
-STAR UML
+EA: Enterprise Architect (기업용)
+[STAR UML](http://staruml.io/) (개인용)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDgxNzM2MCw1MjQxMTIxMiwtOTg1Nj
+eyJoaXN0b3J5IjpbMTkwNzQ5NzQ3NSw1MjQxMTIxMiwtOTg1Nj
 gzODY1LC04OTY3NTE5NDQsNTI3NDY4ODEsLTE5OTk5NzkwMTRd
 fQ==
 -->
