@@ -56,6 +56,8 @@ use case사이에서의 흐름은 표현하지 않는다.
 
 
 **포함 관계 include**
+[사진: include]
+>점선 사용, `<<include>>` 표기
 >use case사이의 관계로 흐름이 **반드시** 사용됨을 의미한다.
 
 **확장 관계 extend**
@@ -68,7 +70,7 @@ use case사이에서의 흐름은 표현하지 않는다.
 객체들끼리 주고받는 메시지의 순서를 시간의 흐름에 따라 보여주는 그림이다. ​
 use case 간의 메시지 이동을 표기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjcxNDY0Myw1MjQxMTIxMiwtOTg1Nj
-gzODY1LC04OTY3NTE5NDQsNTI3NDY4ODEsLTE5OTk5NzkwMTRd
-fQ==
+eyJoaXN0b3J5IjpbNzgwNTc3MjYwLDUyNDExMjEyLC05ODU2OD
+M4NjUsLTg5Njc1MTk0NCw1Mjc0Njg4MSwtMTk5OTk3OTAxNF19
+
 -->
