@@ -81,6 +81,9 @@ use case사이에서의 흐름은 표현하지 않는다.
 -객체와 맴베변수의 life scope이 서로 다를  때 : aggregation
 -객체와 맴베변수의 life scope이 서로 같을  때 : composition
 
+[그림: uml class diagram]
+>너무 세세한 부분
+
 ###  aggregation
 두 객체의 life scope이 다를 경우
 ex) Customer ◇ㅡ Post : customer has a post
@@ -134,8 +137,8 @@ EA: Enterprise Architect (기업용)
 
 >setter getter generator plugin을 통해 setter/getter를 자동 작성할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDI0OTY5OCw2MjkxOTg0MDIsNDk1Mz
-UwNTMwLDk4OTM0NDkzMiwxOTA3NDk3NDc1LDUyNDExMjEyLC05
-ODU2ODM4NjUsLTg5Njc1MTk0NCw1Mjc0Njg4MSwtMTk5OTk3OT
-AxNF19
+eyJoaXN0b3J5IjpbLTkxNzAyODkwMywxMjg0MjQ5Njk4LDYyOT
+E5ODQwMiw0OTUzNTA1MzAsOTg5MzQ0OTMyLDE5MDc0OTc0NzUs
+NTI0MTEyMTIsLTk4NTY4Mzg2NSwtODk2NzUxOTQ0LDUyNzQ2OD
+gxLC0xOTk5OTc5MDE0XX0=
 -->
