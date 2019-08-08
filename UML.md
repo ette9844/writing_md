@@ -15,9 +15,12 @@
 2. use case
 
 [그림]
->왼쪽 액터: 1차 액터
->오른쪽 액터: 2차 엑터, 외부 시스템과 관련된 액터
->오른쪽 엑가 없을 시: 외부 시스템과의 연결이 없는 경우
+>왼쪽 액터: **1차 액터**
+>오른쪽 액터: **2차 액터**, 외부 시스템과 관련된 액터
+>2차액터가 없을 시: 외부 시스템과의 연결이 없는 경우
+
+* 액터는 액터간에 직접관계를 맺을 수 없다. 
+* 
 
 ## 2) class diagram
 
@@ -26,7 +29,7 @@
 객체들끼리 주고받는 메시지의 순서를 시간의 흐름에 따라 보여주는 그림이다. ​
 use case 간의 메시지 이동을 표기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzNTk2Nzg5LDUyNDExMjEyLC05ODU2OD
-M4NjUsLTg5Njc1MTk0NCw1Mjc0Njg4MSwtMTk5OTk3OTAxNF19
-
+eyJoaXN0b3J5IjpbLTIzMjAyNzY1MCw1MjQxMTIxMiwtOTg1Nj
+gzODY1LC04OTY3NTE5NDQsNTI3NDY4ODEsLTE5OTk5NzkwMTRd
+fQ==
 -->
