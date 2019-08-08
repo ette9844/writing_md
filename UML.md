@@ -55,6 +55,11 @@ use case사이에서의 흐름은 표현하지 않는다.
 1차액터는 왼쪽에 2차액터는 오른쪽에 둔다.
 
 
+**포함 관계 include**
+>use case사이의 관계로 흐름이 **반드시** 사용됨을 의미한다.
+
+**확장 관계 extend**
+
 ## 2) class diagram
 
 ## 3) sequence diagram
@@ -62,7 +67,7 @@ use case사이에서의 흐름은 표현하지 않는다.
 객체들끼리 주고받는 메시지의 순서를 시간의 흐름에 따라 보여주는 그림이다. ​
 use case 간의 메시지 이동을 표기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjUxNzA3OTMsNTI0MTEyMTIsLTk4NT
-Y4Mzg2NSwtODk2NzUxOTQ0LDUyNzQ2ODgxLC0xOTk5OTc5MDE0
-XX0=
+eyJoaXN0b3J5IjpbMTI5MTAyMjU2NSw1MjQxMTIxMiwtOTg1Nj
+gzODY1LC04OTY3NTE5NDQsNTI3NDY4ODEsLTE5OTk5NzkwMTRd
+fQ==
 -->
