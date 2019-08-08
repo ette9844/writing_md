@@ -10,9 +10,8 @@
     
 사용자들이 진정으로 도움을 받을 수 있는 시스템을 만들 확률을 높임
 
-### use case diagram 구성요소
-1. 액터
-2. use case
+## use case diagram 구성요소
+### 1. 액터
 
 [그림: 액터]
 >왼쪽 액터: **1차 액터**
@@ -24,6 +23,9 @@
 >직원만 액터에 해당
 * 액터는 use case와 직접관계를 맺는다.
 
+### 2. use case
+사용자와 교류없이 시스템
+
 ## 2) class diagram
 
 ## 3) sequence diagram
@@ -31,7 +33,7 @@
 객체들끼리 주고받는 메시지의 순서를 시간의 흐름에 따라 보여주는 그림이다. ​
 use case 간의 메시지 이동을 표기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDE3NDE5NCw1MjQxMTIxMiwtOTg1Nj
+eyJoaXN0b3J5IjpbMTkyNjc1MDU1MCw1MjQxMTIxMiwtOTg1Nj
 gzODY1LC04OTY3NTE5NDQsNTI3NDY4ODEsLTE5OTk5NzkwMTRd
 fQ==
 -->
