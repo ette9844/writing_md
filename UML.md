@@ -1,3 +1,7 @@
+UML을 작성하고 프레젠테이션에 첨가하지만, 그 흐름이나 HOW에 대해 세세하게 설명하지 말 것.
+세부사항은 질문이 들어올 경우에만 말한다.
+프레젠테이션을 듣는 사람 중에는 세세하게 설명해도 못 알아듣는 사람이 있다는 점에 유의할 것.
+
 ## 1) use case diagram
 
 유스 케이스(use case)는 사용자의 입장에서 본 시스템의 행동을 일컫는다.
@@ -82,7 +86,7 @@ EA: Enterprise Architect (기업용)
 
 >setter getter generator plugin을 통해 setter/getter를 자동 작성할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg5MzQ0OTMyLDE5MDc0OTc0NzUsNTI0MT
-EyMTIsLTk4NTY4Mzg2NSwtODk2NzUxOTQ0LDUyNzQ2ODgxLC0x
-OTk5OTc5MDE0XX0=
+eyJoaXN0b3J5IjpbNDE3OTE5MzQ0LDk4OTM0NDkzMiwxOTA3ND
+k3NDc1LDUyNDExMjEyLC05ODU2ODM4NjUsLTg5Njc1MTk0NCw1
+Mjc0Njg4MSwtMTk5OTk3OTAxNF19
 -->
