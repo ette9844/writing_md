@@ -94,13 +94,16 @@ public class Customer{
 ```
 >```java
 >Customer c = new Customer();
->c=n
-
+>Post p = new Post();
+>c.setPost(p);
+>c=null;		// c가 소멸되어도 p는 여전히 살아있음
+>```
+>customer 객체와 post객체의 life scope 이 상이
 
 ### composition
 한 객체가 생성될때 다른 객체도 같이 생성되고
 한 객체가 소멸될 때 다른 객체도 같이 소멸되는 관계
-EX)
+ex) 
 ```java
 public class Customer{
 	private Post post;
@@ -113,7 +116,7 @@ public class Customer{
 >Customer c = new Customer();
 >c=null; 	//c 내부에서 생성된 post도 같이 garbage collect됨
 >```
->customer 객체와 post객체의 life cycle이 동일
+>customer 객체와 post객체의 life scope 이 동일
 
 ## 3) sequence diagram
 
@@ -126,7 +129,7 @@ EA: Enterprise Architect (기업용)
 
 >setter getter generator plugin을 통해 setter/getter를 자동 작성할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTA3MzQ2NjAsOTg5MzQ0OTMyLDE5MD
-c0OTc0NzUsNTI0MTEyMTIsLTk4NTY4Mzg2NSwtODk2NzUxOTQ0
-LDUyNzQ2ODgxLC0xOTk5OTc5MDE0XX0=
+eyJoaXN0b3J5IjpbNDk1MzUwNTMwLDk4OTM0NDkzMiwxOTA3ND
+k3NDc1LDUyNDExMjEyLC05ODU2ODM4NjUsLTg5Njc1MTk0NCw1
+Mjc0Njg4MSwtMTk5OTk3OTAxNF19
 -->
