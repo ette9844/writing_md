@@ -20,6 +20,9 @@ CREATE USER `USERNAME` IDENTIFIED BY `PASSWORD`;
  DEFAULT TABLESPACE `TABLESPACE_NAME`
  TEMPORARY TABLESPACE`TABLESPACE_NAME`;
 ```
+
+#### ORA-65096:  오류 대처
+ORA-65096: 공통 사용자 또는 롤 이름이 부적합합니다
 Oracle 12c 이후 버전에서는 `C##USERNAME`에 형태로 사용하지 않으면 오류가 생기는데, `USERNAME`에 C##을 붙이고 싶지 않을 경우, 아래 구문을 사용한다.
 ```SQL
 ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
@@ -55,6 +58,6 @@ SELECT USER FROM DUAL;
 
 Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTA0ODAzMywxNTcwNTMwOTY2LDkzNT
-c0NDU2Niw3MTM3NDc2ODZdfQ==
+eyJoaXN0b3J5IjpbLTEzMDkzMDgyNTEsMjE0NTA0ODAzMywxNT
+cwNTMwOTY2LDkzNTc0NDU2Niw3MTM3NDc2ODZdfQ==
 -->
