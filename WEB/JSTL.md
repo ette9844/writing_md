@@ -9,7 +9,7 @@ EL에서 불가능한 반복문, 조건문, 변수 처리를 하기 위한 EL기
 [JSTL 다운로드 링크2](http://www.java2s.com/Code/Jar/j/Downloadjstl12jar.htm)
 
 1. 링크에서 jstl 1.2 jar파일을 다운받는다.
-2. 압축을 풀고 프로젝트의 WebContent>WEB_INF>lib 폴더 아래에 붙여넣는다.
+2. jar파일을 프로젝트의 WebContent>WEB_INF>lib 폴더 아래에 붙여넣는다.
 3. tag lib 지시자를 통해 외부 library를 사용선언한다.
 
 ### tag lib
@@ -174,9 +174,9 @@ intArray={10, 20, 30, 40, 50, 60};
 ```
 >30 40 50 출력
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODg4MDIzMiwxMzUwMjY4OTE5LDEyND
-c5MjExNjIsMzIyNjYxNzQ3LDYwMDkxMDUwNywxNjg5Mjg0Nzg3
-LC01NjE4MjgwMiwxNzkwNjA3NzgxLDE1MTIyNzgwMDcsLTEyNj
-g4ODMzODYsODk1OTY3Mjc1LDc1ODcwMjY3MSwtMTI3OTk5ODQ0
-Niw5MDU0MzIxN119
+eyJoaXN0b3J5IjpbNTk5MzU3MzcxLC05OTg4ODAyMzIsMTM1MD
+I2ODkxOSwxMjQ3OTIxMTYyLDMyMjY2MTc0Nyw2MDA5MTA1MDcs
+MTY4OTI4NDc4NywtNTYxODI4MDIsMTc5MDYwNzc4MSwxNTEyMj
+c4MDA3LC0xMjY4ODgzMzg2LDg5NTk2NzI3NSw3NTg3MDI2NzEs
+LTEyNzk5OTg0NDYsOTA1NDMyMTddfQ==
 -->
