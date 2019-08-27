@@ -1,4 +1,4 @@
-## SQL 문 작성
+## 매핑된 SQL 구문
 **1)　UPDATE**
 xml
 ```xml
@@ -129,8 +129,11 @@ for(Customer c: list) {
 table의 column이름과 vo class의 member 변수 이름이 같으면 자동 getter/setter 호출 됨.
 다르게 설정했을 경우, 별칭을 설정해준다.
 SELECT customer_name name, ....
+c.setName(rs.getString("name"))
+
+SELECT customer_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODcxMTEzMiwxMDE3ODU1NzIzLDE4MT
+eyJoaXN0b3J5IjpbMjAyNTA0ODU2NywxMDE3ODU1NzIzLDE4MT
 E2NzAwNzMsMTAzNjYzOTQzNSwtMTI0MjExMTcwNCwtMTA3NDk4
 NTc5Ml19
 -->
