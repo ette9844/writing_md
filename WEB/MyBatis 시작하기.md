@@ -72,7 +72,9 @@ mybatis-config.xml (New File로 생성해서 생성자를 xml 으로)
 <property name="username" value="user1"/>
 <property name="password" value="password"/>
 ```
+
+### 6) SqlSessionFactory 에서 SqlSession 만들기 = DB 연결 작업
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjU5NTY0NjIsNTg1ODgxNDIyLDE1Nz
+eyJoaXN0b3J5IjpbLTIwNTEwMjcyNzMsNTg1ODgxNDIyLDE1Nz
 MyNTU5NTUsMTM5ODM0ODAxNiwtMTc2MzEwNDEwNl19
 -->
