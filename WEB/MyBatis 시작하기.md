@@ -85,14 +85,14 @@ SqlSession session = sqlSessionFactory.openSession();
 Blog blog = session.selectOne("org.mybatis.example.BlogMapper.selectBlog", 101);
 ```
 
-### 7) 
+### 7) 매퍼용 xml 파일 생성
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="org.mybatis.example.BlogMapper">
-  <update>
+  <update id="updateName">
     UPDATE customer SET name='마이' WHERE id = #{id}
   </update>
 </mapper>
@@ -101,8 +101,10 @@ Blog blog = session.selectOne("org.mybatis.example.BlogMapper.selectBlog", 101);
 >select를 사용할 때에는 `<select>`
 >update를 사용할 때에는 `<update>` ...
 >기존 JAVA내 sql문의 `?` 바인드 변수는 `#{}`로 표기한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDMzNTg1MywyNjA1NTczMjUsNTg1OD
-gxNDIyLDE1NzMyNTU5NTUsMTM5ODM0ODAxNiwtMTc2MzEwNDEw
-Nl19
+eyJoaXN0b3J5IjpbODQwODQzMjkzLDI2MDU1NzMyNSw1ODU4OD
+E0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4MDE2LC0xNzYzMTA0MTA2
+XX0=
 -->
