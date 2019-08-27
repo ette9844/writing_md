@@ -97,8 +97,12 @@ Blog blog = session.selectOne("org.mybatis.example.BlogMapper.selectBlog", 101);
   </select>
 </mapper>
 ```
+>namespace: 구별해줄 수 있는 중복되지 않는 이름으로 설정
+>select를 사용할 때에는 `<select>`
+>update를 사용할 때에는 `<update>` ...
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2Mzk4MiwyNjA1NTczMjUsNTg1ODgxND
-IyLDE1NzMyNTU5NTUsMTM5ODM0ODAxNiwtMTc2MzEwNDEwNl19
-
+eyJoaXN0b3J5IjpbLTU1NDk3NTQyNCwyNjA1NTczMjUsNTg1OD
+gxNDIyLDE1NzMyNTU5NTUsMTM5ODM0ODAxNiwtMTc2MzEwNDEw
+Nl19
 -->
