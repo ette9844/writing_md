@@ -49,6 +49,9 @@ checked: B가 기본 선택되어있도록 함
 #### eclipse import 단축키
 `ctrl` + `space bar`
 
+#### eclipse 주석처리 단축키
+`ctrl` + `shift` + `/`
+
 #### Tomcat에서의 include 지시자 주의점
 include 지시자로 한 페이지를 다른  페이지에 포함 시킬때 두 페이지의 contentType이 일치해야한다.
 대소문자까지 맞춰야한다.
@@ -60,8 +63,8 @@ include 지시자로 한 페이지를 다른  페이지에 포함 시킬때 두 
 ```
 xml 선언부 앞에는 공백, 주석도 넣어서는 안된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTgwODY4OTEsLTE5MTg5NTc0NzAsLT
-kyMTE3NjUzMCw3Nzg3Mjg0OTgsLTE2MzkwODUyMzUsMzU2MjAw
-MzgxLC0yNjc3NjgyNzQsMTEyNDQ3ODQ0NSwtMTE2OTgzODI4OC
-wtMTE2NDEzNDQ4Ml19
+eyJoaXN0b3J5IjpbNTkwMTg2Mzg0LC0xODk4MDg2ODkxLC0xOT
+E4OTU3NDcwLC05MjExNzY1MzAsNzc4NzI4NDk4LC0xNjM5MDg1
+MjM1LDM1NjIwMDM4MSwtMjY3NzY4Mjc0LDExMjQ0Nzg0NDUsLT
+ExNjk4MzgyODgsLTExNjQxMzQ0ODJdfQ==
 -->
