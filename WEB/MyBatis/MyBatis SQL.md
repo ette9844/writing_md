@@ -109,11 +109,23 @@ System.out.println(map2.get("C1") + " : " + map2.get("C2"));
 ```
 >※별칭을 소문자 'c1'으로 줘도 oracle내부에서 대문자로 자동 저장 되기 때문에, 대문자 'C1'으로 가져와야 한다.
 
-
+#### 여러가지 행이 반환 될 때: selectList
+xml
+```xml
+<select id="selectAll" resultType="Customer">
+  SELECT * FROM customer
+</select>
+```
+java
+```java
+List<Customer> list = session.selectList("com.my.vo.Customer.selectAll");
+System.out.println("총 고객 행수 : " + list.size());
+for(Customer c: list) {
+	System.out.println(c.getId() + " : " + c.getName());
+}
+```
 ※parameterMap 과 resultMap 은 deprecated 됐다.
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODE5NjMxMywxODExNjcwMDczLDEwMz
-Y2Mzk0MzUsLTEyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ==
+eyJoaXN0b3J5IjpbMjk3MTg1MzYxLDE4MTE2NzAwNzMsMTAzNj
+YzOTQzNSwtMTI0MjExMTcwNCwtMTA3NDk4NTc5Ml19
 -->
