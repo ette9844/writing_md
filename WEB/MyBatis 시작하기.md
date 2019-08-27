@@ -20,7 +20,10 @@ SqlSessionFactory sqlSessionFactory =  new  SqlSessionFactoryBuilder().build(inp
 >설정을 위해 클래스패스 자원을 사용하는 것을 추천하나 파일 경로나 file:// URL로부터 만들어진 InputStream인스턴스를 사용할 수도 있다. 
 >→2행 대신 `InputStream inputStream = new FileInputStream(resource);` 를 사용할 수도 있다.
 >
->마이바티스는 클래스패스와 다른 위치에서 자원을 로드하는 것으로 좀더 쉽게 해주는 Resources 라는 유틸성 클래스를 가지고 있다.
+>마이바티스는 **클래스패스**와 다른 위치에서 자원을 로드하는 것으로 좀더 쉽게 해주는 Resources 라는 유틸성 클래스를 가지고 있다.
+
+기본 클래스패스: bin
+
 ### 4) mybatis-config.xml을 위에서 지정해준 경로에 생성해준다
 mybatis-config.xml (New File로 생성해서 생성자를 xml 으로)
 ```xml
@@ -50,6 +53,6 @@ mybatis-config.xml (New File로 생성해서 생성자를 xml 으로)
 
 ### 5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3MDk5MjY0LDU4NTg4MTQyMiwxNTczMj
-U1OTU1LDEzOTgzNDgwMTYsLTE3NjMxMDQxMDZdfQ==
+eyJoaXN0b3J5IjpbLTMyMjYzMjMyNyw1ODU4ODE0MjIsMTU3Mz
+I1NTk1NSwxMzk4MzQ4MDE2LC0xNzYzMTA0MTA2XX0=
 -->
