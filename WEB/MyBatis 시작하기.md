@@ -12,6 +12,7 @@ MyBatis2 와 MyBatis3 / MyBatis 와 iBatis 는 상호간에 버전호환이 안�
 ```java
 String resource =  "프로젝트의 mybatis config.xml 경로/mybatis-config.xml";  
 InputStream inputStream =  Resources.getResourceAsStream(resource);  
+// InputStream inputStream = new FileInputStream(resource); 와 동일한 기능 수행
 SqlSessionFactory sqlSessionFactory =  new  SqlSessionFactoryBuilder().build(inputStream);
 ```
 설정용 xml 파일에 SqlSessionFactory 객체를 생성
@@ -46,6 +47,6 @@ mybatis-config.xml (New File로 생성해서 생성자를 xml 으로)
 
 ### 5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTE0NTQ2Nyw1ODU4ODE0MjIsMTU3Mz
+eyJoaXN0b3J5IjpbMTkyMTE1MDQzMyw1ODU4ODE0MjIsMTU3Mz
 I1NTk1NSwxMzk4MzQ4MDE2LC0xNzYzMTA0MTA2XX0=
 -->
