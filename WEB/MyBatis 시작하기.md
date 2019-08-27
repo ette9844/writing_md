@@ -65,8 +65,14 @@ mybatis-config.xml (New File로 생성해서 생성자를 xml 으로)
 > `*` : 없거나 여러개 올 수 있다. 
 > `,` : 이 순서대로 와야한다.
 
-### 5) config 파일의 pro
+### 5) mybatis-config.xml 파일의 property 값을 프로젝트의 driver/url/username/password 값으로 설정해준다.
+```xml
+<property name="driver" value="oracle.jdbc.driver.OracleDriver"/>
+<property name="url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
+<property name="username" value="user1"/>
+<property name="password" value="password"/>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTcxMDkyOCw1ODU4ODE0MjIsMTU3Mz
-I1NTk1NSwxMzk4MzQ4MDE2LC0xNzYzMTA0MTA2XX0=
+eyJoaXN0b3J5IjpbLTE0MjU5NTY0NjIsNTg1ODgxNDIyLDE1Nz
+MyNTU5NTUsMTM5ODM0ODAxNiwtMTc2MzEwNDEwNl19
 -->
