@@ -115,8 +115,14 @@ session.update("com.my.vo.Customer.updateName", "id1");
 
 ### 10) 커밋 수행
 mybatis는 기본 auto-commit이 아니므로, 커밋 메서드를 호출해 줘야 DB에 적용된다.
+```java
+session.commit();
+```
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDMyNjEzNywtNTMwNDY4MzYyLDI2MD
+eyJoaXN0b3J5IjpbLTk1NzE4NjU0MiwtNTMwNDY4MzYyLDI2MD
 U1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4MDE2
 LC0xNzYzMTA0MTA2XX0=
 -->
