@@ -191,7 +191,8 @@ c.setAddr("상세주소1");
 session.insert("com.my.vo.Customer.insert", c);
 /* commit close문 생략 */
 ```
->`#{~~}`: java bean 형태를 만족하는 클래스의 get method가 자동 호출됨
+>`#{~~}`: java bean 형태를 만족하는 클래스의 get method가 자동 호출됨. 
+>이 때에는, 클래스의 파라미터 명을 넣어준다.
 
 <br>
 
@@ -212,7 +213,7 @@ session.delete("com.my.vo.Customer.delete", "idtest");
 
 **4)　SELECT**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTg5MzgyMCw2MjQxMzAwODQsLTk2ND
+eyJoaXN0b3J5IjpbLTI0NjU0ODk5MCw2MjQxMzAwODQsLTk2ND
 cyMzk5MSwtMTk3MzEwMzgzOCwxNDQyMDY0NzAzLDEwMjk2MDgw
 NjAsLTIwNDc3OTcwNjIsLTk5Mjk5MTA3NywtNTMwNDY4MzYyLD
 I2MDU1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4
