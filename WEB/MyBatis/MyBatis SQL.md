@@ -77,6 +77,15 @@ System.out.println(c1.getName() + ":" + c1.getPwd());
 >selectList : 검색결과가 여러 행을 반환할 경우
 >
 >java bean 형식 calss의 setter method가 자동 호출됨
+
+---
+#### count
+```xml
+```
+```java
+int cnt = session.selectOne("com.my.vo.Customer.selectCount");
+System.out.println("총 고객 수 : " + cnt);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzI5MDQ1NzNdfQ==
+eyJoaXN0b3J5IjpbLTIxMDA5NDg2OTJdfQ==
 -->
