@@ -113,9 +113,9 @@ Blog blog = session.selectOne("org.mybatis.example.BlogMapper.selectBlog", 101);
 ```java
 session.update("com.my.vo.Customer.updateName", "id1");
 ```
->update("`namespace`.`tag-id`", "변수지정");
+>update("`namespace`.`tag-id`", 변수지정);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODE4MTM5NzQsMjYwNTU3MzI1LDU4NT
-g4MTQyMiwxNTczMjU1OTU1LDEzOTgzNDgwMTYsLTE3NjMxMDQx
-MDZdfQ==
+eyJoaXN0b3J5IjpbLTUzMDQ2ODM2MiwyNjA1NTczMjUsNTg1OD
+gxNDIyLDE1NzMyNTU5NTUsMTM5ODM0ODAxNiwtMTc2MzEwNDEw
+Nl19
 -->
