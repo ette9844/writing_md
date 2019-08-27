@@ -18,7 +18,7 @@ DAO에서 했던 절차를 xml에 분리해서 처리하도록 할 것.
 이러한 절차를 돕는 라이브러리 중 MyBatis가 있다.
 
 ## MyBatis
-마이바티스는 개발자가 지정한 SQL, 저장프로시저 그리고 몇가지 고급 **매핑**을 지원하는 ~~퍼시스턴스 프레임워크~~ **라이브러리**이다.
+마이바티스는 개발자가 지정한 SQL, 저장프로시저 그리고 몇가지 고급 **매핑**을 지원하는 ~~퍼시스턴스 프레임워크~~ **라이브러리**이다. [출처: mybatis.org]
 
 즉, SQL구문 매핑용 라이브러리이다.
 
@@ -44,5 +44,5 @@ MyBatis와 달리 SQL구문이 없어도 됨.
 복잡한 JOIN 구문, 뷰, 프로시저, 복잡한 서브쿼리문을 사용해야할 경우 Hibernate로는 처리하기 쉽지 않다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzkzNTkxMzldfQ==
+eyJoaXN0b3J5IjpbLTExOTkzOTMwNDRdfQ==
 -->
