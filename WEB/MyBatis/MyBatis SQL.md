@@ -135,15 +135,18 @@ SELECT customer_
 
 ---
 **5)　JOIN**
-```sql
-select id, zipcode
-from customer c join post p
-on c.buildingno = p.buildingno
-where id = 'etet';
-```
+```java
+Customer c3 = session.selectOne("com.my.vo.Customer.selectZipcodeById", "etet");
+System.out.println(c3.getId() + " : " + c3.getPost().getZipcode());
 
+// c3.getPost()에서 NullPointException 발생
+System.out.println(c3.getPost());  // null
+```
+>Customer는 Post 클래스와 HAS-A 관계.
+>이러한 문제를 해결하기 위해서는 
+DTO 관계가 설정 되어있을 경우에는 resultMap
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTkxNTkzOSwtMTM5MjUwMTkwNSwyMD
-I1MDQ4NTY3LDEwMTc4NTU3MjMsMTgxMTY3MDA3MywxMDM2NjM5
-NDM1LC0xMjQyMTExNzA0LC0xMDc0OTg1NzkyXX0=
+eyJoaXN0b3J5IjpbLTE4ODYxOTk3OTEsLTEzOTI1MDE5MDUsMj
+AyNTA0ODU2NywxMDE3ODU1NzIzLDE4MTE2NzAwNzMsMTAzNjYz
+OTQzNSwtMTI0MjExMTcwNCwtMTA3NDk4NTc5Ml19
 -->
