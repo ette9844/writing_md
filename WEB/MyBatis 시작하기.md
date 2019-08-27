@@ -37,9 +37,9 @@ mybatis-config.xml (New File로 생성해서 생성자를 xml 으로)
   </mappers>
 </configuration>
 ```
->※경로를 "mybatis-
+>※경로를 "mybatis-config.xml" 로 설정했을 경우. 현재 디렉토리(src 폴더 내부나 패키지 폴더 내부)가 아닌 프로젝트 root 디렉토리 하위를 뜻한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDAwOTY0MzMsMTM5ODM0ODAxNiwtMT
-c2MzEwNDEwNl19
+eyJoaXN0b3J5IjpbMTU3MzI1NTk1NSwxMzk4MzQ4MDE2LC0xNz
+YzMTA0MTA2XX0=
 -->
