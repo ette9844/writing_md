@@ -65,8 +65,8 @@ mybatis-config.xml (New File로 생성해서 생성자를 xml 으로)
 > `*` : 없거나 여러개 올 수 있다. 
 > `,` : 이 순서대로 와야한다.
 
-### 5)
+### 5) config 파일의 pro
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxODg0ODEzLDU4NTg4MTQyMiwxNTczMj
-U1OTU1LDEzOTgzNDgwMTYsLTE3NjMxMDQxMDZdfQ==
+eyJoaXN0b3J5IjpbMTk5NTcxMDkyOCw1ODU4ODE0MjIsMTU3Mz
+I1NTk1NSwxMzk4MzQ4MDE2LC0xNzYzMTA0MTA2XX0=
 -->
