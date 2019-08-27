@@ -161,6 +161,11 @@ Test.java 수행 결과
 #### typeAliases
 
 타입 별칭은 자바 타입에 대한 짧은 이름이다. 오직 XML 설정에서만 사용되며, 타이핑을 줄이기 위해 존재한다. 예를들면:
+```xml
+<typeAliases>
+  <typeAlias type="com.my.Customer" alias="Customer"/>
+</typeAliases>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTY5NDY1LC0xMDI1OTk5NTRdfQ==
+eyJoaXN0b3J5IjpbLTIxNDcxMDk5NzcsLTEwMjU5OTk1NF19
 -->
