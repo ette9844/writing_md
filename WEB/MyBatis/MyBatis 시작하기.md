@@ -167,6 +167,8 @@ Test.java 수행 결과
 </typeAliases>
 ```
 >config-xml에서 설정을 작성할 때에는 순서를 지켜야 한다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5NTgwNDIwLC0xMDI1OTk5NTRdfQ==
+eyJoaXN0b3J5IjpbLTEyMTQyNjcyMTQsNzI5NTgwNDIwLC0xMD
+I1OTk5NTRdfQ==
 -->
