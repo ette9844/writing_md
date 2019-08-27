@@ -36,10 +36,11 @@ JAVA Persistance API
 
 ## Hibernate ( 하이버네이트 )
 JAVA Persistance API를 완벽하게 구현해놓은 대표적인 프레임워크.
-SQL구문이 없어도 됨.
+MyBatis와 달리 SQL구문이 없어도 됨.
 
 ## Why MyBatis?
-복잡한 JOIN 구문 
+복잡한 JOIN 구문, 뷰, 프로시저, 복잡한 서브쿼리문을 사용해야할 경우 객체 설계가 완벽하지 않을시 Hibernate는 무용지물.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjMyNzI3NF19
+eyJoaXN0b3J5IjpbLTE4OTkwNzk0MDRdfQ==
 -->
