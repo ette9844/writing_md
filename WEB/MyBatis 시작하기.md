@@ -82,7 +82,6 @@ SQL이 들어있는 xml 파일 = Mapper용 xml 파일
 
 ```java
 SqlSession session = sqlSessionFactory.openSession();
-Blog blog = session.selectOne("org.mybatis.example.BlogMapper.selectBlog", 101);
 ```
 
 ### 7) 매퍼용 xml 파일 생성
@@ -115,7 +114,7 @@ session.update("com.my.vo.Customer.updateName", "id1");
 ```
 >update("`namespace`.`tag-id`", 변수지정);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDQ2ODM2MiwyNjA1NTczMjUsNTg1OD
-gxNDIyLDE1NzMyNTU5NTUsMTM5ODM0ODAxNiwtMTc2MzEwNDEw
-Nl19
+eyJoaXN0b3J5IjpbLTQyODk0MDk0MywtNTMwNDY4MzYyLDI2MD
+U1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4MDE2
+LC0xNzYzMTA0MTA2XX0=
 -->
