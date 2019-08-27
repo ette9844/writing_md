@@ -22,7 +22,9 @@ DAO에서 했던 절차를 xml에 분리해서 처리하도록 할 것.
 
 [사이트 링크](http://www.mybatis.org/mybatis-3/ko/index.html)
 
-ㅅ
+[그림]
+선택한 행과 똑같은 내용으로 채워진 객체를 만들고, 해당 행의 정보의 지속성/영속성을 유지시킨다.(persistance)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTgwOTkyNjcsMjA2Mjk5ODU2M119
+eyJoaXN0b3J5IjpbLTc0OTIxMjM1NywyMDYyOTk4NTYzXX0=
 -->
