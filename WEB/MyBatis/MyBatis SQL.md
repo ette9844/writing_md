@@ -79,7 +79,7 @@ System.out.println(c1.getName() + ":" + c1.getPwd());
 >java bean 형식 calss의 setter method가 자동 호출됨
 
 ---
-#### count
+#### count(*)
 xml
 ```xml
 <select id="selectCount" resultType="int">
@@ -94,7 +94,7 @@ int cnt = session.selectOne("com.my.vo.Customer.selectCount");
 System.out.println("총 고객 수 : " + cnt);
 ```
 
-#### 여러가지 column이 반환 될때: resultMap
+#### 여러가지 column이 반환 될때: 
 ```xml
   <select id="selectGroup" resultMap="java.util.HashMap">
     SELECT COUNT(*) c1, COUNT(*)/2 c2 
@@ -102,5 +102,6 @@ System.out.println("총 고객 수 : " + cnt);
   </select>
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTkyNDk2OCwtMTA3NDk4NTc5Ml19
+eyJoaXN0b3J5IjpbLTE3NDM1MjU5NDgsLTEwNzQ5ODU3OTJdfQ
+==
 -->
