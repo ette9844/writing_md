@@ -104,9 +104,9 @@ SQL이 들어있는 xml 파일 = Mapper용 xml 파일
 
 ### 8) mybatis-config.xml의 매퍼용 xml파일 경로를 지정해준다.
 ```xml
-  <mappers>
-    <mapper resource="customerMapper.xml"/>
-  </mappers>
+<mappers>
+  <mapper resource="customerMapper.xml"/>
+</mappers>
   ```
   
 ### 9) SQL 구문의 바인드 변수를 지정해준다.
@@ -128,9 +128,13 @@ session.close();
 
 
 ## 그 외 속성
-
+```xml
+<update id="updateName" parameterMap="java.lang.String">
+  UPDATE customer SET name=#{n} WHERE id=#{i}
+</update>
+  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjIwNDM1MTIsLTk5Mjk5MTA3NywtNT
-MwNDY4MzYyLDI2MDU1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1
-NSwxMzk4MzQ4MDE2LC0xNzYzMTA0MTA2XX0=
+eyJoaXN0b3J5IjpbLTcwMTkzNDU2MCwtOTkyOTkxMDc3LC01Mz
+A0NjgzNjIsMjYwNTU3MzI1LDU4NTg4MTQyMiwxNTczMjU1OTU1
+LDEzOTgzNDgwMTYsLTE3NjMxMDQxMDZdfQ==
 -->
