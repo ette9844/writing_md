@@ -91,7 +91,7 @@ SQL이 들어있는 xml 파일 = Mapper용 xml 파일
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="org.mybatis.example.BlogMapper">
   <update id="updateName">
-    UPDATE customer SET name='마이' WHERE id = #{id}
+    UPDATE customer SET name='바티스' WHERE id = #{id}
   </update>
 </mapper>
 ```
@@ -125,7 +125,7 @@ session.close();
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwMDA4OTQzLC01MzA0NjgzNjIsMjYwNT
-U3MzI1LDU4NTg4MTQyMiwxNTczMjU1OTU1LDEzOTgzNDgwMTYs
-LTE3NjMxMDQxMDZdfQ==
+eyJoaXN0b3J5IjpbLTk5Mjk5MTA3NywtNTMwNDY4MzYyLDI2MD
+U1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4MDE2
+LC0xNzYzMTA0MTA2XX0=
 -->
