@@ -125,7 +125,10 @@ for(Customer c: list) {
 	System.out.println(c.getId() + " : " + c.getName());
 }
 ```
+
+채ㅣㅕ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzg1NTcyMywxODExNjcwMDczLDEwMz
-Y2Mzk0MzUsLTEyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ==
+eyJoaXN0b3J5IjpbMTExNjE4MzEyNywxMDE3ODU1NzIzLDE4MT
+E2NzAwNzMsMTAzNjYzOTQzNSwtMTI0MjExMTcwNCwtMTA3NDk4
+NTc5Ml19
 -->
