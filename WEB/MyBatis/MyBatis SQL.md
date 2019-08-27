@@ -134,7 +134,9 @@ c.setName(rs.getString("name"))
 SELECT customer_
 
 ---
-**5)　JOIN?**
+**5)　JOIN**
+
+**NullPointException!**
 ```xml
 <select id="selectZipcodeById" parameterType="string" resultType="Customer">
   SELECT id, zipcode
@@ -181,7 +183,7 @@ DTO 관계가 설정 되어있을 경우에는 resultMap 을 사용한다
 >`<id>` : primary key에 대한 매핑
 >`<result>` : 일반 column에 대한 매핑
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjEwMzg4LDE1Mzg4MTg5NjgsLTEzOT
+eyJoaXN0b3J5IjpbNzA4Mzc0NDg0LDE1Mzg4MTg5NjgsLTEzOT
 I1MDE5MDUsMjAyNTA0ODU2NywxMDE3ODU1NzIzLDE4MTE2NzAw
 NzMsMTAzNjYzOTQzNSwtMTI0MjExMTcwNCwtMTA3NDk4NTc5Ml
 19
