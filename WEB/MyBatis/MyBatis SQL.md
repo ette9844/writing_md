@@ -190,11 +190,12 @@ java
 Customer c3 = session.selectOne("com.my.vo.Customer.selectZipcodeById", "etet");
 System.out.println(c3.getId() + " : " + c3.getPost().getZipcode());
 ```
+>etet : 30114
 >resultMap을 통해 매핑한 이후에는 결과값이 잘 나오는 것을 확인 할 수 있다.
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg0MDI4MDgsNTMyNjE2NjE5LDE1Mz
-g4MTg5NjgsLTEzOTI1MDE5MDUsMjAyNTA0ODU2NywxMDE3ODU1
-NzIzLDE4MTE2NzAwNzMsMTAzNjYzOTQzNSwtMTI0MjExMTcwNC
-wtMTA3NDk4NTc5Ml19
+eyJoaXN0b3J5IjpbMjE0MzQ4NzQ3Nyw1MzI2MTY2MTksMTUzOD
+gxODk2OCwtMTM5MjUwMTkwNSwyMDI1MDQ4NTY3LDEwMTc4NTU3
+MjMsMTgxMTY3MDA3MywxMDM2NjM5NDM1LC0xMjQyMTExNzA0LC
+0xMDc0OTg1NzkyXX0=
 -->
