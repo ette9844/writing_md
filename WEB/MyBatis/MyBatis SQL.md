@@ -135,6 +135,14 @@ SELECT customer_
 
 ---
 **5)　JOIN**
+```xml
+<select id="selectZipcodeById" parameterType="string" resultType="Customer">
+  SELECT id, zipcode
+  FROM customer c JOIN post p
+  ON c.buildingno = p.buildingno
+  WHERE id = #{id}
+</select>
+```
 ```java
 Customer c3 = session.selectOne("com.my.vo.Customer.selectZipcodeById", "etet");
 System.out.println(c3.getId() + " : " + c3.getPost().getZipcode());
@@ -143,10 +151,14 @@ System.out.println(c3.getId() + " : " + c3.getPost().getZipcode());
 System.out.println(c3.getPost());  // null
 ```
 >Customer는 Post 클래스와 HAS-A 관계.
->이러한 문제를 해결하기 위해서는 
-DTO 관계가 설정 되어있을 경우에는 resultMap
+
+DTO 관계가 설정 되어있을 경우에는 resultMap 을 사용한다
+#### resultMap
+데이터베이스 결과데이터를 객체에 로드하는 방법을 정의하는 엘리먼트
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODYxOTk3OTEsLTEzOTI1MDE5MDUsMj
-AyNTA0ODU2NywxMDE3ODU1NzIzLDE4MTE2NzAwNzMsMTAzNjYz
-OTQzNSwtMTI0MjExMTcwNCwtMTA3NDk4NTc5Ml19
+eyJoaXN0b3J5IjpbNTg0MDc2NDQyLC0xMzkyNTAxOTA1LDIwMj
+UwNDg1NjcsMTAxNzg1NTcyMywxODExNjcwMDczLDEwMzY2Mzk0
+MzUsLTEyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ==
 -->
