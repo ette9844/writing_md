@@ -135,13 +135,14 @@ SELECT customer_
 
 ---
 **5)　JOIN**
-
-	select id, zipcode
-ㄹrom customer c join post p
-    on c.buildingno = p.buildingno
-  4  where id = 'etet';
+```sql
+select id, zipcode
+from customer c join post p
+on c.buildingno = p.buildingno
+where id = 'etet';
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxOTk0MjA2LDIwMjUwNDg1NjcsMTAxNz
-g1NTcyMywxODExNjcwMDczLDEwMzY2Mzk0MzUsLTEyNDIxMTE3
-MDQsLTEwNzQ5ODU3OTJdfQ==
+eyJoaXN0b3J5IjpbLTEzOTI1MDE5MDUsMjAyNTA0ODU2NywxMD
+E3ODU1NzIzLDE4MTE2NzAwNzMsMTAzNjYzOTQzNSwtMTI0MjEx
+MTcwNCwtMTA3NDk4NTc5Ml19
 -->
