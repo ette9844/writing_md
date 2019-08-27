@@ -150,28 +150,6 @@ Test.java 수행 결과
 
 ![enter image description here](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis-update.PNG?raw=true)
 
-## 그 외 속성
-1)　parameterType
-
-customMapper.xml
-```xml
-<update id="updateName" parameterType="java.lang.String">
-  UPDATE customer SET name=#{name} WHERE id=#{id}
-</update>
-  ```
-  Test.java
-```java
-HashMap<String, String> map = new HashMap<>();
-map.put("id", "id1");
-map.put("name", "바티스2");
-session.update("com.my.vo.Customer.updateName", map);
-session.commit();
-session.close();
-```
-
-  >전달해야될 인자의 자료형을 결정해주는 속성
-  >자동으로 설정이 되긴하지만 정확한 자료형을 지정해 주고싶을 때, 사용.
-
 
 ## SQL 문 작성
 **1)　UPDATE**
@@ -186,10 +164,9 @@ HashMap<String, String> map = new HashMap<>();
 map.put("id", "id1");
 map.put("name", "바티스2");
 session.update("com.my.vo.Customer.updateName", map);
-session.commit();
-session.close();
+/* commit close문 생략 */;
 ```
-  >parameterType: 전달해야될 인자의 자료형을 결정해주는 속성
+  >`parameterType`: 전달해야될 인자의 자료형을 결정해주는 속성
   >자동으로 설정이 되긴하지만 정확한 자료형을 지정해 주고싶을 때, 사용.
 
 **2)　INSERT**
@@ -220,13 +197,14 @@ session.insert("com.my.vo.Customer.insert", c);
 Test.java
 ```java
 session.delete("com.my.vo.Customer.delete", "idtest");
+/* commit close문 생략 */
 ```
 >java.lang.String 대신 string 예약어를 사용할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTM1MjU3MCw2MjQxMzAwODQsLTk2ND
-cyMzk5MSwtMTk3MzEwMzgzOCwxNDQyMDY0NzAzLDEwMjk2MDgw
-NjAsLTIwNDc3OTcwNjIsLTk5Mjk5MTA3NywtNTMwNDY4MzYyLD
-I2MDU1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4
-MDE2LC0xNzYzMTA0MTA2XX0=
+eyJoaXN0b3J5IjpbMzk3OTE0Njc5LDYyNDEzMDA4NCwtOTY0Nz
+IzOTkxLC0xOTczMTAzODM4LDE0NDIwNjQ3MDMsMTAyOTYwODA2
+MCwtMjA0Nzc5NzA2MiwtOTkyOTkxMDc3LC01MzA0NjgzNjIsMj
+YwNTU3MzI1LDU4NTg4MTQyMiwxNTczMjU1OTU1LDEzOTgzNDgw
+MTYsLTE3NjMxMDQxMDZdfQ==
 -->
