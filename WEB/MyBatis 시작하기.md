@@ -146,6 +146,9 @@ pubic class Test {
 	}
 }
 ```
+Test.java 수행 결과
+
+![enter image description here](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis-update.PNG?raw=true)
 
 ## 그 외 속성
 1)　parameterType
@@ -157,8 +160,8 @@ pubic class Test {
   >전달해야될 인자의 자료형을 결정해주는 속성
   >자동으로 설정이 되긴하지만 정확한 자료형을 지정해 주고싶을 때, 사용.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTYwODA2MCwtMjA0Nzc5NzA2MiwtOT
-kyOTkxMDc3LC01MzA0NjgzNjIsMjYwNTU3MzI1LDU4NTg4MTQy
-MiwxNTczMjU1OTU1LDEzOTgzNDgwMTYsLTE3NjMxMDQxMDZdfQ
-==
+eyJoaXN0b3J5IjpbMTQ0MjA2NDcwMywxMDI5NjA4MDYwLC0yMD
+Q3Nzk3MDYyLC05OTI5OTEwNzcsLTUzMDQ2ODM2MiwyNjA1NTcz
+MjUsNTg1ODgxNDIyLDE1NzMyNTU5NTUsMTM5ODM0ODAxNiwtMT
+c2MzEwNDEwNl19
 -->
