@@ -190,12 +190,22 @@ INSERT INTO customer(id, pwd, name, addr)
 VALUES( #{id}, #{pwd}, #{name}, #{addr} )
 </insert>
 ```
+Test.java
+```java
+Customer c = new Customer();
+c.setId("idtest");
+c.setPwd("ptest");
+c.setName("n테스트");
+c.setAddr("상세주소1");
+session.insert("com.my.vo.Customer.insert", c);
+/* commit close문 생략 */
+```
 >`#{~~}`: java bean 형태를 만족하는 클래스의 get method가 자동 호출됨
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzI5NTc3MzEsLTk2NDcyMzk5MSwtMT
-k3MzEwMzgzOCwxNDQyMDY0NzAzLDEwMjk2MDgwNjAsLTIwNDc3
-OTcwNjIsLTk5Mjk5MTA3NywtNTMwNDY4MzYyLDI2MDU1NzMyNS
-w1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4MDE2LC0xNzYz
-MTA0MTA2XX0=
+eyJoaXN0b3J5IjpbNjI0MTMwMDg0LC05NjQ3MjM5OTEsLTE5Nz
+MxMDM4MzgsMTQ0MjA2NDcwMywxMDI5NjA4MDYwLC0yMDQ3Nzk3
+MDYyLC05OTI5OTEwNzcsLTUzMDQ2ODM2MiwyNjA1NTczMjUsNT
+g1ODgxNDIyLDE1NzMyNTU5NTUsMTM5ODM0ODAxNiwtMTc2MzEw
+NDEwNl19
 -->
