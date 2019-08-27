@@ -92,17 +92,17 @@ Blog blog = session.selectOne("org.mybatis.example.BlogMapper.selectBlog", 101);
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="org.mybatis.example.BlogMapper">
-  <select id="selectBlog" resultType="Blog">
-    select * from Blog where id = #{id}
-  </select>
+  <update>
+    UPDATE customer SET name='마이' WHERE id = #{id}
+  </update>
 </mapper>
 ```
 >namespace: 구별해줄 수 있는 중복되지 않는 이름으로 설정
 >select를 사용할 때에는 `<select>`
 >update를 사용할 때에는 `<update>` ...
->
+>기존 JAVA내 sql문의 `?` 바인드 변수는 `#{}`로 표기한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDk3NTQyNCwyNjA1NTczMjUsNTg1OD
+eyJoaXN0b3J5IjpbMTM3MDMzNTg1MywyNjA1NTczMjUsNTg1OD
 gxNDIyLDE1NzMyNTU5NTUsMTM5ODM0ODAxNiwtMTc2MzEwNDEw
 Nl19
 -->
