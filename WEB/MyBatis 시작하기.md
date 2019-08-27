@@ -73,8 +73,13 @@ mybatis-config.xml (New File로 생성해서 생성자를 xml 으로)
 <property name="password" value="password"/>
 ```
 
-### 6) SqlSessionFactory 에서 SqlSession 만들기 = DB 연결 작업
+### 6) SqlSessionFactory 에서 SqlSession 만들기 
+= DB 연결 작업
+
+SqlSessionFactory 이름에서 보듯이 SqlSession 인스턴스를 만들수 있다. SqlSession 은 데이터베이스에 대해 SQL명령어를 실행하기 위해 필요한 모든 메소드를 가지고 있다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTEwMjcyNzMsNTg1ODgxNDIyLDE1Nz
-MyNTU5NTUsMTM5ODM0ODAxNiwtMTc2MzEwNDEwNl19
+eyJoaXN0b3J5IjpbMjYwNTU3MzI1LDU4NTg4MTQyMiwxNTczMj
+U1OTU1LDEzOTgzNDgwMTYsLTE3NjMxMDQxMDZdfQ==
 -->
