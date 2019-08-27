@@ -174,6 +174,23 @@ session.close();
 
 
 ## SQL 문 작성
+**1)　UPDATE**
+```xml
+<update id="updateName" parameterType="java.lang.String">
+  UPDATE customer SET name=#{name} WHERE id=#{id}
+</update>
+  ```
+  Test.java
+```java
+HashMap<String, String> map = new HashMap<>();
+map.put("id", "id1");
+map.put("name", "바티스2");
+session.update("com.my.vo.Customer.updateName", map);
+session.commit();
+session.close();
+```
+  >parameterType: 전달해야될 인자의 자료형을 결정해주는 속성
+  >자동으로 설정이 되긴하지만 정확한 자료형을 지정해 주고싶을 때, 사용.
 
 **2)　INSERT**
 ```xml
@@ -207,7 +224,7 @@ session.delete("com.my.vo.Customer.delete", "idtest");
 >java.lang.String 대신 string 예약어를 사용할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzA5ODYyOSw2MjQxMzAwODQsLTk2ND
+eyJoaXN0b3J5IjpbMTY3OTM1MjU3MCw2MjQxMzAwODQsLTk2ND
 cyMzk5MSwtMTk3MzEwMzgzOCwxNDQyMDY0NzAzLDEwMjk2MDgw
 NjAsLTIwNDc3OTcwNjIsLTk5Mjk5MTA3NywtNTMwNDY4MzYyLD
 I2MDU1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4
