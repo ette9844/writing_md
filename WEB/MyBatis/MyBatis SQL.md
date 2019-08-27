@@ -192,9 +192,15 @@ System.out.println(c3.getId() + " : " + c3.getPost().getZipcode());
 ```
 >etet : 30114
 >resultMap을 통해 매핑한 이후에는 결과값이 잘 나오는 것을 확인 할 수 있다.
->
+
+#### autoMapping 속성
+autoMapping
+
+이 설정을 사용하면 마이바티스는 결과매핑을 자동매핑으로 처리할지 말지를 처리한다. 이 속성은 autoMappingBehavior 라는 전역설정을 덮는다. 디폴트는 unset이다.
+
+※ id는 수동으로 설정해야 함.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MzQ4NzQ3Nyw1MzI2MTY2MTksMTUzOD
+eyJoaXN0b3J5IjpbMTg4MTQzMDE3NCw1MzI2MTY2MTksMTUzOD
 gxODk2OCwtMTM5MjUwMTkwNSwyMDI1MDQ4NTY3LDEwMTc4NTU3
 MjMsMTgxMTY3MDA3MywxMDM2NjM5NDM1LC0xMjQyMTExNzA0LC
 0xMDc0OTg1NzkyXX0=
