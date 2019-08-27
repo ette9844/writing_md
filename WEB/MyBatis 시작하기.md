@@ -150,7 +150,7 @@ Test.java 수행 결과
 
 ![enter image description here](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis-update.PNG?raw=true)
 
-## 그 외 속성
+## 그 외
 1)　parameterType
 
 customMapper.xml
@@ -172,16 +172,17 @@ session.close();
   >전달해야될 인자의 자료형을 결정해주는 속성
   >자동으로 설정이 되긴하지만 정확한 자료형을 지정해 주고싶을 때, 사용.
 
-2)　미리 선언되어있는 타입 예약어
+2)　DELETE Tag
 ```java
 <delete id="delete" parameterType="string">
-  </delete>
+  DELETE customer WHERE id=#{id}
+</delete>
 ```
-
+>java.lang.String 대신 string 예약어를 사용할 수 있다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTE5MzExNCwtMTk3MzEwMzgzOCwxND
+eyJoaXN0b3J5IjpbLTk2NDcyMzk5MSwtMTk3MzEwMzgzOCwxND
 QyMDY0NzAzLDEwMjk2MDgwNjAsLTIwNDc3OTcwNjIsLTk5Mjk5
 MTA3NywtNTMwNDY4MzYyLDI2MDU1NzMyNSw1ODU4ODE0MjIsMT
 U3MzI1NTk1NSwxMzk4MzQ4MDE2LC0xNzYzMTA0MTA2XX0=
