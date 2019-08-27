@@ -167,11 +167,21 @@ DTO 관계가 설정 되어있을 경우에는 resultMap 을 사용한다
     <result property="zipcode" column="zipcode"/>
   </association>
 </resultMap>
+
+<select id="selectZipcodeById" parameterType="string" 
+        resultType="Customer" resultMap="customerResultMap">
+  SELECT id, zipcode
+  FROM customer c JOIN post p
+  ON c.buildingno = p.buildingno
+  WHERE id = #{id}
+</select>
 ```
 
 >property: Customer 클래스의 멤버변수
+>id: primary key에 대한 매핑
+>result: 일반 column에 대한 매핑
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU3ODc1NiwxNTM4ODE4OTY4LC0xMz
+eyJoaXN0b3J5IjpbLTY3ODA4NTEzMiwxNTM4ODE4OTY4LC0xMz
 kyNTAxOTA1LDIwMjUwNDg1NjcsMTAxNzg1NTcyMywxODExNjcw
 MDczLDEwMzY2Mzk0MzUsLTEyNDIxMTE3MDQsLTEwNzQ5ODU3OT
 JdfQ==
