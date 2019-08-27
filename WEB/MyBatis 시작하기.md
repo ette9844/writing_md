@@ -78,13 +78,12 @@ mybatis-config.xml (New File로 생성해서 생성자를 xml 으로)
 
 SqlSessionFactory 이름에서 보듯이 SqlSession 인스턴스를 만들수 있다. SqlSession 은 데이터베이스에 대해 SQL명령어를 실행하기 위해 필요한 모든 메소드를 가지고 있다.
 
-SQL이 들어있는 xml 파일 = Mapper용 xml 파일
-
 ```java
 SqlSession session = sqlSessionFactory.openSession();
 ```
 
 ### 7) 매퍼용 xml 파일 생성
+SQL이 들어있는 xml 파일 = Mapper용 xml 파일
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
@@ -113,8 +112,11 @@ SqlSession session = sqlSessionFactory.openSession();
 session.update("com.my.vo.Customer.updateName", "id1");
 ```
 >update("`namespace`.`tag-id`", 변수지정);
+
+### 10) 커밋 수행
+mybatis는 기본 auto-commit이 아니므로, 커밋 메서드를 호출해 줘야 DB에 적용된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODk0MDk0MywtNTMwNDY4MzYyLDI2MD
+eyJoaXN0b3J5IjpbLTg5NDMyNjEzNywtNTMwNDY4MzYyLDI2MD
 U1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4MDE2
 LC0xNzYzMTA0MTA2XX0=
 -->
