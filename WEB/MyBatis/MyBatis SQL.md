@@ -159,6 +159,7 @@ DTO 관계가 설정 되어있을 경우에는 resultMap 을 사용한다
 #### resultMap
 데이터베이스 결과데이터를 객체에 로드하는 방법을 정의하는 엘리먼트
 
+xml
 ```xml
 <resultMap id="customerResultMap" type="Customer">
   <id property="id" column="id" />
@@ -184,10 +185,16 @@ DTO 관계가 설정 되어있을 경우에는 resultMap 을 사용한다
 >`<id>` : primary key에 대한 매핑
 >`<result>` : 일반 column에 대한 매핑
 
-
+java
+```java
+Customer c3 = session.selectOne("com.my.vo.Customer.selectZipcodeById", "etet");
+System.out.println(c3.getId() + " : " + c3.getPost().getZipcode());
+```
+>resultMap을 통해 매핑한 이후에는 결과값이 잘 나오는 것을 확인 할 수 있다.
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyNjE2NjE5LDE1Mzg4MTg5NjgsLTEzOT
-I1MDE5MDUsMjAyNTA0ODU2NywxMDE3ODU1NzIzLDE4MTE2NzAw
-NzMsMTAzNjYzOTQzNSwtMTI0MjExMTcwNCwtMTA3NDk4NTc5Ml
-19
+eyJoaXN0b3J5IjpbLTEyOTg0MDI4MDgsNTMyNjE2NjE5LDE1Mz
+g4MTg5NjgsLTEzOTI1MDE5MDUsMjAyNTA0ODU2NywxMDE3ODU1
+NzIzLDE4MTE2NzAwNzMsMTAzNjYzOTQzNSwtMTI0MjExMTcwNC
+wtMTA3NDk4NTc5Ml19
 -->
