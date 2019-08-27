@@ -93,15 +93,18 @@ java
 int cnt = session.selectOne("com.my.vo.Customer.selectCount");
 System.out.println("총 고객 수 : " + cnt);
 ```
-
+---
 #### 여러가지 column이 반환 될때: 
+xml
 ```xml
   <select id="selectGroup" resultMap="java.util.HashMap">
     SELECT COUNT(*) c1, COUNT(*)/2 c2 
     FROM customer
   </select>
   ```
+  java
+  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDM1MjU5NDgsLTEwNzQ5ODU3OTJdfQ
+eyJoaXN0b3J5IjpbLTEyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ
 ==
 -->
