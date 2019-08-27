@@ -156,12 +156,13 @@ Test.java 수행 결과
 
 ## SQL 문 작성
 **1)　UPDATE**
+xml
 ```xml
 <update id="updateName" parameterType="java.lang.String">
   UPDATE customer SET name=#{name} WHERE id=#{id}
 </update>
   ```
-  Test.java
+  java
 ```java
 HashMap<String, String> map = new HashMap<>();
 map.put("id", "id1");
@@ -175,13 +176,14 @@ session.update("com.my.vo.Customer.updateName", map);
 <br>
 
 **2)　INSERT**
+xml
 ```xml
 <insert id="insert" parameterType="com.my.vo.Customer">
 INSERT INTO customer(id, pwd, name, addr)
 VALUES( #{id}, #{pwd}, #{name}, #{addr} )
 </insert>
 ```
-Test.java
+java
 ```java
 Customer c = new Customer();
 c.setId("idtest");
@@ -197,12 +199,13 @@ session.insert("com.my.vo.Customer.insert", c);
 <br>
 
 **3)　DELETE**
-```java
+xml
+```xml
 <delete id="delete" parameterType="string">
   DELETE customer WHERE id=#{id}
 </delete>
 ```
-Test.java
+java
 ```java
 session.delete("com.my.vo.Customer.delete", "idtest");
 /* commit close문 생략 */
@@ -212,6 +215,7 @@ session.delete("com.my.vo.Customer.delete", "idtest");
 <br>
 
 **4)　SELECT**
+xml
 ```xml
 <select id="selectById" parameterType="string" 
  					    resultType="Customer">
@@ -219,15 +223,18 @@ session.delete("com.my.vo.Customer.delete", "idtest");
 </select>
   ```
   >resultType: return type 지정
+
+java
 ```java
-session.selectOne("com.my.vo.Customer.selectById", "id1");
+Customer c1 = session.selectOne("com.my.vo.Customer.selectById", "id1");
+System.out.println(c1.getName() + ":" + c1.getPwd());
   ```
 >selectOne : 검색결과가 한개의 행을 반환할 경우
 >selectList : 검색결과가 여러 행을 반환할 경우
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MjUzMjAzNCw2MjQxMzAwODQsLTk2ND
-cyMzk5MSwtMTk3MzEwMzgzOCwxNDQyMDY0NzAzLDEwMjk2MDgw
-NjAsLTIwNDc3OTcwNjIsLTk5Mjk5MTA3NywtNTMwNDY4MzYyLD
-I2MDU1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4
-MDE2LC0xNzYzMTA0MTA2XX0=
+eyJoaXN0b3J5IjpbLTgxNTA1MjEyLDYyNDEzMDA4NCwtOTY0Nz
+IzOTkxLC0xOTczMTAzODM4LDE0NDIwNjQ3MDMsMTAyOTYwODA2
+MCwtMjA0Nzc5NzA2MiwtOTkyOTkxMDc3LC01MzA0NjgzNjIsMj
+YwNTU3MzI1LDU4NTg4MTQyMiwxNTczMjU1OTU1LDEzOTgzNDgw
+MTYsLTE3NjMxMDQxMDZdfQ==
 -->
