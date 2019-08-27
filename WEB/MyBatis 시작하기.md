@@ -102,9 +102,14 @@ Blog blog = session.selectOne("org.mybatis.example.BlogMapper.selectBlog", 101);
 >update를 사용할 때에는 `<update>` ...
 >기존 JAVA내 sql문의 `?` 바인드 변수는 `#{}`로 표기한다.
 
-
+### 8) mybatis-config.xml의 매퍼용 xml파일 경로를 지정해준다.
+```xml
+  <mappers>
+    <mapper resource="customerMapper.xml"/>
+  </mappers>
+  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwODQzMjkzLDI2MDU1NzMyNSw1ODU4OD
-E0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4MDE2LC0xNzYzMTA0MTA2
-XX0=
+eyJoaXN0b3J5IjpbLTEyMjIyNDMxNjMsMjYwNTU3MzI1LDU4NT
+g4MTQyMiwxNTczMjU1OTU1LDEzOTgzNDgwMTYsLTE3NjMxMDQx
+MDZdfQ==
 -->
