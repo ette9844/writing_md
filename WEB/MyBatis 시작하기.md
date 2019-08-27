@@ -212,10 +212,19 @@ session.delete("com.my.vo.Customer.delete", "idtest");
 <br>
 
 **4)　SELECT**
+```xml
+  <select id="selectById" parameterType="string">
+    SELECT * FROM customer WHERE id=#{id}
+  </select>
+  ```
+  ```java
+  ```
+
+selectOne : 검색결과가 한개의 행을 ㅂ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NjU0ODk5MCw2MjQxMzAwODQsLTk2ND
-cyMzk5MSwtMTk3MzEwMzgzOCwxNDQyMDY0NzAzLDEwMjk2MDgw
-NjAsLTIwNDc3OTcwNjIsLTk5Mjk5MTA3NywtNTMwNDY4MzYyLD
-I2MDU1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4
-MDE2LC0xNzYzMTA0MTA2XX0=
+eyJoaXN0b3J5IjpbLTEwMzcxNzg0OTIsNjI0MTMwMDg0LC05Nj
+Q3MjM5OTEsLTE5NzMxMDM4MzgsMTQ0MjA2NDcwMywxMDI5NjA4
+MDYwLC0yMDQ3Nzk3MDYyLC05OTI5OTEwNzcsLTUzMDQ2ODM2Mi
+wyNjA1NTczMjUsNTg1ODgxNDIyLDE1NzMyNTU5NTUsMTM5ODM0
+ODAxNiwtMTc2MzEwNDEwNl19
 -->
