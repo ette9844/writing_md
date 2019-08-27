@@ -148,14 +148,17 @@ pubic class Test {
 ```
 
 ## 그 외 속성
-1)　para
+1)　parameterType
 ```xml
-<update id="updateName" parameterMap="java.lang.String">
+<update id="updateName" parameterType="java.lang.String">
   UPDATE customer SET name=#{n} WHERE id=#{i}
 </update>
   ```
+  >전달해야될 인자의 자료형을 결정해주는 속성
+  >자동으로 설정이 되긴하지만 정확한 자료형을 지정해 주고싶을 때, 사용.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDc3OTcwNjIsLTk5Mjk5MTA3NywtNT
-MwNDY4MzYyLDI2MDU1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1
-NSwxMzk4MzQ4MDE2LC0xNzYzMTA0MTA2XX0=
+eyJoaXN0b3J5IjpbMTAyOTYwODA2MCwtMjA0Nzc5NzA2MiwtOT
+kyOTkxMDc3LC01MzA0NjgzNjIsMjYwNTU3MzI1LDU4NTg4MTQy
+MiwxNTczMjU1OTU1LDEzOTgzNDgwMTYsLTE3NjMxMDQxMDZdfQ
+==
 -->
