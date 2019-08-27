@@ -57,12 +57,16 @@ mybatis-config.xml (New File로 생성해서 생성자를 xml 으로)
 #### xml
 - xml 파일의 첫줄에는 선언부가 반드시 필요. (주석도 달면 안된다.)
 - root element는 단 한개
-- `?` : 없거나 한개만 올 수 있다. 0또는 1
-- `*` : 없거나 여러개 올 수 있다. 
-- , : 이 순서대로 와야한다.
+
+- `<configuration>`의 Content Model
+>Content Model : (properties?, settings?, typeAliases?, typeHandlers?, objectFactory?, objectWrapperFactory?, 
+ reflectorFactory?, plugins?, environments?, databaseIdProvider?, mappers?)
+> `?` : 없거나 한개만 올 수 있다. 0또는 1
+> `*` : 없거나 여러개 올 수 있다. 
+> `,` : 이 순서대로 와야한다.
 
 ### 5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTIwMjUwNCw1ODU4ODE0MjIsMTU3Mz
-I1NTk1NSwxMzk4MzQ4MDE2LC0xNzYzMTA0MTA2XX0=
+eyJoaXN0b3J5IjpbMjgxODg0ODEzLDU4NTg4MTQyMiwxNTczMj
+U1OTU1LDEzOTgzNDgwMTYsLTE3NjMxMDQxMDZdfQ==
 -->
