@@ -159,9 +159,21 @@ Test.java 수행 결과
   ```
   >전달해야될 인자의 자료형을 결정해주는 속성
   >자동으로 설정이 되긴하지만 정확한 자료형을 지정해 주고싶을 때, 사용.
+
+## 응용
+```java
+HashMap<String, String> map = new HashMap<>();
+map.put("id", "id1");
+map.put("name", "바티스2");
+session.update("com.my.vo.Customer.updateName", map);
+session.commit();
+session.close();
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MjA2NDcwMywxMDI5NjA4MDYwLC0yMD
-Q3Nzk3MDYyLC05OTI5OTEwNzcsLTUzMDQ2ODM2MiwyNjA1NTcz
-MjUsNTg1ODgxNDIyLDE1NzMyNTU5NTUsMTM5ODM0ODAxNiwtMT
-c2MzEwNDEwNl19
+eyJoaXN0b3J5IjpbLTE5NzMxMDM4MzgsMTQ0MjA2NDcwMywxMD
+I5NjA4MDYwLC0yMDQ3Nzk3MDYyLC05OTI5OTEwNzcsLTUzMDQ2
+ODM2MiwyNjA1NTczMjUsNTg1ODgxNDIyLDE1NzMyNTU5NTUsMT
+M5ODM0ODAxNiwtMTc2MzEwNDEwNl19
 -->
