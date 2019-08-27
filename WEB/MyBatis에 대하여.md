@@ -26,9 +26,12 @@ DAO에서 했던 절차를 xml에 분리해서 처리하도록 할 것.
 선택한 행과 똑같은 내용으로 채워진 객체를 만들고, 해당 행의 정보의 지속성/영속성을 유지(persistance)시키는 라이브러리.
 > c.setName("aaa"); == UPDATE
 > c = null; == DELETE
-> 
+
+## 하이버네이트
+JAVA PER
+자바와 디비 사이의 영속성을 완벽하게 유지시켜주는 프레임워크.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyOTU4MjM0LC03NDkyMTIzNTcsMjA2Mj
-k5ODU2M119
+eyJoaXN0b3J5IjpbOTM0NTkzODcsLTc0OTIxMjM1NywyMDYyOT
+k4NTYzXX0=
 -->
