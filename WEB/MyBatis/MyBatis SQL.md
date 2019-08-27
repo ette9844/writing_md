@@ -107,8 +107,11 @@ xml
 HashMap map2 = session.selectOne("com.my.vo.Customer.selectGroup");
 System.out.println(map2.get("C1") + " : " + map2.get("C2"));
 ```
->※별칭을 소문자 'c1'으로 줘도 oracle내부에서 대문자로 자동 저장 되기 때문에, 대문자 
+>※별칭을 소문자 'c1'으로 줘도 oracle내부에서 대문자로 자동 저장 되기 때문에, 대문자 'C1'으로 가져와야 한다.
+
+
+※parameterMap 과 resultMap 은 deprecated 됐다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTEyNjc0ODEsLTEyNDIxMTE3MDQsLT
-EwNzQ5ODU3OTJdfQ==
+eyJoaXN0b3J5IjpbMTAzNjYzOTQzNSwtMTI0MjExMTcwNCwtMT
+A3NDk4NTc5Ml19
 -->
