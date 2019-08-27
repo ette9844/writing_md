@@ -99,6 +99,8 @@ SQL이 들어있는 xml 파일 = Mapper용 xml 파일
 >select를 사용할 때에는 `<select>`
 >update를 사용할 때에는 `<update>` ...
 >기존 JAVA내 sql문의 `?` 바인드 변수는 `#{}`로 표기한다.
+>`#{}`내 변수 이름은 아무렇게 지정해도 상관없다.
+>단, sql문 내의 다른 바인드 변수와 겹칙
 
 ### 8) mybatis-config.xml의 매퍼용 xml파일 경로를 지정해준다.
 ```xml
@@ -125,7 +127,7 @@ session.close();
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Mjk5MTA3NywtNTMwNDY4MzYyLDI2MD
-U1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4MDE2
-LC0xNzYzMTA0MTA2XX0=
+eyJoaXN0b3J5IjpbNTAxNDM0MDA5LC05OTI5OTEwNzcsLTUzMD
+Q2ODM2MiwyNjA1NTczMjUsNTg1ODgxNDIyLDE1NzMyNTU5NTUs
+MTM5ODM0ODAxNiwtMTc2MzEwNDEwNl19
 -->
