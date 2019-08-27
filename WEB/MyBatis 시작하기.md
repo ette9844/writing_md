@@ -152,15 +152,12 @@ Test.java 수행 결과
 
 ## 그 외 속성
 1)　parameterType
+CustomMapper.xml
 ```xml
 <update id="updateName" parameterType="java.lang.String">
-  UPDATE customer SET name=#{n} WHERE id=#{i}
+  UPDATE customer SET name=#{name} WHERE id=#{id}
 </update>
   ```
-  >전달해야될 인자의 자료형을 결정해주는 속성
-  >자동으로 설정이 되긴하지만 정확한 자료형을 지정해 주고싶을 때, 사용.
-
-## 응용
 ```java
 HashMap<String, String> map = new HashMap<>();
 map.put("id", "id1");
@@ -170,10 +167,14 @@ session.commit();
 session.close();
 ```
 
+  >전달해야될 인자의 자료형을 결정해주는 속성
+  >자동으로 설정이 되긴하지만 정확한 자료형을 지정해 주고싶을 때, 사용.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzMxMDM4MzgsMTQ0MjA2NDcwMywxMD
-I5NjA4MDYwLC0yMDQ3Nzk3MDYyLC05OTI5OTEwNzcsLTUzMDQ2
-ODM2MiwyNjA1NTczMjUsNTg1ODgxNDIyLDE1NzMyNTU5NTUsMT
-M5ODM0ODAxNiwtMTc2MzEwNDEwNl19
+eyJoaXN0b3J5IjpbODExNzAzNjY2LC0xOTczMTAzODM4LDE0ND
+IwNjQ3MDMsMTAyOTYwODA2MCwtMjA0Nzc5NzA2MiwtOTkyOTkx
+MDc3LC01MzA0NjgzNjIsMjYwNTU3MzI1LDU4NTg4MTQyMiwxNT
+czMjU1OTU1LDEzOTgzNDgwMTYsLTE3NjMxMDQxMDZdfQ==
 -->
