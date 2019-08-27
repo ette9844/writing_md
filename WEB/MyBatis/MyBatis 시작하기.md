@@ -152,6 +152,11 @@ pubic class Test {
 Test.java 수행 결과
 
 ![enter image description here](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis-update.PNG?raw=true)
+
+---
+#### namespace
+
+**네임스페이스(Namespaces)**가 이전버전에서는 사실 선택사항이었다. 하지만 이제는 패키지경로를 포함한 전체 이름을 가진 구문을 구분하기 위해 필수로 사용해야 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODIxOTc0OTldfQ==
+eyJoaXN0b3J5IjpbLTEwMjU5OTk1NF19
 -->
