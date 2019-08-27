@@ -12,8 +12,10 @@ InputStream inputStream =  Resources.getResourceAsStream(resource);
 SqlSessionFactory sqlSessionFactory =  new  SqlSessionFactoryBuilder().build(inputStream);
 ```
 설정용 xml 파일에 SqlSessionFactory 객체를 생성
+>SqlSessionFactory는 디자인 패턴 : **Factory 패턴**을 사용한다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwNzA0Njg5LC0xNzYzMTA0MTA2XX0=
+eyJoaXN0b3J5IjpbLTEyMzM1ODI5ODIsLTE3NjMxMDQxMDZdfQ
+==
 -->
