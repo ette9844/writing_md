@@ -119,10 +119,13 @@ mybatis는 기본 auto-commit이 아니므로, 커밋 메서드를 호출해 줘
 session.commit();
 ```
 
-
+### 11) DB와의 연결 종료
+```java
+session.close();
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzE4NjU0MiwtNTMwNDY4MzYyLDI2MD
-U1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4MDE2
-LC0xNzYzMTA0MTA2XX0=
+eyJoaXN0b3J5IjpbODYwMDA4OTQzLC01MzA0NjgzNjIsMjYwNT
+U3MzI1LDU4NTg4MTQyMiwxNTczMjU1OTU1LDEzOTgzNDgwMTYs
+LTE3NjMxMDQxMDZdfQ==
 -->
