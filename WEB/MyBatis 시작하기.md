@@ -213,16 +213,18 @@ session.delete("com.my.vo.Customer.delete", "idtest");
 
 **4)　SELECT**
 ```xml
-  <select id="selectById" parameterType="string">
-    SELECT * FROM customer WHERE id=#{id}
-  </select>
+<select id="selectById" parameterType="string">
+  SELECT * FROM customer WHERE id=#{id}
+</select>
   ```
-  ```java
+```java
+session.selectOne("com.my.vo.Customer.selectById", "id1");
   ```
 
-selectOne : 검색결과가 한개의 행을 ㅂ
+selectOne : 검색결과가 한개의 행을 반환할 경우
+selectList : 검색결과가 여러 행을 반환할 경우
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzcxNzg0OTIsNjI0MTMwMDg0LC05Nj
+eyJoaXN0b3J5IjpbLTE5NTk5NDU4MDgsNjI0MTMwMDg0LC05Nj
 Q3MjM5OTEsLTE5NzMxMDM4MzgsMTQ0MjA2NDcwMywxMDI5NjA4
 MDYwLC0yMDQ3Nzk3MDYyLC05OTI5OTEwNzcsLTUzMDQ2ODM2Mi
 wyNjA1NTczMjUsNTg1ODgxNDIyLDE1NzMyNTU5NTUsMTM5ODM0
