@@ -111,7 +111,8 @@ System.out.println(map2.get("C1") + " : " + map2.get("C2"));
 
 
 ※parameterMap 과 resultMap 은 deprecated 됐다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjYzOTQzNSwtMTI0MjExMTcwNCwtMT
-A3NDk4NTc5Ml19
+eyJoaXN0b3J5IjpbMTgxMTY3MDA3MywxMDM2NjM5NDM1LC0xMj
+QyMTExNzA0LC0xMDc0OTg1NzkyXX0=
 -->
