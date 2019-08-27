@@ -27,11 +27,14 @@ DAO에서 했던 절차를 xml에 분리해서 처리하도록 할 것.
 > c.setName("aaa"); == UPDATE
 > c = null; == DELETE
 
-## 하이버네이트
-JAVA PER
-자바와 디비 사이의 영속성을 완벽하게 유지시켜주는 프레임워크.
+## JPA
+JAVA Persistance API
+자바와 디비 사이의 영속성을 유지시켜주는 API.
+
+## Hibernate ( 하이버네이트 )
+JAVA Persistance API를 완벽하게 구현해놓은 대표적인 프레임워크.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0NTkzODcsLTc0OTIxMjM1NywyMDYyOT
-k4NTYzXX0=
+eyJoaXN0b3J5IjpbMTc4MTA5MTEyMiwtNzQ5MjEyMzU3LDIwNj
+I5OTg1NjNdfQ==
 -->
