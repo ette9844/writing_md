@@ -22,9 +22,9 @@ SqlSessionFactory sqlSessionFactory =  new  SqlSessionFactoryBuilder().build(inp
 >마이바티스는 **클래스패스**와 다른 위치에서 자원을 로드하는 것으로 좀더 쉽게 해주는 Resources 라는 유틸성 클래스를 가지고 있다.
 
 #### 클래스패스
-클래스가 저장되어있는 경로
-기본 클래스패스: bin
-파일을 src 폴더로 이동하면 bin폴더에 자동으로 복붙 됨.
+- 클래스가 저장되어있는 경로
+- 기본 클래스패스: bin
+- 파일을 src 폴더로 이동하면 bin폴더에 자동으로 복붙 됨.
 
 ### 4) mybatis-config.xml을 위에서 지정해준 경로에 생성해준다
 mybatis-config.xml (New File로 생성해서 생성자를 xml 으로)
@@ -53,12 +53,16 @@ mybatis-config.xml (New File로 생성해서 생성자를 xml 으로)
 >![enter image description here](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis-path.PNG?raw=true)
 >※경로를 resource = "mybatis-config.xml" 로 설정했을 경우. 현재 디렉토리(src 폴더 내부나 패키지 폴더 내부)가 아닌 프로젝트 root 디렉토리 내부를 뜻한다.
 >
->※xml 파일의 첫줄에는 선언부가 반드시 필요. (주석도 달면 안된다.)
 
->root elem
+#### xml
+- xml 파일의 첫줄에는 선언부가 반드시 필요. (주석도 달면 안된다.)
+- root element는 단 한개
+- `?` : 없거나 한개만 올 수 있다. 0또는 1
+- `*` : 없거나 여러개 올 수 있다. 
+- , : 이 순서대로 와야한다.
 
 ### 5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTExNTUxMSw1ODU4ODE0MjIsMTU3Mz
+eyJoaXN0b3J5IjpbLTkwNTIwMjUwNCw1ODU4ODE0MjIsMTU3Mz
 I1NTk1NSwxMzk4MzQ4MDE2LC0xNzYzMTA0MTA2XX0=
 -->
