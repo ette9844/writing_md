@@ -132,8 +132,16 @@ SELECT customer_name name, ....
 c.setName(rs.getString("name"))
 
 SELECT customer_
+
+---
+**5)　JOIN**
+
+	select id, zipcode
+ㄹrom customer c join post p
+    on c.buildingno = p.buildingno
+  4  where id = 'etet';
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTA0ODU2NywxMDE3ODU1NzIzLDE4MT
-E2NzAwNzMsMTAzNjYzOTQzNSwtMTI0MjExMTcwNCwtMTA3NDk4
-NTc5Ml19
+eyJoaXN0b3J5IjpbNzgxOTk0MjA2LDIwMjUwNDg1NjcsMTAxNz
+g1NTcyMywxODExNjcwMDczLDEwMzY2Mzk0MzUsLTEyNDIxMTE3
+MDQsLTEwNzQ5ODU3OTJdfQ==
 -->
