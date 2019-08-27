@@ -134,7 +134,7 @@ c.setName(rs.getString("name"))
 SELECT customer_
 
 ---
-**5)　JOIN**
+**5)　JOIN?**
 ```xml
 <select id="selectZipcodeById" parameterType="string" resultType="Customer">
   SELECT id, zipcode
@@ -156,9 +156,11 @@ DTO 관계가 설정 되어있을 경우에는 resultMap 을 사용한다
 #### resultMap
 데이터베이스 결과데이터를 객체에 로드하는 방법을 정의하는 엘리먼트
 
+```xml
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0MDc2NDQyLC0xMzkyNTAxOTA1LDIwMj
-UwNDg1NjcsMTAxNzg1NTcyMywxODExNjcwMDczLDEwMzY2Mzk0
-MzUsLTEyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ==
+eyJoaXN0b3J5IjpbMTUzODgxODk2OCwtMTM5MjUwMTkwNSwyMD
+I1MDQ4NTY3LDEwMTc4NTU3MjMsMTgxMTY3MDA3MywxMDM2NjM5
+NDM1LC0xMjQyMTExNzA0LC0xMDc0OTg1NzkyXX0=
 -->
