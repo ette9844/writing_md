@@ -208,8 +208,11 @@ session.delete("com.my.vo.Customer.delete", "idtest");
 ```
 >java.lang.String 대신 string 예약어를 사용할 수 있다.
 
+<br>
+
+**4)　SELECT**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NjQ0MTg4MSw2MjQxMzAwODQsLTk2ND
+eyJoaXN0b3J5IjpbMTY5OTg5MzgyMCw2MjQxMzAwODQsLTk2ND
 cyMzk5MSwtMTk3MzEwMzgzOCwxNDQyMDY0NzAzLDEwMjk2MDgw
 NjAsLTIwNDc3OTcwNjIsLTk5Mjk5MTA3NywtNTMwNDY4MzYyLD
 I2MDU1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4
