@@ -150,7 +150,7 @@ Test.java 수행 결과
 
 ![enter image description here](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis-update.PNG?raw=true)
 
-## 그 외
+## 그 외 속성
 1)　parameterType
 
 customMapper.xml
@@ -172,7 +172,9 @@ session.close();
   >전달해야될 인자의 자료형을 결정해주는 속성
   >자동으로 설정이 되긴하지만 정확한 자료형을 지정해 주고싶을 때, 사용.
 
-2)　DELETE
+
+## SQL 문 작성
+3)　DELETE
 ```java
 <delete id="delete" parameterType="string">
   DELETE customer WHERE id=#{id}
@@ -181,17 +183,19 @@ session.close();
 >java.lang.String 대신 string 예약어를 사용할 수 있다.
 
 
-3)　INSERT
+2)　INSERT
 ```xml
 <insert id="insert" parameterType="com.my.vo.Customer">
 INSERT INTO customer(id, pwd, name, addr)
 VALUES( #{id}, #{pwd}, #{name}, #{addr} )
-java bean 형태를 만족하는 클래스의 get method가 자동 호출됨
+</insert>
+```
+>`#{~~}`: java bean 형태를 만족하는 클래스의 get method가 자동 호출됨
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODc5NDc4NCwtOTY0NzIzOTkxLC0xOT
-czMTAzODM4LDE0NDIwNjQ3MDMsMTAyOTYwODA2MCwtMjA0Nzc5
-NzA2MiwtOTkyOTkxMDc3LC01MzA0NjgzNjIsMjYwNTU3MzI1LD
-U4NTg4MTQyMiwxNTczMjU1OTU1LDEzOTgzNDgwMTYsLTE3NjMx
-MDQxMDZdfQ==
+eyJoaXN0b3J5IjpbLTE4NzI5NTc3MzEsLTk2NDcyMzk5MSwtMT
+k3MzEwMzgzOCwxNDQyMDY0NzAzLDEwMjk2MDgwNjAsLTIwNDc3
+OTcwNjIsLTk5Mjk5MTA3NywtNTMwNDY4MzYyLDI2MDU1NzMyNS
+w1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4MDE2LC0xNzYz
+MTA0MTA2XX0=
 -->
