@@ -52,9 +52,13 @@ mybatis-config.xml (New File로 생성해서 생성자를 xml 으로)
 ```
 >![enter image description here](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis-path.PNG?raw=true)
 >※경로를 resource = "mybatis-config.xml" 로 설정했을 경우. 현재 디렉토리(src 폴더 내부나 패키지 폴더 내부)가 아닌 프로젝트 root 디렉토리 내부를 뜻한다.
+>
+>※xml 파일의 첫줄에는 선언부가 반드시 필요. (주석도 달면 안된다.)
+
+>root elem
 
 ### 5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTY0Mjc3NSw1ODU4ODE0MjIsMTU3Mz
+eyJoaXN0b3J5IjpbMTIyMTExNTUxMSw1ODU4ODE0MjIsMTU3Mz
 I1NTk1NSwxMzk4MzQ4MDE2LC0xNzYzMTA0MTA2XX0=
 -->
