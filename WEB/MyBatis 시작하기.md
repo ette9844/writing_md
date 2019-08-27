@@ -13,8 +13,16 @@ SqlSessionFactory sqlSessionFactory =  new  SqlSessionFactoryBuilder().build(inp
 ```
 설정용 xml 파일에 SqlSessionFactory 객체를 생성
 >SqlSessionFactory는 디자인 패턴 : **Factory 패턴**을 사용한다.
-
+### 4) mybatis-config.xml을 위에서 지정해준 경로에 생성해준다.
+```
+<?xml version="1.0" encoding="UTF-8"  ?>  
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">  
+<configuration>  <environments  default="development">  <environment  id="development">  <transactionManager  type="JDBC"/>  <dataSource  type="POOLED">  <property  name="driver"  value="${driver}"/>  <property  name="url"  value="${url}"/>  <property  name="username"  value="${username}"/>  <property  name="password"  value="${password}"/>  </dataSource>  </environment>  </environments>  <mappers>  <mapper  resource="org/mybatis/example/BlogMapper.xml"/>  </mappers>  </configuration>
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODM0ODAxNiwtMTc2MzEwNDEwNl19
+eyJoaXN0b3J5IjpbMTMzNTE5ODAzOSwxMzk4MzQ4MDE2LC0xNz
+YzMTA0MTA2XX0=
 -->
