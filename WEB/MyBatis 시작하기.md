@@ -193,7 +193,7 @@ c.setAddr("상세주소1");
 session.insert("com.my.vo.Customer.insert", c);
 /* commit close문 생략 */
 ```
->`#{~~}`: java bean 형태를 만족하는 클래스의 get method가 자동 호출됨. 
+>`#{~~}`: java bean 형태를 만족하는 클래스의 getter method가 자동 호출됨. 
 >이 때에는, 클래스의 파라미터 명을 넣어준다.
 
 <br>
@@ -231,10 +231,12 @@ System.out.println(c1.getName() + ":" + c1.getPwd());
   ```
 >selectOne : 검색결과가 한개의 행을 반환할 경우
 >selectList : 검색결과가 여러 행을 반환할 경우
+>
+>java bean 형식 calss의 setter 메서드가 자동 호출됨
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTA1MjEyLDYyNDEzMDA4NCwtOTY0Nz
-IzOTkxLC0xOTczMTAzODM4LDE0NDIwNjQ3MDMsMTAyOTYwODA2
-MCwtMjA0Nzc5NzA2MiwtOTkyOTkxMDc3LC01MzA0NjgzNjIsMj
-YwNTU3MzI1LDU4NTg4MTQyMiwxNTczMjU1OTU1LDEzOTgzNDgw
-MTYsLTE3NjMxMDQxMDZdfQ==
+eyJoaXN0b3J5IjpbLTE2MjcwNzM5NTMsNjI0MTMwMDg0LC05Nj
+Q3MjM5OTEsLTE5NzMxMDM4MzgsMTQ0MjA2NDcwMywxMDI5NjA4
+MDYwLC0yMDQ3Nzk3MDYyLC05OTI5OTEwNzcsLTUzMDQ2ODM2Mi
+wyNjA1NTczMjUsNTg1ODgxNDIyLDE1NzMyNTU5NTUsMTM5ODM0
+ODAxNiwtMTc2MzEwNDEwNl19
 -->
