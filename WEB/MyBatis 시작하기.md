@@ -169,6 +169,8 @@ session.update("com.my.vo.Customer.updateName", map);
   >`parameterType`: 전달해야될 인자의 자료형을 결정해주는 속성
   >자동으로 설정이 되긴하지만 정확한 자료형을 지정해 주고싶을 때, 사용.
 
+<br>
+
 **2)　INSERT**
 ```xml
 <insert id="insert" parameterType="com.my.vo.Customer">
@@ -188,6 +190,8 @@ session.insert("com.my.vo.Customer.insert", c);
 ```
 >`#{~~}`: java bean 형태를 만족하는 클래스의 get method가 자동 호출됨
 
+<br>
+
 **3)　DELETE**
 ```java
 <delete id="delete" parameterType="string">
@@ -202,9 +206,9 @@ session.delete("com.my.vo.Customer.delete", "idtest");
 >java.lang.String 대신 string 예약어를 사용할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3OTE0Njc5LDYyNDEzMDA4NCwtOTY0Nz
-IzOTkxLC0xOTczMTAzODM4LDE0NDIwNjQ3MDMsMTAyOTYwODA2
-MCwtMjA0Nzc5NzA2MiwtOTkyOTkxMDc3LC01MzA0NjgzNjIsMj
-YwNTU3MzI1LDU4NTg4MTQyMiwxNTczMjU1OTU1LDEzOTgzNDgw
-MTYsLTE3NjMxMDQxMDZdfQ==
+eyJoaXN0b3J5IjpbLTk5MDExODc5Myw2MjQxMzAwODQsLTk2ND
+cyMzk5MSwtMTk3MzEwMzgzOCwxNDQyMDY0NzAzLDEwMjk2MDgw
+NjAsLTIwNDc3OTcwNjIsLTk5Mjk5MTA3NywtNTMwNDY4MzYyLD
+I2MDU1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4
+MDE2LC0xNzYzMTA0MTA2XX0=
 -->
