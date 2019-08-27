@@ -174,16 +174,8 @@ session.close();
 
 
 ## SQL 문 작성
-3)　DELETE
-```java
-<delete id="delete" parameterType="string">
-  DELETE customer WHERE id=#{id}
-</delete>
-```
->java.lang.String 대신 string 예약어를 사용할 수 있다.
 
-
-2)　INSERT
+**2)　INSERT**
 ```xml
 <insert id="insert" parameterType="com.my.vo.Customer">
 INSERT INTO customer(id, pwd, name, addr)
@@ -202,10 +194,22 @@ session.insert("com.my.vo.Customer.insert", c);
 ```
 >`#{~~}`: java bean 형태를 만족하는 클래스의 get method가 자동 호출됨
 
+**3)　DELETE**
+```java
+<delete id="delete" parameterType="string">
+  DELETE customer WHERE id=#{id}
+</delete>
+```
+Test.java
+```java
+session.delete("com.my.vo.Customer.delete", "idtest");
+```
+>java.lang.String 대신 string 예약어를 사용할 수 있다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0MTMwMDg0LC05NjQ3MjM5OTEsLTE5Nz
-MxMDM4MzgsMTQ0MjA2NDcwMywxMDI5NjA4MDYwLC0yMDQ3Nzk3
-MDYyLC05OTI5OTEwNzcsLTUzMDQ2ODM2MiwyNjA1NTczMjUsNT
-g1ODgxNDIyLDE1NzMyNTU5NTUsMTM5ODM0ODAxNiwtMTc2MzEw
-NDEwNl19
+eyJoaXN0b3J5IjpbMTc5MzA5ODYyOSw2MjQxMzAwODQsLTk2ND
+cyMzk5MSwtMTk3MzEwMzgzOCwxNDQyMDY0NzAzLDEwMjk2MDgw
+NjAsLTIwNDc3OTcwNjIsLTk5Mjk5MTA3NywtNTMwNDY4MzYyLD
+I2MDU1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4
+MDE2LC0xNzYzMTA0MTA2XX0=
 -->
