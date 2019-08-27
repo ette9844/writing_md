@@ -14,15 +14,32 @@ SqlSessionFactory sqlSessionFactory =  new  SqlSessionFactoryBuilder().build(inp
 설정용 xml 파일에 SqlSessionFactory 객체를 생성
 >SqlSessionFactory는 디자인 패턴 : **Factory 패턴**을 사용한다.
 ### 4) mybatis-config.xml을 위에서 지정해준 경로에 생성해준다.
-```
-<?xml version="1.0" encoding="UTF-8"  ?>  
+mybatis-config.xml (New File로 생성해서 생성자를 xml 으로)
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
-  "http://mybatis.org/dtd/mybatis-3-config.dtd">  
-<configuration>  <environments  default="development">  <environment  id="development">  <transactionManager  type="JDBC"/>  <dataSource  type="POOLED">  <property  name="driver"  value="${driver}"/>  <property  name="url"  value="${url}"/>  <property  name="username"  value="${username}"/>  <property  name="password"  value="${password}"/>  </dataSource>  </environment>  </environments>  <mappers>  <mapper  resource="org/mybatis/example/BlogMapper.xml"/>  </mappers>  </configuration>
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <environments default="development">
+    <environment id="development">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver" value="${driver}"/>
+        <property name="url" value="${url}"/>
+        <property name="username" value="${username}"/>
+        <property name="password" value="${password}"/>
+      </dataSource>
+    </environment>
+  </environments>
+  <mappers>
+    <mapper resource="org/mybatis/example/BlogMapper.xml"/>
+  </mappers>
+</configuration>
 ```
+>※경로를 "mybatis-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTE5ODAzOSwxMzk4MzQ4MDE2LC0xNz
-YzMTA0MTA2XX0=
+eyJoaXN0b3J5IjpbLTEwNDAwOTY0MzMsMTM5ODM0ODAxNiwtMT
+c2MzEwNDEwNl19
 -->
