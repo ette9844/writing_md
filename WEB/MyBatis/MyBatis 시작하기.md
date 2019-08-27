@@ -166,6 +166,7 @@ Test.java 수행 결과
   <typeAlias type="com.my.Customer" alias="Customer"/>
 </typeAliases>
 ```
+>config-xml에서 설정을 작성할 때에는 순서를 지켜야 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDcxMDk5NzcsLTEwMjU5OTk1NF19
+eyJoaXN0b3J5IjpbNzI5NTgwNDIwLC0xMDI1OTk5NTRdfQ==
 -->
