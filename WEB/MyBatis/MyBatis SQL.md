@@ -153,7 +153,7 @@ System.out.println(c3.getId() + " : " + c3.getPost().getZipcode());
 System.out.println(c3.getPost());  // null
 ```
 >Customer는 Post 클래스와 HAS-A 관계.
-
+![has-a관계](https://github.com/ette9844/writing_md/blob/master/imgs/uml%20aggregation.PNG?raw=true)
 
 DTO 관계가 설정 되어있을 경우에는 resultMap 을 사용한다
 #### resultMap
@@ -183,9 +183,11 @@ DTO 관계가 설정 되어있을 경우에는 resultMap 을 사용한다
 >`<association property="">` : HAS-A 관계 클래스의 클래스 멤버변수 등록
 >`<id>` : primary key에 대한 매핑
 >`<result>` : 일반 column에 대한 매핑
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjIyNjE5MCwxNTM4ODE4OTY4LC0xMz
-kyNTAxOTA1LDIwMjUwNDg1NjcsMTAxNzg1NTcyMywxODExNjcw
-MDczLDEwMzY2Mzk0MzUsLTEyNDIxMTE3MDQsLTEwNzQ5ODU3OT
-JdfQ==
+eyJoaXN0b3J5IjpbNTMyNjE2NjE5LDE1Mzg4MTg5NjgsLTEzOT
+I1MDE5MDUsMjAyNTA0ODU2NywxMDE3ODU1NzIzLDE4MTE2NzAw
+NzMsMTAzNjYzOTQzNSwtMTI0MjExMTcwNCwtMTA3NDk4NTc5Ml
+19
 -->
