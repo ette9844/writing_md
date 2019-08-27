@@ -141,8 +141,9 @@ from customer c join post p
 on c.buildingno = p.buildingno
 where id = 'etet';
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTI1MDE5MDUsMjAyNTA0ODU2NywxMD
-E3ODU1NzIzLDE4MTE2NzAwNzMsMTAzNjYzOTQzNSwtMTI0MjEx
-MTcwNCwtMTA3NDk4NTc5Ml19
+eyJoaXN0b3J5IjpbLTQyNTkxNTkzOSwtMTM5MjUwMTkwNSwyMD
+I1MDQ4NTY3LDEwMTc4NTU3MjMsMTgxMTY3MDA3MywxMDM2NjM5
+NDM1LC0xMjQyMTExNzA0LC0xMDc0OTg1NzkyXX0=
 -->
