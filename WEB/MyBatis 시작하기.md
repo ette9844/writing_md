@@ -108,8 +108,13 @@ Blog blog = session.selectOne("org.mybatis.example.BlogMapper.selectBlog", 101);
     <mapper resource="customerMapper.xml"/>
   </mappers>
   ```
+  
+### 9)
+```java
+("`namespace`.`tag-id`", "변수지정"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjIyNDMxNjMsMjYwNTU3MzI1LDU4NT
+eyJoaXN0b3J5IjpbLTE2ODExMjU3MTYsMjYwNTU3MzI1LDU4NT
 g4MTQyMiwxNTczMjU1OTU1LDEzOTgzNDgwMTYsLTE3NjMxMDQx
 MDZdfQ==
 -->
