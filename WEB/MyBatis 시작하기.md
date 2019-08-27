@@ -126,15 +126,36 @@ session.commit();
 session.close();
 ```
 
+---
+Test.java
+```java
+pubic class Test {
+	public static void main(String[] args) {
+		String resource = "mybatis-config.xml";
+		InputStream inputStream;
+		try {
+			inputStream = Resources.getResourceAsStream(resource);
+			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+			SqlSession session = sqlSessionFactory.openSession();
+			session.update("com.my.vo.Customer.updateName", "id1");
+			session.commit();
+			session.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}
+```
 
 ## 그 외 속성
+1)　para
 ```xml
 <update id="updateName" parameterMap="java.lang.String">
   UPDATE customer SET name=#{n} WHERE id=#{i}
 </update>
   ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMTkzNDU2MCwtOTkyOTkxMDc3LC01Mz
-A0NjgzNjIsMjYwNTU3MzI1LDU4NTg4MTQyMiwxNTczMjU1OTU1
-LDEzOTgzNDgwMTYsLTE3NjMxMDQxMDZdfQ==
+eyJoaXN0b3J5IjpbLTIwNDc3OTcwNjIsLTk5Mjk5MTA3NywtNT
+MwNDY4MzYyLDI2MDU1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1
+NSwxMzk4MzQ4MDE2LC0xNzYzMTA0MTA2XX0=
 -->
