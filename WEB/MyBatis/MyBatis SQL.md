@@ -147,12 +147,13 @@ SELECT customer_
 ```
 ```java
 Customer c3 = session.selectOne("com.my.vo.Customer.selectZipcodeById", "etet");
-System.out.println(c3.getId() + " : " + c3.getPost().getZipcode());
 
 // c3.getPost()에서 NullPointException 발생
+System.out.println(c3.getId() + " : " + c3.getPost().getZipcode());
 System.out.println(c3.getPost());  // null
 ```
 >Customer는 Post 클래스와 HAS-A 관계.
+
 
 DTO 관계가 설정 되어있을 경우에는 resultMap 을 사용한다
 #### resultMap
@@ -183,8 +184,8 @@ DTO 관계가 설정 되어있을 경우에는 resultMap 을 사용한다
 >`<id>` : primary key에 대한 매핑
 >`<result>` : 일반 column에 대한 매핑
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4Mzc0NDg0LDE1Mzg4MTg5NjgsLTEzOT
-I1MDE5MDUsMjAyNTA0ODU2NywxMDE3ODU1NzIzLDE4MTE2NzAw
-NzMsMTAzNjYzOTQzNSwtMTI0MjExMTcwNCwtMTA3NDk4NTc5Ml
-19
+eyJoaXN0b3J5IjpbLTIwMjIyNjE5MCwxNTM4ODE4OTY4LC0xMz
+kyNTAxOTA1LDIwMjUwNDg1NjcsMTAxNzg1NTcyMywxODExNjcw
+MDczLDEwMzY2Mzk0MzUsLTEyNDIxMTE3MDQsLTEwNzQ5ODU3OT
+JdfQ==
 -->
