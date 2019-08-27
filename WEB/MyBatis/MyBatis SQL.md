@@ -80,12 +80,19 @@ System.out.println(c1.getName() + ":" + c1.getPwd());
 
 ---
 #### count
+xml
 ```xml
+<select id="selectCount" resultType="int">
+  SELECT COUNT(*) FROM customer
+</select>
 ```
+>`int` : java.lang.Integer의 약자
+
+java
 ```java
 int cnt = session.selectOne("com.my.vo.Customer.selectCount");
 System.out.println("총 고객 수 : " + cnt);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA5NDg2OTJdfQ==
+eyJoaXN0b3J5IjpbLTEwNzQ5ODU3OTJdfQ==
 -->
