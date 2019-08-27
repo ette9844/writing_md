@@ -157,13 +157,22 @@ DTO 관계가 설정 되어있을 경우에는 resultMap 을 사용한다
 데이터베이스 결과데이터를 객체에 로드하는 방법을 정의하는 엘리먼트
 
 ```xml
-
+<resultMap id="customerResultMap" type="Customer">
+  <id property="id" column="id" />
+  <result property="name" column="name"/>
+  
+  <!-- 자바 클래스간의 HAS-A 관계를 표현하는 방식:association -->
+  <association property="post" javaType="Post">
+    <id property="buildingno" column="buildingno"/>
+    <result property="zipcode" column="zipcode"/>
+  </association>
+</resultMap>
 ```
 
 >property: Customer 클래스의 멤버변수
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQ1NzQ3NDMsMTUzODgxODk2OCwtMT
-M5MjUwMTkwNSwyMDI1MDQ4NTY3LDEwMTc4NTU3MjMsMTgxMTY3
-MDA3MywxMDM2NjM5NDM1LC0xMjQyMTExNzA0LC0xMDc0OTg1Nz
-kyXX0=
+eyJoaXN0b3J5IjpbLTEzMjU3ODc1NiwxNTM4ODE4OTY4LC0xMz
+kyNTAxOTA1LDIwMjUwNDg1NjcsMTAxNzg1NTcyMywxODExNjcw
+MDczLDEwMzY2Mzk0MzUsLTEyNDIxMTE3MDQsLTEwNzQ5ODU3OT
+JdfQ==
 -->
