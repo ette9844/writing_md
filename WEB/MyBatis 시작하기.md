@@ -228,16 +228,15 @@ java
 ```java
 Customer c1 = session.selectOne("com.my.vo.Customer.selectById", "id1");
 System.out.println(c1.getName() + ":" + c1.getPwd());
-/* commit close문 생략 */
   ```
 >selectOne : 검색결과가 한개의 행을 반환할 경우
 >selectList : 검색결과가 여러 행을 반환할 경우
 >
 >java bean 형식 calss의 setter method가 자동 호출됨
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjE0NDg2MzcsNjI0MTMwMDg0LC05Nj
-Q3MjM5OTEsLTE5NzMxMDM4MzgsMTQ0MjA2NDcwMywxMDI5NjA4
-MDYwLC0yMDQ3Nzk3MDYyLC05OTI5OTEwNzcsLTUzMDQ2ODM2Mi
-wyNjA1NTczMjUsNTg1ODgxNDIyLDE1NzMyNTU5NTUsMTM5ODM0
-ODAxNiwtMTc2MzEwNDEwNl19
+eyJoaXN0b3J5IjpbLTU4ODI3MjU3MCw2MjQxMzAwODQsLTk2ND
+cyMzk5MSwtMTk3MzEwMzgzOCwxNDQyMDY0NzAzLDEwMjk2MDgw
+NjAsLTIwNDc3OTcwNjIsLTk5Mjk5MTA3NywtNTMwNDY4MzYyLD
+I2MDU1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4
+MDE2LC0xNzYzMTA0MTA2XX0=
 -->
