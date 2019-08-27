@@ -95,10 +95,13 @@ SQL이 들어있는 xml 파일 = Mapper용 xml 파일
   </update>
 </mapper>
 ```
->namespace: 구별해줄 수 있는 중복되지 않는 이름으로 설정
+>**namespace**: Mapper 파일을 구별해줄 수 있는 중복되지 않는 이름으로 설정
+>**id 속성값**: 하나의 Mapper파일 내에서 같은 id를 중복해서 사용할 수 없다
+>
 >select를 사용할 때에는 `<select>`
 >update를 사용할 때에는 `<update>` ...
->기존 JAVA내 sql문의 `?` 바인드 변수는 `#{}`로 표기한다.
+>
+>기존 JAVA내 sql문의 `?` **바인드 변수**는 `#{}`로 표기한다.
 >`#{}`내 변수 이름은 아무렇게 지정해도 상관없다.
 >단, sql문 내의 다른 바인드 변수와 겹치게 지정하지 말아야 한다.
 
@@ -206,7 +209,7 @@ session.delete("com.my.vo.Customer.delete", "idtest");
 >java.lang.String 대신 string 예약어를 사용할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDExODc5Myw2MjQxMzAwODQsLTk2ND
+eyJoaXN0b3J5IjpbMTY3NjQ0MTg4MSw2MjQxMzAwODQsLTk2ND
 cyMzk5MSwtMTk3MzEwMzgzOCwxNDQyMDY0NzAzLDEwMjk2MDgw
 NjAsLTIwNDc3OTcwNjIsLTk5Mjk5MTA3NywtNTMwNDY4MzYyLD
 I2MDU1NzMyNSw1ODU4ODE0MjIsMTU3MzI1NTk1NSwxMzk4MzQ4
