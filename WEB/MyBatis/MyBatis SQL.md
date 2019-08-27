@@ -94,7 +94,7 @@ int cnt = session.selectOne("com.my.vo.Customer.selectCount");
 System.out.println("총 고객 수 : " + cnt);
 ```
 ---
-#### 여러가지 column이 반환 될때: map
+#### 여러가지 속성이 반환 될때: map
 xml
 ```xml
   <select id="selectGroup" resultType="map">
@@ -108,6 +108,7 @@ HashMap map2 = session.selectOne("com.my.vo.Customer.selectGroup");
 System.out.println(map2.get("C1") + " : " + map2.get("C2"));
 ```
 >※별칭을 소문자 'c1'으로 줘도 oracle내부에서 대문자로 자동 저장 되기 때문에, 대문자 'C1'으로 가져와야 한다.
+※parameterMap 과 resultMap 은 deprecated 됐다.
 
 #### 여러가지 행이 반환 될 때: selectList
 xml
@@ -124,8 +125,7 @@ for(Customer c: list) {
 	System.out.println(c.getId() + " : " + c.getName());
 }
 ```
-※parameterMap 과 resultMap 은 deprecated 됐다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3MTg1MzYxLDE4MTE2NzAwNzMsMTAzNj
-YzOTQzNSwtMTI0MjExMTcwNCwtMTA3NDk4NTc5Ml19
+eyJoaXN0b3J5IjpbMTAxNzg1NTcyMywxODExNjcwMDczLDEwMz
+Y2Mzk0MzUsLTEyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ==
 -->
