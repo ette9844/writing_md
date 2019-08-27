@@ -156,7 +156,11 @@ Test.java 수행 결과
 ---
 #### namespace
 
-**네임스페이스(Namespaces)**가 이전버전에서는 사실 선택사항이었다. 하지만 이제는 패키지경로를 포함한 전체 이름을 가진 구문을 구분하기 위해 필수로 사용해야 한다.
+**네임스페이스**(Namespaces)가 이전버전에서는 사실 선택사항이었다. 하지만 이제는 패키지경로를 포함한 전체 이름을 가진 구문을 구분하기 위해 필수로 사용해야 한다.
+
+#### typeAliases
+
+타입 별칭은 자바 타입에 대한 짧은 이름이다. 오직 XML 설정에서만 사용되며, 타이핑을 줄이기 위해 존재한다. 예를들면:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjU5OTk1NF19
+eyJoaXN0b3J5IjpbMjA0OTY5NDY1LC0xMDI1OTk5NTRdfQ==
 -->
