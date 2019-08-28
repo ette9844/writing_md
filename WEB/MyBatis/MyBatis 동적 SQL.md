@@ -61,11 +61,17 @@ else 구문이 없기 때문에 else 기능을 사용하고 싶다면 choose / w
   </if>
 </select>
 ```
+위 xml에서 if에 어떤 조건에도 해당되지 않는다면
+```sql
+SELECT * FROM BLOG
+WHERE
+```
+라는 
 where 엘리먼트는 태그에 의해 컨텐츠가 리턴되면 단순히 “WHERE”만을 추가한다. 게다가 컨텐츠가 “AND”나 “OR”로 시작한다면 그 “AND”나 “OR”를 지워버린다.
 
 
 ### forEach 
 반복적 처리에 사용
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzYzNjM3MDJdfQ==
+eyJoaXN0b3J5IjpbNTAxNTM3ODE4XX0=
 -->
