@@ -29,7 +29,22 @@ INSERT INTO category VALUES(4, 1, '콜드브루');
 
 ## Product Table
 ```sql
+CREATE TABLE product (
+    prod_no         VARCHAR2(5) CONSTRAINT product_pk PRIMARY KEY,
+    prod_cate_no    number(1),
+    prod_name       VARCHAR2(50),
+    prod_price      number(6)   DEFAULT 0 NOT NULL,
+    prod_detail     VARCHAR2(50)
+);
 
+ALTER TABLE product
+ADD CONSTRAINT product_cate_no_fk 
+FOREIGN KEY (prod_cate_no) 
+REFERENCES category(cate_no);
+
+ALTER TABLE product
+ADD CONSTRAINT product_price_check
+CHECK (prod_price >= 0);
 ```
 
 data
@@ -40,6 +55,6 @@ prod_no		prod_cate_no	prod_name 				prod_price	prod_detail
 10003		4				나이트로 쇼콜라			4000		초콜릿과 견과류의 풍미, 초콜릿 파우더 토핑, 풀 바디감의 새로운 나이트로 콜드 브루
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzExNzM4NjAsLTEzNDgzODA5OTIsMT
-k1NTk1MzYwMSwxNTE5ODYwOTEsMjA2NDE3ODY4Ml19
+eyJoaXN0b3J5IjpbMTkyNjEyOTAwMywtMTM0ODM4MDk5MiwxOT
+U1OTUzNjAxLDE1MTk4NjA5MSwyMDY0MTc4NjgyXX0=
 -->
