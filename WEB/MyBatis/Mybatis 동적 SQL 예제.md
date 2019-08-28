@@ -253,7 +253,6 @@ public class OrderDAO {
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.my.vo.Order">
   <resultMap id="orderResultMap" type="OrderInfo" autoMapping="true">
-    <id property="order_no" column="order_no"/>
     <collection property="orderDetails" ofType="OrderDetail" autoMapping="true">
       <id property="order_no" column="order_no"/>
       <association property="product" javaType="Product" autoMapping="true"/>
@@ -275,6 +274,8 @@ public class OrderDAO {
 >`collection` : one의 입장에서 many을 가지고 있을 때의 표현 방법
 >`property` : mapping 되는 class가 가지고 있는 맴버 변수 명
 >`ofType` : one이 가지고 있는 many의 클래스명
+>
+>**id**를 설정하면 id별로 하나만 만들어주는 **식별자** 역할을 하기 때문에 복합키를 가진 테이블에서는 두 칼럼 모두 id설정을 해주던가 id태그를 작성하지 않아야 한다.
 
 insert 문 추가
 ```xml
@@ -352,11 +353,11 @@ public static void main(String[] args) {
 ![실행결과_sqlplus](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis_result_1.PNG?raw=true)
 실제 DB에도 정상적으로 insert된 것을 확인할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA4ODExNTAsMTExNTg4NTgwMiwtND
-c3Mzk0MDQ2LDE1MzA2NjczNDMsMTYzMTUwOTUyNyw2MDI5ODQx
-LDE3MzczMjA3Myw5NDM1MjA5ODYsMTk5Nzk1OTMwMSwtMjkzOT
-U3OTMsMTEwNjA2NDYwOSw4MDcxNjQ2MTMsMTk1MDk1NDcxMiwt
-NDU4MzUxODYzLDU5NTQwMDQ0MywxMzIxODMwODc3LC0xNDI5Nj
-E2NTM1LDU1MTk5MzQ0NSw0NzkzNDQ5NDEsMTc1NzI0MTA4Ml19
+eyJoaXN0b3J5IjpbMTQwODQ1NTUxNSwtMTQ2MDg4MTE1MCwxMT
+E1ODg1ODAyLC00NzczOTQwNDYsMTUzMDY2NzM0MywxNjMxNTA5
+NTI3LDYwMjk4NDEsMTczNzMyMDczLDk0MzUyMDk4NiwxOTk3OT
+U5MzAxLC0yOTM5NTc5MywxMTA2MDY0NjA5LDgwNzE2NDYxMywx
+OTUwOTU0NzEyLC00NTgzNTE4NjMsNTk1NDAwNDQzLDEzMjE4Mz
+A4NzcsLTE0Mjk2MTY1MzUsNTUxOTkzNDQ1LDQ3OTM0NDk0MV19
 
 -->
