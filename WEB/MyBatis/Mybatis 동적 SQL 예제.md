@@ -65,13 +65,15 @@ INSERT INTO product VALUES(10003, 4, '나이트로 쇼콜라', 4000, '초콜릿�
 ```
 
 ```sql
-주문								주문상세
+주문	ORDER_INFO					주문상세 ORDER_DETAIL
 주문번호	주문자	주문시간			주문번호	주문상품	주문수량
 1		id1		8/28/10:23:00	1		10001	2		
 								1		10003	3
+2		id9		8/28/10:24:20	2		10002	1
+3		id1		8/28/11:00:00	3		10002	4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTY3MDAwMCwtMTYzOTA2NiwxNjI3Nz
-g4MzAzLDE5MjYxMjkwMDMsLTEzNDgzODA5OTIsMTk1NTk1MzYw
-MSwxNTE5ODYwOTEsMjA2NDE3ODY4Ml19
+eyJoaXN0b3J5IjpbLTEwODY3Nzc0ODUsLTE2MzkwNjYsMTYyNz
+c4ODMwMywxOTI2MTI5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2
+MDEsMTUxOTg2MDkxLDIwNjQxNzg2ODJdfQ==
 -->
