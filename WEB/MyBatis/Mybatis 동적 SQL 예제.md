@@ -351,12 +351,13 @@ public static void main(String[] args) {
 ![실행결과_콘솔](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis_result_2.PNG?raw=true)
 
 ![실행결과_sqlplus](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis_result_1.PNG?raw=true)
-실제 DB에도 정상적으로 insert된 모습을 확인할 수 있다.
+실제 DB에도 정상적으로 insert된 것을 확인할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5NTY4MzAsMTUzMDY2NzM0MywxNjMxNT
-A5NTI3LDYwMjk4NDEsMTczNzMyMDczLDk0MzUyMDk4NiwxOTk3
-OTU5MzAxLC0yOTM5NTc5MywxMTA2MDY0NjA5LDgwNzE2NDYxMy
-wxOTUwOTU0NzEyLC00NTgzNTE4NjMsNTk1NDAwNDQzLDEzMjE4
-MzA4NzcsLTE0Mjk2MTY1MzUsNTUxOTkzNDQ1LDQ3OTM0NDk0MS
-wxNzU3MjQxMDgyLC0xNjM5MDY2LDE2Mjc3ODgzMDNdfQ==
+eyJoaXN0b3J5IjpbLTE2MjY2ODgxNDQsMTUzMDY2NzM0MywxNj
+MxNTA5NTI3LDYwMjk4NDEsMTczNzMyMDczLDk0MzUyMDk4Niwx
+OTk3OTU5MzAxLC0yOTM5NTc5MywxMTA2MDY0NjA5LDgwNzE2ND
+YxMywxOTUwOTU0NzEyLC00NTgzNTE4NjMsNTk1NDAwNDQzLDEz
+MjE4MzA4NzcsLTE0Mjk2MTY1MzUsNTUxOTkzNDQ1LDQ3OTM0ND
+k0MSwxNzU3MjQxMDgyLC0xNjM5MDY2LDE2Mjc3ODgzMDNdfQ==
+
 -->
