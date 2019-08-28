@@ -252,11 +252,14 @@ public class OrderDAO {
 
 >`association` : many의 입장에서 one을 가지고 있을 때의 표현 방법
 >`collection` : one의 입장에서 many을 가지고 있을 때의 표현 방법
+>property: mapping 되는 class가 가지고 있는 맴버 변수 명
+>ofType: one이 가지고 있는 many의 클래스명
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5Nzk1OTMwMSwtMjkzOTU3OTMsMTEwNj
-A2NDYwOSw4MDcxNjQ2MTMsMTk1MDk1NDcxMiwtNDU4MzUxODYz
-LDU5NTQwMDQ0MywxMzIxODMwODc3LC0xNDI5NjE2NTM1LDU1MT
-k5MzQ0NSw0NzkzNDQ5NDEsMTc1NzI0MTA4MiwtMTYzOTA2Niwx
-NjI3Nzg4MzAzLDE5MjYxMjkwMDMsLTEzNDgzODA5OTIsMTk1NT
-k1MzYwMSwxNTE5ODYwOTEsMjA2NDE3ODY4Ml19
+eyJoaXN0b3J5IjpbOTQzNTIwOTg2LDE5OTc5NTkzMDEsLTI5Mz
+k1NzkzLDExMDYwNjQ2MDksODA3MTY0NjEzLDE5NTA5NTQ3MTIs
+LTQ1ODM1MTg2Myw1OTU0MDA0NDMsMTMyMTgzMDg3NywtMTQyOT
+YxNjUzNSw1NTE5OTM0NDUsNDc5MzQ0OTQxLDE3NTcyNDEwODIs
+LTE2MzkwNjYsMTYyNzc4ODMwMywxOTI2MTI5MDAzLC0xMzQ4Mz
+gwOTkyLDE5NTU5NTM2MDEsMTUxOTg2MDkxLDIwNjQxNzg2ODJd
+fQ==
 -->
