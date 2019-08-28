@@ -177,20 +177,13 @@ foreign key 참조 관계에서 부모(참조되는) 쪽에 동그라미 표기�
 
 ### 3. mybatis-config.xml 수정
 
-### 4. 각 테이블의 mapper.xml 작성
+### 4. mapper.xml 작성
 
-```sql
-SELECT info.order_no, info.order_time, 
-			   detail.order_prod_no, detail.order_quantity, 
-			   p.prod_name, p.prod_price
-FROM order_info info JOIN order_detail detail ON info.order_no = detail.order_no
-									  JOIN product p ON p.prod_no = detail.order_prod_no
-WHERE order_id=#{id}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5Mzk1NzkzLDExMDYwNjQ2MDksODA3MT
-Y0NjEzLDE5NTA5NTQ3MTIsLTQ1ODM1MTg2Myw1OTU0MDA0NDMs
-MTMyMTgzMDg3NywtMTQyOTYxNjUzNSw1NTE5OTM0NDUsNDc5Mz
-Q0OTQxLDE3NTcyNDEwODIsLTE2MzkwNjYsMTYyNzc4ODMwMywx
-OTI2MTI5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2MDEsMTUxOT
-g2MDkxLDIwNjQxNzg2ODJdfQ==
+eyJoaXN0b3J5IjpbODcyMTM3NDc4LC0yOTM5NTc5MywxMTA2MD
+Y0NjA5LDgwNzE2NDYxMywxOTUwOTU0NzEyLC00NTgzNTE4NjMs
+NTk1NDAwNDQzLDEzMjE4MzA4NzcsLTE0Mjk2MTY1MzUsNTUxOT
+kzNDQ1LDQ3OTM0NDk0MSwxNzU3MjQxMDgyLC0xNjM5MDY2LDE2
+Mjc3ODgzMDMsMTkyNjEyOTAwMywtMTM0ODM4MDk5MiwxOTU1OT
+UzNjAxLDE1MTk4NjA5MSwyMDY0MTc4NjgyXX0=
 -->
