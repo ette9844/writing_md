@@ -3,15 +3,16 @@
 ```java
 String sql = "INSERT INTO board( ~~... ";
 if(test != null)
-	sql += " ' ') ";
+	sql += "' ', ";
 else
 	sql += board.getParent_no() + ")";
 ```
-
+mybatis의 동적 sql 조건문은 jstl과 유사한 형태이다.
 ```xml
-<select  id="findActiveBlogWithTitleLike"  resultType="Blog"> SELECT * FROM BLOG
-  WHERE state = ‘ACTIVE’ <if  test="title != null"> AND title like #{title} </if>  </select>
+<if test="parent_no == 0">
+  '',
+</if>
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczODU1OTA5XX0=
+eyJoaXN0b3J5IjpbLTI1Nzk4MzRdfQ==
 -->
