@@ -108,14 +108,19 @@ order_no	order_id	order_time	order_no	order_prod_no	order_quantity
 ```
 
 ## 1. vo class 만들기
-**DB의 char 타입은 VO 클래스에서 String 타입으로 작성한다.**
+Java Bean 스펙을 맞춰주며 작성한다.
+
+-**DB의 char 타입은 VO 클래스에서 String 타입으로 작성한다.**
 ```java
 c1 char(1) --> private char c1;	  (X)
 	       --> private String c1; (O)
 ```
+
+-**매개 변수 없는 생성자와 getter, setter는 꼭 작성해야한다.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTgzMDg3NywtMTQyOTYxNjUzNSw1NT
-E5OTM0NDUsNDc5MzQ0OTQxLDE3NTcyNDEwODIsLTE2MzkwNjYs
-MTYyNzc4ODMwMywxOTI2MTI5MDAzLC0xMzQ4MzgwOTkyLDE5NT
-U5NTM2MDEsMTUxOTg2MDkxLDIwNjQxNzg2ODJdfQ==
+eyJoaXN0b3J5IjpbNTk1NDAwNDQzLDEzMjE4MzA4NzcsLTE0Mj
+k2MTY1MzUsNTUxOTkzNDQ1LDQ3OTM0NDk0MSwxNzU3MjQxMDgy
+LC0xNjM5MDY2LDE2Mjc3ODgzMDMsMTkyNjEyOTAwMywtMTM0OD
+M4MDk5MiwxOTU1OTUzNjAxLDE1MTk4NjA5MSwyMDY0MTc4Njgy
+XX0=
 -->
