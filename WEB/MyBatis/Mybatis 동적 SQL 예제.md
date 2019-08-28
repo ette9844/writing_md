@@ -286,7 +286,7 @@ insert 문 추가
   <!-- 주문상세 -->
   <insert id="insertOrderDetail" parameterType="OrderDetail">
     INSERT INTO order_detail(order_no, order_prod_no, order_quantity)
-    VALUES (order_seq.CURRVAL, #{order_prod_no}, #{order_quantity})
+    VALUES (order_seq.CURRVAL, #{product.prod_no}, #{order_quantity})
   </insert>
 ```
 >각 태그 마다 SQL 구문이 독립적으로 들어가야한다.
@@ -303,10 +303,10 @@ nocache;
 ## 5. DAO 작성
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwMzQyNDAxLDE2MzE1MDk1MjcsNjAyOT
-g0MSwxNzM3MzIwNzMsOTQzNTIwOTg2LDE5OTc5NTkzMDEsLTI5
-Mzk1NzkzLDExMDYwNjQ2MDksODA3MTY0NjEzLDE5NTA5NTQ3MT
-IsLTQ1ODM1MTg2Myw1OTU0MDA0NDMsMTMyMTgzMDg3NywtMTQy
-OTYxNjUzNSw1NTE5OTM0NDUsNDc5MzQ0OTQxLDE3NTcyNDEwOD
-IsLTE2MzkwNjYsMTYyNzc4ODMwMywxOTI2MTI5MDAzXX0=
+eyJoaXN0b3J5IjpbMTUzMDY2NzM0MywxNjMxNTA5NTI3LDYwMj
+k4NDEsMTczNzMyMDczLDk0MzUyMDk4NiwxOTk3OTU5MzAxLC0y
+OTM5NTc5MywxMTA2MDY0NjA5LDgwNzE2NDYxMywxOTUwOTU0Nz
+EyLC00NTgzNTE4NjMsNTk1NDAwNDQzLDEzMjE4MzA4NzcsLTE0
+Mjk2MTY1MzUsNTUxOTkzNDQ1LDQ3OTM0NDk0MSwxNzU3MjQxMD
+gyLC0xNjM5MDY2LDE2Mjc3ODgzMDMsMTkyNjEyOTAwM119
 -->
