@@ -118,7 +118,7 @@ c1 char(1) --> private char c1;	  (X)
 -**매개 변수 없는 생성자와 getter, setter는 꼭 작성해야한다.**
 
 ```java
-public class Product {
+public class ㅒㄱ {
 	// number -> int
 	// VARCHAR2 / VARCHAR / CHAR -> String
 	private String prod_no;
@@ -150,9 +150,9 @@ public class Product {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODM1MTg2Myw1OTU0MDA0NDMsMTMyMT
-gzMDg3NywtMTQyOTYxNjUzNSw1NTE5OTM0NDUsNDc5MzQ0OTQx
-LDE3NTcyNDEwODIsLTE2MzkwNjYsMTYyNzc4ODMwMywxOTI2MT
-I5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2MDEsMTUxOTg2MDkx
-LDIwNjQxNzg2ODJdfQ==
+eyJoaXN0b3J5IjpbLTE3Mjc4MDgzMzUsLTQ1ODM1MTg2Myw1OT
+U0MDA0NDMsMTMyMTgzMDg3NywtMTQyOTYxNjUzNSw1NTE5OTM0
+NDUsNDc5MzQ0OTQxLDE3NTcyNDEwODIsLTE2MzkwNjYsMTYyNz
+c4ODMwMywxOTI2MTI5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2
+MDEsMTUxOTg2MDkxLDIwNjQxNzg2ODJdfQ==
 -->
