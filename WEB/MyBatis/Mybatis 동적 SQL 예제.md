@@ -147,8 +147,11 @@ public class Product {
 	// getter / setter
 }
 ```
+
+1대 다 foreign key에서 1 쪽에 동그라미 표기가 있을경우에는 선택 참여이다. 
+이는 foreign key column에 null이 들어올 수 있다는 뜻이다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzM0NTAzODQsLTQ1ODM1MTg2Myw1OT
+eyJoaXN0b3J5IjpbLTIwNDM3NDYzNzAsLTQ1ODM1MTg2Myw1OT
 U0MDA0NDMsMTMyMTgzMDg3NywtMTQyOTYxNjUzNSw1NTE5OTM0
 NDUsNDc5MzQ0OTQxLDE3NTcyNDEwODIsLTE2MzkwNjYsMTYyNz
 c4ODMwMywxOTI2MTI5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2
