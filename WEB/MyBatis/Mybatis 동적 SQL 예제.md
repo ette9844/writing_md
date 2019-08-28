@@ -1,6 +1,9 @@
 ## Category Table
-cate_no number(1)
-cate_parent_no	number(
+```
+cate_no 		number(1)		CONSTRAINT pk_cate_no PRIMARY KEY
+cate_parent_no	number(1)
+cate_name 		varchar2(30)
+```
 ```
 cate_no		cate_parent_no		cate_name
 1			null				음료
@@ -19,5 +22,5 @@ prod_no		prod_cate_no	prod_name 				prod_price	prod_detail
 10003		4				나이트로 쇼콜라			4000		초콜릿과 견과류의 풍미, 초콜릿 파우더 토핑, 풀 바디감의 새로운 나이트로 콜드 브루
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzM0ODg0MV19
+eyJoaXN0b3J5IjpbMTE2MzU3MTg1NF19
 -->
