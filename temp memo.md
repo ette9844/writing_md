@@ -45,6 +45,7 @@ checked: B가 기본 선택되어있도록 함
 
 #### eclipse 대소문자 토글 단축키
 `ctrl` + `shift` + `y` : 대문자 -> 소문자
+`ctrl` + `shift` + `x` : 소문자 -> 대문자
 
 #### eclipse import 단축키
 `ctrl` + `space bar`
@@ -63,8 +64,8 @@ include 지시자로 한 페이지를 다른  페이지에 포함 시킬때 두 
 ```
 xml 선언부 앞에는 공백, 주석도 넣어서는 안된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwMTg2Mzg0LC0xODk4MDg2ODkxLC0xOT
-E4OTU3NDcwLC05MjExNzY1MzAsNzc4NzI4NDk4LC0xNjM5MDg1
-MjM1LDM1NjIwMDM4MSwtMjY3NzY4Mjc0LDExMjQ0Nzg0NDUsLT
-ExNjk4MzgyODgsLTExNjQxMzQ0ODJdfQ==
+eyJoaXN0b3J5IjpbLTE0MjEwMjI0NzYsLTE4OTgwODY4OTEsLT
+E5MTg5NTc0NzAsLTkyMTE3NjUzMCw3Nzg3Mjg0OTgsLTE2Mzkw
+ODUyMzUsMzU2MjAwMzgxLC0yNjc3NjgyNzQsMTEyNDQ3ODQ0NS
+wtMTE2OTgzODI4OCwtMTE2NDEzNDQ4Ml19
 -->
