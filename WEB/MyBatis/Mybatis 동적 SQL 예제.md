@@ -385,8 +385,11 @@ try {
 	System.out.println(e.getMessage());	// 출력
 }
 ```
+#### 실행결과
+
+![select문 실행결과 -콘솔](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis_result_3.PNG?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQ2NTU0NCwtMTQ2MDg4MTE1MCwxMT
+eyJoaXN0b3J5IjpbLTcyNzU3NTY3OCwtMTQ2MDg4MTE1MCwxMT
 E1ODg1ODAyLC00NzczOTQwNDYsMTUzMDY2NzM0MywxNjMxNTA5
 NTI3LDYwMjk4NDEsMTczNzMyMDczLDk0MzUyMDk4NiwxOTk3OT
 U5MzAxLC0yOTM5NTc5MywxMTA2MDY0NjA5LDgwNzE2NDYxMywx
