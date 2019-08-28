@@ -63,9 +63,20 @@ include 지시자로 한 페이지를 다른  페이지에 포함 시킬때 두 
 <?xml version="1.0" encoding="UTF-8" ?>
 ```
 xml 선언부 앞에는 공백, 주석도 넣어서는 안된다.
+
+####  e도큐멘트 주석
+`/**` + `enter`
+```java
+	/**
+	 * order_info테이블에 주문기본정보 추가
+	 * order_line테이블에 주문상세정보 추가
+	 * @param orderInfo 주문기본정보와 주문상세정보들
+	 * @throws AddException
+	 */
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjEwMjI0NzYsLTE4OTgwODY4OTEsLT
-E5MTg5NTc0NzAsLTkyMTE3NjUzMCw3Nzg3Mjg0OTgsLTE2Mzkw
-ODUyMzUsMzU2MjAwMzgxLC0yNjc3NjgyNzQsMTEyNDQ3ODQ0NS
-wtMTE2OTgzODI4OCwtMTE2NDEzNDQ4Ml19
+eyJoaXN0b3J5IjpbMTk2MDczNTYxMCwtMTg5ODA4Njg5MSwtMT
+kxODk1NzQ3MCwtOTIxMTc2NTMwLDc3ODcyODQ5OCwtMTYzOTA4
+NTIzNSwzNTYyMDAzODEsLTI2Nzc2ODI3NCwxMTI0NDc4NDQ1LC
+0xMTY5ODM4Mjg4LC0xMTY0MTM0NDgyXX0=
 -->
