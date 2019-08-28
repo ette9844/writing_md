@@ -256,7 +256,7 @@ public class OrderDAO {
     <id property="order_no" column="order_no"/>
     <collection property="orderDetails" ofType="OrderDetail" autoMapping="true">
       <id property="order_no" column="order_no"/>
-      <association property="product" javaType="Product"/>
+      <association property="product" javaType="Product" autoMapping="true"/>
     </collection>
   </resultMap>
   <select id="selectById" parameterType="string" resultMap="orderResultMap">
@@ -352,10 +352,11 @@ public static void main(String[] args) {
 ![실행결과_sqlplus](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis_result_1.PNG?raw=true)
 실제 DB에도 정상적으로 insert된 것을 확인할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTg4NTgwMiwtNDc3Mzk0MDQ2LDE1Mz
-A2NjczNDMsMTYzMTUwOTUyNyw2MDI5ODQxLDE3MzczMjA3Myw5
-NDM1MjA5ODYsMTk5Nzk1OTMwMSwtMjkzOTU3OTMsMTEwNjA2ND
-YwOSw4MDcxNjQ2MTMsMTk1MDk1NDcxMiwtNDU4MzUxODYzLDU5
-NTQwMDQ0MywxMzIxODMwODc3LC0xNDI5NjE2NTM1LDU1MTk5Mz
-Q0NSw0NzkzNDQ5NDEsMTc1NzI0MTA4MiwtMTYzOTA2Nl19
+eyJoaXN0b3J5IjpbLTE0NjA4ODExNTAsMTExNTg4NTgwMiwtND
+c3Mzk0MDQ2LDE1MzA2NjczNDMsMTYzMTUwOTUyNyw2MDI5ODQx
+LDE3MzczMjA3Myw5NDM1MjA5ODYsMTk5Nzk1OTMwMSwtMjkzOT
+U3OTMsMTEwNjA2NDYwOSw4MDcxNjQ2MTMsMTk1MDk1NDcxMiwt
+NDU4MzUxODYzLDU5NTQwMDQ0MywxMzIxODMwODc3LC0xNDI5Nj
+E2NTM1LDU1MTk5MzQ0NSw0NzkzNDQ5NDEsMTc1NzI0MTA4Ml19
+
 -->
