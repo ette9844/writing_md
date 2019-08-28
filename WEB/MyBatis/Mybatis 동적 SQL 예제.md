@@ -1,4 +1,5 @@
 ## Category Table
+table
 ```sql
 CREATE TABLE Category (
     cate_no 		number(1) 	 CONSTRAINT category_pk PRIMARY KEY,
@@ -7,6 +8,7 @@ CREATE TABLE Category (
     CONSTRAINT category_parent_no_fk FOREIGN KEY(cate_parent_no) REFERENCES category(cate_no)
 );
 ```
+data
 ```
 cate_no		cate_parent_no		cate_name
 1			null				음료
@@ -17,7 +19,12 @@ cate_no		cate_parent_no		cate_name
 >대분류와 소분류 사용
 >cate_parent_no == null 인 카테고리가 대분류 카테고리
 
-Product Table
+## Product Table
+```sql
+
+```
+
+data
 ```
 prod_no		prod_cate_no	prod_name 				prod_price	prod_detail
 10001		3				플로랄 스타벅스 더블 샷		3000		스타벅스만의 시그니처 메뉴인 더블샷에 꽃향 가득한 얼 그레이 풍미를 함께 즐길 수 있는 20주년 기념 음료
@@ -25,5 +32,5 @@ prod_no		prod_cate_no	prod_name 				prod_price	prod_detail
 10003		4				나이트로 쇼콜라			4000		초콜릿과 견과류의 풍미, 초콜릿 파우더 토핑, 풀 바디감의 새로운 나이트로 콜드 브루
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExMDQyOTM1LDIwNjQxNzg2ODJdfQ==
+eyJoaXN0b3J5IjpbMTUxOTg2MDkxLDIwNjQxNzg2ODJdfQ==
 -->
