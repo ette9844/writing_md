@@ -1,8 +1,11 @@
 ## Category Table
-```
-cate_no 		number(1)		CONSTRAINT pk_cate_no PRIMARY KEY
-cate_parent_no	number(1)
-cate_name 		varchar2(30)	NOT NULL
+```sql
+CREATE TABLE Category (
+    cate_no 		number(1) 	 CONSTRAINT category_pk PRIMARY KEY,
+    cate_parent_no 	number(1),
+    cate_name 		varchar2(30) NOT NULL,
+    CONSTRAINT category_parent_no_fk FOREIGN KEY(cate_parent_no) REFERENCES category(cate_no)
+);
 ```
 ```
 cate_no		cate_parent_no		cate_name
@@ -22,5 +25,5 @@ prod_no		prod_cate_no	prod_name 				prod_price	prod_detail
 10003		4				나이트로 쇼콜라			4000		초콜릿과 견과류의 풍미, 초콜릿 파우더 토핑, 풀 바디감의 새로운 나이트로 콜드 브루
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NDE3ODY4Ml19
+eyJoaXN0b3J5IjpbNDExMDQyOTM1LDIwNjQxNzg2ODJdfQ==
 -->
