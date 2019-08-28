@@ -10,12 +10,17 @@ ALTER TABLE category
 ADD CONSTRAINT category_parent_no_fk FOREIGN KEY(cate_parent_no) REFERENCES category(cate_no);
 ```
 data
-```
+```sql
 cate_no		cate_parent_no		cate_name
 1			null				음료
 2			null				상품
 3			1					에스프레소
 4			1					콜드브루
+
+INSERT INTO category VALUES(1, null, '음료');
+INSERT INTO category VALUES(2, null, '상품');
+INSERT INTO category VALUES(3, 1, '에스프레소');
+INSERT INTO category VALUES(4, 1, '콜드브루');
 ```
 >대분류와 소분류 사용
 >cate_parent_no == null 인 카테고리가 대분류 카테고리
@@ -33,6 +38,6 @@ prod_no		prod_cate_no	prod_name 				prod_price	prod_detail
 10003		4				나이트로 쇼콜라			4000		초콜릿과 견과류의 풍미, 초콜릿 파우더 토핑, 풀 바디감의 새로운 나이트로 콜드 브루
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NTk1MzYwMSwxNTE5ODYwOTEsMjA2ND
-E3ODY4Ml19
+eyJoaXN0b3J5IjpbLTEzNDgzODA5OTIsMTk1NTk1MzYwMSwxNT
+E5ODYwOTEsMjA2NDE3ODY4Ml19
 -->
