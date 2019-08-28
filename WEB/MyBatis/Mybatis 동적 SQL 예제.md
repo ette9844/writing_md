@@ -246,8 +246,14 @@ public class OrderDAO {
 ```
 ### 4. mapper.xml 작성
 
+```xml
+
+```
+
+>`association` : many의 입장에서 one을 가지고 있을 때의 표현 방법
+>`collection` : one의 입장에서 many을 가지고 있을 때의 표현 방법
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTA1ODgzMSwtMjkzOTU3OTMsMTEwNj
+eyJoaXN0b3J5IjpbMTk5Nzk1OTMwMSwtMjkzOTU3OTMsMTEwNj
 A2NDYwOSw4MDcxNjQ2MTMsMTk1MDk1NDcxMiwtNDU4MzUxODYz
 LDU5NTQwMDQ0MywxMzIxODMwODc3LC0xNDI5NjE2NTM1LDU1MT
 k5MzQ0NSw0NzkzNDQ5NDEsMTc1NzI0MTA4MiwtMTYzOTA2Niwx
