@@ -136,8 +136,10 @@ public class Product {
 ```java
 public class Product {
 	private String prod_no;
+	
 	// private int prod_cate_no;
 	private Category category;
+	
 	private String prod_name;
 	private int prod_price;
 	private String prod_detail;
@@ -148,7 +150,7 @@ public class Product {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDE3MDgyNyw1OTU0MDA0NDMsMTMyMT
+eyJoaXN0b3J5IjpbLTQ1ODM1MTg2Myw1OTU0MDA0NDMsMTMyMT
 gzMDg3NywtMTQyOTYxNjUzNSw1NTE5OTM0NDUsNDc5MzQ0OTQx
 LDE3NTcyNDEwODIsLTE2MzkwNjYsMTYyNzc4ODMwMywxOTI2MT
 I5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2MDEsMTUxOTg2MDkx
