@@ -117,8 +117,10 @@ c1 char(1) --> private char c1;	  (X)
 ```
 -**매개 변수 없는 생성자와 getter, setter는 꼭 작성해야한다.**
 
+-클래스명에 _(언더바)를 그대로 사용하지 말고 CamelCase로 바꾸어 작성해줄 것.
+
 ```java
-public class ㅒㄱ {
+public class OrderInfo {
 	// number -> int
 	// VARCHAR2 / VARCHAR / CHAR -> String
 	private String prod_no;
@@ -150,9 +152,9 @@ public class Product {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjc4MDgzMzUsLTQ1ODM1MTg2Myw1OT
-U0MDA0NDMsMTMyMTgzMDg3NywtMTQyOTYxNjUzNSw1NTE5OTM0
-NDUsNDc5MzQ0OTQxLDE3NTcyNDEwODIsLTE2MzkwNjYsMTYyNz
-c4ODMwMywxOTI2MTI5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2
-MDEsMTUxOTg2MDkxLDIwNjQxNzg2ODJdfQ==
+eyJoaXN0b3J5IjpbLTEyMzQ1NTU2NiwtNDU4MzUxODYzLDU5NT
+QwMDQ0MywxMzIxODMwODc3LC0xNDI5NjE2NTM1LDU1MTk5MzQ0
+NSw0NzkzNDQ5NDEsMTc1NzI0MTA4MiwtMTYzOTA2NiwxNjI3Nz
+g4MzAzLDE5MjYxMjkwMDMsLTEzNDgzODA5OTIsMTk1NTk1MzYw
+MSwxNTE5ODYwOTEsMjA2NDE3ODY4Ml19
 -->
