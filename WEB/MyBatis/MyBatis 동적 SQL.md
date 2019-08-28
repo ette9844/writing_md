@@ -6,9 +6,12 @@ if(board.getParent_no == null)
 	sql += "' ', ";
 else
 	sql += board.getParent_no() + ", ";
-sql += 
+sql += "?, ?, ?, ?)";
 ```
 mybatis의 동적 sql 조건문은 jstl과 유사한 형태이다.
+
+else 구문이 없기 때문에 else 기능을 사용하고 싶다면 choose / when / otherwise 태그를 사용.
+
 ```xml
 <if test="parent_no == 0">
   '',
@@ -16,5 +19,5 @@ mybatis의 동적 sql 조건문은 jstl과 유사한 형태이다.
 #{board_subject}, #{board_writer}, #{}, #{}
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjMzOTUxMF19
+eyJoaXN0b3J5IjpbLTUyNTc4XX0=
 -->
