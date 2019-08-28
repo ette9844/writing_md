@@ -64,7 +64,7 @@ include 지시자로 한 페이지를 다른  페이지에 포함 시킬때 두 
 ```
 xml 선언부 앞에는 공백, 주석도 넣어서는 안된다.
 
-####  e도큐멘트 주석
+#### eclipse 도큐멘트 주석
 `/**` + `enter`
 ```java
 	/**
@@ -75,7 +75,7 @@ xml 선언부 앞에는 공백, 주석도 넣어서는 안된다.
 	 */
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDczNTYxMCwtMTg5ODA4Njg5MSwtMT
+eyJoaXN0b3J5IjpbLTgwMzczMjQ3NCwtMTg5ODA4Njg5MSwtMT
 kxODk1NzQ3MCwtOTIxMTc2NTMwLDc3ODcyODQ5OCwtMTYzOTA4
 NTIzNSwzNTYyMDAzODEsLTI2Nzc2ODI3NCwxMTI0NDc4NDQ1LC
 0xMTY5ODM4Mjg4LC0xMTY0MTM0NDgyXX0=
