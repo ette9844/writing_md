@@ -63,7 +63,7 @@ INSERT INTO product VALUES(10003, 4, '나이트로 쇼콜라', 4000, '초콜릿�
 ```sql
 
 ```
-
+>timestamp: date보다 
 ```sql
 주문	ORDER_INFO					주문상세 ORDER_DETAIL
 order_no	order_id	order_time	order_no	order_prod_no	order_quantity
@@ -74,7 +74,7 @@ order_no	order_id	order_time	order_no	order_prod_no	order_quantity
 3		id1		8/28/11:00:00	3			10002		4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzNzI4MTksLTE2MzkwNjYsMTYyNzc4OD
-MwMywxOTI2MTI5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2MDEs
-MTUxOTg2MDkxLDIwNjQxNzg2ODJdfQ==
+eyJoaXN0b3J5IjpbMTQyODk4ODY4OSwtMTYzOTA2NiwxNjI3Nz
+g4MzAzLDE5MjYxMjkwMDMsLTEzNDgzODA5OTIsMTk1NTk1MzYw
+MSwxNTE5ODYwOTEsMjA2NDE3ODY4Ml19
 -->
