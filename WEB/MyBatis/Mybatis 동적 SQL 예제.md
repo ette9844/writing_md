@@ -157,6 +157,7 @@ public class OrderDetail {
 	// getter / setter
 }
 ```
+무조건 many에서 one을 HAS-A 관계로 표현하지 말고, 
 [사진]
 
 UML표기에서 `○`는 **선택 참여**를 의미한다.
@@ -165,10 +166,10 @@ foreign key 참조 관계에서 부모(참조되는) 쪽에 동그라미 표기�
 -**매개 변수 없는 생성자와 getter, setter는 꼭 작성해야한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTgxMzQxNTUsODA3MTY0NjEzLDE5NT
-A5NTQ3MTIsLTQ1ODM1MTg2Myw1OTU0MDA0NDMsMTMyMTgzMDg3
-NywtMTQyOTYxNjUzNSw1NTE5OTM0NDUsNDc5MzQ0OTQxLDE3NT
-cyNDEwODIsLTE2MzkwNjYsMTYyNzc4ODMwMywxOTI2MTI5MDAz
-LC0xMzQ4MzgwOTkyLDE5NTU5NTM2MDEsMTUxOTg2MDkxLDIwNj
-QxNzg2ODJdfQ==
+eyJoaXN0b3J5IjpbLTU1NjQwMDIyNCw4MDcxNjQ2MTMsMTk1MD
+k1NDcxMiwtNDU4MzUxODYzLDU5NTQwMDQ0MywxMzIxODMwODc3
+LC0xNDI5NjE2NTM1LDU1MTk5MzQ0NSw0NzkzNDQ5NDEsMTc1Nz
+I0MTA4MiwtMTYzOTA2NiwxNjI3Nzg4MzAzLDE5MjYxMjkwMDMs
+LTEzNDgzODA5OTIsMTk1NTk1MzYwMSwxNTE5ODYwOTEsMjA2ND
+E3ODY4Ml19
 -->
