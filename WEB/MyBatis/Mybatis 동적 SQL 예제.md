@@ -173,16 +173,22 @@ foreign key 참조 관계에서 부모(참조되는) 쪽에 동그라미 표기�
 -**매개 변수 없는 생성자와 getter, setter는 꼭 작성해야한다.**
 
 
-### 2. DAO 생성
+### 2. DAO 생성 (뼈대)
 
 ### 3. mybatis-config.xml 수정
 
 ### 4. 각 테이블의 mapper.xml 작성
+
+```sql
+SELECT info.order_no, info.order_time, 
+			   line.order_prod_no, lien.order_quantity, 
+			   p.prod_name, p.prod_price
+FROM order_info info JOIN order_line line ON 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MjYzNzgzNiwxMTA2MDY0NjA5LDgwNz
-E2NDYxMywxOTUwOTU0NzEyLC00NTgzNTE4NjMsNTk1NDAwNDQz
-LDEzMjE4MzA4NzcsLTE0Mjk2MTY1MzUsNTUxOTkzNDQ1LDQ3OT
-M0NDk0MSwxNzU3MjQxMDgyLC0xNjM5MDY2LDE2Mjc3ODgzMDMs
-MTkyNjEyOTAwMywtMTM0ODM4MDk5MiwxOTU1OTUzNjAxLDE1MT
-k4NjA5MSwyMDY0MTc4NjgyXX0=
+eyJoaXN0b3J5IjpbLTIwMTM3OTg2NTIsMTEwNjA2NDYwOSw4MD
+cxNjQ2MTMsMTk1MDk1NDcxMiwtNDU4MzUxODYzLDU5NTQwMDQ0
+MywxMzIxODMwODc3LC0xNDI5NjE2NTM1LDU1MTk5MzQ0NSw0Nz
+kzNDQ5NDEsMTc1NzI0MTA4MiwtMTYzOTA2NiwxNjI3Nzg4MzAz
+LDE5MjYxMjkwMDMsLTEzNDgzODA5OTIsMTk1NTk1MzYwMSwxNT
+E5ODYwOTEsMjA2NDE3ODY4Ml19
 -->
