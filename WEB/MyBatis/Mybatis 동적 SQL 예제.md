@@ -352,8 +352,39 @@ public static void main(String[] args) {
 ![실행결과_콘솔](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis_result_2.PNG?raw=true)
 ![실행결과_sqlplus](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis_result_1.PNG?raw=true)
 실제 DB에도 정상적으로 insert된 것을 확인할 수 있다.
+
+
+**추가된 값을 select하는 testing**
+```java
+try {
+	List<OrderInfo> list = dao.selectById(id);
+	for(OrderInfo info: list) {
+		int order_no = info.getOrder_no();
+		Timestamp order_time = info.getOrder_time();
+		System.out.println("주문기본정보: " 
+				+ order_no + ", " 
+				+ order_time);
+		List<OrderDetail> details = info.getOrderDetails();
+		for(OrderDetail detail: details) {
+			Product product = detail.getProduct();
+			String p_no = product.getProd_no();
+			String p_name = product.getProd_name();
+			int p_price = product.getProd_price();
+			int quantity = detail.getOrder_quantity();
+			System.out.println("주문상세정보: " 
+					+ p_no + ", " 
+					+ p_name+", " 
+					+ p_price + ", " 
+					+ quantity);
+		}
+	}
+	System.out.println("------------------------------");
+} catch(NotFoundException e) {
+		System.out.println(e.getMessage());	// 출력
+		}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwODQ1NTUxNSwtMTQ2MDg4MTE1MCwxMT
+eyJoaXN0b3J5IjpbMjExMDYyNTgzNSwtMTQ2MDg4MTE1MCwxMT
 E1ODg1ODAyLC00NzczOTQwNDYsMTUzMDY2NzM0MywxNjMxNTA5
 NTI3LDYwMjk4NDEsMTczNzMyMDczLDk0MzUyMDk4NiwxOTk3OT
 U5MzAxLC0yOTM5NTc5MywxMTA2MDY0NjA5LDgwNzE2NDYxMywx
