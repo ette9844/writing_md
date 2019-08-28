@@ -255,7 +255,9 @@ public class OrderDAO {
   <resultMap id="orderResultMap" type="OrderInfo" autoMapping="true">
     <collection property="orderDetails" ofType="OrderDetail" autoMapping="true">
       <id property="order_no" column="order_no"/>
-      <association property="product" javaType="Product" autoMapping="true"/>
+      <association property="product" javaType="Product" autoMapping="true">
+        <result property="prod_no" column="order_prod_no"/>
+      </association>
     </collection>
   </resultMap>
   <select id="selectById" parameterType="string" resultMap="orderResultMap">
@@ -384,11 +386,11 @@ try {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ4MTA3NjUsLTE0NjA4ODExNTAsMT
-ExNTg4NTgwMiwtNDc3Mzk0MDQ2LDE1MzA2NjczNDMsMTYzMTUw
-OTUyNyw2MDI5ODQxLDE3MzczMjA3Myw5NDM1MjA5ODYsMTk5Nz
-k1OTMwMSwtMjkzOTU3OTMsMTEwNjA2NDYwOSw4MDcxNjQ2MTMs
-MTk1MDk1NDcxMiwtNDU4MzUxODYzLDU5NTQwMDQ0MywxMzIxOD
-MwODc3LC0xNDI5NjE2NTM1LDU1MTk5MzQ0NSw0NzkzNDQ5NDFd
-fQ==
+eyJoaXN0b3J5IjpbLTEyNTQ2NTU0NCwtMTQ2MDg4MTE1MCwxMT
+E1ODg1ODAyLC00NzczOTQwNDYsMTUzMDY2NzM0MywxNjMxNTA5
+NTI3LDYwMjk4NDEsMTczNzMyMDczLDk0MzUyMDk4NiwxOTk3OT
+U5MzAxLC0yOTM5NTc5MywxMTA2MDY0NjA5LDgwNzE2NDYxMywx
+OTUwOTU0NzEyLC00NTgzNTE4NjMsNTk1NDAwNDQzLDEzMjE4Mz
+A4NzcsLTE0Mjk2MTY1MzUsNTUxOTkzNDQ1LDQ3OTM0NDk0MV19
+
 -->
