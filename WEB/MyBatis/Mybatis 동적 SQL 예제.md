@@ -173,7 +173,7 @@ foreign key 참조 관계에서 부모(참조되는) 쪽에 동그라미 표기�
 **(3) 매개 변수 없는 생성자와 getter, setter를 작성**
 
 
-### 2. DAO 생성 (뼈대)
+## 2. DAO 생성 (뼈대)
 ```java
 public class OrderDAO {
 
@@ -212,7 +212,7 @@ public class OrderDAO {
 
 ```
 
-### 3. mybatis-config.xml 수정
+## 3. mybatis-config.xml 수정
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration
@@ -244,7 +244,7 @@ public class OrderDAO {
   </mappers>
 </configuration>
 ```
-### 4. mapper.xml 작성
+## 4. mapper.xml 작성
 뼈대 + select 문
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -300,14 +300,13 @@ nocache;
 ```
 
 
-### 5. DAO 작성
+## 5. DAO 작성
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTUwOTUyNyw2MDI5ODQxLDE3MzczMj
-A3Myw5NDM1MjA5ODYsMTk5Nzk1OTMwMSwtMjkzOTU3OTMsMTEw
-NjA2NDYwOSw4MDcxNjQ2MTMsMTk1MDk1NDcxMiwtNDU4MzUxOD
-YzLDU5NTQwMDQ0MywxMzIxODMwODc3LC0xNDI5NjE2NTM1LDU1
-MTk5MzQ0NSw0NzkzNDQ5NDEsMTc1NzI0MTA4MiwtMTYzOTA2Ni
-wxNjI3Nzg4MzAzLDE5MjYxMjkwMDMsLTEzNDgzODA5OTJdfQ==
-
+eyJoaXN0b3J5IjpbNTgwMzQyNDAxLDE2MzE1MDk1MjcsNjAyOT
+g0MSwxNzM3MzIwNzMsOTQzNTIwOTg2LDE5OTc5NTkzMDEsLTI5
+Mzk1NzkzLDExMDYwNjQ2MDksODA3MTY0NjEzLDE5NTA5NTQ3MT
+IsLTQ1ODM1MTg2Myw1OTU0MDA0NDMsMTMyMTgzMDg3NywtMTQy
+OTYxNjUzNSw1NTE5OTM0NDUsNDc5MzQ0OTQxLDE3NTcyNDEwOD
+IsLTE2MzkwNjYsMTYyNzc4ODMwMywxOTI2MTI5MDAzXX0=
 -->
