@@ -93,10 +93,16 @@ where 태그는 태그에 의해 컨텐츠가 리턴되면 해당 구문에 “W
 ### forEach 
 반복적 처리에 사용
 ```xml
-<select  id="selectPostIn"  resultType="domain.blog.Post"> SELECT *
+<select id="selectPostIn" resultType="domain.blog.Post">
+  SELECT *
   FROM POST P
-  WHERE ID in <foreach  item="item"  index="index"  collection="list"  open="("  separator=","  close=")"> #{item} </foreach>  </select>
+  WHERE ID in
+  <foreach item="item" index="index" collection="list"
+      open="(" separator="," close=")">
+        #{item}
+  </foreach>
+</select>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDYzNDM4XX0=
+eyJoaXN0b3J5IjpbMTQ5MjM1NzUyNF19
 -->
