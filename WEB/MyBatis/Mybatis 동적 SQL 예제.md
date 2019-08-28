@@ -119,6 +119,8 @@ c1 char(1) --> private char c1;	  (X)
 
 ```java
 public class Product {
+	// number -> int
+	// VARCHAR2 / VARCHAR / CHAR -> String
 	private String prod_no;
 	private int prod_cate_no;
 	private String prod_name;
@@ -131,9 +133,21 @@ public class Product {
 }
 ```
 **HAS-A 관계인 항목을 수정해준다**
-
+```java
+public class Product {
+	private String prod_no;
+	//private int prod_cate_no;
+	private String prod_name;
+	private int prod_price;
+	private String prod_detail;
+	
+	// 생성자: 매개변수 없는
+	// 생성자: 멤버 필드 초기화
+	// getter / setter
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzIwNTE1MSw1OTU0MDA0NDMsMTMyMT
+eyJoaXN0b3J5IjpbMTMzMjgyNjY0NSw1OTU0MDA0NDMsMTMyMT
 gzMDg3NywtMTQyOTYxNjUzNSw1NTE5OTM0NDUsNDc5MzQ0OTQx
 LDE3NTcyNDEwODIsLTE2MzkwNjYsMTYyNzc4ODMwMywxOTI2MT
 I5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2MDEsMTUxOTg2MDkx
