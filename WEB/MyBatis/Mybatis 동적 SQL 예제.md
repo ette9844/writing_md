@@ -307,7 +307,7 @@ nocache;
 
 
 ## 6. Testing code 작성 / 실행
-JUnit 단위 테스트를 활용하면 더 좋다.
+**JUnit 단위 테스트**를 활용하면 더 좋다.
 여기서는 미니프로젝트의 main 함수 호출을 통해 테스팅을 진행 함.
 
 ```java
@@ -356,7 +356,7 @@ public static void main(String[] args) {
 실제 DB에도 정상적으로 insert된 것을 확인할 수 있다.
 
 
-**추가된 값을 select하는 testing**
+### 추가된 값을 select하는 testing
 ```java
 try {
 	List<OrderInfo> list = dao.selectById(id);
@@ -389,7 +389,7 @@ try {
 
 ![select문 실행결과 -콘솔](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis_result_3.PNG?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzU3NTY3OCwtMTQ2MDg4MTE1MCwxMT
+eyJoaXN0b3J5IjpbMTEwMjkxNTQyOSwtMTQ2MDg4MTE1MCwxMT
 E1ODg1ODAyLC00NzczOTQwNDYsMTUzMDY2NzM0MywxNjMxNTA5
 NTI3LDYwMjk4NDEsMTczNzMyMDczLDk0MzUyMDk4NiwxOTk3OT
 U5MzAxLC0yOTM5NTc5MywxMTA2MDY0NjA5LDgwNzE2NDYxMywx
