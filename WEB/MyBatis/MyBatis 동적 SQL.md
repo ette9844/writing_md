@@ -11,14 +11,41 @@ sql += "?, ?, ?, ?)";
 
 mybatis의 동적 sql 조건문은 jstl과 유사한 형태이다.
 
-else 구문이 없기 때문에 else 기능을 사용하고 싶다면 choose / when / otherwise 태그를 사용.
+### if
 
 ```xml
-<if test="parent_no == 0">
-  '',
-</if>
-#{board_subject}, #{board_writer}, #{}, #{}
+<select id="findActiveBlogWithTitleLike"
+     resultType="Blog">
+  SELECT * FROM BLOG
+  WHERE state = ‘ACTIVE’
+  <if test="title != null">
+    AND title like #{title}
+  </if>
+</select>
  ```
+### choose / when / otherwise
+else 구문이 없기 때문에 else 기능을 사용하고 싶다면 choose / when / otherwise 태그를 사용.
+```xml
+<select id="findActiveBlogLike"
+     resultType="Blog">
+  SELECT * FROM BLOG WHERE state = ‘ACTIVE’
+  <choose>
+    <when test="title != null">
+      AND title like #{title}
+    </when>
+    <when test="author != null and author.name != null">
+      AND author_name like #{author.name}
+    </when>
+    <otherwise>
+      AND featured = 1
+    </otherwise>
+  </choose>
+</select>
+```
+
+### where
+
+### for
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyMjM0Mzg4XX0=
+eyJoaXN0b3J5IjpbODc5OTM1MDM1XX0=
 -->
