@@ -110,7 +110,7 @@ order_no	order_id	order_time	order_no	order_prod_no	order_quantity
 ## 1. vo class 만들기
 Java Bean 스펙을 맞춰주며 작성한다.
 
-1. **DB의 char 타입은 VO 클래스에서 String 타입으로 작성한다.**
+**1. DB의 char 타입은 VO 클래스에서 String 타입으로 작성한다.**
 ```java
 c1 char(1) --> private char c1;	  (X)
 	       --> private String c1; (O)
@@ -130,14 +130,20 @@ public class OrderInfo {
 	// getter / setter
 }
 ```
-**HAS-A 관계인 항목을 수정해준다**
+**2. HAS-A 관계인 항목을 수정해준다**
+
+일반적으로 many에서 one을 HAS-A 관계로 표현하는 경우가 많으나,
+무조건 many에서 one을 HAS-A 관계로 표현하지 말고, 실제 output을 추출할때 어느 입장에서 찾아가는 일이 많은지를 고려해 봐야한다. (가장 많이 쓰이는 output의 형태를 생각해 봐야한다)
+
+실제로 이 예제의 카테고리에서 주문 상세에서 주문 정보를 찾아가는 경우보다 주문 정보에서 주문 상세를 찾아가는 경우가 더 많기 때문에, 이 경우에는 주문 정보 입장에서 HAS-A 관계를 작성해주는 것이 더 바람직하다.
 ```java
-public class Product {
+public class OrderInfo {
 	private int order_no;
 	// HAS-A 관계 표현으로 변경
 	// private String order_id;
 	private Customer customer;
 	private Timestamp order_time;
+	private List<OrderDetail> orderDetails; // ㅁ
 	
 	// 생성자: 매개변수 없는
 	// 생성자: 멤버 필드 초기화
@@ -157,10 +163,6 @@ public class OrderDetail {
 	// getter / setter
 }
 ```
-일반적으로 many에서 one을 HAS-A 관계로 표현하는 경우가 많으나,
-무조건 many에서 one을 HAS-A 관계로 표현하지 말고, 실제 output을 추출할때 어느 입장에서 찾아가는 일이 많은지를 고려해 봐야한다. (가장 많이 쓰이는 output의 형태를 생각해 봐야한다)
-
-실제로 이 예제의 카테고리에서 주문 상세에서 주문 정보를 찾아가는 경우보다 주문 정보에서 주문 상세를 찾아가는 경우가 더 많기 때문에, 이 경우에는 주문 정보 입장에서 HAS-A 관계를 작성해주는 것이 더 바람직하다.
 
 ```java
 
@@ -174,10 +176,10 @@ foreign key 참조 관계에서 부모(참조되는) 쪽에 동그라미 표기�
 -**매개 변수 없는 생성자와 getter, setter는 꼭 작성해야한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Mzg2MjI0NCw4MDcxNjQ2MTMsMTk1MD
-k1NDcxMiwtNDU4MzUxODYzLDU5NTQwMDQ0MywxMzIxODMwODc3
-LC0xNDI5NjE2NTM1LDU1MTk5MzQ0NSw0NzkzNDQ5NDEsMTc1Nz
-I0MTA4MiwtMTYzOTA2NiwxNjI3Nzg4MzAzLDE5MjYxMjkwMDMs
-LTEzNDgzODA5OTIsMTk1NTk1MzYwMSwxNTE5ODYwOTEsMjA2ND
-E3ODY4Ml19
+eyJoaXN0b3J5IjpbLTExODY4NDU5NDUsODA3MTY0NjEzLDE5NT
+A5NTQ3MTIsLTQ1ODM1MTg2Myw1OTU0MDA0NDMsMTMyMTgzMDg3
+NywtMTQyOTYxNjUzNSw1NTE5OTM0NDUsNDc5MzQ0OTQxLDE3NT
+cyNDEwODIsLTE2MzkwNjYsMTYyNzc4ODMwMywxOTI2MTI5MDAz
+LC0xMzQ4MzgwOTkyLDE5NTU5NTM2MDEsMTUxOTg2MDkxLDIwNj
+QxNzg2ODJdfQ==
 -->
