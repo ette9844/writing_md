@@ -106,9 +106,16 @@ order_no	order_id	order_time	order_no	order_prod_no	order_quantity
 2		id9		8/28/10:24:20	2			10002		1
 3		id1		8/28/11:00:00	3			10002		4
 ```
+
+## 1. vo class 만들기
+**DB의 char 타입은 VO 클래스에서 String 타입으로 작성한다.**
+```java
+c1 char(1) --> private char c1;	  (X)
+	       --> private String c1; (O)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjk2MTY1MzUsNTUxOTkzNDQ1LDQ3OT
-M0NDk0MSwxNzU3MjQxMDgyLC0xNjM5MDY2LDE2Mjc3ODgzMDMs
-MTkyNjEyOTAwMywtMTM0ODM4MDk5MiwxOTU1OTUzNjAxLDE1MT
-k4NjA5MSwyMDY0MTc4NjgyXX0=
+eyJoaXN0b3J5IjpbMTMyMTgzMDg3NywtMTQyOTYxNjUzNSw1NT
+E5OTM0NDUsNDc5MzQ0OTQxLDE3NTcyNDEwODIsLTE2MzkwNjYs
+MTYyNzc4ODMwMywxOTI2MTI5MDAzLC0xMzQ4MzgwOTkyLDE5NT
+U5NTM2MDEsMTUxOTg2MDkxLDIwNjQxNzg2ODJdfQ==
 -->
