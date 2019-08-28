@@ -115,12 +115,27 @@ Java Bean 스펙을 맞춰주며 작성한다.
 c1 char(1) --> private char c1;	  (X)
 	       --> private String c1; (O)
 ```
-
 -**매개 변수 없는 생성자와 getter, setter는 꼭 작성해야한다.**
+
+```java
+public class Product {
+	private String prod_no;
+	private int prod_cate_no;
+	private String prod_name;
+	private int prod_price;
+	private String prod_detail;
+	
+	// 생성자: 매개변수 없는
+	// 생성자: 멤버 필드 초기화
+	// getter / setter
+}
+```
+**HAS-A 관계인 항목을 수정해준다**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1NDAwNDQzLDEzMjE4MzA4NzcsLTE0Mj
-k2MTY1MzUsNTUxOTkzNDQ1LDQ3OTM0NDk0MSwxNzU3MjQxMDgy
-LC0xNjM5MDY2LDE2Mjc3ODgzMDMsMTkyNjEyOTAwMywtMTM0OD
-M4MDk5MiwxOTU1OTUzNjAxLDE1MTk4NjA5MSwyMDY0MTc4Njgy
-XX0=
+eyJoaXN0b3J5IjpbLTQ0MzIwNTE1MSw1OTU0MDA0NDMsMTMyMT
+gzMDg3NywtMTQyOTYxNjUzNSw1NTE5OTM0NDUsNDc5MzQ0OTQx
+LDE3NTcyNDEwODIsLTE2MzkwNjYsMTYyNzc4ODMwMywxOTI2MT
+I5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2MDEsMTUxOTg2MDkx
+LDIwNjQxNzg2ODJdfQ==
 -->
