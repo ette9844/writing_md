@@ -174,6 +174,43 @@ foreign key 참조 관계에서 부모(참조되는) 쪽에 동그라미 표기�
 
 
 ### 2. DAO 생성 (뼈대)
+```java
+public class OrderDAO {
+
+	/**
+	 * order_info테이블에 주문기본정보 추가
+	 * order_line테이블에 주문상세정보 추가
+	 * @param orderInfo 주문기본정보와 주문상세정보들
+	 * @throws AddException
+	 */
+	public void insert(OrderInfo orderInfo) throws AddException {
+		
+	}
+	
+	/**
+	 * 아이디에 해당하는 주문정보들을 반환한다
+	 * 최근 주문정보부터 저장된다. - 내림차순 정렬
+	 * @param id 주문자 ID
+	 * @return 
+	 * @throws NotFoundException 해당 주문정보가 없다면 NotFoundException 발생
+	 */
+	public List<OrderInfo> selectById(String id) throws NotFoundException {
+		return null;
+	}
+	
+	/**
+	 * 날짜구간에 해당하는 주문정보들을 반환한다
+	 * @param start 검색할 시작 날짜 (yy/MM/dd 포맷 사용)
+	 * @param end	검색할 끝    날짜 (yy/MM/dd 포맷 사용)
+	 * @return
+	 * @throws NotFoundException
+	 */
+	public List<OrderInfo> selectByDate(String start, String end) throws NotFoundException {
+		return null;
+	}
+}
+
+```
 
 ### 3. mybatis-config.xml 수정
 ```xml
@@ -210,10 +247,10 @@ foreign key 참조 관계에서 부모(참조되는) 쪽에 동그라미 표기�
 ### 4. mapper.xml 작성
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODg1NzE1LC0yOTM5NTc5MywxMTA2MD
-Y0NjA5LDgwNzE2NDYxMywxOTUwOTU0NzEyLC00NTgzNTE4NjMs
-NTk1NDAwNDQzLDEzMjE4MzA4NzcsLTE0Mjk2MTY1MzUsNTUxOT
-kzNDQ1LDQ3OTM0NDk0MSwxNzU3MjQxMDgyLC0xNjM5MDY2LDE2
-Mjc3ODgzMDMsMTkyNjEyOTAwMywtMTM0ODM4MDk5MiwxOTU1OT
-UzNjAxLDE1MTk4NjA5MSwyMDY0MTc4NjgyXX0=
+eyJoaXN0b3J5IjpbMTEzOTA1ODgzMSwtMjkzOTU3OTMsMTEwNj
+A2NDYwOSw4MDcxNjQ2MTMsMTk1MDk1NDcxMiwtNDU4MzUxODYz
+LDU5NTQwMDQ0MywxMzIxODMwODc3LC0xNDI5NjE2NTM1LDU1MT
+k5MzQ0NSw0NzkzNDQ5NDEsMTc1NzI0MTA4MiwtMTYzOTA2Niwx
+NjI3Nzg4MzAzLDE5MjYxMjkwMDMsLTEzNDgzODA5OTIsMTk1NT
+k1MzYwMSwxNTE5ODYwOTEsMjA2NDE3ODY4Ml19
 -->
