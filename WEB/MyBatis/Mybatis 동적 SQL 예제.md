@@ -61,10 +61,41 @@ INSERT INTO product VALUES(10003, 4, '나이트로 쇼콜라', 4000, '초콜릿�
 
 ## Order Table
 ```sql
+CREATE TABLE order_info(
+    order_no    NUMBER CONSTRAINT order_info_pk PRIMARY KEY,
+    order_id    VARCHAR2(15) NOT NULL,
+    order_time  TIMESTAMP DEFAULT SYSTIMESTAMP NOT NULL
+);
 
+CREATE TABLE order_detail(
+    order_no        NUMBER,
+    order_prod_no   VARCHAR2(5),
+    order_quantity  NUMBER(2) NOT NULL,
+    CONSTRAINT order_detail_pk PRIMARY KEY(order_no, order_prod_no)
+);
+
+ALTER TABLE order_info
+ADD CONSTRAINT order_info_id_fk
+FOREIGN KEY (order_id) 
+REFERENCES customer(id);
+
+ALTER TABLE order_detail
+ADD CONSTRAINT order_detail_order_no_fk 
+FOREIGN KEY (order_no) 
+REFERENCES order_info(order_no);
+
+ALTER TABLE order_detail
+ADD CONSTRAINT order_detail_prod_no_fk 
+FOREIGN KEY (order_prod_no) 
+REFERENCES product(prod_no);
+
+ALTER TABLE order_detail
+ADD CONSTRAINT order_detail_check 
+CHECK(order_quantity >= 1);
 ```
 >TIMESTAMP: date보다 더욱 세밀한 시간값을 얻을 수 있음
 >SYSTIMESTAMP: SYSDATE의 TIMESTAMP 버전
+
 ```sql
 주문	ORDER_INFO					주문상세 ORDER_DETAIL
 order_no	order_id	order_time	order_no	order_prod_no	order_quantity
@@ -76,8 +107,8 @@ order_no	order_id	order_time	order_no	order_prod_no	order_quantity
 3		id1		8/28/11:00:00	3			10002		4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxOTkzNDQ1LDQ3OTM0NDk0MSwxNzU3Mj
-QxMDgyLC0xNjM5MDY2LDE2Mjc3ODgzMDMsMTkyNjEyOTAwMywt
-MTM0ODM4MDk5MiwxOTU1OTUzNjAxLDE1MTk4NjA5MSwyMDY0MT
-c4NjgyXX0=
+eyJoaXN0b3J5IjpbLTE0Mjk2MTY1MzUsNTUxOTkzNDQ1LDQ3OT
+M0NDk0MSwxNzU3MjQxMDgyLC0xNjM5MDY2LDE2Mjc3ODgzMDMs
+MTkyNjEyOTAwMywtMTM0ODM4MDk5MiwxOTU1OTUzNjAxLDE1MT
+k4NjA5MSwyMDY0MTc4NjgyXX0=
 -->
