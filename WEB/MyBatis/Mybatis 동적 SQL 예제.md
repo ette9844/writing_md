@@ -172,11 +172,17 @@ foreign key 참조 관계에서 부모(참조되는) 쪽에 동그라미 표기�
 
 -**매개 변수 없는 생성자와 getter, setter는 꼭 작성해야한다.**
 
+
+### 2. DAO 생성
+
+### 3. mybatis-config.xml 수정
+
+### 4. 각 테이블의 mapper.xml 작성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjA2NDYwOSw4MDcxNjQ2MTMsMTk1MD
-k1NDcxMiwtNDU4MzUxODYzLDU5NTQwMDQ0MywxMzIxODMwODc3
-LC0xNDI5NjE2NTM1LDU1MTk5MzQ0NSw0NzkzNDQ5NDEsMTc1Nz
-I0MTA4MiwtMTYzOTA2NiwxNjI3Nzg4MzAzLDE5MjYxMjkwMDMs
-LTEzNDgzODA5OTIsMTk1NTk1MzYwMSwxNTE5ODYwOTEsMjA2ND
-E3ODY4Ml19
+eyJoaXN0b3J5IjpbLTI3MjYzNzgzNiwxMTA2MDY0NjA5LDgwNz
+E2NDYxMywxOTUwOTU0NzEyLC00NTgzNTE4NjMsNTk1NDAwNDQz
+LDEzMjE4MzA4NzcsLTE0Mjk2MTY1MzUsNTUxOTkzNDQ1LDQ3OT
+M0NDk0MSwxNzU3MjQxMDgyLC0xNjM5MDY2LDE2Mjc3ODgzMDMs
+MTkyNjEyOTAwMywtMTM0ODM4MDk5MiwxOTU1OTUzNjAxLDE1MT
+k4NjA5MSwyMDY0MTc4NjgyXX0=
 -->
