@@ -181,14 +181,16 @@ foreign key 참조 관계에서 부모(참조되는) 쪽에 동그라미 표기�
 
 ```sql
 SELECT info.order_no, info.order_time, 
-			   line.order_prod_no, lien.order_quantity, 
+			   detail.order_prod_no, detail.order_quantity, 
 			   p.prod_name, p.prod_price
-FROM order_info info JOIN order_line line ON 
+FROM order_info info JOIN order_detail detail ON info.order_no = detail.order_no
+									  JOIN product p ON p.prod_no = detail.order_prod_no
+WHERE order_id=#{id}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTM3OTg2NTIsMTEwNjA2NDYwOSw4MD
-cxNjQ2MTMsMTk1MDk1NDcxMiwtNDU4MzUxODYzLDU5NTQwMDQ0
-MywxMzIxODMwODc3LC0xNDI5NjE2NTM1LDU1MTk5MzQ0NSw0Nz
-kzNDQ5NDEsMTc1NzI0MTA4MiwtMTYzOTA2NiwxNjI3Nzg4MzAz
-LDE5MjYxMjkwMDMsLTEzNDgzODA5OTIsMTk1NTk1MzYwMSwxNT
-E5ODYwOTEsMjA2NDE3ODY4Ml19
+eyJoaXN0b3J5IjpbLTI5Mzk1NzkzLDExMDYwNjQ2MDksODA3MT
+Y0NjEzLDE5NTA5NTQ3MTIsLTQ1ODM1MTg2Myw1OTU0MDA0NDMs
+MTMyMTgzMDg3NywtMTQyOTYxNjUzNSw1NTE5OTM0NDUsNDc5Mz
+Q0OTQxLDE3NTcyNDEwODIsLTE2MzkwNjYsMTYyNzc4ODMwMywx
+OTI2MTI5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2MDEsMTUxOT
+g2MDkxLDIwNjQxNzg2ODJdfQ==
 -->
