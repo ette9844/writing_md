@@ -143,7 +143,7 @@ public class OrderInfo {
 	// private String order_id;
 	private Customer customer;
 	private Timestamp order_time;
-	private List<OrderDetail> orderDetails; // ㅁ
+	private List<OrderDetail> orderDetails; // ★
 	
 	// 생성자: 매개변수 없는
 	// 생성자: 멤버 필드 초기화
@@ -153,7 +153,7 @@ public class OrderInfo {
 ```java
 public class OrderDetail {
 	// private int order_no;
-	private OrderInfo order;
+	// private OrderInfo order;
 	// private String order_prod_no;
 	private Product product;
 	private int order_quantity;
@@ -164,9 +164,6 @@ public class OrderDetail {
 }
 ```
 
-```java
-
-```
 
 [사진]
 
@@ -176,10 +173,10 @@ foreign key 참조 관계에서 부모(참조되는) 쪽에 동그라미 표기�
 -**매개 변수 없는 생성자와 getter, setter는 꼭 작성해야한다.**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY4NDU5NDUsODA3MTY0NjEzLDE5NT
-A5NTQ3MTIsLTQ1ODM1MTg2Myw1OTU0MDA0NDMsMTMyMTgzMDg3
-NywtMTQyOTYxNjUzNSw1NTE5OTM0NDUsNDc5MzQ0OTQxLDE3NT
-cyNDEwODIsLTE2MzkwNjYsMTYyNzc4ODMwMywxOTI2MTI5MDAz
-LC0xMzQ4MzgwOTkyLDE5NTU5NTM2MDEsMTUxOTg2MDkxLDIwNj
-QxNzg2ODJdfQ==
+eyJoaXN0b3J5IjpbMTEwNjA2NDYwOSw4MDcxNjQ2MTMsMTk1MD
+k1NDcxMiwtNDU4MzUxODYzLDU5NTQwMDQ0MywxMzIxODMwODc3
+LC0xNDI5NjE2NTM1LDU1MTk5MzQ0NSw0NzkzNDQ5NDEsMTc1Nz
+I0MTA4MiwtMTYzOTA2NiwxNjI3Nzg4MzAzLDE5MjYxMjkwMDMs
+LTEzNDgzODA5OTIsMTk1NTk1MzYwMSwxNTE5ODYwOTEsMjA2ND
+E3ODY4Ml19
 -->
