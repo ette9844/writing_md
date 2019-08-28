@@ -58,8 +58,18 @@ INSERT INTO product VALUES(10001, 3, '플로랄 스타벅스 더블 샷', 3000, 
 INSERT INTO product VALUES(10002, 3, '에스프레소 콘 파냐', 4000, '강렬하고 달콤한 음료');
 INSERT INTO product VALUES(10003, 4, '나이트로 쇼콜라', 4000, '초콜릿과 견과류의 풍미');
 ```
+
+## Order Table
+```sql
+
+```
+
+```sql
+id1		8/28/10:23:00	10001	2
+id1		8/28/10:23:00	10003	3
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzc4ODMwMywxOTI2MTI5MDAzLC0xMz
-Q4MzgwOTkyLDE5NTU5NTM2MDEsMTUxOTg2MDkxLDIwNjQxNzg2
-ODJdfQ==
+eyJoaXN0b3J5IjpbLTE2MzkwNjYsMTYyNzc4ODMwMywxOTI2MT
+I5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2MDEsMTUxOTg2MDkx
+LDIwNjQxNzg2ODJdfQ==
 -->
