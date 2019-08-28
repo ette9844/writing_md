@@ -308,13 +308,51 @@ JUnit 단위 테스트를 활용하면 더 좋다.
 여기서는 미니프로젝트의 main 함수 호출을 통해 테스팅을 진행 함.
 
 ```java
-
+public static void main(String[] args) {
+	OrderDAO dao = new OrderDAO();
+	String id = "id1";
+	
+	try {
+		dao.selectById(id);
+	} catch(NotFoundException e) {
+		System.out.println(e.getMessage());	// 출력
+	}
+	
+	OrderInfo info = new OrderInfo();
+	Customer c = new Customer();
+	c.setId(id);
+	info.setCustomer(c);			// 주문자
+	List<OrderDetail> orderDetails = new ArrayList<>();
+		
+	OrderDetail detail = new OrderDetail();
+	Product p = new Product();
+	p.setProd_no("10001");
+	detail.setProduct(p);			// 주문상품번호
+	detail.setOrder_quantity(2);	// 주문 수량
+	orderDetails.add(detail);
+		
+	detail = new OrderDetail();
+	p = new Product();	// new 키워드로 새 객체 생성을 하지 않으면 이전 객체 덮어쓰기가 되어버림
+	p.setProd_no("10003");
+	detail.setProduct(p);			// 주문상품번호
+	detail.setOrder_quantity(3);	// 주문 수량
+	orderDetails.add(detail);
+		
+	info.setOrderDetails(orderDetails);
+	try {
+		dao.insert(info);
+		System.out.println("주문 추가 성공!");
+	} catch (AddException e) {
+		e.printStackTrace();
+	}
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTA0NzQ5NywxNTMwNjY3MzQzLDE2Mz
-E1MDk1MjcsNjAyOTg0MSwxNzM3MzIwNzMsOTQzNTIwOTg2LDE5
-OTc5NTkzMDEsLTI5Mzk1NzkzLDExMDYwNjQ2MDksODA3MTY0Nj
-EzLDE5NTA5NTQ3MTIsLTQ1ODM1MTg2Myw1OTU0MDA0NDMsMTMy
-MTgzMDg3NywtMTQyOTYxNjUzNSw1NTE5OTM0NDUsNDc5MzQ0OT
-QxLDE3NTcyNDEwODIsLTE2MzkwNjYsMTYyNzc4ODMwM119
+eyJoaXN0b3J5IjpbLTEzODgxMzYwNjAsMTUzMDY2NzM0MywxNj
+MxNTA5NTI3LDYwMjk4NDEsMTczNzMyMDczLDk0MzUyMDk4Niwx
+OTk3OTU5MzAxLC0yOTM5NTc5MywxMTA2MDY0NjA5LDgwNzE2ND
+YxMywxOTUwOTU0NzEyLC00NTgzNTE4NjMsNTk1NDAwNDQzLDEz
+MjE4MzA4NzcsLTE0Mjk2MTY1MzUsNTUxOTkzNDQ1LDQ3OTM0ND
+k0MSwxNzU3MjQxMDgyLC0xNjM5MDY2LDE2Mjc3ODgzMDNdfQ==
+
 -->
