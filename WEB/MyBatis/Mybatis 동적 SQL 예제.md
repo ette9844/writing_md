@@ -247,7 +247,28 @@ public class OrderDAO {
 ### 4. mapper.xml 작성
 
 ```xml
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.my.vo.Order">
+  <resultMap id="orderResultMap" type="OrderInfo" autoMapping="true">
+    <id property="order_no" column="order_no"/>
+    <collection property="orderDetails" ofType="OrderDetail" autoMapping="true">
+      <id property="order_no" column="order_no"/>
+      <association property="product" javaType="Product"/>
+    </collection>
+  </resultMap>
+  <select id="selectById" parameterType="string" resultMap="orderResultMap">
+    SELECT info.order_no, info.order_time, 
+			   detail.order_prod_no, detail.order_quantity, 
+			   p.prod_name, p.prod_price
+ 	FROM order_info info 
+ 	JOIN order_detail detail ON info.order_no = detail.order_no
+	JOIN product p ON p.prod_no = detail.order_prod_no
+	WHERE order_id=#{id}
+  </select>
+</mapper>
 ```
 
 >`association` : many의 입장에서 one을 가지고 있을 때의 표현 방법
@@ -255,11 +276,11 @@ public class OrderDAO {
 >property: mapping 되는 class가 가지고 있는 맴버 변수 명
 >ofType: one이 가지고 있는 many의 클래스명
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzNTIwOTg2LDE5OTc5NTkzMDEsLTI5Mz
-k1NzkzLDExMDYwNjQ2MDksODA3MTY0NjEzLDE5NTA5NTQ3MTIs
-LTQ1ODM1MTg2Myw1OTU0MDA0NDMsMTMyMTgzMDg3NywtMTQyOT
-YxNjUzNSw1NTE5OTM0NDUsNDc5MzQ0OTQxLDE3NTcyNDEwODIs
-LTE2MzkwNjYsMTYyNzc4ODMwMywxOTI2MTI5MDAzLC0xMzQ4Mz
-gwOTkyLDE5NTU5NTM2MDEsMTUxOTg2MDkxLDIwNjQxNzg2ODJd
-fQ==
+eyJoaXN0b3J5IjpbLTE3Mjk2NTkzNjUsOTQzNTIwOTg2LDE5OT
+c5NTkzMDEsLTI5Mzk1NzkzLDExMDYwNjQ2MDksODA3MTY0NjEz
+LDE5NTA5NTQ3MTIsLTQ1ODM1MTg2Myw1OTU0MDA0NDMsMTMyMT
+gzMDg3NywtMTQyOTYxNjUzNSw1NTE5OTM0NDUsNDc5MzQ0OTQx
+LDE3NTcyNDEwODIsLTE2MzkwNjYsMTYyNzc4ODMwMywxOTI2MT
+I5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2MDEsMTUxOTg2MDkx
+XX0=
 -->
