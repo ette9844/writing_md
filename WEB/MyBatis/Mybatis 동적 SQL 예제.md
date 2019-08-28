@@ -123,11 +123,9 @@ c1 char(1) --> private char c1;	  (X)
 public class OrderInfo {
 	// number -> int
 	// VARCHAR2 / VARCHAR / CHAR -> String
-	private String prod_no;
-	private int prod_cate_no;
-	private String prod_name;
-	private int prod_price;
-	private String prod_detail;
+	private int order_no;
+	private String order_id;
+	private Timestamp order_time;
 	
 	// 생성자: 매개변수 없는
 	// 생성자: 멤버 필드 초기화
@@ -137,14 +135,12 @@ public class OrderInfo {
 **HAS-A 관계인 항목을 수정해준다**
 ```java
 public class Product {
-	private String prod_no;
+	private int order_no;
 	
-	// private int prod_cate_no;
-	private Category category;
+	// private String order_id;
 	
-	private String prod_name;
-	private int prod_price;
-	private String prod_detail;
+	
+	private Timestamp order_time;
 	
 	// 생성자: 매개변수 없는
 	// 생성자: 멤버 필드 초기화
@@ -152,9 +148,9 @@ public class Product {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQ1NTU2NiwtNDU4MzUxODYzLDU5NT
-QwMDQ0MywxMzIxODMwODc3LC0xNDI5NjE2NTM1LDU1MTk5MzQ0
-NSw0NzkzNDQ5NDEsMTc1NzI0MTA4MiwtMTYzOTA2NiwxNjI3Nz
-g4MzAzLDE5MjYxMjkwMDMsLTEzNDgzODA5OTIsMTk1NTk1MzYw
-MSwxNTE5ODYwOTEsMjA2NDE3ODY4Ml19
+eyJoaXN0b3J5IjpbLTE5NzM0NTAzODQsLTQ1ODM1MTg2Myw1OT
+U0MDA0NDMsMTMyMTgzMDg3NywtMTQyOTYxNjUzNSw1NTE5OTM0
+NDUsNDc5MzQ0OTQxLDE3NTcyNDEwODIsLTE2MzkwNjYsMTYyNz
+c4ODMwMywxOTI2MTI5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2
+MDEsMTUxOTg2MDkxLDIwNjQxNzg2ODJdfQ==
 -->
