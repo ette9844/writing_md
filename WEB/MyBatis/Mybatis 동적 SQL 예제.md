@@ -176,11 +176,41 @@ foreign key 참조 관계에서 부모(참조되는) 쪽에 동그라미 표기�
 ### 2. DAO 생성 (뼈대)
 
 ### 3. mybatis-config.xml 수정
-
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  <typeAliases>
+    <typeAlias type="com.my.vo.Customer" alias="Customer"/>
+    <typeAlias type="com.my.vo.Post" alias="Post"/>
+    <typeAlias type="com.my.vo.Category" alias="Category"/> <!--수정-->
+    <typeAlias type="com.my.vo.Product" alias="Product"/> <!--수정-->
+    <typeAlias type="com.my.vo.OrderInfo" alias="OrderInfo"/>	<!--수정-->
+    <typeAlias type="com.my.vo.OrderDetail" alias="OrderDetail"/> <!--수정-->
+  </typeAliases>
+  <environments default="development">
+    <environment id="development">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver" value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
+        <property name="username" value="user"/>
+        <property name="password" value="password"/>
+      </dataSource>
+    </environment>
+  </environments>
+  <mappers>
+    <mapper resource="customerMapper.xml"/>
+    <mapper resource="orderMapper.xml"/> <!--수정-->
+  </mappers>
+</configuration>
+```
 ### 4. mapper.xml 작성
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyMTM3NDc4LC0yOTM5NTc5MywxMTA2MD
+eyJoaXN0b3J5IjpbLTQ3ODg1NzE1LC0yOTM5NTc5MywxMTA2MD
 Y0NjA5LDgwNzE2NDYxMywxOTUwOTU0NzEyLC00NTgzNTE4NjMs
 NTk1NDAwNDQzLDEzMjE4MzA4NzcsLTE0Mjk2MTY1MzUsNTUxOT
 kzNDQ1LDQ3OTM0NDk0MSwxNzU3MjQxMDgyLC0xNjM5MDY2LDE2
