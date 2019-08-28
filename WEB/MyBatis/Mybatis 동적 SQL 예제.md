@@ -138,7 +138,7 @@ public class Product {
 	private int order_no;
 	// HAS-A 관계 표현으로 변경
 	// private String order_id;
-	private Customer customer
+	private Customer customer;
 	private Timestamp order_time;
 	
 	// 생성자: 매개변수 없는
@@ -150,7 +150,7 @@ public class Product {
 UML표기에서 `○`는 **선택 참여**를 의미한다.
 foreign key 참조 관계에서 부모(참조되는) 쪽에 동그라미 표기가 있을경우에는 foreign key column에 **null이 들어올 수 있다**는 뜻이다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwMjIyMTUwLDE5NTA5NTQ3MTIsLTQ1OD
+eyJoaXN0b3J5IjpbODA3MTY0NjEzLDE5NTA5NTQ3MTIsLTQ1OD
 M1MTg2Myw1OTU0MDA0NDMsMTMyMTgzMDg3NywtMTQyOTYxNjUz
 NSw1NTE5OTM0NDUsNDc5MzQ0OTQxLDE3NTcyNDEwODIsLTE2Mz
 kwNjYsMTYyNzc4ODMwMywxOTI2MTI5MDAzLC0xMzQ4MzgwOTky
