@@ -245,7 +245,7 @@ public class OrderDAO {
 </configuration>
 ```
 ### 4. mapper.xml 작성
-
+뼈대 + select 문
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
@@ -273,10 +273,23 @@ public class OrderDAO {
 
 >`association` : many의 입장에서 one을 가지고 있을 때의 표현 방법
 >`collection` : one의 입장에서 many을 가지고 있을 때의 표현 방법
->property: mapping 되는 class가 가지고 있는 맴버 변수 명
->ofType: one이 가지고 있는 many의 클래스명
+>`property` : mapping 되는 class가 가지고 있는 맴버 변수 명
+>`ofType` : one이 가지고 있는 many의 클래스명
 
-각 태그 마다 SQL 구문이 독립적으로 들어가야한다.
+insert 문 추가
+```xml
+  <!-- 주문기본 -->
+  <insert id="insertOrderInfo" parameterType="string">
+    INSERT INTO order_info(order_no, order_id, order_time)
+    VALUES (order_seq.NEXTVAL, #{order_id}, SYSTIMESTAMP)
+  </insert>
+  <!-- 주문상세 -->
+  <insert id="insertOrderDetail" parameterType="OrderDetail">
+    INSERT INTO order_detail(order_no, order_prod_no, order_quantity)
+    VALUES (order_seq.CURRVAL, #{order_prod_no}, #{order_quantity})
+  </insert>
+```
+>각 태그 마다 SQL 구문이 독립적으로 들어가야한다.
 한 태그에 두 개 이상의 SQL문 X
 
 +) 시퀀스 생성 sql
@@ -285,8 +298,11 @@ CREATE SEQUENCE order_seq
 START WITH 1
 nocache;
 ```
+
+
+### 5. DAO 상
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzY2ODg5NzQsNjAyOTg0MSwxNzM3Mz
+eyJoaXN0b3J5IjpbLTE5MTI5OTMzNjYsNjAyOTg0MSwxNzM3Mz
 IwNzMsOTQzNTIwOTg2LDE5OTc5NTkzMDEsLTI5Mzk1NzkzLDEx
 MDYwNjQ2MDksODA3MTY0NjEzLDE5NTA5NTQ3MTIsLTQ1ODM1MT
 g2Myw1OTU0MDA0NDMsMTMyMTgzMDg3NywtMTQyOTYxNjUzNSw1
