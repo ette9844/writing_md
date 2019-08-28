@@ -66,12 +66,37 @@ else 구문이 없기 때문에 else 기능을 사용하고 싶다면 choose / w
 SELECT * FROM BLOG
 WHERE
 ```
-라는 이상한 구문이 생성될 
-where 엘리먼트는 태그에 의해 컨텐츠가 리턴되면 단순히 “WHERE”만을 추가한다. 게다가 컨텐츠가 “AND”나 “OR”로 시작한다면 그 “AND”나 “OR”를 지워버린다.
+라는 이상한 구문이 생성될 수 있다.
+이를 방지하기 위해 **where 태그**를 추가한다.
+
+where 태그는 태그에 의해 컨텐츠가 리턴되면 해당 구문에 “WHERE”를 추가한다. 게다가 컨텐츠가 “AND”나 “OR”로 시작한다면 그 “AND”나 “OR”를 지워버린다.
+
+```xml
+<select id="findActiveBlogLike"
+     resultType="Blog">
+  SELECT * FROM BLOG
+  <where>
+    <if test="state != null">
+         state = #{state}
+    </if>
+    <if test="title != null">
+        AND title like #{title}
+    </if>
+    <if test="author != null and author.name != null">
+        AND author_name like #{author.name}
+    </if>
+  </where>
+</select>
+```
 
 
 ### forEach 
 반복적 처리에 사용
+```xml
+<select  id="selectPostIn"  resultType="domain.blog.Post"> SELECT *
+  FROM POST P
+  WHERE ID in <foreach  item="item"  index="index"  collection="list"  open="("  separator=","  close=")"> #{item} </foreach>  </select>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2ODg0NDVdfQ==
+eyJoaXN0b3J5IjpbMTc5MDYzNDM4XX0=
 -->
