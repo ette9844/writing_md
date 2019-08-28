@@ -45,7 +45,27 @@ else 구문이 없기 때문에 else 기능을 사용하고 싶다면 choose / w
 
 ### where
 
-### for
+```xml
+<select id="findActiveBlogLike"
+     resultType="Blog">
+  SELECT * FROM BLOG
+  WHERE
+  <if test="state != null">
+    state = #{state}
+  </if>
+  <if test="title != null">
+    AND title like #{title}
+  </if>
+  <if test="author != null and author.name != null">
+    AND author_name like #{author.name}
+  </if>
+</select>
+```
+where 엘리먼트는 태그에 의해 컨텐츠가 리턴되면 단순히 “WHERE”만을 추가한다. 게다가 컨텐츠가 “AND”나 “OR”로 시작한다면 그 “AND”나 “OR”를 지워버린다.
+
+
+### forEach 
+반복적 처리에 사용
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5OTM1MDM1XX0=
+eyJoaXN0b3J5IjpbLTEwNzYzNjM3MDJdfQ==
 -->
