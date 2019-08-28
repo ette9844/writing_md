@@ -152,7 +152,7 @@ public class OrderInfo {
 ```
 ```java
 public class OrderDetail {
-	// private int order_no;
+	private int order_no;
 	// private OrderInfo order;
 	// private String order_prod_no;
 	private Product product;
@@ -352,10 +352,10 @@ public static void main(String[] args) {
 ![실행결과_sqlplus](https://github.com/ette9844/writing_md/blob/master/imgs/mybatis_result_1.PNG?raw=true)
 실제 DB에도 정상적으로 insert된 것을 확인할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzM5NDA0NiwxNTMwNjY3MzQzLDE2Mz
-E1MDk1MjcsNjAyOTg0MSwxNzM3MzIwNzMsOTQzNTIwOTg2LDE5
-OTc5NTkzMDEsLTI5Mzk1NzkzLDExMDYwNjQ2MDksODA3MTY0Nj
-EzLDE5NTA5NTQ3MTIsLTQ1ODM1MTg2Myw1OTU0MDA0NDMsMTMy
-MTgzMDg3NywtMTQyOTYxNjUzNSw1NTE5OTM0NDUsNDc5MzQ0OT
-QxLDE3NTcyNDEwODIsLTE2MzkwNjYsMTYyNzc4ODMwM119
+eyJoaXN0b3J5IjpbMTExNTg4NTgwMiwtNDc3Mzk0MDQ2LDE1Mz
+A2NjczNDMsMTYzMTUwOTUyNyw2MDI5ODQxLDE3MzczMjA3Myw5
+NDM1MjA5ODYsMTk5Nzk1OTMwMSwtMjkzOTU3OTMsMTEwNjA2ND
+YwOSw4MDcxNjQ2MTMsMTk1MDk1NDcxMiwtNDU4MzUxODYzLDU5
+NTQwMDQ0MywxMzIxODMwODc3LC0xNDI5NjE2NTM1LDU1MTk5Mz
+Q0NSw0NzkzNDQ5NDEsMTc1NzI0MTA4MiwtMTYzOTA2Nl19
 -->
