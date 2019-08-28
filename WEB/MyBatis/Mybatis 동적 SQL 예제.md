@@ -147,13 +147,12 @@ public class Product {
 	// getter / setter
 }
 ```
-
-1대 다 foreign key에서 1 쪽에 동그라미 표기가 있을경우에는 선택 참여이다. 
-이는 foreign key column에 null이 들어올 수 있다는 뜻이다. 
+UML표기에서 ○는 선택 참여를 의미한다.
+이는 선택 참여 표기가 있는 테이블 쪽 column에 null값이 들어올 수 있다는 뜻이다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDM3NDYzNzAsLTQ1ODM1MTg2Myw1OT
-U0MDA0NDMsMTMyMTgzMDg3NywtMTQyOTYxNjUzNSw1NTE5OTM0
-NDUsNDc5MzQ0OTQxLDE3NTcyNDEwODIsLTE2MzkwNjYsMTYyNz
-c4ODMwMywxOTI2MTI5MDAzLC0xMzQ4MzgwOTkyLDE5NTU5NTM2
-MDEsMTUxOTg2MDkxLDIwNjQxNzg2ODJdfQ==
+eyJoaXN0b3J5IjpbLTE1Mjc3Mjc5MiwtNDU4MzUxODYzLDU5NT
+QwMDQ0MywxMzIxODMwODc3LC0xNDI5NjE2NTM1LDU1MTk5MzQ0
+NSw0NzkzNDQ5NDEsMTc1NzI0MTA4MiwtMTYzOTA2NiwxNjI3Nz
+g4MzAzLDE5MjYxMjkwMDMsLTEzNDgzODA5OTIsMTk1NTk1MzYw
+MSwxNTE5ODYwOTEsMjA2NDE3ODY4Ml19
 -->
