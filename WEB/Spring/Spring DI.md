@@ -67,7 +67,9 @@ B에 들어갈 실객체는 사용자에 따라서 어떤 객체가 주입될지
 
 이렇듯 사용자가 주입을 통해 객체 생성에 관여하는 것을 **의존성 주입**이라고 한다.
 
-
+## 의존 객체
+위 예제에서 B1 객체와 B2 객체를 의존 객체라고 한다.
+객체를 생성a1.setB(new B1());
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyMTU0NTQ0LC01MzcwNTY5OTldfQ==
+eyJoaXN0b3J5IjpbMTk2NDY0NTA4MCwtNTM3MDU2OTk5XX0=
 -->
