@@ -68,11 +68,16 @@ Help > Marketplace 에서
 ### 6. CLASSPATH에 Spring Bean Configuration File 생성
 ![spring new file](https://github.com/ette9844/writing_md/blob/master/imgs/spring-newfile.PNG?raw=true)
 
+Spring Bean Configuration File 생성
 
+![spring new file2](https://github.com/ette9844/writing_md/blob/master/imgs/spring-bean3.PNG?raw=true)
 
-ctrl 버튼을 누른채로 클릭하면 a.Second1 파일로 바로갈 수 있다.
+필요한 namespace 선택 후 finish
 
 ### 7. beans 탭을 이용하여 xml 파일 작성
+
+eclips
++) ctrl 버튼을 누른채로 클릭하면 a.Second1 파일로 바로갈 수 있다.
 
 ### 8. xml 파일을 구동시켜 객체 생성
 
@@ -83,8 +88,8 @@ ctrl 버튼을 누른채로 클릭하면 a.Second1 파일로 바로갈 수 있�
 
 인터페이스와 실객체 간의 실체 주입을 외부 xml 파일로 결정하기 위해서 이러한 기능을 제공한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxNzE0MjA3LC0zMDMwODQwMjgsLTEzNT
-kyMTY1ODcsMTk5ODE3NzM4NywzNTE5MzcwNzcsLTQ0ODE1MDMz
-NywxMjQ2MDA1OTM1LC0xNTI3MjA1NjA2LC03Njg0ODA4MjRdfQ
-==
+eyJoaXN0b3J5IjpbLTM2NzU1ODM5NSw1NDE3MTQyMDcsLTMwMz
+A4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MTkzNzA3
+NywtNDQ4MTUwMzM3LDEyNDYwMDU5MzUsLTE1MjcyMDU2MDYsLT
+c2ODQ4MDgyNF19
 -->
