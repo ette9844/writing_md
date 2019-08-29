@@ -36,20 +36,30 @@ public class A {
 ## 의존성 주입
 
 ```java
-public interface B{
+public interface B {
 	String b();
 }
-public class B1 implements B{
+
+public class B1 implements B {
 	public String b() { return "b1"; }
 }
-public class A{
+public class B2 implements B {
+	public String b() { return "b2"; }
+}
+
+public class A {
 	private B b;
 	public void setB(B b) { this.b = b; }
-	public B getB() { return b; }\
-	public 
-
+	public B getB() { return b; }
+	public String toString() { return b.b(); }
+}
 ```
+>A a = new A();
+>a.setB(new B1());
+>sop(a): 			// "b1"
+>
+>A a2 = new A();
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDk3MjE3N119
+eyJoaXN0b3J5IjpbMTM5ODUxNDU4OV19
 -->
