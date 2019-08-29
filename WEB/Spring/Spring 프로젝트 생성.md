@@ -169,23 +169,34 @@ System.out.println(first1.getSecond() == first2.getSecond()); 	// true
 >id가 다를 경우에는 다른 객체
 
 ## List/Map 주입하기
+List 주입
 ```xml
 <bean id="first-list" class="a.First">
 	<property name="list">
-			<list value-type="java.lang.String">
-				<value>ONE</value>
-				<value>TWO</value>
-				<value>THREE</value>
-			</list>
-		</property>
-	</bean>
+		<list value-type="java.lang.String">
+			<value>ONE</value>
+			<value>TWO</value>
+			<value>THREE</value>
+		</list>
+	</property>
+</bean>
 ```
-
+테스팅
 ```java
-
+First first3 = ctx.getBean("first-list", a.First.class);
+System.out.println(first3.getList());
 ```
+>[ONE, TWO, THREE]
+
+Map 주입
+```java
+```
+테스팅
+```xml
+```
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMzEyMjI3Miw3OTQ5NzAzMiwxOTM2ND
+eyJoaXN0b3J5IjpbLTUyMTkwMDgwMiw3OTQ5NzAzMiwxOTM2ND
 czODgyLDE1MDEyODM5MDAsNTQxNzE0MjA3LC0zMDMwODQwMjgs
 LTEzNTkyMTY1ODcsMTk5ODE3NzM4NywzNTE5MzcwNzcsLTQ0OD
 E1MDMzNywxMjQ2MDA1OTM1LC0xNTI3MjA1NjA2LC03Njg0ODA4
