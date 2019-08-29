@@ -217,10 +217,18 @@ SELECT * FROM customer WHERE id = ?  (O)
 SELECT * FROM ? ORDER BY ?			 (X)
 ```
 
-자바에서는 이를 문자열  통해 해결할 수 있다.
+자바에서는 이를 문자열을 통해 해결할 수 있다.
+```java
+String opt = "id";
+String sql = "SELECT * FROM customer ORDER BY" + opt;
+```
+
+parameterType이 String 타입일 경우에는 ${value}를 써주어야 한다.
+
+특정 매칭될 수 있는 vo 타입이라면 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTIzNzg0OTgsMjA3OTgxODIwMSw1Mz
-I2MTY2MTksMTUzODgxODk2OCwtMTM5MjUwMTkwNSwyMDI1MDQ4
-NTY3LDEwMTc4NTU3MjMsMTgxMTY3MDA3MywxMDM2NjM5NDM1LC
-0xMjQyMTExNzA0LC0xMDc0OTg1NzkyXX0=
+eyJoaXN0b3J5IjpbLTI1MTYyMjYzNSwyMDc5ODE4MjAxLDUzMj
+YxNjYxOSwxNTM4ODE4OTY4LC0xMzkyNTAxOTA1LDIwMjUwNDg1
+NjcsMTAxNzg1NTcyMywxODExNjcwMDczLDEwMzY2Mzk0MzUsLT
+EyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ==
 -->
