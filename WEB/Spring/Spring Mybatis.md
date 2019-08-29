@@ -39,9 +39,9 @@ pom.xml
 beans.xml
 ```xml
 <bean id="dataSource"
-		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName"
-			value="oracle.jdbc.driver.OracleDriver">
+	class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	<property name="driverClassName"
+		value="oracle.jdbc.driver.OracleDriver">
 		</property>
 		<property name="url"
 			value="jdbc:oracle:thin:@localhost:1521:xe">
@@ -76,8 +76,9 @@ beans.xml
 </bean>
 ```
 >"classpath:mybatis-config.xml" : classpath 내에서 mybatis-config.xml 찾기. 다른 경로를 설정했다면 경로명을 적어준다.
+>
 >orderDAO bean: 생성한 DAO에 sqlSessionFactory bean을 연결해준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5Njg5OTM3MywxODU5NTI3NDYwLDExMT
-YzMzY1ODNdfQ==
+eyJoaXN0b3J5IjpbLTEwNjYyNTUxMzMsMTg1OTUyNzQ2MCwxMT
+E2MzM2NTgzXX0=
 -->
