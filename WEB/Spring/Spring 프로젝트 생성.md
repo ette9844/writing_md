@@ -57,7 +57,7 @@ pom을 사용할 수 없을 경우에는 spring context jar파일과 아래에 �
 ```
 저장하고 build 완료될때까지 기다려야 함
 
-### 5. xml 파일 관리를 용이하게 해주는 플러그인 설치
+### 5. spring tool suite 플러그인 설치
 Help > Marketplace 에서 
 
 ![spring framework plugin](https://github.com/ette9844/writing_md/blob/master/imgs/spring-plugin.PNG?raw=true)
@@ -128,9 +128,9 @@ public class Test {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MzIyOTEyMCwxOTM2NDczODgyLC01Mj
-E5MDA4MDIsNzk0OTcwMzIsMTkzNjQ3Mzg4MiwxNTAxMjgzOTAw
-LDU0MTcxNDIwNywtMzAzMDg0MDI4LC0xMzU5MjE2NTg3LDE5OT
-gxNzczODcsMzUxOTM3MDc3LC00NDgxNTAzMzcsMTI0NjAwNTkz
-NSwtMTUyNzIwNTYwNiwtNzY4NDgwODI0XX0=
+eyJoaXN0b3J5IjpbLTE5NTk0NzI5NjEsMTkzNjQ3Mzg4MiwtNT
+IxOTAwODAyLDc5NDk3MDMyLDE5MzY0NzM4ODIsMTUwMTI4Mzkw
+MCw1NDE3MTQyMDcsLTMwMzA4NDAyOCwtMTM1OTIxNjU4NywxOT
+k4MTc3Mzg3LDM1MTkzNzA3NywtNDQ4MTUwMzM3LDEyNDYwMDU5
+MzUsLTE1MjcyMDU2MDYsLTc2ODQ4MDgyNF19
 -->
