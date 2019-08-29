@@ -10,7 +10,7 @@ spring jdbc 라이브러리
 
 pom.xml
 ```xml
-<version ~
+<version ~~>
 <dependencies>
   	<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
 <dependencies>
@@ -32,8 +32,9 @@ pom.xml
     	<version>5.0.2.RELEASE</version>
 	</dependency>
 </dependencies>
+<build ~~>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjUyMDI5MDYsMTg1OTUyNzQ2MCwxMT
-E2MzM2NTgzXX0=
+eyJoaXN0b3J5IjpbLTUxOTI5Njg4OCwxODU5NTI3NDYwLDExMT
+YzMzY1ODNdfQ==
 -->
