@@ -81,8 +81,11 @@ Spring Bean Configuration File 생성
 beans 탭 페이지
 
 ![bean tab](https://github.com/ette9844/writing_md/blob/master/imgs/spring-bean2.PNG?raw=true)
+>new Bean ... 으로 기존 클래스를 bean으로 등록할 수 있다.
 >
->
+>![spring-bean1.PNG](https://github.com/ette9844/writing_md/blob/master/imgs/spring-bean1.PNG?raw=true)
+
+
 자동으로 생성된 코드
 
 
@@ -97,8 +100,8 @@ beans 탭 페이지
 
 인터페이스와 실객체 간의 실체 주입을 외부 xml 파일로 결정하기 위해서 이러한 기능을 제공한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MzQ0NDUxNyw1NDE3MTQyMDcsLTMwMz
-A4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MTkzNzA3
-NywtNDQ4MTUwMzM3LDEyNDYwMDU5MzUsLTE1MjcyMDU2MDYsLT
-c2ODQ4MDgyNF19
+eyJoaXN0b3J5IjpbNjQzNTQ5NjgsNTQxNzE0MjA3LC0zMDMwOD
+QwMjgsLTEzNTkyMTY1ODcsMTk5ODE3NzM4NywzNTE5MzcwNzcs
+LTQ0ODE1MDMzNywxMjQ2MDA1OTM1LC0xNTI3MjA1NjA2LC03Nj
+g0ODA4MjRdfQ==
 -->
