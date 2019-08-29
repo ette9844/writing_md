@@ -233,7 +233,7 @@ SELECT * FROM customer WHERE id = #{id}
 ```sql
 SELECT * FROM customer ORDER BY ${value}
 ```
-parameterType이 **String** 타입일 경우에는 ${value}를 써주어야 한다.
+parameterType이 **String** 타입일 경우에는 `${value}`를 써주어야 한다.
 ```xml
 <select id="a" parameterType="string">
   SELECT * FROM customer ORDER BY ${value}
@@ -246,8 +246,8 @@ parameterType이 특정 매칭될 수 있는 vo 타입이라면 원하는 변수
 </select>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxODk3NDk1LDIwNzk4MTgyMDEsNTMyNj
-E2NjE5LDE1Mzg4MTg5NjgsLTEzOTI1MDE5MDUsMjAyNTA0ODU2
-NywxMDE3ODU1NzIzLDE4MTE2NzAwNzMsMTAzNjYzOTQzNSwtMT
-I0MjExMTcwNCwtMTA3NDk4NTc5Ml19
+eyJoaXN0b3J5IjpbMTI1MDA5NzA3MywyMDc5ODE4MjAxLDUzMj
+YxNjYxOSwxNTM4ODE4OTY4LC0xMzkyNTAxOTA1LDIwMjUwNDg1
+NjcsMTAxNzg1NTcyMywxODExNjcwMDczLDEwMzY2Mzk0MzUsLT
+EyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ==
 -->
