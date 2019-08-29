@@ -85,6 +85,15 @@ class / java 소스코드 / xml 파일을 모두 관리해주기 어려우므로
 
 
 ## DI 방식 1: 생성자 방식
+```java
+public class A {
+	private B b;
+	public A(B b) { this.b = b; }
+	public String toString() { return b.b(); }
+}
+```
+>A a1 = new A(new B2());
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTU1ODE1NywtNTM3MDU2OTk5XX0=
+eyJoaXN0b3J5IjpbOTU5MjQxMzg1LC01MzcwNTY5OTldfQ==
 -->
