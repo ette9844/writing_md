@@ -214,10 +214,13 @@ autoMapping
 바인드 변수는 값의 위치에만 사용할 수 있다.
 ```sql
 SELECT * FROM customer WHERE id = ?  (O)
-SELECT * FROM ? ORDER BY ?				(X)
+SELECT * FROM ? ORDER BY ?			 (X)
+```
+
+자바에서는 이를 문자열  통해 해결할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTk5NDAxMywyMDc5ODE4MjAxLDUzMj
-YxNjYxOSwxNTM4ODE4OTY4LC0xMzkyNTAxOTA1LDIwMjUwNDg1
-NjcsMTAxNzg1NTcyMywxODExNjcwMDczLDEwMzY2Mzk0MzUsLT
-EyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ==
+eyJoaXN0b3J5IjpbLTE2OTIzNzg0OTgsMjA3OTgxODIwMSw1Mz
+I2MTY2MTksMTUzODgxODk2OCwtMTM5MjUwMTkwNSwyMDI1MDQ4
+NTY3LDEwMTc4NTU3MjMsMTgxMTY3MDA3MywxMDM2NjM5NDM1LC
+0xMjQyMTExNzA0LC0xMDc0OTg1NzkyXX0=
 -->
