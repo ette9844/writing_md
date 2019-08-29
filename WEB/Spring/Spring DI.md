@@ -34,6 +34,7 @@ public class A {
 이를 외부(사용자)에서 값을 주입한다고 말한다.
 
 ## 의존성 주입 (DI)
+## DI  방식 1: setter 메서드 방식
 
 ```java
 public interface B {
@@ -84,7 +85,7 @@ spring용 설정 xml 파일을 생성해주는 도구
 class / java 소스코드 / xml 파일을 모두 관리해주기 어려우므로 xml 파일 대신 자바 소스 코드를 이용해서 조립하는 방식
 
 
-## DI 방식 1: 생성자 방식
+## DI 방식 2: 생성자 방식
 ```java
 public class A {
 	private B b;
@@ -95,5 +96,6 @@ public class A {
 >A a1 = new A(new B2());
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MjQxMzg1LC01MzcwNTY5OTldfQ==
+eyJoaXN0b3J5IjpbMTg3NDIzMjM5Nyw5NTkyNDEzODUsLTUzNz
+A1Njk5OV19
 -->
