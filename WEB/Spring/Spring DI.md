@@ -54,12 +54,14 @@ public class A {
 	public String toString() { return b.b(); }
 }
 ```
->A a = new A();
->a.setB(new B1());
->sop(a): 			// "b1"
+>A a1 = new A();
+>a1.setB(new B1());
+>sop(a1): 			// "b1"
 >
 >A a2 = new A();
+>a2.setB(new B2());
+>sop(a2);		// "b2"
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODUxNDU4OV19
+eyJoaXN0b3J5IjpbLTUzNzA1Njk5OV19
 -->
