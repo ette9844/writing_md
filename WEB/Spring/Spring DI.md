@@ -10,9 +10,10 @@ public class A {
 	}
 }
 ```
-A a= new A();
+>A a= new A();
 sop(a);	// a.toString() 자동호출
-사용자는 정해진 값밖에 볼 수 없다.
+>
+>사용자는 정해진 값밖에 볼 수 없다.
 
 ```java
 public class A {
@@ -26,9 +27,9 @@ public class A {
 	}
 }
 ```
-사용자가 주입한 값을 출력한다.
+>사용자가 입력한 값을 볼 수 있다.
 
-두번째 방법이 의존성을 주입하는 방법이다.
+이를 외부(사용자)에서 값을 주입한다고 말한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzMjQ3MDgzXX0=
+eyJoaXN0b3J5IjpbMTEzODI4Nzc4XX0=
 -->
