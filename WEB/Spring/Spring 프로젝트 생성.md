@@ -70,9 +70,9 @@ Help > Marketplace 에서
 
 
 
-
+ctrl 버튼을 누른채로 클릭하면 a.Second1 파일로 바로갈 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDQ5NjY1NywzNTE5MzcwNzcsLTQ0OD
+eyJoaXN0b3J5IjpbMTk5ODE3NzM4NywzNTE5MzcwNzcsLTQ0OD
 E1MDMzNywxMjQ2MDA1OTM1LC0xNTI3MjA1NjA2LC03Njg0ODA4
 MjRdfQ==
 -->
