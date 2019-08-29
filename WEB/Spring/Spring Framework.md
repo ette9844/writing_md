@@ -14,7 +14,10 @@ Enterprise Java Bean
 
 기업에서 사용하는 Java Bean(=Component)
 
-EJB는 스펙이 너무 견고해서 EJB class는 다른 곳에서 재사용될 수 없다는 단점이 있다.
+* 견고한 스펙
+* 확장성 저하
+* 무겁다
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDI3OTk5Ml19
+eyJoaXN0b3J5IjpbMTA5MjY3MzE4MF19
 -->
