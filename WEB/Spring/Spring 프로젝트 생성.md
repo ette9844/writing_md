@@ -57,10 +57,12 @@ pom을 사용할 수 없을 경우에는 spring context jar파일과 아래에 �
 Help > Marketplace 에서 
 
 ![spring framework plugin](https://github.com/ette9844/writing_md/blob/master/imgs/spring-plugin.PNG?raw=true)
->Spring Tools 4 - for Spring boot : spring boot를 사용하는 프로젝트에서 사용
+>Spring Tools 4 - for Spring boot : 
+>spring boot를 사용하는 프로젝트에서 사용
 >
->Spring Tools 3 - Add-on for Spring tools 
+>Spring Tools 3 Add-on for Spring tools 4 : 
+>spring tools4에 spring tools3 의 컴포넌트를 추가해주는 애드온
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Nzg4NzY3MSwtMTUyNzIwNTYwNiwtNz
-Y4NDgwODI0XX0=
+eyJoaXN0b3J5IjpbODM2NTYzMDEzLC0xNTI3MjA1NjA2LC03Nj
+g0ODA4MjRdfQ==
 -->
