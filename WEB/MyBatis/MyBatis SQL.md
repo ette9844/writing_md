@@ -94,7 +94,7 @@ int cnt = session.selectOne("com.my.vo.Customer.selectCount");
 System.out.println("총 고객 수 : " + cnt);
 ```
 ---
-#### 여러가지 속성이 반환 될때: map
+### 여러가지 속성이 반환 될때: map
 xml
 ```xml
   <select id="selectGroup" resultType="map">
@@ -110,7 +110,7 @@ System.out.println(map2.get("C1") + " : " + map2.get("C2"));
 >※별칭을 소문자 'c1'으로 줘도 oracle내부에서 대문자로 자동 저장 되기 때문에, 대문자 'C1'으로 가져와야 한다.
 ※parameterMap 과 resultMap 은 deprecated 됐다.
 
-#### 여러가지 행이 반환 될 때: selectList
+### 여러가지 행이 반환 될 때: selectList
 xml
 ```xml
 <select id="selectAll" resultType="Customer">
@@ -156,7 +156,7 @@ System.out.println(c3.getPost());  // null
 ![has-a관계](https://github.com/ette9844/writing_md/blob/master/imgs/uml%20aggregation.PNG?raw=true)
 
 DTO 관계가 설정 되어있을 경우에는 resultMap 을 사용한다
-#### resultMap
+### resultMap
 데이터베이스 결과데이터를 객체에 로드하는 방법을 정의하는 엘리먼트
 
 xml
@@ -193,7 +193,7 @@ System.out.println(c3.getId() + " : " + c3.getPost().getZipcode());
 >etet : 30114
 >resultMap을 통해 매핑한 이후에는 결과값이 잘 나오는 것을 확인 할 수 있다.
 
-#### autoMapping 속성
+### autoMapping 속성
 autoMapping
 
 이 설정을 사용하면 마이바티스는 결과매핑을 자동매핑으로 처리할지 말지를 처리한다. 이 속성은 autoMappingBehavior 라는 전역설정을 덮는다. 디폴트는 unset이다.
@@ -246,7 +246,7 @@ parameterType이 특정 매칭될 수 있는 vo 타입이라면 원하는 변수
 </select>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDA5NzA3MywyMDc5ODE4MjAxLDUzMj
+eyJoaXN0b3J5IjpbMTAyNjM1MjAwOSwyMDc5ODE4MjAxLDUzMj
 YxNjYxOSwxNTM4ODE4OTY4LC0xMzkyNTAxOTA1LDIwMjUwNDg1
 NjcsMTAxNzg1NTcyMywxODExNjcwMDczLDEwMzY2Mzk0MzUsLT
 EyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ==
