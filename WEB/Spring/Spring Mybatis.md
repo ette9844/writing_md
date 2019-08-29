@@ -76,8 +76,8 @@ beans.xml
 </bean>
 ```
 >"classpath:mybatis-config.xml" : classpath 내에서 mybatis-config.xml 찾기. 다른 경로를 설정했다면 경로명을 적어준다.
->orderDAO bean: 생성한 DAO에 sqlSessionFactory 
+>orderDAO bean: 생성한 DAO에 sqlSessionFactory bean을 연결해준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1ODUwODUyOSwxODU5NTI3NDYwLDExMT
+eyJoaXN0b3J5IjpbMTU5Njg5OTM3MywxODU5NTI3NDYwLDExMT
 YzMzY1ODNdfQ==
 -->
