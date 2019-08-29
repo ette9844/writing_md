@@ -1,7 +1,7 @@
-### 메이븐 프로젝트로 변경
+### 1. 메이븐 프로젝트로 변경
 프로젝트 우클 > configure > convert to maven project
 
-### maven repository 에서 spring context dependency를 복사
+### 2. maven repository 에서 spring context dependency를 복사
 [spring-context 5.0.2 링크](https://mvnrepository.com/artifact/org.springframework/spring-context/5.0.2.RELEASE)
 
 maven 탭의 코드를 복사
@@ -18,9 +18,9 @@ pom 을 사용할 수 있을 때는 위처럼 입력하면 eclipse가 알아서 
 
 pom을 사용할 수 없을 경우에는 spring context jar파일과 아래에 있는 의존성 있는 다른 jar파일까지 모두 받아줘야한다.
 
-### 생성된 pom.xml에 `<dependencies>` 태그 생성
+### 3. 생성된 pom.xml에 `<dependencies>` 태그 생성
 
-### `<dependencies>` 태그 내부에 복사한 내용 붙여넣기
+### 4. `<dependencies>` 태그 내부에 복사한 내용 붙여넣기
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -53,7 +53,9 @@ pom을 사용할 수 없을 경우에는 spring context jar파일과 아래에 �
 ```
 저장하고 build 완료될때까지 기다려야 함
 
-
+### 5. xml 파일 관리를 용이하게 해주는 플러그인 설치
+Help > Marketplace 에서 
+Spring Tools 4 -
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE1MzkwNjddfQ==
+eyJoaXN0b3J5IjpbLTE4Mjg2MDY5MTJdfQ==
 -->
