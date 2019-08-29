@@ -88,10 +88,33 @@ beans 탭 페이지
 
 자동으로 생성된 코드
 
+![bean source code](https://github.com/ette9844/writing_md/blob/master/imgs/spring-beansource.PNG?raw=true)
 
 +) 작성된 xml 소스코드에서 ctrl 버튼을 누른채로 클래스명을 클릭하면 클래스 파일로 바로갈 수 있다.
 
 ### 8. xml 파일을 구동시켜 객체 생성
+```java
+public class Test {
+
+	public static void main(String[] args) {
+		// xml 파일 구동
+		String path = "beans.xml";
+		ApplicationContext ctx;	// Spring Container: Spring에서 쓰일 객체관리자
+		
+		// 클래스패스(bin경로) 기준으로 xml 찾아오기
+		ctx = new ClassPathXmlApplicationContext(path);
+		First first = ctx.getBean("first", a.First.class);
+		System.out.println(first);
+		System.out.println(first.getNum());
+		System.out.println(first.getSecond().info());
+		// 첫번째 인자: 찾고자 하는 객체의 name이나 id로 찾기
+		// 두번째 인자: 찾아온 객체가 a.First.class 타입으로 다운 캐스팅이 가능한지 물어보고 다운 캐스팅
+		
+		First first1 = ctx.getBean("first", a.First.class);
+		System.out.println(first1);	// 싱글톤으로 관리되기 때문에 둘다 같은 객체를 참조하게 됨
+	}
+}
+```
 
 #### bean class의 메서드가 자동으로 호출 됨
 
@@ -100,8 +123,8 @@ beans 탭 페이지
 
 인터페이스와 실객체 간의 실체 주입을 외부 xml 파일로 결정하기 위해서 이러한 기능을 제공한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzNTQ5NjgsNTQxNzE0MjA3LC0zMDMwOD
-QwMjgsLTEzNTkyMTY1ODcsMTk5ODE3NzM4NywzNTE5MzcwNzcs
-LTQ0ODE1MDMzNywxMjQ2MDA1OTM1LC0xNTI3MjA1NjA2LC03Nj
-g0ODA4MjRdfQ==
+eyJoaXN0b3J5IjpbLTI5MDgyNTYzNiw1NDE3MTQyMDcsLTMwMz
+A4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MTkzNzA3
+NywtNDQ4MTUwMzM3LDEyNDYwMDU5MzUsLTE1MjcyMDU2MDYsLT
+c2ODQ4MDgyNF19
 -->
