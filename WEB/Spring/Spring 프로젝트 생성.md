@@ -189,16 +189,27 @@ System.out.println(first3.getList());
 >[ONE, TWO, THREE]
 
 Map 주입
-```java
+```xml
+<bean id="first-map" class="a.First">
+	<property name="map">
+		<map value-type="java.lang.String">
+			<entry key="1" value="ONE"/>
+			<entry key="2" value="TWO"/>
+			<entry key="3" value="THREE"/>
+		</map>
+	</property>
+</bean>
 ```
 테스팅
-```xml
+```java
+First first4 = ctx.getBean("first-map", a.First.class);
+System.out.println(first4.getMap());
 ```
->
+>{1=ONE, 2=TWO, 3=THREE}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDkzNDI1OCwtNTIxOTAwODAyLDc5ND
-k3MDMyLDE5MzY0NzM4ODIsMTUwMTI4MzkwMCw1NDE3MTQyMDcs
-LTMwMzA4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MT
-kzNzA3NywtNDQ4MTUwMzM3LDEyNDYwMDU5MzUsLTE1MjcyMDU2
-MDYsLTc2ODQ4MDgyNF19
+eyJoaXN0b3J5IjpbMTkxMjI2NTQ3LC01MjE5MDA4MDIsNzk0OT
+cwMzIsMTkzNjQ3Mzg4MiwxNTAxMjgzOTAwLDU0MTcxNDIwNywt
+MzAzMDg0MDI4LC0xMzU5MjE2NTg3LDE5OTgxNzczODcsMzUxOT
+M3MDc3LC00NDgxNTAzMzcsMTI0NjAwNTkzNSwtMTUyNzIwNTYw
+NiwtNzY4NDgwODI0XX0=
 -->
