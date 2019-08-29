@@ -77,8 +77,14 @@ ctrl 버튼을 누른채로 클릭하면 a.Second1 파일로 바로갈 수 있�
 ### 8. xml 파일을 구동시켜 객체 생성
 
 #### bean class의 메서드가 자동으로 호출 됨
+
+#### bean 탭에서 의존성 주입
+
+
+인터페이스와 실객체 간의 실체 주입을 외부 xml 파일로 결정하기 위해서 이러한 기능을 제공한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzA4NDAyOCwtMTM1OTIxNjU4NywxOT
-k4MTc3Mzg3LDM1MTkzNzA3NywtNDQ4MTUwMzM3LDEyNDYwMDU5
-MzUsLTE1MjcyMDU2MDYsLTc2ODQ4MDgyNF19
+eyJoaXN0b3J5IjpbNTQxNzE0MjA3LC0zMDMwODQwMjgsLTEzNT
+kyMTY1ODcsMTk5ODE3NzM4NywzNTE5MzcwNzcsLTQ0ODE1MDMz
+NywxMjQ2MDA1OTM1LC0xNTI3MjA1NjA2LC03Njg0ODA4MjRdfQ
+==
 -->
