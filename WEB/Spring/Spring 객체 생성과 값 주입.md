@@ -1,4 +1,4 @@
-### 8. xml 파일을 구동시켜 객체 생성
+## xml 파일을 구동시켜 객체 생성
 ```java
 public class Test {
 
@@ -116,5 +116,5 @@ System.out.println(first4.getMap());
 >실제 property type으로 자동 변환 된다.
 >First class의 Map-key 타입이 int 타입이라면 "1", "2"는 int 타입으로 자동 형변환 된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDk0MzAwNTddfQ==
+eyJoaXN0b3J5IjpbLTE5NzkwNDgyMiwtMTIwOTQzMDA1N119
 -->
