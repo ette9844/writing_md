@@ -14,10 +14,15 @@ Enterprise Java Bean
 
 기업에서 사용하는 Java Bean(=Component)
 
+**EJB의 단점**
 * 견고한 스펙
+* 재사용성 저하
 * 확장성 저하
 * 무겁다
-* 
+* 특정 WAS 필요 
+(비용 때문에 소규모 회사는 EJB 사용 불가)
+
+EJB의 대안으로 Spring 이 나왔다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjY3MzE4MF19
+eyJoaXN0b3J5IjpbODc2OTA2MjZdfQ==
 -->
