@@ -65,10 +65,14 @@ DB와의 연결을 spring이 주도하고, spring에서 사용하는 DB연결 �
 (1) newBean 으로 class가 DriverManagerDataSource인 bean 생성.
 ![setting1](https://github.com/ette9844/writing_md/blob/master/imgs/spring-mybatis-setting1.PNG?raw=true)
 
-(2) next로 넘어간 후, property 단의 add 버튼으로 driverClassName, url, user, password 를 설정한다.
+(2) next로 넘어간 후, property 단의 add 버튼으로 driverClassName, url, user, password 를 설정하고 finish로 bean 생성을 완료한다.
 ![setting3](https://github.com/ette9844/writing_md/blob/master/imgs/spring-mybatis-setting4.PNG?raw=true)
 
+(3) class가 SqlSessionFactoryBean 인 sqlSessionFactory bean을 생성한다.
+![setting1](https://github.com/ette9844/writing_md/blob/master/imgs/spring-mybatis-setting5.PNG?raw=true)
 
+(4)
+![setting1](https://github.com/ette9844/writing_md/blob/master/imgs/spring-mybatis-setting6.PNG?raw=true)
 
 ### 3. sqlSessionFactory 연결
 beans.xml
@@ -86,6 +90,6 @@ beans.xml
 >
 >orderDAO bean: 생성한 DAO에 sqlSessionFactory bean을 연결해준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ1MDIzNTE4LDE4NTk1Mjc0NjAsMTExNj
-MzNjU4M119
+eyJoaXN0b3J5IjpbLTIxMjMxMDY3MTMsMTg1OTUyNzQ2MCwxMT
+E2MzM2NTgzXX0=
 -->
