@@ -37,11 +37,14 @@ EJB의 대안으로 Spring 이 나왔다.
 Framework[갑] - 개발자[을]
 framework에서 지정해준 절차 대로 개발해야 함
 
+지정해준대로 개발하는 것은 쉽지만 framework의 내부 구조를 파악하여 자신이 무엇을 하고 있는지에 대해 이해하는 것이 좋다.
+
+
 Library[을] - 개발자[갑]
 개발자가 원하는 library만 선택해서 원하는 기능만 사용
 
 ## Framework 의 내부 구성
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjAwNjQ1MF19
+eyJoaXN0b3J5IjpbMzA1ODA5NDcxLC02MjYwMDY0NTBdfQ==
 -->
