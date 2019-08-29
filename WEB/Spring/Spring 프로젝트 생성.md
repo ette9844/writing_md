@@ -64,7 +64,9 @@ Help > Marketplace 에서
 >
 >Spring Tools 3 Add-on for Spring tools 4 : 
 >spring tools4에 spring tools3 의 컴포넌트를 추가해주는 애드온
+
+### 6. 스프링 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjAwNTkzNSwtMTUyNzIwNTYwNiwtNz
-Y4NDgwODI0XX0=
+eyJoaXN0b3J5IjpbLTQ0ODE1MDMzNywxMjQ2MDA1OTM1LC0xNT
+I3MjA1NjA2LC03Njg0ODA4MjRdfQ==
 -->
