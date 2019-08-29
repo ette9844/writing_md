@@ -231,13 +231,23 @@ SELECT * FROM customer WHERE id = #{id}
 ```
 문자열 처리
 ```sql
+SELECT * FROM customer ORDER BY ${value}
 ```
 parameterType이 String 타입일 경우에는 ${value}를 써주어야 한다.
-
+```xml
+<select id="a" parameterType="string">
+  SELECT * FROM customer ORDER BY ${value}
+</select>
+```
 특정 매칭될 수 있는 vo 타입이라면 
+```xml
+<select id="a" parameterType="string">
+  SELECT * FROM customer ORDER BY ${value}
+</select>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDc5MDY0NSwyMDc5ODE4MjAxLDUzMj
-YxNjYxOSwxNTM4ODE4OTY4LC0xMzkyNTAxOTA1LDIwMjUwNDg1
-NjcsMTAxNzg1NTcyMywxODExNjcwMDczLDEwMzY2Mzk0MzUsLT
-EyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ==
+eyJoaXN0b3J5IjpbLTE3NzAxMjQzODUsMjA3OTgxODIwMSw1Mz
+I2MTY2MTksMTUzODgxODk2OCwtMTM5MjUwMTkwNSwyMDI1MDQ4
+NTY3LDEwMTc4NTU3MjMsMTgxMTY3MDA3MywxMDM2NjM5NDM1LC
+0xMjQyMTExNzA0LC0xMDc0OTg1NzkyXX0=
 -->
