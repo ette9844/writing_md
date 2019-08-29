@@ -223,11 +223,20 @@ String opt = "id";
 String sql = "SELECT * FROM customer ORDER BY" + opt;
 ```
 
+마이바티스에서는 이러한 문자열 처리를 해주는 표현식을 지원한다.
+
+바인드 변수 처리
+```sql
+SELECT * FROM customer WHERE id = #{id}
+```
+문자열 처리
+```sql
+```
 parameterType이 String 타입일 경우에는 ${value}를 써주어야 한다.
 
 특정 매칭될 수 있는 vo 타입이라면 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTYyMjYzNSwyMDc5ODE4MjAxLDUzMj
+eyJoaXN0b3J5IjpbLTEwNDc5MDY0NSwyMDc5ODE4MjAxLDUzMj
 YxNjYxOSwxNTM4ODE4OTY4LC0xMzkyNTAxOTA1LDIwMjUwNDg1
 NjcsMTAxNzg1NTcyMywxODExNjcwMDczLDEwMzY2Mzk0MzUsLT
 EyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ==
