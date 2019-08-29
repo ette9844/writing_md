@@ -76,9 +76,9 @@ ctrl 버튼을 누른채로 클릭하면 a.Second1 파일로 바로갈 수 있�
 
 ### 8. xml 파일을 구동시켜 객체 생성
 
-#### bean class의 메서드가 자동으로 호출
+#### bean class의 메서드가 자동으로 호출 됨
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzI5MzQyOCwtMTM1OTIxNjU4NywxOT
+eyJoaXN0b3J5IjpbLTMwMzA4NDAyOCwtMTM1OTIxNjU4NywxOT
 k4MTc3Mzg3LDM1MTkzNzA3NywtNDQ4MTUwMzM3LDEyNDYwMDU5
 MzUsLTE1MjcyMDU2MDYsLTc2ODQ4MDgyNF19
 -->
