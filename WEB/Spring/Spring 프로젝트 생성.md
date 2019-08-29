@@ -121,17 +121,17 @@ public class Test {
 
 실행 결과
 
+![result](https://github.com/ette9844/writing_md/blob/master/imgs/spring-bean-result.PNG?raw=true)
+>bean class의 메서드가 자동으로 호출 된다.
 
-
-#### bean class의 메서드가 자동으로 호출 됨
 
 #### bean 탭에서 의존성 주입
 
 
 인터페이스와 실객체 간의 실체 주입을 외부 xml 파일로 결정하기 위해서 이러한 기능을 제공한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODEyNjc3ODIsNTQxNzE0MjA3LC0zMD
-MwODQwMjgsLTEzNTkyMTY1ODcsMTk5ODE3NzM4NywzNTE5Mzcw
-NzcsLTQ0ODE1MDMzNywxMjQ2MDA1OTM1LC0xNTI3MjA1NjA2LC
-03Njg0ODA4MjRdfQ==
+eyJoaXN0b3J5IjpbNjIyOTE1NjYxLDU0MTcxNDIwNywtMzAzMD
+g0MDI4LC0xMzU5MjE2NTg3LDE5OTgxNzczODcsMzUxOTM3MDc3
+LC00NDgxNTAzMzcsMTI0NjAwNTkzNSwtMTUyNzIwNTYwNiwtNz
+Y4NDgwODI0XX0=
 -->
