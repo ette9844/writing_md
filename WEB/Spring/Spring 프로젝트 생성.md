@@ -125,13 +125,14 @@ public class Test {
 >bean class의 생성자, setter 메서드가 자동으로 호출 된다.
 
 
-#### bean 탭에서 의존성 주입
+#### beans 탭에서 의존성 주입
 
+beans 탭에서
 
 인터페이스와 실객체 간의 실체 주입을 외부 xml 파일로 결정하기 위해서 이러한 기능을 제공한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTI4MzkwMCw1NDE3MTQyMDcsLTMwMz
-A4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MTkzNzA3
-NywtNDQ4MTUwMzM3LDEyNDYwMDU5MzUsLTE1MjcyMDU2MDYsLT
-c2ODQ4MDgyNF19
+eyJoaXN0b3J5IjpbLTE4MjM4MDUxOSwxNTAxMjgzOTAwLDU0MT
+cxNDIwNywtMzAzMDg0MDI4LC0xMzU5MjE2NTg3LDE5OTgxNzcz
+ODcsMzUxOTM3MDc3LC00NDgxNTAzMzcsMTI0NjAwNTkzNSwtMT
+UyNzIwNTYwNiwtNzY4NDgwODI0XX0=
 -->
