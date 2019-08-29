@@ -56,8 +56,10 @@ pom을 사용할 수 없을 경우에는 spring context jar파일과 아래에 �
 ### 5. xml 파일 관리를 용이하게 해주는 플러그인 설치
 Help > Marketplace 에서 
 
-Spring Tools 4 - for Spring boot 나 (spring boot를 사용할 시에)
+![spring framework plugin](https://github.com/ette9844/writing_md/blob/master/imgs/spring-plugin.PNG?raw=true)
+Spring Tools 4 - for Spring boot : spring boot를 사용하는 프로젝트에서 사용
 Spring Tools 3 - Add-on for Spring tools 를 다운받는다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjcyMDU2MDYsLTc2ODQ4MDgyNF19
+eyJoaXN0b3J5IjpbLTc0Nzg0MDQ1MCwtMTUyNzIwNTYwNiwtNz
+Y4NDgwODI0XX0=
 -->
