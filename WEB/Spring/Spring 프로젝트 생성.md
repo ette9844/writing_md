@@ -76,8 +76,9 @@ Spring Bean Configuration File 생성
 
 ### 7. beans 탭을 이용하여 xml 파일 작성
 
-eclips
-+) ctrl 버튼을 누른채로 클릭하면 a.Second1 파일로 바로갈 수 있다.
+생성된 xml 파일의 bean 탭에서 쉽게 xml 파일을 작성할 수 있다.
+
++) 작성된 xml 소스코드에서 ctrl 버튼을 누른채로 클래스명을 클릭하면 클래스 파일로 바로갈 수 있다.
 
 ### 8. xml 파일을 구동시켜 객체 생성
 
@@ -88,7 +89,7 @@ eclips
 
 인터페이스와 실객체 간의 실체 주입을 외부 xml 파일로 결정하기 위해서 이러한 기능을 제공한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzU1ODM5NSw1NDE3MTQyMDcsLTMwMz
+eyJoaXN0b3J5IjpbLTM3ODE0NzIwNSw1NDE3MTQyMDcsLTMwMz
 A4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MTkzNzA3
 NywtNDQ4MTUwMzM3LDEyNDYwMDU5MzUsLTE1MjcyMDU2MDYsLT
 c2ODQ4MDgyNF19
