@@ -97,13 +97,14 @@ beans 탭 페이지
 public class Test {
 
 	public static void main(String[] args) {
-		// xml 파일 구동
+		// * xml 파일 구동
 		String path = "yourxmlfilename.xml";
 		ApplicationContext ctx;	// Spring Container: Spring에서 쓰일 객체관리자
 		
-		// 클래스패스(bin경로) 기준으로 xml 찾아오기
+		// * 클래스패스(bin경로) 기준으로 xml 찾아오기
 		ctx = new ClassPathXmlApplicationContext(path);
 		
+		// * xml에서 인자 불러오기
 		First first = ctx.getBean("first", a.First.class);
 		// 첫번째 인자: 찾고자 하는 객체의 name이나 id로 찾기
 		// 두번째 인자: 찾아온 객체가 a.First.class 타입으로 다운 캐스팅이 가능한지 물어보고 다운 캐스팅
@@ -118,6 +119,10 @@ public class Test {
 }
 ```
 
+실행 결과
+
+
+
 #### bean class의 메서드가 자동으로 호출 됨
 
 #### bean 탭에서 의존성 주입
@@ -125,8 +130,8 @@ public class Test {
 
 인터페이스와 실객체 간의 실체 주입을 외부 xml 파일로 결정하기 위해서 이러한 기능을 제공한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTYzOTQ1MCw1NDE3MTQyMDcsLTMwMz
-A4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MTkzNzA3
-NywtNDQ4MTUwMzM3LDEyNDYwMDU5MzUsLTE1MjcyMDU2MDYsLT
-c2ODQ4MDgyNF19
+eyJoaXN0b3J5IjpbLTEyODEyNjc3ODIsNTQxNzE0MjA3LC0zMD
+MwODQwMjgsLTEzNTkyMTY1ODcsMTk5ODE3NzM4NywzNTE5Mzcw
+NzcsLTQ0ODE1MDMzNywxMjQ2MDA1OTM1LC0xNTI3MjA1NjA2LC
+03Njg0ODA4MjRdfQ==
 -->
