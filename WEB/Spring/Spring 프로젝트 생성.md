@@ -98,18 +98,20 @@ public class Test {
 
 	public static void main(String[] args) {
 		// xml 파일 구동
-		String path = "beans.xml";
+		String path = "yourxmlfilename.xml";
 		ApplicationContext ctx;	// Spring Container: Spring에서 쓰일 객체관리자
 		
 		// 클래스패스(bin경로) 기준으로 xml 찾아오기
 		ctx = new ClassPathXmlApplicationContext(path);
+		
 		First first = ctx.getBean("first", a.First.class);
-		System.out.println(first);
-		System.out.println(first.getNum());
-		System.out.println(first.getSecond().info());
 		// 첫번째 인자: 찾고자 하는 객체의 name이나 id로 찾기
 		// 두번째 인자: 찾아온 객체가 a.First.class 타입으로 다운 캐스팅이 가능한지 물어보고 다운 캐스팅
-		
+
+		System.out.println(first);
+		System.out.println(first.getNum());
+		System.out.println(first.getSecond().info());		
+
 		First first1 = ctx.getBean("first", a.First.class);
 		System.out.println(first1);	// 싱글톤으로 관리되기 때문에 둘다 같은 객체를 참조하게 됨
 	}
@@ -123,7 +125,7 @@ public class Test {
 
 인터페이스와 실객체 간의 실체 주입을 외부 xml 파일로 결정하기 위해서 이러한 기능을 제공한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDgyNTYzNiw1NDE3MTQyMDcsLTMwMz
+eyJoaXN0b3J5IjpbMTQ0OTYzOTQ1MCw1NDE3MTQyMDcsLTMwMz
 A4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MTkzNzA3
 NywtNDQ4MTUwMzM3LDEyNDYwMDU5MzUsLTE1MjcyMDU2MDYsLT
 c2ODQ4MDgyNF19
