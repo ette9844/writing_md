@@ -34,7 +34,23 @@ pom.xml
 </dependencies>
 <build ~~>
 ```
+
+### 2. dataSource 연결
+```xml
+<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName"
+			value="oracle.jdbc.driver.OracleDriver">
+		</property>
+		<property name="url"
+			value="jdbc:oracle:thin:@localhost:1521:xe">
+		</property>
+	<property name="username" value="hyejin"></property>
+	<property name="password" value="wow130"></property>
+</bean>
+```
+>dataSource를 연겷
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTI5Njg4OCwxODU5NTI3NDYwLDExMT
-YzMzY1ODNdfQ==
+eyJoaXN0b3J5IjpbLTE3NjM0MDM2NDAsMTg1OTUyNzQ2MCwxMT
+E2MzM2NTgzXX0=
 -->
