@@ -1,3 +1,5 @@
+## Spring 프로젝트 생성
+
 ### 1. 메이븐 프로젝트로 변경
 프로젝트 우클 > configure > convert to maven project
 
@@ -63,6 +65,6 @@ Help > Marketplace 에서
 >Spring Tools 3 Add-on for Spring tools 4 : 
 >spring tools4에 spring tools3 의 컴포넌트를 추가해주는 애드온
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2NTYzMDEzLC0xNTI3MjA1NjA2LC03Nj
-g0ODA4MjRdfQ==
+eyJoaXN0b3J5IjpbMTI0NjAwNTkzNSwtMTUyNzIwNTYwNiwtNz
+Y4NDgwODI0XX0=
 -->
