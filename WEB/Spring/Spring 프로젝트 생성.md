@@ -127,12 +127,12 @@ public class Test {
 
 #### beans 탭에서 의존성 주입
 
-beans 탭에서
+beans 탭에서 의 실객체 클래스를 바꿔줄 경우 소스 코드에 아무런 변경이 없음에도 달라진 결과값이 출력되는 것을 볼 수 있다.
 
 인터페이스와 실객체 간의 실체 주입을 외부 xml 파일로 결정하기 위해서 이러한 기능을 제공한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzNjc4NjkyLDE1MDEyODM5MDAsNTQxNz
-E0MjA3LC0zMDMwODQwMjgsLTEzNTkyMTY1ODcsMTk5ODE3NzM4
-NywzNTE5MzcwNzcsLTQ0ODE1MDMzNywxMjQ2MDA1OTM1LC0xNT
-I3MjA1NjA2LC03Njg0ODA4MjRdfQ==
+eyJoaXN0b3J5IjpbLTY2MzY0NzUzMSwxNTAxMjgzOTAwLDU0MT
+cxNDIwNywtMzAzMDg0MDI4LC0xMzU5MjE2NTg3LDE5OTgxNzcz
+ODcsMzUxOTM3MDc3LC00NDgxNTAzMzcsMTI0NjAwNTkzNSwtMT
+UyNzIwNTYwNiwtNzY4NDgwODI0XX0=
 -->
