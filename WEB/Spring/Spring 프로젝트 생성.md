@@ -76,7 +76,7 @@ Spring Bean Configuration File 생성
 
 ### 7. beans 탭을 이용하여 xml 파일 작성
 
-생성된 xml 파일의 bean 탭에서 쉽게 xml 파일을 작성할 수 있다.
+생성된 xml 파일의 beans 탭에서 쉽게 xml 파일을 작성할 수 있다.
 
 beans 탭 페이지
 
@@ -131,8 +131,8 @@ beans 탭에서
 
 인터페이스와 실객체 간의 실체 주입을 외부 xml 파일로 결정하기 위해서 이러한 기능을 제공한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM4MDUxOSwxNTAxMjgzOTAwLDU0MT
-cxNDIwNywtMzAzMDg0MDI4LC0xMzU5MjE2NTg3LDE5OTgxNzcz
-ODcsMzUxOTM3MDc3LC00NDgxNTAzMzcsMTI0NjAwNTkzNSwtMT
-UyNzIwNTYwNiwtNzY4NDgwODI0XX0=
+eyJoaXN0b3J5IjpbNTMzNjc4NjkyLDE1MDEyODM5MDAsNTQxNz
+E0MjA3LC0zMDMwODQwMjgsLTEzNTkyMTY1ODcsMTk5ODE3NzM4
+NywzNTE5MzcwNzcsLTQ0ODE1MDMzNywxMjQ2MDA1OTM1LC0xNT
+I3MjA1NjA2LC03Njg0ODA4MjRdfQ==
 -->
