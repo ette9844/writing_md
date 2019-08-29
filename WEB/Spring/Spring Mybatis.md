@@ -71,8 +71,10 @@ DB와의 연결을 spring이 주도하고, spring에서 사용하는 DB연결 �
 (3) class가 SqlSessionFactoryBean 인 sqlSessionFactory bean을 생성한다.
 ![setting1](https://github.com/ette9844/writing_md/blob/master/imgs/spring-mybatis-setting5.PNG?raw=true)
 
-(4)
+(4) sqlSessionFactory bean에 dataSource bean을 reference로 갖는 property를 추가한다.
 ![setting1](https://github.com/ette9844/writing_md/blob/master/imgs/spring-mybatis-setting6.PNG?raw=true)
+
+(7) 이후 
 
 ### 3. sqlSessionFactory 연결
 beans.xml
@@ -90,6 +92,6 @@ beans.xml
 >
 >orderDAO bean: 생성한 DAO에 sqlSessionFactory bean을 연결해준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjMxMDY3MTMsMTg1OTUyNzQ2MCwxMT
-E2MzM2NTgzXX0=
+eyJoaXN0b3J5IjpbNDgzOTYzODQ2LDE4NTk1Mjc0NjAsMTExNj
+MzNjU4M119
 -->
