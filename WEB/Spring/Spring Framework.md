@@ -25,10 +25,13 @@ Enterprise Java Bean
 EJB의 대안으로 Spring 이 나왔다.
 
 ## Spring
-기업형 로컬 컴포넌트 (분산이 아님)
+기업형 **로컬** 컴포넌트
 
 * 견고하지 않음
-* POJO(일반 클래스) 형태로 사용 가능
+* POJO(일반 클래스) 지향
+* 확장성 향상
+* 가볍다
+* 특정 WAS 필요 X
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDIxODAyMF19
+eyJoaXN0b3J5IjpbLTUyNjYwMjAzMF19
 -->
