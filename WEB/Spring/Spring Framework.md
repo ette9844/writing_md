@@ -24,7 +24,7 @@ Enterprise Java Bean
 
 EJB의 대안으로 Spring 이 나왔다.
 
-## Spring
+## Spring Framework
 기업형 **로컬** 컴포넌트
 
 * 견고하지 않음
@@ -32,6 +32,13 @@ EJB의 대안으로 Spring 이 나왔다.
 * 확장성 향상
 * 가볍다
 * 특정 WAS 필요 X
+
+## Framework & Library
+Framework[갑] - 개발자[을]
+framework에서 지정해준 절차 대로 개발해야 함
+
+Library[을] - 개발자[갑]
+개발자가 원하는 library만 선택해서
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjYwMjAzMF19
+eyJoaXN0b3J5IjpbLTExNjc3Mzg4NzNdfQ==
 -->
