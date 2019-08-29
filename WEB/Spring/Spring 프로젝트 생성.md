@@ -22,7 +22,38 @@ pom을 사용할 수 없을 경우에는 spring context jar파일과 아래에 �
 
 ### `<dependencies>` 태그 내부에 복사한 내용 붙여넣기
 
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>spring1</groupId>
+  <artifactId>spring1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>5.0.2.RELEASE</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
+```
+저장하고 build 완료될때까지 기다려야 함
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTY1MjA3MTNdfQ==
+eyJoaXN0b3J5IjpbLTExNTE1MzkwNjddfQ==
 -->
