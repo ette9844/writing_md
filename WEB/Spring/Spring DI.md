@@ -62,11 +62,12 @@ public class A {
 >a2.setB(new B2());
 >sop(a2);		// "b2"
 
-A는 인터페이스 B하고만 관계를 맺고 있다.
+A는 인터페이스 B하고만 HAS-A관계를 맺고 있다.
 B에 들어갈 실객체는 사용자에 따라서 어떤 객체가 주입될지가 결정된다.
 
 이렇듯 사용자가 주입을 통해 객체 생성에 관여하는 것을 **의존성 주입**이라고 한다.
-	
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDc0ODc1NiwtNTM3MDU2OTk5XX0=
+eyJoaXN0b3J5IjpbNzgyMTU0NTQ0LC01MzcwNTY5OTldfQ==
 -->
