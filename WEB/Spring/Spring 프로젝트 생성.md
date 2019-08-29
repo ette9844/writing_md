@@ -167,9 +167,27 @@ System.out.println(first1.getSecond() == first2.getSecond()); 	// true
 ```
 >id에 해당하는 객체는 하나씩만 만들어진다.(singleton 패턴)
 >id가 다를 경우에는 다른 객체
+
+## List/Map 주입하기
+```xml
+<bean id="first-list" class="a.First">
+	<property name="list">
+			<list value-type="java.lang.String">
+				<value>ONE</value>
+				<value>TWO</value>
+				<value>THREE</value>
+			</list>
+		</property>
+	</bean>
+```
+
+```java
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0OTcwMzIsMTkzNjQ3Mzg4MiwxNTAxMj
-gzOTAwLDU0MTcxNDIwNywtMzAzMDg0MDI4LC0xMzU5MjE2NTg3
-LDE5OTgxNzczODcsMzUxOTM3MDc3LC00NDgxNTAzMzcsMTI0Nj
-AwNTkzNSwtMTUyNzIwNTYwNiwtNzY4NDgwODI0XX0=
+eyJoaXN0b3J5IjpbMTkzMzEyMjI3Miw3OTQ5NzAzMiwxOTM2ND
+czODgyLDE1MDEyODM5MDAsNTQxNzE0MjA3LC0zMDMwODQwMjgs
+LTEzNTkyMTY1ODcsMTk5ODE3NzM4NywzNTE5MzcwNzcsLTQ0OD
+E1MDMzNywxMjQ2MDA1OTM1LC0xNTI3MjA1NjA2LC03Njg0ODA4
+MjRdfQ==
 -->
