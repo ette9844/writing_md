@@ -129,14 +129,16 @@ public class Test {
 ![injection](https://github.com/ette9844/writing_md/blob/master/imgs/spring-bean-injection.PNG?raw=true)
 >class를 a.Second1 에서 a.Second2로 변경한다.
 >
->![result1](https://github.com/ette9844/writing_md/blob/master/imgs/spring-bean-result1.PNG?raw=true)
+>![result1](https://github.com/ette9844/writing_md/blob/master/imgs/spring-bean-result1.PNG?raw=true)  &nbsp;&nbsp;&nbsp;→ &nbsp;&nbsp;&nbsp;![result2](https://github.com/ette9844/writing_md/blob/master/imgs/spring-bean-result2.PNG?raw=true)
 
 beans 탭에서 의 실객체 클래스를 바꿔줄 경우 소스 코드에 아무런 변경이 없음에도 달라진 결과값이 출력되는 것을 볼 수 있다.
 
 인터페이스와 실객체 간의 실체 주입을 외부 xml 파일로 결정하기 위해서 이러한 기능을 제공한다.
+
+## 생성자 방식으로 DI 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjQyNDI3NywxNTAxMjgzOTAwLDU0MT
-cxNDIwNywtMzAzMDg0MDI4LC0xMzU5MjE2NTg3LDE5OTgxNzcz
-ODcsMzUxOTM3MDc3LC00NDgxNTAzMzcsMTI0NjAwNTkzNSwtMT
-UyNzIwNTYwNiwtNzY4NDgwODI0XX0=
+eyJoaXN0b3J5IjpbLTEwNTk0Nzg0MDEsMTUwMTI4MzkwMCw1ND
+E3MTQyMDcsLTMwMzA4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3
+Mzg3LDM1MTkzNzA3NywtNDQ4MTUwMzM3LDEyNDYwMDU5MzUsLT
+E1MjcyMDU2MDYsLTc2ODQ4MDgyNF19
 -->
