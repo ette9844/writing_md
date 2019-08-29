@@ -33,7 +33,7 @@ public class A {
 
 이를 외부(사용자)에서 값을 주입한다고 말한다.
 
-## 의존성 주입
+## 의존성 주입 (DI)
 
 ```java
 public interface B {
@@ -61,7 +61,11 @@ public class A {
 >A a2 = new A();
 >a2.setB(new B2());
 >sop(a2);		// "b2"
+
+A는 인터페이스 B와 관계를 맺고 있다
+사용자에 따라서 어떤 객체가 주입될지가 결정 됨. 
+이를 의존성 주입이라고 한다.
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzA1Njk5OV19
+eyJoaXN0b3J5IjpbOTgwNDU5ODM2LC01MzcwNTY5OTldfQ==
 -->
