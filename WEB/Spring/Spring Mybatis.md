@@ -36,7 +36,7 @@ pom.xml
 ```
 
 ### 2. dataSource 연결
-
+beans.xml
 ```xml
 <bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
@@ -58,7 +58,24 @@ pom.xml
 DB와의 연결을 spring이 주도하고, spring에서 사용하는 DB연결 정보를 계속 유지하도록 하기 위해, dataSource를 연결한다.
 
 연결한 이후에는 mybatis-config.xml 내의 environment 태그를 지워도 무방하다.
+
+---
+**beans 탭 사용하여 연결**
+
+
+### 3. sqlSessionFactory 연결
+beans.xml
+```xml
+<bean id="sqlSessionFactory"
+		class="org.mybatis.spring.SqlSessionFactoryBean">
+	<property name="dataSource" ref="dataSource"></property>
+	<property name="configLocation" value="classpath:mybatis-config.xml"></property>
+</bean>
+<bean id="orderDAO" class="com.my.dao.OrderDAOOracle">
+	<property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+</bean>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjA4NzYzMSwxODU5NTI3NDYwLDExMT
-YzMzY1ODNdfQ==
+eyJoaXN0b3J5IjpbMjg1MTQ5NDU2LDE4NTk1Mjc0NjAsMTExNj
+MzNjU4M119
 -->
