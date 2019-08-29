@@ -225,29 +225,29 @@ String sql = "SELECT * FROM customer ORDER BY" + opt;
 
 마이바티스에서는 이러한 문자열 처리를 해주는 표현식을 지원한다.
 
-바인드 변수 처리
+### 바인드 변수 처리
 ```sql
 SELECT * FROM customer WHERE id = #{id}
 ```
-문자열 처리
+### 문자열 처리
 ```sql
 SELECT * FROM customer ORDER BY ${value}
 ```
-parameterType이 String 타입일 경우에는 ${value}를 써주어야 한다.
+parameterType이 **String** 타입일 경우에는 ${value}를 써주어야 한다.
 ```xml
 <select id="a" parameterType="string">
   SELECT * FROM customer ORDER BY ${value}
 </select>
 ```
-parameterType이 특정 매칭될 수 있는 vo 타입이라면 
+parameterType이 특정 매칭될 수 있는 vo 타입이라면 원하는 변수명을 적어준다.
 ```xml
 <select id="a" parameterType="Customer">
   SELECT * FROM customer ORDER BY ${id}
 </select>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDkzNzEzMzksMjA3OTgxODIwMSw1Mz
-I2MTY2MTksMTUzODgxODk2OCwtMTM5MjUwMTkwNSwyMDI1MDQ4
-NTY3LDEwMTc4NTU3MjMsMTgxMTY3MDA3MywxMDM2NjM5NDM1LC
-0xMjQyMTExNzA0LC0xMDc0OTg1NzkyXX0=
+eyJoaXN0b3J5IjpbNDQxODk3NDk1LDIwNzk4MTgyMDEsNTMyNj
+E2NjE5LDE1Mzg4MTg5NjgsLTEzOTI1MDE5MDUsMjAyNTA0ODU2
+NywxMDE3ODU1NzIzLDE4MTE2NzAwNzMsMTAzNjYzOTQzNSwtMT
+I0MjExMTcwNCwtMTA3NDk4NTc5Ml19
 -->
