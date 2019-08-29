@@ -124,7 +124,7 @@ public class Test {
 ![result](https://github.com/ette9844/writing_md/blob/master/imgs/spring-bean-result.PNG?raw=true)
 >bean class의 생성자, setter 메서드가 자동으로 호출 된다.
 
-#### beans 탭에서 의존성 주입
+## beans 탭에서 의존성 주입
 ![injection](https://github.com/ette9844/writing_md/blob/master/imgs/spring-bean-injection.PNG?raw=true)
 >class를 a.Second1 에서 a.Second2로 변경한다.
 >
@@ -196,9 +196,9 @@ Map 주입
 ```
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTkwMDgwMiw3OTQ5NzAzMiwxOTM2ND
-czODgyLDE1MDEyODM5MDAsNTQxNzE0MjA3LC0zMDMwODQwMjgs
-LTEzNTkyMTY1ODcsMTk5ODE3NzM4NywzNTE5MzcwNzcsLTQ0OD
-E1MDMzNywxMjQ2MDA1OTM1LC0xNTI3MjA1NjA2LC03Njg0ODA4
-MjRdfQ==
+eyJoaXN0b3J5IjpbLTQ2MTUxNzY2NiwtNTIxOTAwODAyLDc5ND
+k3MDMyLDE5MzY0NzM4ODIsMTUwMTI4MzkwMCw1NDE3MTQyMDcs
+LTMwMzA4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MT
+kzNzA3NywtNDQ4MTUwMzM3LDEyNDYwMDU5MzUsLTE1MjcyMDU2
+MDYsLTc2ODQ4MDgyNF19
 -->
