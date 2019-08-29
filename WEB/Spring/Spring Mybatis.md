@@ -75,7 +75,8 @@ beans.xml
 	<property name="sqlSessionFactory" ref="sqlSessionFactory"/>
 </bean>
 ```
+>"classpath:mybatis-config.xml" : classpath 내에서 mybatis-config.xml파일을 찾는다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg1MTQ5NDU2LDE4NTk1Mjc0NjAsMTExNj
-MzNjU4M119
+eyJoaXN0b3J5IjpbLTE5OTc1NTY5NiwxODU5NTI3NDYwLDExMT
+YzMzY1ODNdfQ==
 -->
