@@ -65,8 +65,11 @@ Help > Marketplace 에서
 >Spring Tools 3 Add-on for Spring tools 4 : 
 >spring tools4에 spring tools3 의 컴포넌트를 추가해주는 애드온
 
-### 6. 스프링 
+### 6. CLASSPATH에 Spring Bean Configuration File 생성
+![spring new file](https://github.com/ette9844/writing_md/blob/master/imgs/spring-newfile.PNG?raw=true)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODE1MDMzNywxMjQ2MDA1OTM1LC0xNT
-I3MjA1NjA2LC03Njg0ODA4MjRdfQ==
+eyJoaXN0b3J5IjpbMzUxOTM3MDc3LC00NDgxNTAzMzcsMTI0Nj
+AwNTkzNSwtMTUyNzIwNTYwNiwtNzY4NDgwODI0XX0=
 -->
