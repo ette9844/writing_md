@@ -60,7 +60,7 @@ DB와의 연결을 spring이 주도하고, spring에서 사용하는 DB연결 �
 연결한 이후에는 mybatis-config.xml 내의 environment 태그를 지워도 무방하다.
 
 ---
-**beans 탭 사용하여 연결**
+### **beans 탭 사용하여 연결**
 
 (1) newBean 으로 class가 DriverManagerDataSource인 bean 생성.
 ![setting1](https://github.com/ette9844/writing_md/blob/master/imgs/spring-mybatis-setting1.PNG?raw=true)
@@ -74,7 +74,7 @@ DB와의 연결을 spring이 주도하고, spring에서 사용하는 DB연결 �
 (4) sqlSessionFactory bean에 dataSource bean을 reference로 갖는 property를 추가한다.
 ![setting1](https://github.com/ette9844/writing_md/blob/master/imgs/spring-mybatis-setting6.PNG?raw=true)
 
-(7) 이후 
+(7) 이후 configLocation 등을 설정하고 위와 동일하게 진행한다.
 
 ### 3. sqlSessionFactory 연결
 beans.xml
@@ -92,6 +92,6 @@ beans.xml
 >
 >orderDAO bean: 생성한 DAO에 sqlSessionFactory bean을 연결해준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzOTYzODQ2LDE4NTk1Mjc0NjAsMTExNj
-MzNjU4M119
+eyJoaXN0b3J5IjpbLTE1ODgyMzEwOTQsMTg1OTUyNzQ2MCwxMT
+E2MzM2NTgzXX0=
 -->
