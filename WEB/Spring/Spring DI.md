@@ -78,8 +78,13 @@ B에 들어갈 실객체는 사용자에 따라서 어떤 객체가 주입될지
 ## 객체 조립기
 spring용 설정 xml 파일을 생성해주는 도구
 
-## @Configuration / @Bean
+## Annotation 방식
+@Configuration / @Bean
+
 class / java 소스코드 / xml 파일을 모두 관리해주기 어려우므로 xml 파일 대신 자바 소스 코드를 이용해서 조립하는 방식
+
+
+## DI 방식 1: 생성자 방식
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTc1OTE4NDYsLTUzNzA1Njk5OV19
+eyJoaXN0b3J5IjpbMTExMTU1ODE1NywtNTM3MDU2OTk5XX0=
 -->
