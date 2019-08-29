@@ -206,10 +206,13 @@ First first4 = ctx.getBean("first-map", a.First.class);
 System.out.println(first4.getMap());
 ```
 >{1=ONE, 2=TWO, 3=THREE}
+>
+>실제 property type으로 자동 변환 된다.
+>First class의 Map-key 타입이 int 타입이라면 "1", "2"는 int 타입으로 자동 형변환 된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjI2NTQ3LC01MjE5MDA4MDIsNzk0OT
-cwMzIsMTkzNjQ3Mzg4MiwxNTAxMjgzOTAwLDU0MTcxNDIwNywt
-MzAzMDg0MDI4LC0xMzU5MjE2NTg3LDE5OTgxNzczODcsMzUxOT
-M3MDc3LC00NDgxNTAzMzcsMTI0NjAwNTkzNSwtMTUyNzIwNTYw
-NiwtNzY4NDgwODI0XX0=
+eyJoaXN0b3J5IjpbMTgzMDk5NjY5NSwtNTIxOTAwODAyLDc5ND
+k3MDMyLDE5MzY0NzM4ODIsMTUwMTI4MzkwMCw1NDE3MTQyMDcs
+LTMwMzA4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MT
+kzNzA3NywtNDQ4MTUwMzM3LDEyNDYwMDU5MzUsLTE1MjcyMDU2
+MDYsLTc2ODQ4MDgyNF19
 -->
