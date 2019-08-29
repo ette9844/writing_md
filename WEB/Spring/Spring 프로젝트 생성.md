@@ -1,7 +1,9 @@
 ## Spring 프로젝트 생성
 
-### 1. 메이븐 프로젝트로 변경
-프로젝트 우클 > configure > convert to maven project
+### 1. 자바 프로젝트를 메이븐 프로젝트로 변경
+프로젝트 우클 > configure > convert to maven project\
+
+spring 용 라이브러리를 쉽게 다운 받기 위해 maven project로 변경한다.
 
 ### 2. maven repository 에서 spring context dependency를 복사
 [spring-context 5.0.2 링크](https://mvnrepository.com/artifact/org.springframework/spring-context/5.0.2.RELEASE)
@@ -126,9 +128,9 @@ public class Test {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjQ3Mzg4MiwtNTIxOTAwODAyLDc5ND
-k3MDMyLDE5MzY0NzM4ODIsMTUwMTI4MzkwMCw1NDE3MTQyMDcs
-LTMwMzA4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MT
-kzNzA3NywtNDQ4MTUwMzM3LDEyNDYwMDU5MzUsLTE1MjcyMDU2
-MDYsLTc2ODQ4MDgyNF19
+eyJoaXN0b3J5IjpbLTQ1MzIyOTEyMCwxOTM2NDczODgyLC01Mj
+E5MDA4MDIsNzk0OTcwMzIsMTkzNjQ3Mzg4MiwxNTAxMjgzOTAw
+LDU0MTcxNDIwNywtMzAzMDg0MDI4LC0xMzU5MjE2NTg3LDE5OT
+gxNzczODcsMzUxOTM3MDc3LC00NDgxNTAzMzcsMTI0NjAwNTkz
+NSwtMTUyNzIwNTYwNiwtNzY4NDgwODI0XX0=
 -->
