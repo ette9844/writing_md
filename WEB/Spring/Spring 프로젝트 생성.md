@@ -137,7 +137,7 @@ beans 탭에서 의 실객체 클래스를 바꿔줄 경우 소스 코드에 아
 
 ## 생성자 방식으로 DI 
 
-setter 메서드 방식 DI
+setter 메서드 방식 DI : property 태그
 ```xml
 <bean id="first-set" class="a.First"><!-- First first = new First(); -->
 	<property name="num" value="77"></property><!-- first.setNum(99); //값 주입 -->
@@ -145,7 +145,7 @@ setter 메서드 방식 DI
 </bean>
 ```
 
-생성자 방식 DI 
+생성자 방식 DI : constructor-arg 태그
 ```xml
 <bean id="first-con" class="a.First"><!-- First first = new First(); -->
 	<!-- 매개변수가 총 4개인 생성자에 매개변수 주입 -->
@@ -158,9 +158,19 @@ setter 메서드 방식 DI
 
 테스팅 코드
 
-id
+```java
+// first1과 first2의 비교
+// id에 해당하는 객체는 하나씩 만들어지지만, id가 서로 다르면 다른 객체
+System.out.println(first1 == first2); 	// false
+		
+// 두 객체가 ref 하는 second 객체는 같은 객체이기 때문에 true
+System.out.println(first1.getSecond() == first2.getSecond()); 	// true
+```
+>id에 해당하는 객체는 하나씩만 만들어진다.(singleton 패턴)
+>id가 다를 경우에는 다른 객체
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODAwMzgzLDE1MDEyODM5MDAsNTQxNz
+eyJoaXN0b3J5IjpbMzY3NzQwODc4LDE1MDEyODM5MDAsNTQxNz
 E0MjA3LC0zMDMwODQwMjgsLTEzNTkyMTY1ODcsMTk5ODE3NzM4
 NywzNTE5MzcwNzcsLTQ0ODE1MDMzNywxMjQ2MDA1OTM1LC0xNT
 I3MjA1NjA2LC03Njg0ODA4MjRdfQ==
