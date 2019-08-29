@@ -75,9 +75,10 @@ xml 선언부 앞에는 공백, 주석도 넣어서는 안된다.
 	 */
 ```
 
-JUnit 단위테스트
+POJO
+Plain Old Java Object
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Mjc0ODMyMCwtODAzNzMyNDc0LC0xOD
+eyJoaXN0b3J5IjpbLTU4MDQ5NDgyMiwtODAzNzMyNDc0LC0xOD
 k4MDg2ODkxLC0xOTE4OTU3NDcwLC05MjExNzY1MzAsNzc4NzI4
 NDk4LC0xNjM5MDg1MjM1LDM1NjIwMDM4MSwtMjY3NzY4Mjc0LD
 ExMjQ0Nzg0NDUsLTExNjk4MzgyODgsLTExNjQxMzQ0ODJdfQ==
