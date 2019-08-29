@@ -208,9 +208,16 @@ autoMapping
   </association>
 </resultMap>
 ```
+
+## #{}
+컬럼명이나 테이블 위치에 바인드 변수를 사용할 수 없다.
+바인드 변수는 값의 위치에만 사용할 수 있다.
+```sql
+SELECT * FROM customer WHERE id = ?  (O)
+SELECT * FROM ? ORDER BY ?				(X)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTgxODIwMSw1MzI2MTY2MTksMTUzOD
-gxODk2OCwtMTM5MjUwMTkwNSwyMDI1MDQ4NTY3LDEwMTc4NTU3
-MjMsMTgxMTY3MDA3MywxMDM2NjM5NDM1LC0xMjQyMTExNzA0LC
-0xMDc0OTg1NzkyXX0=
+eyJoaXN0b3J5IjpbLTI3MTk5NDAxMywyMDc5ODE4MjAxLDUzMj
+YxNjYxOSwxNTM4ODE4OTY4LC0xMzkyNTAxOTA1LDIwMjUwNDg1
+NjcsMTAxNzg1NTcyMywxODExNjcwMDczLDEwMzY2Mzk0MzUsLT
+EyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ==
 -->
