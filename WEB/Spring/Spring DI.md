@@ -69,7 +69,10 @@ B에 들어갈 실객체는 사용자에 따라서 어떤 객체가 주입될지
 
 ## 의존 객체
 위 예제에서 B1 객체와 B2 객체를 의존 객체라고 한다.
-객체를 생성a1.setB(new B1());
+
+객체를 생성하는 a1.setB(new B1());, a2.setB(new B2()); 코드를 xml 파일로 설정할 수 있다.
+
+소스 코드에는 각 xml 설정 파일을 호출하는 코드만 들어가고, xml파일만 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDY0NTA4MCwtNTM3MDU2OTk5XX0=
+eyJoaXN0b3J5IjpbMTI4ODMxMDc3NCwtNTM3MDU2OTk5XX0=
 -->
