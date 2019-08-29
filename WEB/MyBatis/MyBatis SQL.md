@@ -1,5 +1,5 @@
 ## 매핑된 SQL 구문
-**1)　UPDATE**
+## **1)　UPDATE**
 xml
 ```xml
 <update id="updateName" parameterType="java.lang.String">
@@ -19,7 +19,7 @@ session.update("com.my.vo.Customer.updateName", map);
 
 <br>
 
-**2)　INSERT**
+## **2)　INSERT**
 xml
 ```xml
 <insert id="insert" parameterType="com.my.vo.Customer">
@@ -42,7 +42,7 @@ session.insert("com.my.vo.Customer.insert", c);
 
 <br>
 
-**3)　DELETE**
+## **3)　DELETE**
 xml
 ```xml
 <delete id="delete" parameterType="string">
@@ -58,7 +58,7 @@ session.delete("com.my.vo.Customer.delete", "idtest");
 
 <br>
 
-**4)　SELECT**
+## **4)　SELECT**
 xml
 ```xml
 <select id="selectById" parameterType="string" 
@@ -133,8 +133,8 @@ c.setName(rs.getString("name"))
 
 SELECT customer_
 
----
-**5)　JOIN**
+
+## **5)　JOIN**
 
 **NullPointException!**
 ```xml
@@ -246,8 +246,8 @@ parameterType이 특정 매칭될 수 있는 vo 타입이라면 원하는 변수
 </select>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNjM1MjAwOSwyMDc5ODE4MjAxLDUzMj
-YxNjYxOSwxNTM4ODE4OTY4LC0xMzkyNTAxOTA1LDIwMjUwNDg1
-NjcsMTAxNzg1NTcyMywxODExNjcwMDczLDEwMzY2Mzk0MzUsLT
-EyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ==
+eyJoaXN0b3J5IjpbOTIwNjM5NzIwLDIwNzk4MTgyMDEsNTMyNj
+E2NjE5LDE1Mzg4MTg5NjgsLTEzOTI1MDE5MDUsMjAyNTA0ODU2
+NywxMDE3ODU1NzIzLDE4MTE2NzAwNzMsMTAzNjYzOTQzNSwtMT
+I0MjExMTcwNCwtMTA3NDk4NTc5Ml19
 -->
