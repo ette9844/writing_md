@@ -136,9 +136,23 @@ beans 탭에서 의 실객체 클래스를 바꿔줄 경우 소스 코드에 아
 인터페이스와 실객체 간의 실체 주입을 외부 xml 파일로 결정하기 위해서 이러한 기능을 제공한다.
 
 ## 생성자 방식으로 DI 
+위에서 사용한 방식이 setter 메서드 방식으로 한 DI 이고, 이를 생성자 방식으로 바꾸어보면,
+```xml
+<bean id="first-set" class="a.First"><!-- First first = new First(); -->
+	<property name="num" value="77"></property><!-- first.setNum(99); //값 주입 -->
+	<property name="second" ref="second"></property><!-- first.setSecond(second); -->
+	</bean>
+	<bean id="first-con" class="a.First"><!-- First first = new First(); -->
+		<!-- 매개변수가 총 4개인 생성자에 매개변수 주입 -->
+		<constructor-arg name="num" value="88"/>
+		<constructor-arg name="flag" value="true"/>
+		<constructor-arg name="msg" value="hello"/>
+		<constructor-arg name="second" ref="second"/> <!-- 이미 만들어져있는 second 객체 사용: ref -->
+	</bean>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTk0Nzg0MDEsMTUwMTI4MzkwMCw1ND
-E3MTQyMDcsLTMwMzA4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3
-Mzg3LDM1MTkzNzA3NywtNDQ4MTUwMzM3LDEyNDYwMDU5MzUsLT
-E1MjcyMDU2MDYsLTc2ODQ4MDgyNF19
+eyJoaXN0b3J5IjpbMTQzNjc5MjM2MiwxNTAxMjgzOTAwLDU0MT
+cxNDIwNywtMzAzMDg0MDI4LC0xMzU5MjE2NTg3LDE5OTgxNzcz
+ODcsMzUxOTM3MDc3LC00NDgxNTAzMzcsMTI0NjAwNTkzNSwtMT
+UyNzIwNTYwNiwtNzY4NDgwODI0XX0=
 -->
