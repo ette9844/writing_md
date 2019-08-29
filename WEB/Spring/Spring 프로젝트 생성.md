@@ -71,8 +71,12 @@ Help > Marketplace 에서
 
 
 ctrl 버튼을 누른채로 클릭하면 a.Second1 파일로 바로갈 수 있다.
+
+## 7. beans 탭을 이용하여 xml 파일 작성
+
+## 8. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODE3NzM4NywzNTE5MzcwNzcsLTQ0OD
-E1MDMzNywxMjQ2MDA1OTM1LC0xNTI3MjA1NjA2LC03Njg0ODA4
-MjRdfQ==
+eyJoaXN0b3J5IjpbLTE1MTQ2NDc2MDQsMTk5ODE3NzM4NywzNT
+E5MzcwNzcsLTQ0ODE1MDMzNywxMjQ2MDA1OTM1LC0xNTI3MjA1
+NjA2LC03Njg0ODA4MjRdfQ==
 -->
