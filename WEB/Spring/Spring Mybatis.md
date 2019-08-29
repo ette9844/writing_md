@@ -75,8 +75,9 @@ beans.xml
 	<property name="sqlSessionFactory" ref="sqlSessionFactory"/>
 </bean>
 ```
->"classpath:mybatis-config.xml" : classpath 내에서 mybatis-config.xml파일을 찾는다.
+>"classpath:mybatis-config.xml" : classpath 내에서 mybatis-config.xml 찾기. 다른 경로를 설정했다면 경로명을 적어준다.
+>orderDAO bean: 생성한 DAO에 sqlSessionFactory 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTc1NTY5NiwxODU5NTI3NDYwLDExMT
+eyJoaXN0b3J5IjpbLTc1ODUwODUyOSwxODU5NTI3NDYwLDExMT
 YzMzY1ODNdfQ==
 -->
