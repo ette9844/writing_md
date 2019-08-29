@@ -36,6 +36,7 @@ pom.xml
 ```
 
 ### 2. dataSource 연결
+
 ```xml
 <bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
@@ -49,10 +50,15 @@ pom.xml
 	<property name="password" value="wow130"></property>
 </bean>
 ```
->dataSource를 연결하지 않으면 mybatis-config.xml으로 넘어가서 거기있는 dataSource를 사용
->DB와의 연결을 mybatis 연결을 사용하게 됨 (일관성 x)
->DB와의 연결을 spring이 주도하고, spring에서 사용하는 DB연결 정보를 계속 유지하도록 하기 위해, dataSource를 여
+>dataSource를 연결하지 않으면 주도권이 mybatis-config.xml으로 넘어가서 environment 태그를 사용
+>
+>DB와의 연결을 spring 연결에서 mybatis 연결을 사용하게 됨 (일관성 x)
+
+
+DB와의 연결을 spring이 주도하고, spring에서 사용하는 DB연결 정보를 계속 유지하도록 하기 위해, dataSource를 연결한다.
+
+연결한 이후에는 mybatis-config.xml 내의 environment 태그를 지워도 무방하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTQ3NjQ5LDE4NTk1Mjc0NjAsMTExNj
-MzNjU4M119
+eyJoaXN0b3J5IjpbMTU0MjA4NzYzMSwxODU5NTI3NDYwLDExMT
+YzMzY1ODNdfQ==
 -->
