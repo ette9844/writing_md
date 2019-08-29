@@ -37,7 +37,19 @@ public class A {
 
 ```java
 public interface B{
+	String b();
+}
+public class B1 implements B{
+	public String b() { return "b1"; }
+}
+public class A{
+	private B b;
+	public void setB(B b) { this.b = b; }
+	public B getB() { return b; }\
+	public 
 
+```
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzA2NTUyM119
+eyJoaXN0b3J5IjpbMTY1NDk3MjE3N119
 -->
