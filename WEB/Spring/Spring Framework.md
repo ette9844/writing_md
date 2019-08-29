@@ -8,11 +8,13 @@
 xml파일에 선언하여 트랜잭션을 처리하도록 하는 것.
 exception 처리가 중요하다.
 
-## EJB
+## Spring 의 배경: EJB
 Enterprise Java Bean
 기업형 **분산** 컴포넌트 개발 기술
 
 기업에서 사용하는 Java Bean(=Component)
+
+EJB는 스펙이 너무 견고해서 EJB class는 다른 곳에서 재사용될 수 없다는 단점이 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDU1Njk2NV19
+eyJoaXN0b3J5IjpbLTQyMDI3OTk5Ml19
 -->
