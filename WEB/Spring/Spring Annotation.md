@@ -132,11 +132,11 @@ second에 대한 setter 메서드를 만들고, beans.xml에
 ```java
 public class First {
 	private String msg;
-	@Autowired		// 클래스 타입에 일치하는 객
+	@Autowired		// 클래스 타입에 일치하는 객체 찾기
 	private Second second;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjU4MTE0NSwtMjQzMjE3NjE4LDY2MD
-UwMDY2NywtMTUzNDY2NDg3M119
+eyJoaXN0b3J5IjpbLTEwMTU2OTI4NjksLTI0MzIxNzYxOCw2Nj
+A1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
