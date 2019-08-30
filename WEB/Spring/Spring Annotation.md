@@ -5,14 +5,26 @@
 xml 파일을 대체하는 JAVA 파일을 생성하기 위해 사용하는 annotation
 
 ## 예제
-예제 x
-
+예제 xml
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-4.3.xsd">
+	<bean id="first" class="a.First">
+		<property name="msg" value="금요일입니다."/>
+	</bean>
+</beans>
+```
 
 1. 일반 JAVA POJO CLASS 생성
 2. 클래스 앞에 @Configuration 어노테이션 붙이기
-3. 
+3. 클래스 내부에 @Bean 어노테이션을 붙인 멤버함수 생성
+4. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzI5ODY1MjldfQ==
+eyJoaXN0b3J5IjpbLTIzMzgxMjY1MF19
 -->
