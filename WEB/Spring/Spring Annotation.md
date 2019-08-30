@@ -4,6 +4,8 @@
 
 xml 파일을 대체하는 JAVA 파일을 생성하기 위해 사용하는 annotation
 
+보통 xml을 더 많이 사용한다. 관리하기 더 용이해서
+
 ## 예제
 예제 xml
 ```xml
@@ -22,9 +24,9 @@ xml 파일을 대체하는 JAVA 파일을 생성하기 위해 사용하는 annot
 1. 일반 JAVA POJO CLASS 생성
 2. 클래스 앞에 @Configuration 어노테이션 붙이기
 3. 클래스 내부에 @Bean 어노테이션을 붙인 멤버함수 생성
-4. 
+`public 클래스명 id() {}`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzgxMjY1MF19
+eyJoaXN0b3J5IjpbMTM1MzI1MDY3Ml19
 -->
