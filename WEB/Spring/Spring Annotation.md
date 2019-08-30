@@ -221,7 +221,7 @@ public void init() {
 
 ## @Component: 컴포넌트 스캔
 
-@Autowired 어노테이션을 사용하기 위해서는 beans.xml의 namespace 탭에서 context를 체크하고
+@Component 어노테이션을 사용하기 위해서는 beans.xml의 namespace 탭에서 context를 체크하고
 ```xml
 <context:component-scan base-package="a"/>
 ```
@@ -245,12 +245,22 @@ public class Second1 implements Second {
 ```
 >component의 value : id 값
 >같은 클래스인 bean 객체가 있을? 경우 qualifier로 인식
+>
+
+```java
+@Component("orderDAO")
+public class OrderDAOOracle implements OrderDAO {} 는
+
+<bean id="orderDAO" class="com.my.dao.OrderDAOOracle"> 과 같음
 
 @Component 어노테이션이 붙어있는 클래스를 bean 객체로 자동 생성.
+
+### @Component 상속 관계
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDYzNzkzMCwxNzExNjA3MTk4LDIwNz
-Y0ODExNywtMTI3OTE4NTA5OSwxNDE5NDM2NDU5LDE2MjgxOTg5
-OTEsLTQ5NTI1NzM1MywtMTY5NjgyODc0NSwtMTI2Njc4MjY1MS
-w1ODk3MjA4MjAsLTI0MzIxNzYxOCw2NjA1MDA2NjcsLTE1MzQ2
-NjQ4NzNdfQ==
+eyJoaXN0b3J5IjpbLTE2MzA2NzYyMzMsMTcxMTYwNzE5OCwyMD
+c2NDgxMTcsLTEyNzkxODUwOTksMTQxOTQzNjQ1OSwxNjI4MTk4
+OTkxLC00OTUyNTczNTMsLTE2OTY4Mjg3NDUsLTEyNjY3ODI2NT
+EsNTg5NzIwODIwLC0yNDMyMTc2MTgsNjYwNTAwNjY3LC0xNTM0
+NjY0ODczXX0=
 -->
