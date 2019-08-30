@@ -95,7 +95,8 @@ public class First {
 	}
 }
 ```
->xml파일에 second를 주입하는 코드가 없어도 자동으로 주입된다.
+>xml파일에 first에 second를 주입하는 코드가 없어도 자동으로 주입된다.
+>단, second
 
 testing code
 ```java
@@ -113,7 +114,7 @@ public static void main(String[] args) {
 ### 장점
 second에 대한 setter 메서드를 만들고, beans.xml에
 ```xml
-<bean id="second" class="Second"/>
+<bean id="second" class="Second"/> <!-- 이 구문은 @Autrowired를 사용할 시에도 작성해주어야한다. -->
 <bean id="first" class="First">
 	...
 	<property name="second" ref="second"/>
@@ -123,6 +124,6 @@ second에 대한 setter 메서드를 만들고, beans.xml에
 를 추가하는 구문을 @Autowired를 사용함으로써 생략할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTI4Mzc5MDAsLTI0MzIxNzYxOCw2Nj
-A1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
+eyJoaXN0b3J5IjpbMTI5ODYwMTQ4MCwtMjQzMjE3NjE4LDY2MD
+UwMDY2NywtMTUzNDY2NDg3M119
 -->
