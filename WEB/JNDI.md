@@ -26,10 +26,20 @@ JNDI를 이용해서 **이름으로** 찾아와서 database 정보를 가져온�
               username="scott" password="tiger" maxTotal="20" maxIdle="5"
               maxWaitMillis="-1"/>
 ```
->maxIdle: 미리 여 최대 연결
+>maxIdle: 미리 연결해두는 최대 연결수
 >메모리 번지수 대신 이름으로 관리.
 >이름 등록은 아래의 web.xml에서 설정.
+
+```xml
+<resource-ref>
+  <description>Oracle Datasource example</description>
+  <res-ref-name>jdbc/myoracle</res-ref-name>
+  <res-type>javax.sql.DataSource</res-type>
+  <res-auth>Container</res-auth>
+</resource-ref>
+```
+>res-ref-name: Resource에 대한 이름 등록
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjAzODU4NzEsLTU3OTY0Mzc5MCwtMT
-M5ODE0NTEzNSwtMjAzOTgzMTg3N119
+eyJoaXN0b3J5IjpbMjA2MTMzOTU0LC01Nzk2NDM3OTAsLTEzOT
+gxNDUxMzUsLTIwMzk4MzE4NzddfQ==
 -->
