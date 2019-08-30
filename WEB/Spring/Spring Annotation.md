@@ -109,7 +109,17 @@ public static void main(String[] args) {
 }
 ```
 >msg = 금요일입니다., second.info() = Second2 객체입니다
+
+seconde에 대한 setter 메서드를 만들고, 
+```xml
+<bean id="second" class="Second"/>
+<bean id="first" class="First">
+	...
+	<property name="second" ref="second/>
+	<constructor-arg name="second" ref="second"/>
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDk2OTI4OTEsLTI0MzIxNzYxOCw2Nj
-A1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
+eyJoaXN0b3J5IjpbMjUzMTMwMzExLC0yNDMyMTc2MTgsNjYwNT
+AwNjY3LC0xNTM0NjY0ODczXX0=
 -->
