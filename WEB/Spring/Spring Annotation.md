@@ -127,7 +127,16 @@ second에 대한 setter 메서드를 만들고, beans.xml에
 ```
 를 추가하는 구문을 @Autowired를 사용함으로써 생략할 수 있다.
 
+
+### 주의할 점
+```java
+public class First {
+	private String msg;
+	@Autowired		// 클래스 타입에 일치하는 객
+	private Second second;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYyMTY2MzEsLTI0MzIxNzYxOCw2NjA1MD
-A2NjcsLTE1MzQ2NjQ4NzNdfQ==
+eyJoaXN0b3J5IjpbMjExMjU4MTE0NSwtMjQzMjE3NjE4LDY2MD
+UwMDY2NywtMTUzNDY2NDg3M119
 -->
