@@ -1,6 +1,6 @@
 ## @Configuration / @Bean: Spring container 설정
 
-**@Configuration / @Bean**
+@Configuration / @Bean
 
 xml 파일을 대체하는 JAVA 파일을 생성하기 위해 사용하는 annotation
 
@@ -73,7 +73,7 @@ public class Test {
 
 ## @Autowired: 자동 주입
 
-**@Autowired**
+@Autowired
 
 @Autowired 어노테이션을 사용하기 위해서는 beans.xml의 namespace 탭에서 context를 체크하고
 ```xml
@@ -213,7 +213,7 @@ public void init() {
 ```
 >spring annotation이 아닌 javax annotation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDU1NDUxMSwtNDk1MjU3MzUzLC0xNj
+eyJoaXN0b3J5IjpbMTYyODE5ODk5MSwtNDk1MjU3MzUzLC0xNj
 k2ODI4NzQ1LC0xMjY2NzgyNjUxLDU4OTcyMDgyMCwtMjQzMjE3
 NjE4LDY2MDUwMDY2NywtMTUzNDY2NDg3M119
 -->
