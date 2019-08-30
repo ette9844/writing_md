@@ -12,7 +12,10 @@ Connection con = DriverManager.getConnection(url, user, pwd);
 >사용자가 요청 할때마다 연결을 시작함.
 >사용자 데이터베이스와의 연결 시간이 오래걸리는 것으로 느낌.
 
-이 연결을 미리 만들어 두는 것을 **Database Connection Pool** 이라고 한다.
+이 연결을 미리 만들어 두는 것을 **DataBase Connection Pool (DBCP)** 이라고 한다.
+
+DBCP API : javax.sql.DataSource 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjMwNTU0NiwtMjAzOTgzMTg3N119
+eyJoaXN0b3J5IjpbLTE4MTcwMDcxNjIsLTIwMzk4MzE4NzddfQ
+==
 -->
