@@ -189,6 +189,8 @@ private Second second;
 
 ## @PostConstruct: 자동 호출 Annotation
 
+### 자동 호출 property
+
 init-method
 
 ```xml
@@ -198,11 +200,17 @@ init-method
 ```
 >객체가 생성될때 init() 메서드가 자동 호출
 
+이 property의 역할을 대신하는 annotation
 
-
-
+```java
+@PostConstruct
+public void init() {
+	System.out.println("init 메서드 호출됨");
+	flag = true;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTk5OTI3MywtMTY5NjgyODc0NSwtMT
+eyJoaXN0b3J5IjpbMTIzNDk5Nzc4OCwtMTY5NjgyODc0NSwtMT
 I2Njc4MjY1MSw1ODk3MjA4MjAsLTI0MzIxNzYxOCw2NjA1MDA2
 NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
