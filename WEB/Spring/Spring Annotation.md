@@ -3,7 +3,7 @@
 
 어노테이션 목차
 [1. @Configuration / @Bean](#@Configuration-/-@Bean:-Spring-container-설정)
-[2. @](### @Autowired: 자동 주입)
+[2. @](##-@Autowired:-자동-주입)
 
 ## @Configuration / @Bean: Spring container 설정
 
@@ -284,10 +284,10 @@ public class Second1 implements Second {
 >regex: 정규식(regular expression: 언어 독립적 표현식)
 >~~Oracle인 클래스를 객체 생성에서 제외한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM3OTkzMzEsLTE0NjY0NzI3MTgsLT
-c5NzQyMjg0NCwtMTY4ODE1NDI4NiwxNzExNjA3MTk4LDIwNzY0
-ODExNywtMTI3OTE4NTA5OSwxNDE5NDM2NDU5LDE2MjgxOTg5OT
-EsLTQ5NTI1NzM1MywtMTY5NjgyODc0NSwtMTI2Njc4MjY1MSw1
-ODk3MjA4MjAsLTI0MzIxNzYxOCw2NjA1MDA2NjcsLTE1MzQ2Nj
-Q4NzNdfQ==
+eyJoaXN0b3J5IjpbNTAzNTExOTkzLC0xNDY2NDcyNzE4LC03OT
+c0MjI4NDQsLTE2ODgxNTQyODYsMTcxMTYwNzE5OCwyMDc2NDgx
+MTcsLTEyNzkxODUwOTksMTQxOTQzNjQ1OSwxNjI4MTk4OTkxLC
+00OTUyNTczNTMsLTE2OTY4Mjg3NDUsLTEyNjY3ODI2NTEsNTg5
+NzIwODIwLC0yNDMyMTc2MTgsNjYwNTAwNjY3LC0xNTM0NjY0OD
+czXX0=
 -->
