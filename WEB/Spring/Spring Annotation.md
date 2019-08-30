@@ -16,7 +16,7 @@ xml 파일을 대체하는 JAVA 파일을 생성하기 위해 사용하는 annot
 자바 파일보다 xml이 관리하기 더 용이해서 java configuraion 보다는 xml을 더 많이 사용한다. 
 
 ### Java Annotation class로 bean 주입하기
-예제 xml
+##### 예제 xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -39,7 +39,7 @@ xml 파일을 대체하는 JAVA 파일을 생성하기 위해 사용하는 annot
 
 <br>
 
-만들어진 java annotation class
+##### 만들어진 java annotation class
 ```java
 @Configuration
 public class Beans {
@@ -52,7 +52,7 @@ public class Beans {
 }
 ```
 
-testing code
+##### testing code
 ```java
 public class Test {
 
@@ -81,7 +81,7 @@ public class Test {
 ```
 어노테이션을 사용할 수 있게 해주는 구문을 추가해준다.
 
-Ex) First에 second 멤버 변수를 자동 주입한다
+##### Ex) First에 second 멤버 변수를 자동 주입한다
 ```java
 public class First {
 	private String msg;
@@ -111,7 +111,7 @@ public class First {
 >
 >이 구문을 생략할 시 NoSuchBeanDefinitionException 발생
 
-testing code
+##### testing code
 ```java
 public static void main(String[] args) {
 	String path="beans.xml";
@@ -185,6 +185,6 @@ private Second second;
 @Retention(value=RUNTIME)  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2Mzg4MTk3Miw1ODk3MjA4MjAsLTI0Mz
-IxNzYxOCw2NjA1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
+eyJoaXN0b3J5IjpbLTEyNjY3ODI2NTEsNTg5NzIwODIwLC0yND
+MyMTc2MTgsNjYwNTAwNjY3LC0xNTM0NjY0ODczXX0=
 -->
