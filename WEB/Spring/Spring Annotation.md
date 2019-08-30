@@ -1,3 +1,6 @@
+
+어노테이션을 사용함으로써 xml 코드의 길이를 줄일 수 있다.
+
 ## @Configuration / @Bean: Spring container 설정
 
 @Configuration / @Bean
@@ -215,7 +218,7 @@ public void init() {
 
 ## @Import
 
-## @Component
+## @Component: 컴포넌트 스캔
 
 @Autowired 어노테이션을 사용하기 위해서는 beans.xml의 namespace 탭에서 context를 체크하고
 ```xml
@@ -242,11 +245,11 @@ public class Second1 implements Second {
 >component의 value : id 값
 >같은 클래스인 bean 객체가 있을? 경우 qualifier로 인식
 
-@Component 어노테이션이 붙어있는 객체만 선언.
-어노테이션을 통해 xml 코드의 길이를 줄인다.
+@Component 어노테이션이 붙어있는 클래스를 bean 객체로 자동 생성.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTYwNzE5OCwyMDc2NDgxMTcsLTEyNz
-kxODUwOTksMTQxOTQzNjQ1OSwxNjI4MTk4OTkxLC00OTUyNTcz
-NTMsLTE2OTY4Mjg3NDUsLTEyNjY3ODI2NTEsNTg5NzIwODIwLC
-0yNDMyMTc2MTgsNjYwNTAwNjY3LC0xNTM0NjY0ODczXX0=
+eyJoaXN0b3J5IjpbLTE3MTk0MjU0NDksMTcxMTYwNzE5OCwyMD
+c2NDgxMTcsLTEyNzkxODUwOTksMTQxOTQzNjQ1OSwxNjI4MTk4
+OTkxLC00OTUyNTczNTMsLTE2OTY4Mjg3NDUsLTEyNjY3ODI2NT
+EsNTg5NzIwODIwLC0yNDMyMTc2MTgsNjYwNTAwNjY3LC0xNTM0
+NjY0ODczXX0=
 -->
