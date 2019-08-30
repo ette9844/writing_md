@@ -66,9 +66,14 @@ public class Test {
 
 @Autowired
 
-@Autowired 어노테이션을 사용하기 위해서는 beans.xml의 namespace 탭에서 context를 체크하고
+자동 주입
 
+@Autowired 어노테이션을 사용하기 위해서는 beans.xml의 namespace 탭에서 context를 체크하고
+```xml
+<context:annotation-config/>
+```
+어노테이션을 사용할 수 있게 해주는 구문을 추가해준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxOTA4NTU3MiwtMjQzMjE3NjE4LDY2MD
-UwMDY2NywtMTUzNDY2NDg3M119
+eyJoaXN0b3J5IjpbOTQ4NDU3NTA0LC0yNDMyMTc2MTgsNjYwNT
+AwNjY3LC0xNTM0NjY0ODczXX0=
 -->
