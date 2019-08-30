@@ -133,8 +133,9 @@ second에 대한 setter 메서드를 만들고, beans.xml에
 
 ```
 
-qualifying
+qualifying을 통해 해결하기
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTg1MzY4NSwtMjQzMjE3NjE4LDY2MD
-UwMDY2NywtMTUzNDY2NDg3M119
+eyJoaXN0b3J5IjpbNTg5NzIwODIwLC0yNDMyMTc2MTgsNjYwNT
+AwNjY3LC0xNTM0NjY0ODczXX0=
 -->
