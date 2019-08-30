@@ -2,8 +2,8 @@
 어노테이션을 사용함으로써 xml 코드의 길이를 줄일 수 있다.
 
 어노테이션 목차
-[@Con](#@Configuration-/-@Bean:-Spring-container-설정)
-[2.코딩을 잘하고 싶어요](#coding을-잘하고-싶어요)
+[1. @Configuration / @Bean](#@Configuration-/-@Bean:-Spring-container-설정)
+[2. @](### @Autowired: 자동 주입)
 
 ## @Configuration / @Bean: Spring container 설정
 
@@ -284,10 +284,10 @@ public class Second1 implements Second {
 >regex: 정규식(regular expression: 언어 독립적 표현식)
 >~~Oracle인 클래스를 객체 생성에서 제외한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjQ1MzA4NiwtMTQ2NjQ3MjcxOCwtNz
-k3NDIyODQ0LC0xNjg4MTU0Mjg2LDE3MTE2MDcxOTgsMjA3NjQ4
-MTE3LC0xMjc5MTg1MDk5LDE0MTk0MzY0NTksMTYyODE5ODk5MS
-wtNDk1MjU3MzUzLC0xNjk2ODI4NzQ1LC0xMjY2NzgyNjUxLDU4
-OTcyMDgyMCwtMjQzMjE3NjE4LDY2MDUwMDY2NywtMTUzNDY2ND
-g3M119
+eyJoaXN0b3J5IjpbLTEzMzM3OTkzMzEsLTE0NjY0NzI3MTgsLT
+c5NzQyMjg0NCwtMTY4ODE1NDI4NiwxNzExNjA3MTk4LDIwNzY0
+ODExNywtMTI3OTE4NTA5OSwxNDE5NDM2NDU5LDE2MjgxOTg5OT
+EsLTQ5NTI1NzM1MywtMTY5NjgyODc0NSwtMTI2Njc4MjY1MSw1
+ODk3MjA4MjAsLTI0MzIxNzYxOCw2NjA1MDA2NjcsLTE1MzQ2Nj
+Q4NzNdfQ==
 -->
