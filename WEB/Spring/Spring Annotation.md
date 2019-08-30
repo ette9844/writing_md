@@ -278,12 +278,12 @@ public class Second1 implements Second {
 	<context:exclude-filter type="annotation" expression=".*Oracle"/>
 </context:component-scan>
 ```
->regex: 정규식
+>regex: 정규식(regular expression: 언어 독립적 표현식)
 >~~Oracle인 클래스를 객체 생성에서 제외한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDM5Nzc3LC0xNjg4MTU0Mjg2LDE3MT
-E2MDcxOTgsMjA3NjQ4MTE3LC0xMjc5MTg1MDk5LDE0MTk0MzY0
-NTksMTYyODE5ODk5MSwtNDk1MjU3MzUzLC0xNjk2ODI4NzQ1LC
-0xMjY2NzgyNjUxLDU4OTcyMDgyMCwtMjQzMjE3NjE4LDY2MDUw
-MDY2NywtMTUzNDY2NDg3M119
+eyJoaXN0b3J5IjpbLTc5NzQyMjg0NCwtMTY4ODE1NDI4NiwxNz
+ExNjA3MTk4LDIwNzY0ODExNywtMTI3OTE4NTA5OSwxNDE5NDM2
+NDU5LDE2MjgxOTg5OTEsLTQ5NTI1NzM1MywtMTY5NjgyODc0NS
+wtMTI2Njc4MjY1MSw1ODk3MjA4MjAsLTI0MzIxNzYxOCw2NjA1
+MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
