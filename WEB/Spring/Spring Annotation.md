@@ -4,7 +4,7 @@
 
 xml 파일을 대체하는 JAVA 파일을 생성하기 위해 사용하는 annotation
 
-자바 파일보다 xml이 관리하기 더 용이해서 xml을 더 많이 사용한다. 
+자바 파일보다 xml이 관리하기 더 용이해서 java configuraion 보다는 xml을 더 많이 사용한다. 
 
 ### Java Annotation class로 bean 주입하기
 예제 xml
@@ -63,8 +63,11 @@ public class Test {
 ```
 
 ## 자동 주입 Annotation
+
 @Autowired
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Mzk4MTA3Niw2NjA1MDA2NjcsLTE1Mz
+eyJoaXN0b3J5IjpbLTI0MzIxNzYxOCw2NjA1MDA2NjcsLTE1Mz
 Q2NjQ4NzNdfQ==
 -->
