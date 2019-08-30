@@ -96,7 +96,11 @@ public class First {
 }
 ```
 >xml파일에 first에 second를 주입하는 코드가 없어도 자동으로 주입된다.
->단, second
+>
+>단, second bean을 선언하는 코드는 필요하다
+>`<bean id="second" class="Second"/>`
+>
+>이 구문을 생략할 시 NoSuchBeanDefinitionException 발생
 
 testing code
 ```java
@@ -124,6 +128,6 @@ second에 대한 setter 메서드를 만들고, beans.xml에
 를 추가하는 구문을 @Autowired를 사용함으로써 생략할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODYwMTQ4MCwtMjQzMjE3NjE4LDY2MD
-UwMDY2NywtMTUzNDY2NDg3M119
+eyJoaXN0b3J5IjpbNzYyMTY2MzEsLTI0MzIxNzYxOCw2NjA1MD
+A2NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
