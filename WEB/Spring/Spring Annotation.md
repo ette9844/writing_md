@@ -129,13 +129,25 @@ second에 대한 setter 메서드를 만들고, beans.xml에
 
 
 ### @Autowired 사용시 주의할 점
-```xml
+#### 1. NoSuchBeanDefinitionException
 
+#### 2. NoUniqueBeanDefinitionException
+```xml
+<bean id="second1" class="a.Second1"/>
+<bean id="second2" class="a.Second2"/>
 ```
+>Second 객체가 여러개여서 자동주입 실패
 
 qualifying을 통해 해결하기
-
+```xml
+<bean id="second1" class="a.Second1">
+		<qualifier value="s1"/>
+	</bean>
+	<bean id="second2" class="a.Second2">
+	<qualifier value="s2"/>
+</bean>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5NzIwODIwLC0yNDMyMTc2MTgsNjYwNT
-AwNjY3LC0xNTM0NjY0ODczXX0=
+eyJoaXN0b3J5IjpbLTEzNzYyNDQ4NDIsNTg5NzIwODIwLC0yND
+MyMTc2MTgsNjYwNTAwNjY3LC0xNTM0NjY0ODczXX0=
 -->
