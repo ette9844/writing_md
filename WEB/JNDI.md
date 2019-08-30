@@ -16,18 +16,17 @@ Connection con = DriverManager.getConnection(url, user, pwd);
 
 DBCP API : javax.sql.DataSource 
 
-## DataSource
+## DataSource 를 사용한 DB 연결
 JNDI를 이용해서 **이름으로** 찾아와서 database 정보를 가져온다.
 ```xml
-<bean id="dataSource"
-		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 	<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
 	<property name="url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
 	<property name="username" value="hyejin"></property>
 	<property name="password" value="wow130"></property>
 </bean>
-	```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTgxNDUxMzUsLTIwMzk4MzE4NzddfQ
-==
+eyJoaXN0b3J5IjpbLTU3OTY0Mzc5MCwtMTM5ODE0NTEzNSwtMj
+AzOTgzMTg3N119
 -->
