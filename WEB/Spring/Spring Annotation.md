@@ -266,11 +266,11 @@ public class Second1 implements Second {
 		[DAO]		[Service]	[Controller]
 
 ```
-즉
+즉, DAO 클래스에 Component 선언을 하고 싶을 때에는 @Repository로 선언하는 것이 맞다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzOTYzMzI0LDE3MTE2MDcxOTgsMjA3Nj
-Q4MTE3LC0xMjc5MTg1MDk5LDE0MTk0MzY0NTksMTYyODE5ODk5
-MSwtNDk1MjU3MzUzLC0xNjk2ODI4NzQ1LC0xMjY2NzgyNjUxLD
-U4OTcyMDgyMCwtMjQzMjE3NjE4LDY2MDUwMDY2NywtMTUzNDY2
-NDg3M119
+eyJoaXN0b3J5IjpbLTE2ODgxNTQyODYsMTcxMTYwNzE5OCwyMD
+c2NDgxMTcsLTEyNzkxODUwOTksMTQxOTQzNjQ1OSwxNjI4MTk4
+OTkxLC00OTUyNTczNTMsLTE2OTY4Mjg3NDUsLTEyNjY3ODI2NT
+EsNTg5NzIwODIwLC0yNDMyMTc2MTgsNjYwNTAwNjY3LC0xNTM0
+NjY0ODczXX0=
 -->
