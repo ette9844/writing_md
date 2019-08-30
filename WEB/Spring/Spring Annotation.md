@@ -145,6 +145,8 @@ second에 대한 setter 메서드를 만들고, beans.xml에
 ```
 >Second 객체가 없어서 자동주입 실패
 >NoSuchBeanDefinitionException
+>
+>Second 객체가 없어서 자동주입이 되지않아도 null로 유지하려면 @Autowired(required = false)로 설정한다. (권장x)
 
 #### 2. NoUniqueBeanDefinitionException
 ```xml
@@ -186,7 +188,7 @@ private Second second;
 @Retention(value=RUNTIME)  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTY4Mjg3NDUsLTEyNjY3ODI2NTEsNT
-g5NzIwODIwLC0yNDMyMTc2MTgsNjYwNTAwNjY3LC0xNTM0NjY0
-ODczXX0=
+eyJoaXN0b3J5IjpbLTEyNzMwMjM0MzYsLTE2OTY4Mjg3NDUsLT
+EyNjY3ODI2NTEsNTg5NzIwODIwLC0yNDMyMTc2MTgsNjYwNTAw
+NjY3LC0xNTM0NjY0ODczXX0=
 -->
