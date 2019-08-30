@@ -1,12 +1,12 @@
 ## Spring container 설정용 Annotation
 
-@Configuration
+@Configuration / @Bean
 
 xml 파일을 대체하는 JAVA 파일을 생성하기 위해 사용하는 annotation
 
 자바 파일보다 xml이 관리하기 더 용이해서 xml을 더 많이 사용한다. 
 
-## Java Annotation class로 bean 주입하기
+### Java Annotation class로 bean 주입하기
 예제 xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -61,6 +61,9 @@ public class Test {
 	}
 }
 ```
+
+## 
+@Autowired
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ2NjQ4NzNdfQ==
+eyJoaXN0b3J5IjpbNjYwNTAwNjY3LC0xNTM0NjY0ODczXX0=
 -->
