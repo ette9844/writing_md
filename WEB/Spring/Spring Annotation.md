@@ -219,14 +219,34 @@ public void init() {
 
 @Autowired 어노테이션을 사용하기 위해서는 beans.xml의 namespace 탭에서 context를 체크하고
 ```xml
-<context:annotation-config/>
 <context:component-scan base-package="a"/>
 ```
->base-package: 
+>base-package: bean class들이 있는 패키지명
+>
 위 구문을 추가해준다.
+
+```java
+@Component
+public class First {
+	@Autowired
+	@Qualifier("s1")
+	private Second second;
+	...
+}
+
+@Component(value = "s1")
+public class Second1 implements Second {	
+	...
+}
+```
+>component의 value : id 값
+>같은 클래스인 bean 객체가 있을? 경우 qualifier로 인식
+
+@Component 어노테이션이 붙어있는 객체만 선언.
+어노테이션을 통해 xml 코드의 길이를 줄인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NjQ4MTE3LC0xMjc5MTg1MDk5LDE0MT
-k0MzY0NTksMTYyODE5ODk5MSwtNDk1MjU3MzUzLC0xNjk2ODI4
-NzQ1LC0xMjY2NzgyNjUxLDU4OTcyMDgyMCwtMjQzMjE3NjE4LD
-Y2MDUwMDY2NywtMTUzNDY2NDg3M119
+eyJoaXN0b3J5IjpbMTcxMTYwNzE5OCwyMDc2NDgxMTcsLTEyNz
+kxODUwOTksMTQxOTQzNjQ1OSwxNjI4MTk4OTkxLC00OTUyNTcz
+NTMsLTE2OTY4Mjg3NDUsLTEyNjY3ODI2NTEsNTg5NzIwODIwLC
+0yNDMyMTc2MTgsNjYwNTAwNjY3LC0xNTM0NjY0ODczXX0=
 -->
