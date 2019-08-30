@@ -49,7 +49,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		String path="beans.xml";
-		// spring container 구동
+		
 		// 1: xml 파일 일때의 구동 코드
 		// ApplicationContext ctx = new ClassPathXmlApplicationContext(path);
 		
@@ -62,5 +62,5 @@ public class Test {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwNzQ4MDA2XX0=
+eyJoaXN0b3J5IjpbMzcxMDQwNjc3XX0=
 -->
