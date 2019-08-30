@@ -110,16 +110,19 @@ public static void main(String[] args) {
 ```
 >msg = 금요일입니다., second.info() = Second2 객체입니다
 
-seconde에 대한 setter 메서드를 만들고, 
+### 장점
+second에 대한 setter 메서드를 만들고, beans.xml에
 ```xml
 <bean id="second" class="Second"/>
 <bean id="first" class="First">
 	...
-	<property name="second" ref="second/>
+	<property name="second" ref="second"/>
 	<constructor-arg name="second" ref="second"/>
+</bean>
 ```
+를 추가하는 구문을 @Autowired를 사용함으로써 생략할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzMTMwMzExLC0yNDMyMTc2MTgsNjYwNT
-AwNjY3LC0xNTM0NjY0ODczXX0=
+eyJoaXN0b3J5IjpbLTE2NTI4Mzc5MDAsLTI0MzIxNzYxOCw2Nj
+A1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
