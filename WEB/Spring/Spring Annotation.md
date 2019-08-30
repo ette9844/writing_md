@@ -216,7 +216,8 @@ public void init() {
 ```
 >spring annotation이 아닌 javax annotation
 
-## @Import
+## @Import: 다수의 configuration java 파일 사용
+
 
 ## @Component: 컴포넌트 스캔
 
@@ -247,9 +248,9 @@ public class Second1 implements Second {
 
 @Component 어노테이션이 붙어있는 클래스를 bean 객체로 자동 생성.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTk0MjU0NDksMTcxMTYwNzE5OCwyMD
-c2NDgxMTcsLTEyNzkxODUwOTksMTQxOTQzNjQ1OSwxNjI4MTk4
-OTkxLC00OTUyNTczNTMsLTE2OTY4Mjg3NDUsLTEyNjY3ODI2NT
-EsNTg5NzIwODIwLC0yNDMyMTc2MTgsNjYwNTAwNjY3LC0xNTM0
-NjY0ODczXX0=
+eyJoaXN0b3J5IjpbMTMxMDYzNzkzMCwxNzExNjA3MTk4LDIwNz
+Y0ODExNywtMTI3OTE4NTA5OSwxNDE5NDM2NDU5LDE2MjgxOTg5
+OTEsLTQ5NTI1NzM1MywtMTY5NjgyODc0NSwtMTI2Njc4MjY1MS
+w1ODk3MjA4MjAsLTI0MzIxNzYxOCw2NjA1MDA2NjcsLTE1MzQ2
+NjQ4NzNdfQ==
 -->
