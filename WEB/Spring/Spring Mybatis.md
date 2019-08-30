@@ -35,7 +35,7 @@ pom.xml
 <build ~~>
 ```
 
-### 2. dataSource 연결
+### 2. bean 파일에 dataSource 연결
 beans.xml
 ```xml
 <bean id="dataSource"
@@ -92,6 +92,6 @@ beans.xml
 >
 >orderDAO bean: 생성한 DAO에 sqlSessionFactory bean을 연결해준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODgyMzEwOTQsMTg1OTUyNzQ2MCwxMT
-E2MzM2NTgzXX0=
+eyJoaXN0b3J5IjpbMTYyODg4NzU0OCwtMTU4ODIzMTA5NCwxOD
+U5NTI3NDYwLDExMTYzMzY1ODNdfQ==
 -->
