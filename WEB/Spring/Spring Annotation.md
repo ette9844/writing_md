@@ -62,8 +62,9 @@ public class Test {
 }
 ```
 
-## 
+## 자동 주입 Annotation
 @Autowired
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwNTAwNjY3LC0xNTM0NjY0ODczXX0=
+eyJoaXN0b3J5IjpbLTc3Mzk4MTA3Niw2NjA1MDA2NjcsLTE1Mz
+Q2NjQ4NzNdfQ==
 -->
