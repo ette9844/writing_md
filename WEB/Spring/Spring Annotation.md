@@ -95,7 +95,21 @@ public class First {
 	}
 }
 ```
+>xml파일에 second를 주입하는 코드가 없어도 자동으로 주입된다.
+
+testing code
+```java
+public static void main(String[] args) {
+	String path="beans.xml";
+	// spring container 구동
+	ApplicationContext ctx = new ClassPathXmlApplicationContext(path);
+		
+	First f = ctx.getBean("first", a.First.class);
+	System.out.println(f);	// f.toString() 자동 호출
+}
+```
+>msg = 금요일입니다., second.info() = Second2 객체입니다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDA4ODQxMywtMjQzMjE3NjE4LDY2MD
-UwMDY2NywtMTUzNDY2NDg3M119
+eyJoaXN0b3J5IjpbLTEzMDk2OTI4OTEsLTI0MzIxNzYxOCw2Nj
+A1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
