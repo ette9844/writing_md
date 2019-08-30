@@ -43,8 +43,14 @@ JNDI를 이용해서 **이름으로** 찾아와서 database 정보를 가져온�
 >res-ref-name: Resource에 대한 이름 등록
 
 ##### servlet
-
+```java
+Context initContext = new InitialContext();
+Context envContext  = (Context)initContext.lookup("java:/comp/env");
+DataSource ds = (DataSource)envContext.lookup("jdbc/myoracle");
+Connection conn = ds.getConnection();
+//etc.
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NjE1OTM0OCwtNTc5NjQzNzkwLC0xMz
-k4MTQ1MTM1LC0yMDM5ODMxODc3XX0=
+eyJoaXN0b3J5IjpbLTEwMzg0NTE3MTAsLTU3OTY0Mzc5MCwtMT
+M5ODE0NTEzNSwtMjAzOTgzMTg3N119
 -->
