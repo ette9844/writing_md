@@ -66,14 +66,36 @@ public class Test {
 
 @Autowired
 
-자동 주입
-
 @Autowired 어노테이션을 사용하기 위해서는 beans.xml의 namespace 탭에서 context를 체크하고
 ```xml
 <context:annotation-config/>
 ```
 어노테이션을 사용할 수 있게 해주는 구문을 추가해준다.
+
+Ex) First에 second 멤버 변수를 자동 주입한다
+```java
+public class First {
+	private String msg;
+	
+	@Autowired
+	private Second second;
+	
+	// 매개변수 없는 public 생성자가 compile 시에 추가됨
+	public String getMsg() {
+		return msg;
+	}
+
+	public void setMsg(String msg) {
+		this.msg = msg;
+	}
+	
+	@Override
+	public String toString() {
+		return "msg = " + msg + ", second.info() = " + second.info();
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4NDU3NTA0LC0yNDMyMTc2MTgsNjYwNT
-AwNjY3LC0xNTM0NjY0ODczXX0=
+eyJoaXN0b3J5IjpbLTg0MDA4ODQxMywtMjQzMjE3NjE4LDY2MD
+UwMDY2NywtMTUzNDY2NDg3M119
 -->
