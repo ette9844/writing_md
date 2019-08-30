@@ -213,10 +213,12 @@ public void init() {
 ```
 >spring annotation이 아닌 javax annotation
 
+## @Import
 
+## @Component
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTQzNjQ1OSwxNjI4MTk4OTkxLC00OT
-UyNTczNTMsLTE2OTY4Mjg3NDUsLTEyNjY3ODI2NTEsNTg5NzIw
-ODIwLC0yNDMyMTc2MTgsNjYwNTAwNjY3LC0xNTM0NjY0ODczXX
-0=
+eyJoaXN0b3J5IjpbLTEyNzkxODUwOTksMTQxOTQzNjQ1OSwxNj
+I4MTk4OTkxLC00OTUyNTczNTMsLTE2OTY4Mjg3NDUsLTEyNjY3
+ODI2NTEsNTg5NzIwODIwLC0yNDMyMTc2MTgsNjYwNTAwNjY3LC
+0xNTM0NjY0ODczXX0=
 -->
