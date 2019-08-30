@@ -187,8 +187,11 @@ private Second second;
 
 @Retention(value=RUNTIME)  
 
+## 자동 호출 Annotation
+
+@
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzMwMjM0MzYsLTE2OTY4Mjg3NDUsLT
+eyJoaXN0b3J5IjpbLTE1MDAwMjM2ODYsLTE2OTY4Mjg3NDUsLT
 EyNjY3ODI2NTEsNTg5NzIwODIwLC0yNDMyMTc2MTgsNjYwNTAw
 NjY3LC0xNTM0NjY0ODczXX0=
 -->
