@@ -19,6 +19,7 @@ DBCP API : javax.sql.DataSource
 ## DataSource 를 사용한 DB 연결
 JNDI를 이용해서 **이름으로** 찾아와서 database 정보를 가져온다.
 
+##### context configuration
 ```xml
 <Resource name="jdbc/myoracle" auth="Container"
               type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver"
@@ -30,6 +31,7 @@ JNDI를 이용해서 **이름으로** 찾아와서 database 정보를 가져온�
 >메모리 번지수 대신 이름으로 관리.
 >이름 등록은 아래의 web.xml에서 설정.
 
+##### web.xml configuration
 ```xml
 <resource-ref>
   <description>Oracle Datasource example</description>
@@ -39,7 +41,10 @@ JNDI를 이용해서 **이름으로** 찾아와서 database 정보를 가져온�
 </resource-ref>
 ```
 >res-ref-name: Resource에 대한 이름 등록
+
+##### servlet
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTMzOTU0LC01Nzk2NDM3OTAsLTEzOT
-gxNDUxMzUsLTIwMzk4MzE4NzddfQ==
+eyJoaXN0b3J5IjpbMTc3NjE1OTM0OCwtNTc5NjQzNzkwLC0xMz
+k4MTQ1MTM1LC0yMDM5ODMxODc3XX0=
 -->
