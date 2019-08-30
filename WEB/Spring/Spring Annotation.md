@@ -1,4 +1,4 @@
-## Spring container 설정용 Annotation
+## @Configuration / @Bean: Spring container 설정
 
 **@Configuration / @Bean**
 
@@ -71,7 +71,7 @@ public class Test {
 }
 ```
 
-## 자동 주입 Annotation
+## @Autowired: 자동 주입
 
 **@Autowired**
 
@@ -212,7 +212,7 @@ public void init() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NDgyOTYzOCwtNDk1MjU3MzUzLC0xNj
-k2ODI4NzQ1LC0xMjY2NzgyNjUxLDU4OTcyMDgyMCwtMjQzMjE3
-NjE4LDY2MDUwMDY2NywtMTUzNDY2NDg3M119
+eyJoaXN0b3J5IjpbLTEwNTU2NjI5ODYsLTQ5NTI1NzM1MywtMT
+Y5NjgyODc0NSwtMTI2Njc4MjY1MSw1ODk3MjA4MjAsLTI0MzIx
+NzYxOCw2NjA1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
