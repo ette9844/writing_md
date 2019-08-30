@@ -15,7 +15,9 @@ Connection con = DriverManager.getConnection(url, user, pwd);
 이 연결을 미리 만들어 두는 것을 **DataBase Connection Pool (DBCP)** 이라고 한다.
 
 DBCP API : javax.sql.DataSource 
+
+JNDI를 이용해서 이름으로 찾아와서 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTcwMDcxNjIsLTIwMzk4MzE4NzddfQ
+eyJoaXN0b3J5IjpbLTEwOTAyNTMwNDIsLTIwMzk4MzE4NzddfQ
 ==
 -->
