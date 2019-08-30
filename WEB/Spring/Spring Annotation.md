@@ -173,7 +173,7 @@ second에 대한 setter 메서드를 만들고, beans.xml에
 @Qualifier("s1")
 private Second second;
 ```
->벼
+>여기서 "s1"을 annotation의 property 라고한다.
 
 #### 3. 클래스 앞에는 사용할 수 없다.
 
@@ -186,7 +186,7 @@ private Second second;
 @Retention(value=RUNTIME)  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzMTQ3NDEzLC0xMjY2NzgyNjUxLDU4OT
-cyMDgyMCwtMjQzMjE3NjE4LDY2MDUwMDY2NywtMTUzNDY2NDg3
-M119
+eyJoaXN0b3J5IjpbLTE2OTY4Mjg3NDUsLTEyNjY3ODI2NTEsNT
+g5NzIwODIwLC0yNDMyMTc2MTgsNjYwNTAwNjY3LC0xNTM0NjY0
+ODczXX0=
 -->
