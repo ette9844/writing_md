@@ -157,7 +157,10 @@ second에 대한 setter 메서드를 만들고, beans.xml에
 @Qualifier("s1")
 private Second second;
 ```
+
+#### 3. 클래스 앞에는 사용할 수 없다.
+생성자, 멤버 필드, 메서드 등의 앞에 사용 가능하지만, 클래스의 앞에는 사용할 수 없다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1Nzc5MDQ3Miw1ODk3MjA4MjAsLTI0Mz
+eyJoaXN0b3J5IjpbMTIxMzY1OTQ2MCw1ODk3MjA4MjAsLTI0Mz
 IxNzYxOCw2NjA1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
