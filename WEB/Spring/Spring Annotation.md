@@ -217,9 +217,15 @@ public void init() {
 
 ## @Component
 
+@Autowired 어노테이션을 사용하기 위해서는 beans.xml의 namespace 탭에서 context를 체크하고
+```xml
+<context:annotation-config/>
+<context:component-scan base-package="a"/>
+```
+위 굼
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzM1MjIyNywtMTI3OTE4NTA5OSwxND
-E5NDM2NDU5LDE2MjgxOTg5OTEsLTQ5NTI1NzM1MywtMTY5Njgy
-ODc0NSwtMTI2Njc4MjY1MSw1ODk3MjA4MjAsLTI0MzIxNzYxOC
-w2NjA1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
+eyJoaXN0b3J5IjpbODc1Nzg2NTg3LC0xMjc5MTg1MDk5LDE0MT
+k0MzY0NTksMTYyODE5ODk5MSwtNDk1MjU3MzUzLC0xNjk2ODI4
+NzQ1LC0xMjY2NzgyNjUxLDU4OTcyMDgyMCwtMjQzMjE3NjE4LD
+Y2MDUwMDY2NywtMTUzNDY2NDg3M119
 -->
