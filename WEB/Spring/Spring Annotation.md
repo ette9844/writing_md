@@ -212,8 +212,11 @@ public void init() {
 }
 ```
 >spring annotation이 아닌 javax annotation
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODE5ODk5MSwtNDk1MjU3MzUzLC0xNj
-k2ODI4NzQ1LC0xMjY2NzgyNjUxLDU4OTcyMDgyMCwtMjQzMjE3
-NjE4LDY2MDUwMDY2NywtMTUzNDY2NDg3M119
+eyJoaXN0b3J5IjpbMTQxOTQzNjQ1OSwxNjI4MTk4OTkxLC00OT
+UyNTczNTMsLTE2OTY4Mjg3NDUsLTEyNjY3ODI2NTEsNTg5NzIw
+ODIwLC0yNDMyMTc2MTgsNjYwNTAwNjY3LC0xNTM0NjY0ODczXX
+0=
 -->
