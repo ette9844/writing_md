@@ -18,15 +18,18 @@ DBCP API : javax.sql.DataSource
 
 ## DataSource 를 사용한 DB 연결
 JNDI를 이용해서 **이름으로** 찾아와서 database 정보를 가져온다.
+
 ```xml
-<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-	<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
-	<property name="url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
-	<property name="username" value="hyejin"></property>
-	<property name="password" value="wow130"></property>
-</bean>
+<Resource name="jdbc/myoracle" auth="Container"
+              type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver"
+              url="jdbc:oracle:thin:@127.0.0.1:1521:mysid"
+              username="scott" password="tiger" maxTotal="20" maxIdle="5"
+              maxWaitMillis="-1"/>
 ```
+>maxIdle: 미리 여 최대 연결
+>메모리 번지수 대신 이름으로 관리.
+>이름 등록은 아래의 web.xml에서 설정.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTY0Mzc5MCwtMTM5ODE0NTEzNSwtMj
-AzOTgzMTg3N119
+eyJoaXN0b3J5IjpbLTEzMjAzODU4NzEsLTU3OTY0Mzc5MCwtMT
+M5ODE0NTEzNSwtMjAzOTgzMTg3N119
 -->
