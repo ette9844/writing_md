@@ -128,15 +128,13 @@ second에 대한 setter 메서드를 만들고, beans.xml에
 를 추가하는 구문을 @Autowired를 사용함으로써 생략할 수 있다.
 
 
-### 주의할 점
-```java
-public class First {
-	private String msg;
-	@Autowired		// 클래스 타입에 일치하는 객체 찾기
-	private Second second;
-}
+### @Autowired 사용시 주의할 점
+```xml
+
 ```
+
+qualifying
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTU2OTI4NjksLTI0MzIxNzYxOCw2Nj
-A1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
+eyJoaXN0b3J5IjpbMTczNTg1MzY4NSwtMjQzMjE3NjE4LDY2MD
+UwMDY2NywtMTUzNDY2NDg3M119
 -->
