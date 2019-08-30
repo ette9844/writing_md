@@ -11,7 +11,7 @@ xml 파일을 대체하는 JAVA 파일을 생성하기 위해 사용하는 annot
 @Documented
 >@Component 어노테이션의 자식
 >사용할 수 있는 위치: TYPE = class, interface등의 앞
->실행시에 효과를 내는 어노테이션: R
+>실행시에 효과를 내는 어노테이션: RUNTIME
 
 자바 파일보다 xml이 관리하기 더 용이해서 java configuraion 보다는 xml을 더 많이 사용한다. 
 
@@ -139,6 +139,10 @@ second에 대한 setter 메서드를 만들고, beans.xml에
 
 ### @Autowired 사용시 주의할 점
 #### 1. NoSuchBeanDefinitionException
+```xml
+<!-- beans.xml 파일에 Second 클래스 bean객체가 없을 경우 -->
+<!-- <bean id="second" class="a.Second2"/> -->
+```
 
 #### 2. NoUniqueBeanDefinitionException
 ```xml
@@ -178,6 +182,6 @@ private Second second;
 @Retention(value=RUNTIME)  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjEzMTc4NSw1ODk3MjA4MjAsLTI0Mz
-IxNzYxOCw2NjA1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
+eyJoaXN0b3J5IjpbLTEwMTE1ODcyMzEsNTg5NzIwODIwLC0yND
+MyMTc2MTgsNjYwNTAwNjY3LC0xNTM0NjY0ODczXX0=
 -->
