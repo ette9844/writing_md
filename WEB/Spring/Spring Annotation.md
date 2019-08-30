@@ -268,7 +268,6 @@ public class Second1 implements Second {
 ```
 즉, DAO 클래스에 Component 선언을 하고 싶을 때에는 @Repository로 선언하는 것이 맞다.
 
-
 ## exclude-filter
 
 @Component가 설정되어 있어도 특정 조건에 만족하는 클래스를 객체 생성에서 제외한다.
@@ -281,9 +280,9 @@ public class Second1 implements Second {
 >regex: 정규식(regular expression: 언어 독립적 표현식)
 >~~Oracle인 클래스를 객체 생성에서 제외한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NzQyMjg0NCwtMTY4ODE1NDI4NiwxNz
-ExNjA3MTk4LDIwNzY0ODExNywtMTI3OTE4NTA5OSwxNDE5NDM2
-NDU5LDE2MjgxOTg5OTEsLTQ5NTI1NzM1MywtMTY5NjgyODc0NS
-wtMTI2Njc4MjY1MSw1ODk3MjA4MjAsLTI0MzIxNzYxOCw2NjA1
-MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
+eyJoaXN0b3J5IjpbLTE0NjY0NzI3MTgsLTc5NzQyMjg0NCwtMT
+Y4ODE1NDI4NiwxNzExNjA3MTk4LDIwNzY0ODExNywtMTI3OTE4
+NTA5OSwxNDE5NDM2NDU5LDE2MjgxOTg5OTEsLTQ5NTI1NzM1My
+wtMTY5NjgyODc0NSwtMTI2Njc4MjY1MSw1ODk3MjA4MjAsLTI0
+MzIxNzYxOCw2NjA1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
