@@ -187,7 +187,7 @@ private Second second;
 
 @Retention(value=RUNTIME)  
 
-## @PostConstruct: 자동 호출 Annotation
+## @PostConstruct: 자동 호출
 
 ### 자동 호출 property
 
@@ -212,7 +212,7 @@ public void init() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTI1NzM1MywtMTY5NjgyODc0NSwtMT
-I2Njc4MjY1MSw1ODk3MjA4MjAsLTI0MzIxNzYxOCw2NjA1MDA2
-NjcsLTE1MzQ2NjQ4NzNdfQ==
+eyJoaXN0b3J5IjpbLTI5NDgyOTYzOCwtNDk1MjU3MzUzLC0xNj
+k2ODI4NzQ1LC0xMjY2NzgyNjUxLDU4OTcyMDgyMCwtMjQzMjE3
+NjE4LDY2MDUwMDY2NywtMTUzNDY2NDg3M119
 -->
