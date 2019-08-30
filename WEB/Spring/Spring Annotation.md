@@ -26,11 +26,11 @@ xml 파일을 대체하는 JAVA 파일을 생성하기 위해 사용하는 annot
 3. 클래스 내부에 @Bean 어노테이션을 붙인 멤버함수 생성
 `public 클래스명 id() {}`
 4. 값을 주입해주는 코드 작성
-5. `ApplicationContext ctx = new AnnotationConfigApplicationContext(Beans.class);` 로 spring container 구동
+5. `ApplicationContext ctx = new AnnotationConfigApplicationContext(yourbeanclassname.class);` 로 spring container 구동
 
 <br>
 
-만들어진 java 파일
+만들어진 java annotation class
 ```java
 @Configuration
 public class Beans {
@@ -62,5 +62,5 @@ public class Test {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTQ1OTY5XX0=
+eyJoaXN0b3J5IjpbLTE1MzQ2NjQ4NzNdfQ==
 -->
