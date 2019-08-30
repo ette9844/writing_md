@@ -267,10 +267,20 @@ public class Second1 implements Second {
 
 ```
 즉, DAO 클래스에 Component 선언을 하고 싶을 때에는 @Repository로 선언하는 것이 맞다.
+
+
+## exclude filter
+특정 조건에 만족하는 객체를 conponent에서 제외한다.
+
+```xml
+<context:component-scan base-package="com.my.dao">
+	<context:exclude-filter type="annotation" expression=""/>
+</context:component-scan>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODgxNTQyODYsMTcxMTYwNzE5OCwyMD
-c2NDgxMTcsLTEyNzkxODUwOTksMTQxOTQzNjQ1OSwxNjI4MTk4
-OTkxLC00OTUyNTczNTMsLTE2OTY4Mjg3NDUsLTEyNjY3ODI2NT
-EsNTg5NzIwODIwLC0yNDMyMTc2MTgsNjYwNTAwNjY3LC0xNTM0
-NjY0ODczXX0=
+eyJoaXN0b3J5IjpbLTIwOTExMDcwMDYsLTE2ODgxNTQyODYsMT
+cxMTYwNzE5OCwyMDc2NDgxMTcsLTEyNzkxODUwOTksMTQxOTQz
+NjQ1OSwxNjI4MTk4OTkxLC00OTUyNTczNTMsLTE2OTY4Mjg3ND
+UsLTEyNjY3ODI2NTEsNTg5NzIwODIwLC0yNDMyMTc2MTgsNjYw
+NTAwNjY3LC0xNTM0NjY0ODczXX0=
 -->
