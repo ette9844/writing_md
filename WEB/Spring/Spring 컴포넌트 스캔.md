@@ -17,9 +17,10 @@ public class Second1 implements Second {
 	...
 }
 ```
+>component의 value : id 
 
 @Component 어노테이션이 붙어있는 객체만 선언.
 어노테이션을 통해 xml 코드의 길이를 줄인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzYzNzM1XX0=
+eyJoaXN0b3J5IjpbLTEwNzg1Njk5NThdfQ==
 -->
