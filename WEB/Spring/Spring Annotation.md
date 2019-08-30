@@ -222,9 +222,10 @@ public void init() {
 <context:annotation-config/>
 <context:component-scan base-package="a"/>
 ```
-위 굼
+>base-package: 
+위 구문을 추가해준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1Nzg2NTg3LC0xMjc5MTg1MDk5LDE0MT
+eyJoaXN0b3J5IjpbMjA3NjQ4MTE3LC0xMjc5MTg1MDk5LDE0MT
 k0MzY0NTksMTYyODE5ODk5MSwtNDk1MjU3MzUzLC0xNjk2ODI4
 NzQ1LC0xMjY2NzgyNjUxLDU4OTcyMDgyMCwtMjQzMjE3NjE4LD
 Y2MDUwMDY2NywtMTUzNDY2NDg3M119
