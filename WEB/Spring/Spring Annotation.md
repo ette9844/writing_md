@@ -269,18 +269,21 @@ public class Second1 implements Second {
 즉, DAO 클래스에 Component 선언을 하고 싶을 때에는 @Repository로 선언하는 것이 맞다.
 
 
-## exclude filter
-특정 조건에 만족하는 객체를 conponent에서 제외한다.
+## exclude-filter
+
+@Component가 설정되어 있어도 특정 조건에 만족하는 클래스를 객체 생성에서 제외한다.
 
 ```xml
 <context:component-scan base-package="com.my.dao">
-	<context:exclude-filter type="annotation" expression=""/>
+	<context:exclude-filter type="annotation" expression=".*Oracle"/>
 </context:component-scan>
 ```
+>regex: 정규식
+>~~Oracle인 클래스를 객체 생성에서 제외한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTExMDcwMDYsLTE2ODgxNTQyODYsMT
-cxMTYwNzE5OCwyMDc2NDgxMTcsLTEyNzkxODUwOTksMTQxOTQz
-NjQ1OSwxNjI4MTk4OTkxLC00OTUyNTczNTMsLTE2OTY4Mjg3ND
-UsLTEyNjY3ODI2NTEsNTg5NzIwODIwLC0yNDMyMTc2MTgsNjYw
-NTAwNjY3LC0xNTM0NjY0ODczXX0=
+eyJoaXN0b3J5IjpbLTQ0MDM5Nzc3LC0xNjg4MTU0Mjg2LDE3MT
+E2MDcxOTgsMjA3NjQ4MTE3LC0xMjc5MTg1MDk5LDE0MTk0MzY0
+NTksMTYyODE5ODk5MSwtNDk1MjU3MzUzLC0xNjk2ODI4NzQ1LC
+0xMjY2NzgyNjUxLDU4OTcyMDgyMCwtMjQzMjE3NjE4LDY2MDUw
+MDY2NywtMTUzNDY2NDg3M119
 -->
