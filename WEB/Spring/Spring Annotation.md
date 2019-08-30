@@ -143,6 +143,8 @@ second에 대한 setter 메서드를 만들고, beans.xml에
 <!-- beans.xml 파일에 Second 클래스 bean객체가 없을 경우 -->
 <!-- <bean id="second" class="a.Second2"/> -->
 ```
+>Second 객체가 없어서 자동주입 실패
+>NoSuchBeanDefinitionException
 
 #### 2. NoUniqueBeanDefinitionException
 ```xml
@@ -150,6 +152,7 @@ second에 대한 setter 메서드를 만들고, beans.xml에
 <bean id="second2" class="a.Second2"/>
 ```
 >Second 객체가 여러개여서 자동주입 실패
+>NoUniqueBeanDefinitionException
 
 <br>
 
@@ -182,6 +185,6 @@ private Second second;
 @Retention(value=RUNTIME)  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTE1ODcyMzEsNTg5NzIwODIwLC0yND
-MyMTc2MTgsNjYwNTAwNjY3LC0xNTM0NjY0ODczXX0=
+eyJoaXN0b3J5IjpbMTU2Mzg4MTk3Miw1ODk3MjA4MjAsLTI0Mz
+IxNzYxOCw2NjA1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
