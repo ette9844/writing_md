@@ -4,6 +4,9 @@
 
 xml 파일을 대체하는 JAVA 파일을 생성하기 위해 사용하는 annotation
 
+@Target(value={TYPE})  
+@Retention(value=RUNTIME)
+
 자바 파일보다 xml이 관리하기 더 용이해서 java configuraion 보다는 xml을 더 많이 사용한다. 
 
 ### Java Annotation class로 bean 주입하기
@@ -159,8 +162,16 @@ private Second second;
 ```
 
 #### 3. 클래스 앞에는 사용할 수 없다.
+
+@Target(value={ANNOTATION_TYPE, CONSTRUCTOR, FIELD, METHOD, PARAMETER})  
+
 생성자, 멤버 필드, 메서드 등의 앞에 사용 가능하지만, 클래스의 앞에는 사용할 수 없다.
+
+#### 4. 실행시에 효과를 내는 어노테이션이다.
+
+@Retention(value=RUNTIME)  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzY1OTQ2MCw1ODk3MjA4MjAsLTI0Mz
+eyJoaXN0b3J5IjpbLTgwNDQzOTk3Nyw1ODk3MjA4MjAsLTI0Mz
 IxNzYxOCw2NjA1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
