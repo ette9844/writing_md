@@ -66,8 +66,9 @@ public class Test {
 
 @Autowired
 
-@ㅁ
+@Autowired 어노테이션을 사용하기 위해서는 beans.xml의 namespace 탭에서 context를 체크하고
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODUwMTkzOSwtMjQzMjE3NjE4LDY2MD
+eyJoaXN0b3J5IjpbMTYxOTA4NTU3MiwtMjQzMjE3NjE4LDY2MD
 UwMDY2NywtMTUzNDY2NDg3M119
 -->
