@@ -187,7 +187,7 @@ private Second second;
 
 @Retention(value=RUNTIME)  
 
-## 자동 호출 property
+## @PostConstruct: 자동 호출 Annotation
 
 init-method
 
@@ -199,8 +199,10 @@ init-method
 >객체가 생성될때 init() 메서드가 자동 호출
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk2MTcxMDIsLTE2OTY4Mjg3NDUsLT
-EyNjY3ODI2NTEsNTg5NzIwODIwLC0yNDMyMTc2MTgsNjYwNTAw
-NjY3LC0xNTM0NjY0ODczXX0=
+eyJoaXN0b3J5IjpbLTQ3OTk5OTI3MywtMTY5NjgyODc0NSwtMT
+I2Njc4MjY1MSw1ODk3MjA4MjAsLTI0MzIxNzYxOCw2NjA1MDA2
+NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
