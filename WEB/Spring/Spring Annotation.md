@@ -138,16 +138,26 @@ second에 대한 setter 메서드를 만들고, beans.xml에
 ```
 >Second 객체가 여러개여서 자동주입 실패
 
-qualifying을 통해 해결하기
+<br>
+
+**qualifying을 통해 해결하기**
+
+`<qualifier>` 태그 사용
 ```xml
 <bean id="second1" class="a.Second1">
-		<qualifier value="s1"/>
-	</bean>
-	<bean id="second2" class="a.Second2">
+	<qualifier value="s1"/>
+</bean>
+<bean id="second2" class="a.Second2">
 	<qualifier value="s2"/>
 </bean>
 ```
+@Qualifier() 어노테이션 사용
+```java
+@Autowired
+@Qualifier("s1")
+private Second second;
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzYyNDQ4NDIsNTg5NzIwODIwLC0yND
-MyMTc2MTgsNjYwNTAwNjY3LC0xNTM0NjY0ODczXX0=
+eyJoaXN0b3J5IjpbMTk1Nzc5MDQ3Miw1ODk3MjA4MjAsLTI0Mz
+IxNzYxOCw2NjA1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
