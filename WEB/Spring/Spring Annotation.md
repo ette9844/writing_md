@@ -200,7 +200,9 @@ init-method
 ```
 >객체가 생성될때 init() 메서드가 자동 호출
 
-이 property의 역할을 대신하는 annotation
+### 자동 호출 annotation
+
+@PostConstruct
 
 ```java
 @PostConstruct
@@ -210,7 +212,7 @@ public void init() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDk5Nzc4OCwtMTY5NjgyODc0NSwtMT
+eyJoaXN0b3J5IjpbLTQ5NTI1NzM1MywtMTY5NjgyODc0NSwtMT
 I2Njc4MjY1MSw1ODk3MjA4MjAsLTI0MzIxNzYxOCw2NjA1MDA2
 NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
