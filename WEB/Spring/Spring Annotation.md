@@ -42,6 +42,25 @@ public class Beans {
 	}
 }
 ```
+
+testing code
+```java
+public class Test {
+
+	public static void main(String[] args) {
+		String path="beans.xml";
+		// spring container 구동
+		// 1: xml 파일 일때의 구동 코드
+		// ApplicationContext ctx = new ClassPathXmlApplicationContext(path);
+		
+		// 2: java annotation 파일 일때의 구동 코드
+		ApplicationContext ctx = new AnnotationConfigApplicationContext(Beans.class);
+		
+		First f = ctx.getBean("first", a.First.class);
+		System.out.println(f.getMsg());
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDgyODUxNV19
+eyJoaXN0b3J5IjpbMjcwNzQ4MDA2XX0=
 -->
