@@ -237,13 +237,12 @@ public class CustomerService {
 5. CustomerDAO 에서 Mybatis 라이브러리 사용하도록 설정
 (1)  src\mybatis-config.xml, customer-mapper.xml
 (2) mvc1-servlet.xml 에 DataSource 객체와 SqlSessionFactory 객체 관리
-
 (3) CustomerDAO 에서 sqlSessionFactory 자동 주입
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzg3NDUxNTgsNTY3MDc2MDY3LC0xND
-Q3MTgyNDQ3LDk3OTgxODA4MCwtMTU1NDEzMDA4NCwtNTg0Mzcy
-NTE3LDExODEzMTQ5MzEsMTM0NzMzODQzMCwtNjAwNzIwNTY2LC
-0yMDk4OTUxODAzLC04NTAwOTYxNzAsMTM0ODUxOTg3NiwxMzU2
-NTM3ODQxLDEwNTAyNjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MT
-NdfQ==
+eyJoaXN0b3J5IjpbMTc4MjEwODk0MCwtMTQzODc0NTE1OCw1Nj
+cwNzYwNjcsLTE0NDcxODI0NDcsOTc5ODE4MDgwLC0xNTU0MTMw
+MDg0LC01ODQzNzI1MTcsMTE4MTMxNDkzMSwxMzQ3MzM4NDMwLC
+02MDA3MjA1NjYsLTIwOTg5NTE4MDMsLTg1MDA5NjE3MCwxMzQ4
+NTE5ODc2LDEzNTY1Mzc4NDEsMTA1MDI2MTk4MywxOTU0ODcwMD
+Y1LDgzMjgwOTkxM119
 -->
