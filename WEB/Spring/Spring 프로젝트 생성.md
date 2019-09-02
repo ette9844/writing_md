@@ -150,12 +150,12 @@ public class Test {
   <url-pattern>/</url-pattern>
 </servlet-mapping>
   ```
- 5. xml 파일 이름은 `디스패쳐서블릿이름-servlet.xml` 로 설정하면 톰캣 구동시 스프링 컨테이너가 자동 구동된다.
+ 5. 디스패쳐 설정 xml 파일 이름은 `디스패쳐서블릿이름-servlet.xml` 로 설정하면 톰캣 구동시 스프링 컨테이너가 자동 구동된다. (
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk3MjA0MywtOTIxNjMxMTIsLTEwNT
-AyMjAyMTcsMTkzNjQ3Mzg4MiwtNTIxOTAwODAyLDc5NDk3MDMy
-LDE5MzY0NzM4ODIsMTUwMTI4MzkwMCw1NDE3MTQyMDcsLTMwMz
-A4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MTkzNzA3
-NywtNDQ4MTUwMzM3LDEyNDYwMDU5MzUsLTE1MjcyMDU2MDYsLT
-c2ODQ4MDgyNF19
+eyJoaXN0b3J5IjpbMTE2NDAyMTAxMiwtMTM5OTcyMDQzLC05Mj
+E2MzExMiwtMTA1MDIyMDIxNywxOTM2NDczODgyLC01MjE5MDA4
+MDIsNzk0OTcwMzIsMTkzNjQ3Mzg4MiwxNTAxMjgzOTAwLDU0MT
+cxNDIwNywtMzAzMDg0MDI4LC0xMzU5MjE2NTg3LDE5OTgxNzcz
+ODcsMzUxOTM3MDc3LC00NDgxNTAzMzcsMTI0NjAwNTkzNSwtMT
+UyNzIwNTYwNiwtNzY4NDgwODI0XX0=
 -->
