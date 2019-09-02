@@ -52,6 +52,7 @@ checked: B가 기본 선택되어있도록 함
 
 #### eclipse 주석처리 단축키
 `ctrl` + `shift` + `/`
+`ctrl` + `/`
 
 #### Tomcat에서의 include 지시자 주의점
 include 지시자로 한 페이지를 다른  페이지에 포함 시킬때 두 페이지의 contentType이 일치해야한다.
@@ -78,9 +79,9 @@ xml 선언부 앞에는 공백, 주석도 넣어서는 안된다.
 POJO
 Plain Old Java Object
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDQ5NDgyMiwtODAzNzMyNDc0LC0xOD
-k4MDg2ODkxLC0xOTE4OTU3NDcwLC05MjExNzY1MzAsNzc4NzI4
-NDk4LC0xNjM5MDg1MjM1LDM1NjIwMDM4MSwtMjY3NzY4Mjc0LD
-ExMjQ0Nzg0NDUsLTExNjk4MzgyODgsLTExNjQxMzQ0ODJdfQ==
-
+eyJoaXN0b3J5IjpbMTgwNDI4NjEwMywtNTgwNDk0ODIyLC04MD
+M3MzI0NzQsLTE4OTgwODY4OTEsLTE5MTg5NTc0NzAsLTkyMTE3
+NjUzMCw3Nzg3Mjg0OTgsLTE2MzkwODUyMzUsMzU2MjAwMzgxLC
+0yNjc3NjgyNzQsMTEyNDQ3ODQ0NSwtMTE2OTgzODI4OCwtMTE2
+NDEzNDQ4Ml19
 -->
