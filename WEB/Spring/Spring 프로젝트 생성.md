@@ -129,10 +129,18 @@ public class Test {
 >bean class의 생성자, setter 메서드가 자동으로 호출 된다.
 
 
+## Spring WEB project 생성
+1. 이클립스에 spring tool suite 플러그인 설치
+2. 이클립스 Dynamic Web Project 만들기
+3. 라이브러리
+spring-mvc
+spring-jdbc
+mybatis-spring
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTAyMjAyMTcsMTkzNjQ3Mzg4MiwtNT
-IxOTAwODAyLDc5NDk3MDMyLDE5MzY0NzM4ODIsMTUwMTI4Mzkw
-MCw1NDE3MTQyMDcsLTMwMzA4NDAyOCwtMTM1OTIxNjU4NywxOT
-k4MTc3Mzg3LDM1MTkzNzA3NywtNDQ4MTUwMzM3LDEyNDYwMDU5
-MzUsLTE1MjcyMDU2MDYsLTc2ODQ4MDgyNF19
+eyJoaXN0b3J5IjpbMTYxNTAyNjc0MCwtMTA1MDIyMDIxNywxOT
+M2NDczODgyLC01MjE5MDA4MDIsNzk0OTcwMzIsMTkzNjQ3Mzg4
+MiwxNTAxMjgzOTAwLDU0MTcxNDIwNywtMzAzMDg0MDI4LC0xMz
+U5MjE2NTg3LDE5OTgxNzczODcsMzUxOTM3MDc3LC00NDgxNTAz
+MzcsMTI0NjAwNTkzNSwtMTUyNzIwNTYwNiwtNzY4NDgwODI0XX
+0=
 -->
