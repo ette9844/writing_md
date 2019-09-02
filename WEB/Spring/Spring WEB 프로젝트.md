@@ -153,13 +153,18 @@ mvc1-servlet.xml 파일에
 를 등록한다.
 
 ```
-@GetMapping("/a")		  	Controller					Viewer
-public void a() {
+@GetMapping("/a")		  	Controller				Viewer
+public void a() {		--> a()						/first.jsp
 	return "/first.jsp";
-}		--> LoginController.a()			/a.jsp
+}
 
+@GetMapping("/other1")		Controller				Viewer
+public void b() {		--> b()						/second.jsp
+	return "/second.jsp";
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyNDY5MjE4LC02MDA3MjA1NjYsLTIwOT
-g5NTE4MDMsLTg1MDA5NjE3MCwxMzQ4NTE5ODc2LDEzNTY1Mzc4
-NDEsMTA1MDI2MTk4MywxOTU0ODcwMDY1LDgzMjgwOTkxM119
+eyJoaXN0b3J5IjpbMTcwMzM0OTI2MywtNjAwNzIwNTY2LC0yMD
+k4OTUxODAzLC04NTAwOTYxNzAsMTM0ODUxOTg3NiwxMzU2NTM3
+ODQxLDEwNTAyNjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MTNdfQ
+==
 -->
