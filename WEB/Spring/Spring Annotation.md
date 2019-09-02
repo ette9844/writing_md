@@ -7,7 +7,7 @@
 
 xml 파일을 대체하는 JAVA 파일을 생성하기 위해 사용하는 annotation
 
--@Configuration description-
+##### @Configuration description
 @Component  
 @Target(value={TYPE})  
 @Retention(value=RUNTIME)  
@@ -280,10 +280,10 @@ public class Second1 implements Second {
 >regex: 정규식(regular expression: 언어 독립적 표현식)
 >~~Oracle인 클래스를 객체 생성에서 제외한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjIxOTc0Nyw1MDM1MTE5OTMsLTE0Nj
-Y0NzI3MTgsLTc5NzQyMjg0NCwtMTY4ODE1NDI4NiwxNzExNjA3
-MTk4LDIwNzY0ODExNywtMTI3OTE4NTA5OSwxNDE5NDM2NDU5LD
-E2MjgxOTg5OTEsLTQ5NTI1NzM1MywtMTY5NjgyODc0NSwtMTI2
-Njc4MjY1MSw1ODk3MjA4MjAsLTI0MzIxNzYxOCw2NjA1MDA2Nj
-csLTE1MzQ2NjQ4NzNdfQ==
+eyJoaXN0b3J5IjpbLTE1NzkwNDA1NDgsLTE3NjIxOTc0Nyw1MD
+M1MTE5OTMsLTE0NjY0NzI3MTgsLTc5NzQyMjg0NCwtMTY4ODE1
+NDI4NiwxNzExNjA3MTk4LDIwNzY0ODExNywtMTI3OTE4NTA5OS
+wxNDE5NDM2NDU5LDE2MjgxOTg5OTEsLTQ5NTI1NzM1MywtMTY5
+NjgyODc0NSwtMTI2Njc4MjY1MSw1ODk3MjA4MjAsLTI0MzIxNz
+YxOCw2NjA1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
 -->
