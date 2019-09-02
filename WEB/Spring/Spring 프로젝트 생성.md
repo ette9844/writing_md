@@ -142,17 +142,17 @@ public class Test {
 4. web.xml 파일에 dispatcher servlet 추가
 ```xml
 <servlet>
-  	<servlet-name>디스패쳐서블릿이름</servlet-name>
-  	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>디스패쳐서블릿이름</servlet-name>
-  	<url-pattern>/</url-pattern>
-  </servlet-mapping>
+  <servlet-name>디스패쳐서블릿이름</servlet-name>
+  <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>디스패쳐서블릿이름</servlet-name>
+  <url-pattern>/</url-pattern>
+</servlet-mapping>
   ```
  5. xml 파일 이름은 `디스패쳐서블릿이름-servlet.xml` 로 설정하면 톰캣 구동시 스프링 컨테이너가 자동 구동된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTEyODc1NywtOTIxNjMxMTIsLTEwNT
+eyJoaXN0b3J5IjpbLTEzOTk3MjA0MywtOTIxNjMxMTIsLTEwNT
 AyMjAyMTcsMTkzNjQ3Mzg4MiwtNTIxOTAwODAyLDc5NDk3MDMy
 LDE5MzY0NzM4ODIsMTUwMTI4MzkwMCw1NDE3MTQyMDcsLTMwMz
 A4NDAyOCwtMTM1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MTkzNzA3
