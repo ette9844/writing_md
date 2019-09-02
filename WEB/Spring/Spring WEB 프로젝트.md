@@ -118,10 +118,11 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 >view-resolver의 하위 요소로 jsp를 등록하는 태그. 
 >뷰의 유형이 jsp 임을 알림
 >
->기본 prefix: WEB-INF
->기본 suffix: jsp
+>기본 prefix (접두어): WEB-INF
+>기본 suffix (접미어): jsp
+>함수 이름이 a일 경우 경로: WEB-INF/a.jsp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDcyMjI0NzEsLTg1MDA5NjE3MCwxMz
-Q4NTE5ODc2LDEzNTY1Mzc4NDEsMTA1MDI2MTk4MywxOTU0ODcw
-MDY1LDgzMjgwOTkxM119
+eyJoaXN0b3J5IjpbMzUxMzkyODQ1LC04NTAwOTYxNzAsMTM0OD
+UxOTg3NiwxMzU2NTM3ODQxLDEwNTAyNjE5ODMsMTk1NDg3MDA2
+NSw4MzI4MDk5MTNdfQ==
 -->
