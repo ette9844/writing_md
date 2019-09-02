@@ -113,6 +113,11 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 
 ### <mvc: view-resolvers>
 
+```xml
+<mvc:view-resolvers>
+	<mvc:jsp prefix="/" suffix=".jsp" />
+</mvc:view-resolvers>
+```
 `<mvc:view-resolvers>` : controller 에서 어떤 뷰로 이동할지 설정하는 태그
 `<mvc:jsp>` : 
 >view-resolver의 하위 요소로 jsp를 등록하는 태그. 
@@ -123,10 +128,10 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 >함수 이름이 a일 경우 경로: WEB-INF/a.jsp
 >
 >return "/WEB-INF/a.jsp"; 과 같은 효과를 갖는다.
->prefix:/ dl
+>prefix:/ 일 경우, WebContent 하위 경로에서 jsp를 찾는다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODE1NDc5NCwtODUwMDk2MTcwLDEzND
-g1MTk4NzYsMTM1NjUzNzg0MSwxMDUwMjYxOTgzLDE5NTQ4NzAw
-NjUsODMyODA5OTEzXX0=
+eyJoaXN0b3J5IjpbLTIwOTg5NTE4MDMsLTg1MDA5NjE3MCwxMz
+Q4NTE5ODc2LDEzNTY1Mzc4NDEsMTA1MDI2MTk4MywxOTU0ODcw
+MDY1LDgzMjgwOTkxM119
 -->
