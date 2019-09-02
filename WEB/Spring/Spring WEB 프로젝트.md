@@ -189,10 +189,17 @@ public String a(String id, String pwd) {
 ```
 
 2. @RequestParam 어노테이션 사용
-3. 
+>요청: http://localhost:8080/spring-mvc1/a?id=aaa&pwd=bbb
+```java
+public String a(String id, @RequestParam("pwd") String p) {
+	System.out.println("LoginController의 a() 호출됨");
+	System.out.println("전달된 id: " + id + " / 전달된 pwd: " + pwd);
+	return "result.jsp";	// view 이름
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTM4MDAyOCwxMzQ3MzM4NDMwLC02MD
+eyJoaXN0b3J5IjpbMTE4MTMxNDkzMSwxMzQ3MzM4NDMwLC02MD
 A3MjA1NjYsLTIwOTg5NTE4MDMsLTg1MDA5NjE3MCwxMzQ4NTE5
 ODc2LDEzNTY1Mzc4NDEsMTA1MDI2MTk4MywxOTU0ODcwMDY1LD
 gzMjgwOTkxM119
