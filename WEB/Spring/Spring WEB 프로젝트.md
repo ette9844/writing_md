@@ -99,7 +99,7 @@ public class LoginController {
 >하위 버전에는 없는 기능
 >@RequestMapping에 post 속성을 줘서 @PostMapping 어노테이션 처럼 처리할 수 있다.
 
----
+## 뷰 설정
 
 ### 일반 웹프로젝트 매핑
 control.DispatcherServlet 에서 dispatcher.properties 파일과 매핑
@@ -132,8 +132,6 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 >return "/WEB-INF/a.jsp"; 과 같은 효과를 갖는다.
 >prefix:/ 일 경우, WebContent 하위 경로에서 jsp를 찾는다.
 
-
-## 뷰 결정 방법
 ### controller 용 메서드 이름을 viewer 이름으로 활용하려면 
 view-resolver를 등록하라
 
@@ -200,48 +198,6 @@ public String a(String id, @RequestParam("pwd") String p) {
 }
 ```
 
-## 기존 servlet 프로젝트를 스프링 프로젝트로 변경
-
-src\control\CustomerController.java를 스프링 컨테이너용 객체로 바꾸기
-1. mvc1-servlet.xml 파일에
-```xml
-<context:component-scan base-package="control"/>
-<context:component-scan base-package="com.my.service"/>
-<context:component-scan base-package="com.my.dao"/>
-``` 
-추가
-
-2. CustomerController.javva에 어노테이션 추가 (@Controller)
-```java
-@Controller
-public class CustomerController {
-	@Autowired
-	private CustomerService service;
-	
-	@RequestMapping("/login")
-	public String login(String id, String pwd, HttpServletRequest request) {	
-		// TODO 코드 완성 
-	}
-	...
-}
-```
-3. CustomerService.java 에 어노테이션 추가 (@Service)
-```java
-@Service
-public class CustomerService {
-	@Autowired
-	private CustomerDAO dao;
-	...
-}
-```
-4. CustomerDAO.java 에 어노테이션 추가 (@Repositiory)
-
-5. CustomerDAO 에서 Mybatis 라이브러리 사용하도록 설정
-(1)  src\mybatis-config.xml, customer-mapper.xml
-(2) mvc1-servlet.xml 에 DataSource 객체와 SqlSessionFactory 객체 관리
-(3) CustomerDAO 에서 sqlSessionFactory 자동 주입
-
-
 ## ModelAndView
 controller 에서 viewer 주소와 넘길 json 값을 같이 return 할 수 있게 하는 자료구조
 ```java
@@ -263,13 +219,13 @@ public class PostController {
 }
 ```
 >return 자료형을 ModelAndView로 변경
->addObject : `request.setAttribute("result", str);` 와 동일한 기능 수행
->setViewName : `return "/result.jsp";` 와 동일한 기능 수행
+>**addObject** : `request.setAttribute("result", str);` 와 동일한 기능 수행
+>**setViewName** : `return "/result.jsp";` 와 동일한 기능 수행
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTczMjY3ODU4LDYwNDMwMzU5LDE4Nzk4Nz
-M0MzYsLTE0Mzg3NDUxNTgsNTY3MDc2MDY3LC0xNDQ3MTgyNDQ3
-LDk3OTgxODA4MCwtMTU1NDEzMDA4NCwtNTg0MzcyNTE3LDExOD
-EzMTQ5MzEsMTM0NzMzODQzMCwtNjAwNzIwNTY2LC0yMDk4OTUx
-ODAzLC04NTAwOTYxNzAsMTM0ODUxOTg3NiwxMzU2NTM3ODQxLD
-EwNTAyNjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MTNdfQ==
+eyJoaXN0b3J5IjpbLTE0NTE5NzE5ODgsNjA0MzAzNTksMTg3OT
+g3MzQzNiwtMTQzODc0NTE1OCw1NjcwNzYwNjcsLTE0NDcxODI0
+NDcsOTc5ODE4MDgwLC0xNTU0MTMwMDg0LC01ODQzNzI1MTcsMT
+E4MTMxNDkzMSwxMzQ3MzM4NDMwLC02MDA3MjA1NjYsLTIwOTg5
+NTE4MDMsLTg1MDA5NjE3MCwxMzQ4NTE5ODc2LDEzNTY1Mzc4ND
+EsMTA1MDI2MTk4MywxOTU0ODcwMDY1LDgzMjgwOTkxM119
 -->
