@@ -240,11 +240,32 @@ public class CustomerService {
 (1)  src\mybatis-config.xml, customer-mapper.xml
 (2) mvc1-servlet.xml 에 DataSource 객체와 SqlSessionFactory 객체 관리
 (3) CustomerDAO 에서 sqlSessionFactory 자동 주입
+
+
+## ModelAndView
+```java
+@Controller
+public class PostController {
+	@Autowired
+	private PostService service;
+	static private PostController controller = new PostController();
+
+	@PostMapping("/searchzip")
+	public ModelAndView searchZip(String doro) {
+		String str = service.search(doro);
+	
+		ModelAndView mnv = new ModelAndView();
+		mnv.addObject("result", str);
+		mnv.setViewName("/result.jsp");
+		return mnv;
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3OTg3MzQzNiwtMTQzODc0NTE1OCw1Nj
-cwNzYwNjcsLTE0NDcxODI0NDcsOTc5ODE4MDgwLC0xNTU0MTMw
-MDg0LC01ODQzNzI1MTcsMTE4MTMxNDkzMSwxMzQ3MzM4NDMwLC
-02MDA3MjA1NjYsLTIwOTg5NTE4MDMsLTg1MDA5NjE3MCwxMzQ4
-NTE5ODc2LDEzNTY1Mzc4NDEsMTA1MDI2MTk4MywxOTU0ODcwMD
-Y1LDgzMjgwOTkxM119
+eyJoaXN0b3J5IjpbNjA0MzAzNTksMTg3OTg3MzQzNiwtMTQzOD
+c0NTE1OCw1NjcwNzYwNjcsLTE0NDcxODI0NDcsOTc5ODE4MDgw
+LC0xNTU0MTMwMDg0LC01ODQzNzI1MTcsMTE4MTMxNDkzMSwxMz
+Q3MzM4NDMwLC02MDA3MjA1NjYsLTIwOTg5NTE4MDMsLTg1MDA5
+NjE3MCwxMzQ4NTE5ODc2LDEzNTY1Mzc4NDEsMTA1MDI2MTk4My
+wxOTU0ODcwMDY1LDgzMjgwOTkxM119
 -->
