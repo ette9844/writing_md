@@ -68,7 +68,7 @@ public class LoginController {
 	}
 }
 ```
->@RequestMapping에 get 속성을 줘서 @GetMapping 어노테이션 처럼 처리할 수 있다.
+>@RequestMapping에 post 속성을 줘서 @PostMapping 어노테이션 처럼 처리할 수 있다.
 ```
 
 >@Controller annotation
@@ -86,6 +86,6 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 >`<context:component-scan>` : control 패키지에서 @Component 계열 어노테이션이 설정 된 클래스 타입의 객체 생성
 >`<mvc:annotation-driven>` : 생성된 객체중 @Control 어노테이션 객체 찾기 / @RequestMapping 어노테이션 메서드 찾아 실행
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDEyNzM3NjksMTk1NDg3MDA2NSw4Mz
-I4MDk5MTNdfQ==
+eyJoaXN0b3J5IjpbMTEyNTcwMjY0MywxOTU0ODcwMDY1LDgzMj
+gwOTkxM119
 -->
