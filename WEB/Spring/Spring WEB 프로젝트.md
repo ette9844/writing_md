@@ -50,8 +50,9 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 <context:component-scan base-package="control"/>
 <mvc:annotation-driven/>
 ```
->control 패키지에서 @Component 계열 어노테이션이 설정 된 클래스 타입의 객체 생성
+>`<context:component-scan>` : control 패키지에서 @Component 계열 어노테이션이 설정 된 클래스 타입의 객체 생성
+>`<mvc:annotation-driven>` : 생성된 객체중 @Control 어노테이션 객체 찾기
 >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzU2MDcyOCw4MzI4MDk5MTNdfQ==
+eyJoaXN0b3J5IjpbMTExMTU5MTcyMiw4MzI4MDk5MTNdfQ==
 -->
