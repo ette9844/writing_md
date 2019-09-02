@@ -1,4 +1,4 @@
-## 기존 servlet 프로젝트를 스프링 프로젝트로 변경
+## 기존 servlet 프로젝트를 스프링 MVC 프로젝트로 변경
 
 src\control\CustomerController.java를 스프링 컨테이너용 객체로 바꾸기
 1. mvc1-servlet.xml 파일에
@@ -41,5 +41,5 @@ public class CustomerService {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU3MDMxNDldfQ==
+eyJoaXN0b3J5IjpbNjY4NTQ0NTU3XX0=
 -->
