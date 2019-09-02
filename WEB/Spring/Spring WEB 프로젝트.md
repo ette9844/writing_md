@@ -130,8 +130,10 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 >return "/WEB-INF/a.jsp"; 과 같은 효과를 갖는다.
 >prefix:/ 일 경우, WebContent 하위 경로에서 jsp를 찾는다.
 
+
+## 뷰 결정 방법
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTg5NTE4MDMsLTg1MDA5NjE3MCwxMz
-Q4NTE5ODc2LDEzNTY1Mzc4NDEsMTA1MDI2MTk4MywxOTU0ODcw
-MDY1LDgzMjgwOTkxM119
+eyJoaXN0b3J5IjpbLTYwMDcyMDU2NiwtMjA5ODk1MTgwMywtOD
+UwMDk2MTcwLDEzNDg1MTk4NzYsMTM1NjUzNzg0MSwxMDUwMjYx
+OTgzLDE5NTQ4NzAwNjUsODMyODA5OTEzXX0=
 -->
