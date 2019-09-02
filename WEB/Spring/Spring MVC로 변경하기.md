@@ -50,7 +50,7 @@ public class CustomerService {
   <property name="configLocation"  value="classpath:mybatis-config.xml"/>
 </bean> 
 ```
-    3) CustomerDAO에서 sqlSessionFactory자동주입
+      3) CustomerDAO에서 sqlSessionFactory자동주입
           @Autowired
           private SqlSessionFactory sqlSessionFactory;
           public Customer selectById(String id)~~~{
@@ -64,5 +64,5 @@ public class CustomerService {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTEzNjA1LDY2ODU0NDU1N119
+eyJoaXN0b3J5IjpbLTExMDE1NDcwMTMsNjY4NTQ0NTU3XX0=
 -->
