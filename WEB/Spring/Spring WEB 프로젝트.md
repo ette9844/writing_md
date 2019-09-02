@@ -114,9 +114,14 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 ### <mvc: view-resolvers>
 
 `<mvc:view-resolvers>` : controller 에서 어떤 뷰로 이동할지 설정하는 태그
-`<mvc:jsp>` : view-resolver의 하위 요소로 jsp를 등록하는 태그. 뷰의 유형이 jsp 임을 알림
+`<mvc:jsp>` : 
+>view-resolver의 하위 요소로 jsp를 등록하는 태그. 
+>뷰의 유형이 jsp 임을 알림
+>
+>기본 prefix: WEB-INF
+>기본 suffix: jsp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTEwMjk5NDcsLTg1MDA5NjE3MCwxMz
+eyJoaXN0b3J5IjpbLTExNDcyMjI0NzEsLTg1MDA5NjE3MCwxMz
 Q4NTE5ODc2LDEzNTY1Mzc4NDEsMTA1MDI2MTk4MywxOTU0ODcw
 MDY1LDgzMjgwOTkxM119
 -->
