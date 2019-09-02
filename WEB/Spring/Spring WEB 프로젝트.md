@@ -111,12 +111,12 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 >`<context:component-scan>` : control 패키지에서 @Component 계열 어노테이션이 설정 된 클래스 타입의 객체 생성
 >`<mvc:annotation-driven>` : 생성된 객체중 @Control 어노테이션 객체 찾기 / @RequestMapping 어노테이션 메서드 찾아 실행
 
-### 메서드명으로 뷰를 찾도록 등록하는 구문
+### <view-resolvers>
 
 `<mvc:view-resolvers>` : controller 에서 어떤 뷰로 이동할지 설정하는 태그
 `<mvc:jsp>` : view-resolver의 하위 요소로 jsp를 등록하는 태그
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDA5NjE3MCwxMzQ4NTE5ODc2LDEzNT
-Y1Mzc4NDEsMTA1MDI2MTk4MywxOTU0ODcwMDY1LDgzMjgwOTkx
-M119
+eyJoaXN0b3J5IjpbODQ5MTQ0MTM1LC04NTAwOTYxNzAsMTM0OD
+UxOTg3NiwxMzU2NTM3ODQxLDEwNTAyNjE5ODMsMTk1NDg3MDA2
+NSw4MzI4MDk5MTNdfQ==
 -->
