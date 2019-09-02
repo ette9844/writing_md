@@ -132,7 +132,10 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 
 
 ## 뷰 결정 방법
-아래와 같이 controller 용 메서드 이름을 viewer 이름으로 활용하려면 view-resolver를 등록하라
+### controller 용 메서드 이름을 viewer 이름으로 활용하려면 
+view-resolver를 등록하라
+
+#### controller.java
 ```
 @GetMapping("/a")		  	Controller					Viewer
 public void a() {}		--> LoginController.a()			/a.jsp
@@ -144,27 +147,29 @@ public void b() {}		--> LoginController.b()			/b.jsp
 public void c() {}		--> LoginController.c()			/c.jsp
 ```
 
-mvc1-servlet.xml 파일에
+#### mvc1-servlet.xml
 ```
 <mvc:view-resolvers>
 	<mvc:jsp prefeix="/" suffic=".jsp"/>
 </mvc:view-resolvers>
 ```
-를 등록한다.
 
+
+### controller용 메서드 이름을 viewer 이름으로 활용하지 않으려면 
+view-resolver 필요없다.
 ```
 @GetMapping("/a")		  	Controller				Viewer
 public void a() {		--> a()						/first.jsp
 	return "/first.jsp";
 }
 
-@GetMapping("/other1")		Controller				Viewer
+@GetMapping("/other1")
 public void b() {		--> b()						/second.jsp
 	return "/second.jsp";
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzM0OTI2MywtNjAwNzIwNTY2LC0yMD
-k4OTUxODAzLC04NTAwOTYxNzAsMTM0ODUxOTg3NiwxMzU2NTM3
-ODQxLDEwNTAyNjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MTNdfQ
-==
+eyJoaXN0b3J5IjpbLTEyODg3OTMxNDIsLTYwMDcyMDU2NiwtMj
+A5ODk1MTgwMywtODUwMDk2MTcwLDEzNDg1MTk4NzYsMTM1NjUz
+Nzg0MSwxMDUwMjYxOTgzLDE5NTQ4NzAwNjUsODMyODA5OTEzXX
+0=
 -->
