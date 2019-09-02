@@ -264,12 +264,12 @@ public class PostController {
 ```
 >return 자료형을 ModelAndView로 변경
 >addObject : request.setAttribute("result", str); 와 동일한 기능 수행
->setViewName : return "/result.jsp"; + 기존 servlet 기능 수행
+>setViewName : return "/result.jsp"; 와 동일한 기능 수행
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwNjE1NjI5LDYwNDMwMzU5LDE4Nzk4Nz
-M0MzYsLTE0Mzg3NDUxNTgsNTY3MDc2MDY3LC0xNDQ3MTgyNDQ3
-LDk3OTgxODA4MCwtMTU1NDEzMDA4NCwtNTg0MzcyNTE3LDExOD
-EzMTQ5MzEsMTM0NzMzODQzMCwtNjAwNzIwNTY2LC0yMDk4OTUx
-ODAzLC04NTAwOTYxNzAsMTM0ODUxOTg3NiwxMzU2NTM3ODQxLD
-EwNTAyNjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MTNdfQ==
+eyJoaXN0b3J5IjpbMTQ3NjkxMzcyMCw2MDQzMDM1OSwxODc5OD
+czNDM2LC0xNDM4NzQ1MTU4LDU2NzA3NjA2NywtMTQ0NzE4MjQ0
+Nyw5Nzk4MTgwODAsLTE1NTQxMzAwODQsLTU4NDM3MjUxNywxMT
+gxMzE0OTMxLDEzNDczMzg0MzAsLTYwMDcyMDU2NiwtMjA5ODk1
+MTgwMywtODUwMDk2MTcwLDEzNDg1MTk4NzYsMTM1NjUzNzg0MS
+wxMDUwMjYxOTgzLDE5NTQ4NzAwNjUsODMyODA5OTEzXX0=
 -->
