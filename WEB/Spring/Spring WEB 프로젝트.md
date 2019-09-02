@@ -201,13 +201,46 @@ public String a(String id, @RequestParam("pwd") String p) {
 ## 기존 servlet 프로젝트를 스프링 프로젝트로 변경
 
 src\control\CustomerController.java를 스프링 컨테이너용 객체로 바꾸기
-1. mvc1-servlet.xml 파일에서 <context:component-scan base-package="control"/>
-2. CustomerController.javva에 어노테이션 추가 (@Controller)
-@PostMapping("/login")
-public String login(String id, String pwd, HttpServletRequest request) { }
+1. mvc1-servlet.xml 파일에
+```xml
+<context:component-scan base-package="control"/>
+<context:component-scan base-package="com.my.service"/>
+``` 
+추가
+
+3. CustomerController.javva에 어노테이션 추가 (@Controller)
+```java
+@Controller
+public class CustomerController {
+	@Autowired
+	private CustomerService service;
+	
+	@RequestMapping("/login")
+	public String login(String id, String pwd, HttpServletRequest request)
+			throws ServletException, IOException {
+	
+		HttpSession session = request.getSession();
+		
+		String str = service.login(id, pwd);
+		/*--로그인성공시 HttpSession객체의 속성으로 추가 --*/
+		JSONParser parser = new JSONParser();
+		try {
+			Object obj = parser.parse(str);
+			JSONObject jsonObj = (JSONObject)obj;
+			if((Long)jsonObj.get("status") == 1) {//로그인 성공!
+				session.setAttribute("loginInfo", id);
+			}
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return "/result.jsp";
+	}
+	...
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDM3MjUxNywxMTgxMzE0OTMxLDEzND
-czMzg0MzAsLTYwMDcyMDU2NiwtMjA5ODk1MTgwMywtODUwMDk2
-MTcwLDEzNDg1MTk4NzYsMTM1NjUzNzg0MSwxMDUwMjYxOTgzLD
-E5NTQ4NzAwNjUsODMyODA5OTEzXX0=
+eyJoaXN0b3J5IjpbMjA5MTQ1Njc5MCwtNTg0MzcyNTE3LDExOD
+EzMTQ5MzEsMTM0NzMzODQzMCwtNjAwNzIwNTY2LC0yMDk4OTUx
+ODAzLC04NTAwOTYxNzAsMTM0ODUxOTg3NiwxMzU2NTM3ODQxLD
+EwNTAyNjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MTNdfQ==
 -->
