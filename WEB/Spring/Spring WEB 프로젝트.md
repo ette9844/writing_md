@@ -137,20 +137,29 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 @GetMapping("/a")		  	Controller					Viewer
 public void a() {}		--> LoginController.a()			/a.jsp
 
-@GetMapping("/other1")		Controller					Viewer
+@GetMapping("/other1")		
 public void b() {}		--> LoginController.b()			/b.jsp
 
-@GetMapping("/other2")		Controller					Viewer
+@GetMapping("/other2")		
 public void c() {}		--> LoginController.c()			/c.jsp
 ```
 
+mvc1-servlet.xml 파일에
 ```
 <mvc:view-resolvers>
+	<mvc:jsp prefeix="/" suffic=".jsp"/>
+</mvc:view-resolvers>
+```
+를 등록한다.
 
-</
+```
+@GetMapping("/a")		  	Controller					Viewer
+public void a() {
+	return "/first.jsp";
+}		--> LoginController.a()			/a.jsp
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzMzOTQ0MSwtNjAwNzIwNTY2LC0yMD
-k4OTUxODAzLC04NTAwOTYxNzAsMTM0ODUxOTg3NiwxMzU2NTM3
-ODQxLDEwNTAyNjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MTNdfQ
-==
+eyJoaXN0b3J5IjpbMjQyNDY5MjE4LC02MDA3MjA1NjYsLTIwOT
+g5NTE4MDMsLTg1MDA5NjE3MCwxMzQ4NTE5ODc2LDEzNTY1Mzc4
+NDEsMTA1MDI2MTk4MywxOTU0ODcwMDY1LDgzMjgwOTkxM119
 -->
