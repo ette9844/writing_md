@@ -134,11 +134,23 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 ## 뷰 결정 방법
 아래와 같이 controller 용 메서드 이름을 viewer 이름으로 활용하려면 view-resolver를 등록하라
 ```
-@GetMapping("/a")		  Controller							Viewer
+@GetMapping("/a")		  	Controller					Viewer
 public void a() {}		--> LoginController.a()			/a.jsp
+
+@GetMapping("/other1")		Controller					Viewer
+public void b() {}		--> LoginController.b()			/b.jsp
+
+@GetMapping("/other2")		Controller					Viewer
+public void c() {}		--> LoginController.c()			/c.jsp
+```
+
+```
+<mvc:view-resolvers>
+
+</
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTM4Nzc4NTcsLTYwMDcyMDU2NiwtMj
-A5ODk1MTgwMywtODUwMDk2MTcwLDEzNDg1MTk4NzYsMTM1NjUz
-Nzg0MSwxMDUwMjYxOTgzLDE5NTQ4NzAwNjUsODMyODA5OTEzXX
-0=
+eyJoaXN0b3J5IjpbLTM1MzMzOTQ0MSwtNjAwNzIwNTY2LC0yMD
+k4OTUxODAzLC04NTAwOTYxNzAsMTM0ODUxOTg3NiwxMzU2NTM3
+ODQxLDEwNTAyNjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MTNdfQ
+==
 -->
