@@ -137,13 +137,13 @@ public class Test {
 [spring-jdbc](https://mvnrepository.com/artifact/org.springframework/spring-jdbc) - 5.0.2
 [mybatis](https://mvnrepository.com/artifact/org.mybatis/mybatis) - 3.5.2
 [mybatis-spring](https://mvnrepository.com/artifact/org.mybatis/mybatis-spring) - 1.3.2
-[https://mvnrepository.com/artifact/javax.servlet/jstl](https://mvnrepository.com/artifact/javax.servlet/jstl)
-simple-json
+[jstl](https://mvnrepository.com/artifact/javax.servlet/jstl) - 1.2
+[json-simple](https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple) - 1.1.1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzEwOTQ5NjEsLTEwNTAyMjAyMTcsMT
-kzNjQ3Mzg4MiwtNTIxOTAwODAyLDc5NDk3MDMyLDE5MzY0NzM4
-ODIsMTUwMTI4MzkwMCw1NDE3MTQyMDcsLTMwMzA4NDAyOCwtMT
-M1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MTkzNzA3NywtNDQ4MTUw
-MzM3LDEyNDYwMDU5MzUsLTE1MjcyMDU2MDYsLTc2ODQ4MDgyNF
-19
+eyJoaXN0b3J5IjpbLTkyMTYzMTEyLC0xMDUwMjIwMjE3LDE5Mz
+Y0NzM4ODIsLTUyMTkwMDgwMiw3OTQ5NzAzMiwxOTM2NDczODgy
+LDE1MDEyODM5MDAsNTQxNzE0MjA3LC0zMDMwODQwMjgsLTEzNT
+kyMTY1ODcsMTk5ODE3NzM4NywzNTE5MzcwNzcsLTQ0ODE1MDMz
+NywxMjQ2MDA1OTM1LC0xNTI3MjA1NjA2LC03Njg0ODA4MjRdfQ
+==
 -->
