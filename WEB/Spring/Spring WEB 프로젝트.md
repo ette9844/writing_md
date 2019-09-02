@@ -33,7 +33,10 @@
 기존 컨트롤러와 달리 메서드의 스펙이 딱히 없다.
 어노테이션으로 mapping만 잘해주면 OK
 
-return type이 void 일 경우, xml 설정 파일에서 view-resolver를 통해 뷰어와 매핑한다.
+**return type이 void 일 경우, xml 설정 파일에서 view-resolver를 통해 뷰어와 매핑한다.**
+
+상세 설명은 아래에
+
 **return type이 String 타입일 경우, viewer 이름을 리턴한다.**
 ```java
 @Controller
@@ -112,6 +115,6 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 `<mvc:view-resolvers>` : controller 에서 어떤 뷰로 이동할지 설정하는 태그
 `<mvc:jsp>` : view-resolver의 하위 요소로 jsp를 등록하는 태그
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODMwNTUzMiwxMzU2NTM3ODQxLDEwNT
+eyJoaXN0b3J5IjpbMTM0ODUxOTg3NiwxMzU2NTM3ODQxLDEwNT
 AyNjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MTNdfQ==
 -->
