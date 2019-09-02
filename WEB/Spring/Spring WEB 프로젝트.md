@@ -243,6 +243,7 @@ public class CustomerService {
 
 
 ## ModelAndView
+controller 에서 viewer 주소와 넘길 json 값을 같이 return 할 수 있게 하는 자료구조
 ```java
 @Controller
 public class PostController {
@@ -261,11 +262,13 @@ public class PostController {
 	}
 }
 ```
+>return 자료형을 ModelAndView로 변경
+>addObject : set
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0MzAzNTksMTg3OTg3MzQzNiwtMTQzOD
-c0NTE1OCw1NjcwNzYwNjcsLTE0NDcxODI0NDcsOTc5ODE4MDgw
-LC0xNTU0MTMwMDg0LC01ODQzNzI1MTcsMTE4MTMxNDkzMSwxMz
-Q3MzM4NDMwLC02MDA3MjA1NjYsLTIwOTg5NTE4MDMsLTg1MDA5
-NjE3MCwxMzQ4NTE5ODc2LDEzNTY1Mzc4NDEsMTA1MDI2MTk4My
-wxOTU0ODcwMDY1LDgzMjgwOTkxM119
+eyJoaXN0b3J5IjpbMTU2MDYzNjcyMyw2MDQzMDM1OSwxODc5OD
+czNDM2LC0xNDM4NzQ1MTU4LDU2NzA3NjA2NywtMTQ0NzE4MjQ0
+Nyw5Nzk4MTgwODAsLTE1NTQxMzAwODQsLTU4NDM3MjUxNywxMT
+gxMzE0OTMxLDEzNDczMzg0MzAsLTYwMDcyMDU2NiwtMjA5ODk1
+MTgwMywtODUwMDk2MTcwLDEzNDg1MTk4NzYsMTM1NjUzNzg0MS
+wxMDUwMjYxOTgzLDE5NTQ4NzAwNjUsODMyODA5OTEzXX0=
 -->
