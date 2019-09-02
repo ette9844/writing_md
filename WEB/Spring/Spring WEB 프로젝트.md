@@ -43,7 +43,7 @@ public class LoginController {
 ```
 
 ### @GetMapping : 
-GET 방식
+GET 방식 요청 처리
 ```java
 @Controller
 public class LoginController {
@@ -53,17 +53,22 @@ public class LoginController {
 	}
 }
 ```
+>하위버전에는 없는 기능
 >@RequestMapping에 get 속성을 줘서 @GetMapping 어노테이션 처럼 처리할 수 있다.
 
-@RequestMapping : GET / POST 방식 가리지 않고 처리
+
+### @PostMapping : 
+POST 방식 요청 처리
 ```java
 @Controller
 public class LoginController {
-	@RequestMapping("/a")
+	@PostMapping("/a")
 	public void a() {
 		System.out.println("LoginController의 a() 호출됨");
 	}
 }
+```
+>@RequestMapping에 get 속성을 줘서 @GetMapping 어노테이션 처럼 처리할 수 있다.
 ```
 
 >@Controller annotation
@@ -81,6 +86,6 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 >`<context:component-scan>` : control 패키지에서 @Component 계열 어노테이션이 설정 된 클래스 타입의 객체 생성
 >`<mvc:annotation-driven>` : 생성된 객체중 @Control 어노테이션 객체 찾기 / @RequestMapping 어노테이션 메서드 찾아 실행
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODg3OTUxLDE5NTQ4NzAwNjUsODMyOD
-A5OTEzXX0=
+eyJoaXN0b3J5IjpbLTIwNDEyNzM3NjksMTk1NDg3MDA2NSw4Mz
+I4MDk5MTNdfQ==
 -->
