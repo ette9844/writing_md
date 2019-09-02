@@ -109,8 +109,8 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 ### 메서드명으로 뷰를 찾도록 등록하는 구문
 
 `<mvc:view-resolvers>` : controller 에서 어떤 뷰로 이동할지 설정하는 태그
-`<mvc:jsp>` : view-resolver의 하위요소로 jsp를 등록하는 태그
+`<mvc:jsp>` : view-resolver의 하위 요소로 jsp를 등록하는 태그
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzMxMTQ0OSwxMzU2NTM3ODQxLDEwNT
+eyJoaXN0b3J5IjpbLTI0ODgyMTk5OSwxMzU2NTM3ODQxLDEwNT
 AyNjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MTNdfQ==
 -->
