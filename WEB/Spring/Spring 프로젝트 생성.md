@@ -152,7 +152,7 @@ public class Test {
   ```
  5. 디스패쳐 설정 xml 파일 이름은 `디스패쳐서블릿이름-servlet.xml` 로 설정하면 톰캣 구동시 스프링 컨테이너가 자동 구동된다. 
  6. 디스패쳐 설정 xml은 WEB-INF 폴더에 bean configuration file 형태로 추가하고 namespace는 beans와 mvc, context 등을 체크한다.
- 7.  
+ 7.  디스패쳐 설정 xml에 아래 구문 추가
  ```xml
 <context:annotation-config/>
 <context:component-scan base-package="control"/>
@@ -172,7 +172,7 @@ public class LoginController {
 >@Controller annotation
 >@RequestMapping() : /a 링크 요청이 들어왔을 시, 해당 method가 실행 됨
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUxNTcyOTcyLC0xOTAzMTUzODM3LC0xMz
+eyJoaXN0b3J5IjpbNDQ0MDQ3MjgwLC0xOTAzMTUzODM3LC0xMz
 k5NzIwNDMsLTkyMTYzMTEyLC0xMDUwMjIwMjE3LDE5MzY0NzM4
 ODIsLTUyMTkwMDgwMiw3OTQ5NzAzMiwxOTM2NDczODgyLDE1MD
 EyODM5MDAsNTQxNzE0MjA3LC0zMDMwODQwMjgsLTEzNTkyMTY1
