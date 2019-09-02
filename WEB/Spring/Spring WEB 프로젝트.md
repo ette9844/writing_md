@@ -216,17 +216,16 @@ public class CustomerController {
 	private CustomerService service;
 	
 	@RequestMapping("/login")
-	public String login(String id, String pwd, HttpServletRequest request)
-			throws ServletException, IOException {
-	
+	public String login(String id, String pwd, HttpServletRequest request) {	
 		// TODO 코드 완성 
 	}
 	...
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQxMzAwODQsLTU4NDM3MjUxNywxMT
-gxMzE0OTMxLDEzNDczMzg0MzAsLTYwMDcyMDU2NiwtMjA5ODk1
-MTgwMywtODUwMDk2MTcwLDEzNDg1MTk4NzYsMTM1NjUzNzg0MS
-wxMDUwMjYxOTgzLDE5NTQ4NzAwNjUsODMyODA5OTEzXX0=
+eyJoaXN0b3J5IjpbOTc5ODE4MDgwLC0xNTU0MTMwMDg0LC01OD
+QzNzI1MTcsMTE4MTMxNDkzMSwxMzQ3MzM4NDMwLC02MDA3MjA1
+NjYsLTIwOTg5NTE4MDMsLTg1MDA5NjE3MCwxMzQ4NTE5ODc2LD
+EzNTY1Mzc4NDEsMTA1MDI2MTk4MywxOTU0ODcwMDY1LDgzMjgw
+OTkxM119
 -->
