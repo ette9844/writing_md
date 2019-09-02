@@ -34,6 +34,17 @@
 어노테이션으로 mapping만 잘해주면 OK
 
 **return type이 String 타입일 경우, viewer 이름을 리턴한다.**
+```java
+@Controller
+public class LoginController {
+	@RequestMapping("/a")
+	public String a() {
+		System.out.println("LoginController의 a() 호출됨");
+		return "result.jsp";
+	}
+}
+```
+>contextPath/a 로 요청할 시, result.jsp 페이지가 출력 됨.
 
 ### @RequestMapping : 
 GET / POST 방식 가리지 않고 처리
@@ -93,6 +104,6 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 >`<context:component-scan>` : control 패키지에서 @Component 계열 어노테이션이 설정 된 클래스 타입의 객체 생성
 >`<mvc:annotation-driven>` : 생성된 객체중 @Control 어노테이션 객체 찾기 / @RequestMapping 어노테이션 메서드 찾아 실행
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc5NDgyNzIsMTA1MDI2MTk4MywxOT
-U0ODcwMDY1LDgzMjgwOTkxM119
+eyJoaXN0b3J5IjpbOTA2NTY2MzUyLDEwNTAyNjE5ODMsMTk1ND
+g3MDA2NSw4MzI4MDk5MTNdfQ==
 -->
