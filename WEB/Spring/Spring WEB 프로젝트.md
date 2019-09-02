@@ -33,6 +33,8 @@
 기존 컨트롤러와 달리 메서드의 스펙이 딱히 없다.
 어노테이션으로 mapping만 잘해주면 OK
 
+**return type이 String 타입일 경우, viewer 이름을 리턴한다.**
+
 ### @RequestMapping : 
 GET / POST 방식 가리지 않고 처리
 ```java
@@ -91,6 +93,6 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 >`<context:component-scan>` : control 패키지에서 @Component 계열 어노테이션이 설정 된 클래스 타입의 객체 생성
 >`<mvc:annotation-driven>` : 생성된 객체중 @Control 어노테이션 객체 찾기 / @RequestMapping 어노테이션 메서드 찾아 실행
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDI2MTk4MywxOTU0ODcwMDY1LDgzMj
-gwOTkxM119
+eyJoaXN0b3J5IjpbLTE2Mjc5NDgyNzIsMTA1MDI2MTk4MywxOT
+U0ODcwMDY1LDgzMjgwOTkxM119
 -->
