@@ -202,10 +202,12 @@ public String a(String id, @RequestParam("pwd") String p) {
 
 src\control\CustomerController.java를 스프링 컨테이너용 객체로 바꾸기
 1. mvc1-servlet.xml 파일에서 <context:component-scan base-package="control"/>
+2. CustomerController.javva에 어노테이션 추가 (@Controller)
+@PostMapping("/login")
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Mzk5NjYxOCwxMTgxMzE0OTMxLDEzND
-czMzg0MzAsLTYwMDcyMDU2NiwtMjA5ODk1MTgwMywtODUwMDk2
-MTcwLDEzNDg1MTk4NzYsMTM1NjUzNzg0MSwxMDUwMjYxOTgzLD
-E5NTQ4NzAwNjUsODMyODA5OTEzXX0=
+eyJoaXN0b3J5IjpbNjIzMzEyMDgyLDExODEzMTQ5MzEsMTM0Nz
+MzODQzMCwtNjAwNzIwNTY2LC0yMDk4OTUxODAzLC04NTAwOTYx
+NzAsMTM0ODUxOTg3NiwxMzU2NTM3ODQxLDEwNTAyNjE5ODMsMT
+k1NDg3MDA2NSw4MzI4MDk5MTNdfQ==
 -->
