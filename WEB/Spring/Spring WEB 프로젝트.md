@@ -176,8 +176,20 @@ public void c() {		--> c()						/third.jsp
 }
 ```
 
+## 요청 전달 데이터
+
+1. 매개변수 이름과 요청 전달 데이터의 이름을 동일하게 설정
+>요청: 
+```java
+public String a(String id, String pwd) {
+	System.out.println("LoginController의 a() 호출됨");
+	System.out.println("전달된 id: " + id + " / 전달된 pwd: " + pwd);
+	return "result.jsp";	// view 이름
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODcwMTkzMzgsMTM0NzMzODQzMCwtNj
+eyJoaXN0b3J5IjpbLTEzMDc0NzA2NzUsMTM0NzMzODQzMCwtNj
 AwNzIwNTY2LC0yMDk4OTUxODAzLC04NTAwOTYxNzAsMTM0ODUx
 OTg3NiwxMzU2NTM3ODQxLDEwNTAyNjE5ODMsMTk1NDg3MDA2NS
 w4MzI4MDk5MTNdfQ==
