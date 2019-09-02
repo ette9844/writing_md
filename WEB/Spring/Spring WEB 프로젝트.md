@@ -198,10 +198,13 @@ public String a(String id, @RequestParam("pwd") String p) {
 }
 ```
 
-## 기존 servlet 프로젝트를 스프링 프로젝트로 변겨
+## 기존 servlet 프로젝트를 스프링 프로젝트로 변경
+
+src\control\CustomerController.java를 스프링 컨테이너용 객체로 바꾸기
+1. mvc1-servlet.xml 파일에서 <context:component-scan base-package="control"/>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzYyMDc2NSwxMTgxMzE0OTMxLDEzND
+eyJoaXN0b3J5IjpbLTc3Mzk5NjYxOCwxMTgxMzE0OTMxLDEzND
 czMzg0MzAsLTYwMDcyMDU2NiwtMjA5ODk1MTgwMywtODUwMDk2
 MTcwLDEzNDg1MTk4NzYsMTM1NjUzNzg0MSwxMDUwMjYxOTgzLD
 E5NTQ4NzAwNjUsODMyODA5OTEzXX0=
