@@ -205,6 +205,7 @@ src\control\CustomerController.java를 스프링 컨테이너용 객체로 바�
 ```xml
 <context:component-scan base-package="control"/>
 <context:component-scan base-package="com.my.service"/>
+<context:component-scan base-package="com.my.dao"/>
 ``` 
 추가
 
@@ -223,10 +224,18 @@ public class CustomerController {
 }
 ```
 3. CustomerService.java 에 어노테이션 추가(@Service)
+```java
+@Service
+public class CustomerService {
+	@Autowired
+	private CustomerDAO dao;
+	...
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDcxODI0NDcsOTc5ODE4MDgwLC0xNT
-U0MTMwMDg0LC01ODQzNzI1MTcsMTE4MTMxNDkzMSwxMzQ3MzM4
-NDMwLC02MDA3MjA1NjYsLTIwOTg5NTE4MDMsLTg1MDA5NjE3MC
-wxMzQ4NTE5ODc2LDEzNTY1Mzc4NDEsMTA1MDI2MTk4MywxOTU0
-ODcwMDY1LDgzMjgwOTkxM119
+eyJoaXN0b3J5IjpbMjQ3Mzk4NDkxLC0xNDQ3MTgyNDQ3LDk3OT
+gxODA4MCwtMTU1NDEzMDA4NCwtNTg0MzcyNTE3LDExODEzMTQ5
+MzEsMTM0NzMzODQzMCwtNjAwNzIwNTY2LC0yMDk4OTUxODAzLC
+04NTAwOTYxNzAsMTM0ODUxOTg3NiwxMzU2NTM3ODQxLDEwNTAy
+NjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MTNdfQ==
 -->
