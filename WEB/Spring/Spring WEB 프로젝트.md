@@ -219,28 +219,14 @@ public class CustomerController {
 	public String login(String id, String pwd, HttpServletRequest request)
 			throws ServletException, IOException {
 	
-		HttpSession session = request.getSession();
-		
-		String str = service.login(id, pwd);
-		/*--로그인성공시 HttpSession객체의 속성으로 추가 --*/
-		JSONParser parser = new JSONParser();
-		try {
-			Object obj = parser.parse(str);
-			JSONObject jsonObj = (JSONObject)obj;
-			if((Long)jsonObj.get("status") == 1) {//로그인 성공!
-				session.setAttribute("loginInfo", id);
-			}
-		} catch (ParseException e) {
-			e.printStackTrace();
-		}
-		return "/result.jsp";
+		// TODO 코드 완성 
 	}
 	...
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTQ1Njc5MCwtNTg0MzcyNTE3LDExOD
-EzMTQ5MzEsMTM0NzMzODQzMCwtNjAwNzIwNTY2LC0yMDk4OTUx
-ODAzLC04NTAwOTYxNzAsMTM0ODUxOTg3NiwxMzU2NTM3ODQxLD
-EwNTAyNjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MTNdfQ==
+eyJoaXN0b3J5IjpbLTE1NTQxMzAwODQsLTU4NDM3MjUxNywxMT
+gxMzE0OTMxLDEzNDczMzg0MzAsLTYwMDcyMDU2NiwtMjA5ODk1
+MTgwMywtODUwMDk2MTcwLDEzNDg1MTk4NzYsMTM1NjUzNzg0MS
+wxMDUwMjYxOTgzLDE5NTQ4NzAwNjUsODMyODA5OTEzXX0=
 -->
