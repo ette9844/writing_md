@@ -30,8 +30,10 @@
 
 ## 컨트롤러 설정
 
-기존 컨트롤러와 달리 메서드의 스펙이 딱히 없다.
-어노테이션으로 mapping만 잘해주면 OK
+**VIEW가 필요하다**
+Spring MVC 구조에서는 return 받은 결과를 viewer로 사용하기 때문에 jsp 경로를 return 해줘야한다
+
+나중에는 responseBody를 사용하여 json 형태로 return 할 수 있다.
 
 **return type이 void 일 경우, xml 설정 파일에서 view-resolver를 통해 뷰어와 매핑한다.**
 
@@ -239,7 +241,7 @@ public class CustomerService {
 (2) mvc1-servlet.xml 에 DataSource 객체와 SqlSessionFactory 객체 관리
 (3) CustomerDAO 에서 sqlSessionFactory 자동 주입
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjEwODk0MCwtMTQzODc0NTE1OCw1Nj
+eyJoaXN0b3J5IjpbMTg3OTg3MzQzNiwtMTQzODc0NTE1OCw1Nj
 cwNzYwNjcsLTE0NDcxODI0NDcsOTc5ODE4MDgwLC0xNTU0MTMw
 MDg0LC01ODQzNzI1MTcsMTE4MTMxNDkzMSwxMzQ3MzM4NDMwLC
 02MDA3MjA1NjYsLTIwOTg5NTE4MDMsLTg1MDA5NjE3MCwxMzQ4
