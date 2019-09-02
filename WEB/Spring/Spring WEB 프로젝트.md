@@ -157,6 +157,8 @@ public void c() {}		--> LoginController.c()			/c.jsp
 
 ### controller용 메서드 이름을 viewer 이름으로 활용하지 않으려면 
 view-resolver 필요없다.
+
+#### controller
 ```
 @GetMapping("/a")		  	Controller				Viewer
 public void a() {		--> a()						/first.jsp
@@ -167,9 +169,14 @@ public void a() {		--> a()						/first.jsp
 public void b() {		--> b()						/second.jsp
 	return "/second.jsp";
 }
+
+@GetMapping("/other2")
+public void c() {		--> c()						/third.jsp
+	return "/third.jsp";
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODg3OTMxNDIsLTYwMDcyMDU2NiwtMj
-A5ODk1MTgwMywtODUwMDk2MTcwLDEzNDg1MTk4NzYsMTM1NjUz
-Nzg0MSwxMDUwMjYxOTgzLDE5NTQ4NzAwNjUsODMyODA5OTEzXX
-0=
+eyJoaXN0b3J5IjpbMTM0NzMzODQzMCwtNjAwNzIwNTY2LC0yMD
+k4OTUxODAzLC04NTAwOTYxNzAsMTM0ODUxOTg3NiwxMzU2NTM3
+ODQxLDEwNTAyNjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MTNdfQ
+==
 -->
