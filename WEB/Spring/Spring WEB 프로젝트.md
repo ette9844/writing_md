@@ -41,11 +41,17 @@ public class LoginController {
 >@Controller annotation
 >@RequestMapping() : /a 링크 요청이 들어왔을 시, 해당 method가 실행 됨
 
-## 일반 웹프로젝트 맵핑
+### 일반 웹프로젝트 매핑
 control.DispatcherServlet 에서 dispatcher.properties 파일과 매핑
 
-### 스프링 웹프로젝트 맵핑
-servlet.DispatcherServlet에서 디스패쳐서-servlet.xml 파일과 매핑
+### 스프링 웹프로젝트 매핑
+servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일과 매핑
+```xml
+<context:component-scan base-package="control"/>
+<mvc:annotation-driven/>
+```
+>control 패키지에서 @Component 계열 어노테이션이 설정 된 클래스 타입의 객체 생성
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQxOTk0ODgsODMyODA5OTEzXX0=
+eyJoaXN0b3J5IjpbMTc5MzU2MDcyOCw4MzI4MDk5MTNdfQ==
 -->
