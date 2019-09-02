@@ -32,14 +32,37 @@ public class CustomerService {
 	...
 }
 ```
-4. CustomerDAO.java 에 어노테이션 추가 (@Repositiory)
+4. CustomerDAO.java에 어노테이션 추가(@Repository)
 
-5. CustomerDAO 에서 Mybatis 라이브러리 사용하도록 설정
-(1)  src\mybatis-config.xml, customer-mapper.xml
-(2) mvc1-servlet.xml 에 DataSource 객체와 SqlSessionFactory 객체 관리
-(3) CustomerDAO 에서 sqlSessionFactory 자동 주입
+5. CustomerDAO에서 Mybatis라이브러리 사용하도록 설정
+      1) src\mybatis-config.xml, customer-mapper.xml
+      2) mvc1-servlet.xml에 DataSource객체와 SqlSessionFactory객체관리
+```xml
+<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+  <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+  <property name="url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
+  <property name="username" value="c##ora_user"/>
+  <property name="password" value="yeo"/>
+</bean>
+<bean id="sqlSessionFactory"
+      class="org.mybatis.spring.SqlSessionFactoryBean">
+  <property name="dataSource" ref="dataSource"/>
+  <property name="configLocation"  value="classpath:mybatis-config.xml"/>
+</bean> 
+```
+    3) CustomerDAO에서 sqlSessionFactory자동주입
+          @Autowired
+          private SqlSessionFactory sqlSessionFactory;
+          public Customer selectById(String id)~~~{
+              SqlSession sqlSession = sqlSessionFactory.openSession();
+              Customer c = 
+                sqlSession.selectOne("매퍼파일용네임스페이스값.태그용ID값", id);
+              if(c==null) throw new NotFoundException("ID에해당고객없음");
+              sqlSession.close();
+              return c;
+          }
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4NTQ0NTU3XX0=
+eyJoaXN0b3J5IjpbLTQyMTEzNjA1LDY2ODU0NDU1N119
 -->
