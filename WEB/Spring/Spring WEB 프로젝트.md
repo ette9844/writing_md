@@ -179,7 +179,7 @@ public void c() {		--> c()						/third.jsp
 ## 요청 전달 데이터
 
 1. 매개변수 이름과 요청 전달 데이터의 이름을 동일하게 설정
->요청: 
+>요청: http://localhost:8080/spring-mvc1/a?id=aaa&pwd=bbb
 ```java
 public String a(String id, String pwd) {
 	System.out.println("LoginController의 a() 호출됨");
@@ -188,9 +188,12 @@ public String a(String id, String pwd) {
 }
 ```
 
+2. @RequestParam 어노테이션 사용
+3. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc0NzA2NzUsMTM0NzMzODQzMCwtNj
-AwNzIwNTY2LC0yMDk4OTUxODAzLC04NTAwOTYxNzAsMTM0ODUx
-OTg3NiwxMzU2NTM3ODQxLDEwNTAyNjE5ODMsMTk1NDg3MDA2NS
-w4MzI4MDk5MTNdfQ==
+eyJoaXN0b3J5IjpbLTk2OTM4MDAyOCwxMzQ3MzM4NDMwLC02MD
+A3MjA1NjYsLTIwOTg5NTE4MDMsLTg1MDA5NjE3MCwxMzQ4NTE5
+ODc2LDEzNTY1Mzc4NDEsMTA1MDI2MTk4MywxOTU0ODcwMDY1LD
+gzMjgwOTkxM119
 -->
