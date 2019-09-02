@@ -223,7 +223,7 @@ public class CustomerController {
 	...
 }
 ```
-3. CustomerService.java 에 어노테이션 추가(@Service)
+3. CustomerService.java 에 어노테이션 추가 (@Service)
 ```java
 @Service
 public class CustomerService {
@@ -232,8 +232,10 @@ public class CustomerService {
 	...
 }
 ```
+4. CustomerDAO.java 에 어노테이션 추가 (@Repositiory)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3Mzk4NDkxLC0xNDQ3MTgyNDQ3LDk3OT
+eyJoaXN0b3J5IjpbNTY3MDc2MDY3LC0xNDQ3MTgyNDQ3LDk3OT
 gxODA4MCwtMTU1NDEzMDA4NCwtNTg0MzcyNTE3LDExODEzMTQ5
 MzEsMTM0NzMzODQzMCwtNjAwNzIwNTY2LC0yMDk4OTUxODAzLC
 04NTAwOTYxNzAsMTM0ODUxOTg3NiwxMzU2NTM3ODQxLDEwNTAy
