@@ -208,7 +208,7 @@ src\control\CustomerController.java를 스프링 컨테이너용 객체로 바�
 ``` 
 추가
 
-3. CustomerController.javva에 어노테이션 추가 (@Controller)
+2. CustomerController.javva에 어노테이션 추가 (@Controller)
 ```java
 @Controller
 public class CustomerController {
@@ -222,10 +222,11 @@ public class CustomerController {
 	...
 }
 ```
+3. CustomerService.java
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5ODE4MDgwLC0xNTU0MTMwMDg0LC01OD
-QzNzI1MTcsMTE4MTMxNDkzMSwxMzQ3MzM4NDMwLC02MDA3MjA1
-NjYsLTIwOTg5NTE4MDMsLTg1MDA5NjE3MCwxMzQ4NTE5ODc2LD
-EzNTY1Mzc4NDEsMTA1MDI2MTk4MywxOTU0ODcwMDY1LDgzMjgw
-OTkxM119
+eyJoaXN0b3J5IjpbMTk1MzM1NDgyMyw5Nzk4MTgwODAsLTE1NT
+QxMzAwODQsLTU4NDM3MjUxNywxMTgxMzE0OTMxLDEzNDczMzg0
+MzAsLTYwMDcyMDU2NiwtMjA5ODk1MTgwMywtODUwMDk2MTcwLD
+EzNDg1MTk4NzYsMTM1NjUzNzg0MSwxMDUwMjYxOTgzLDE5NTQ4
+NzAwNjUsODMyODA5OTEzXX0=
 -->
