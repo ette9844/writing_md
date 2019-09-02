@@ -134,16 +134,16 @@ public class Test {
 2. 이클립스 Dynamic Web Project 만들기
 3. 필요한 라이브러리들을 maven으로 관리 → maven 프로젝트로 변경
 [spring-web-mvc](https://mvnrepository.com/artifact/org.springframework/spring-webmvc) - 5.0.2
-[spring-jdbc](https://mvnrepository.com/artifact/org.springframework/spring-jdbc) 
-[mybatis](https://mvnrepository.com/artifact/org.mybatis/mybatis)
-mybatis-spring
-jstl
+[spring-jdbc](https://mvnrepository.com/artifact/org.springframework/spring-jdbc) - 5.0.2
+[mybatis](https://mvnrepository.com/artifact/org.mybatis/mybatis) - 3.5.2
+[mybatis-spring](https://mvnrepository.com/artifact/org.mybatis/mybatis-spring) - 1.3.2
+[https://mvnrepository.com/artifact/javax.servlet/jstl](https://mvnrepository.com/artifact/javax.servlet/jstl)
 simple-json
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM4MjA3NCwtMTA1MDIyMDIxNywxOT
-M2NDczODgyLC01MjE5MDA4MDIsNzk0OTcwMzIsMTkzNjQ3Mzg4
-MiwxNTAxMjgzOTAwLDU0MTcxNDIwNywtMzAzMDg0MDI4LC0xMz
-U5MjE2NTg3LDE5OTgxNzczODcsMzUxOTM3MDc3LC00NDgxNTAz
-MzcsMTI0NjAwNTkzNSwtMTUyNzIwNTYwNiwtNzY4NDgwODI0XX
-0=
+eyJoaXN0b3J5IjpbLTE2MzEwOTQ5NjEsLTEwNTAyMjAyMTcsMT
+kzNjQ3Mzg4MiwtNTIxOTAwODAyLDc5NDk3MDMyLDE5MzY0NzM4
+ODIsMTUwMTI4MzkwMCw1NDE3MTQyMDcsLTMwMzA4NDAyOCwtMT
+M1OTIxNjU4NywxOTk4MTc3Mzg3LDM1MTkzNzA3NywtNDQ4MTUw
+MzM3LDEyNDYwMDU5MzUsLTE1MjcyMDU2MDYsLTc2ODQ4MDgyNF
+19
 -->
