@@ -198,9 +198,11 @@ public String a(String id, @RequestParam("pwd") String p) {
 }
 ```
 
+## 기존 servlet 프로젝트를 스프링 프로젝트로 변겨
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTMxNDkzMSwxMzQ3MzM4NDMwLC02MD
-A3MjA1NjYsLTIwOTg5NTE4MDMsLTg1MDA5NjE3MCwxMzQ4NTE5
-ODc2LDEzNTY1Mzc4NDEsMTA1MDI2MTk4MywxOTU0ODcwMDY1LD
-gzMjgwOTkxM119
+eyJoaXN0b3J5IjpbLTI5MzYyMDc2NSwxMTgxMzE0OTMxLDEzND
+czMzg0MzAsLTYwMDcyMDU2NiwtMjA5ODk1MTgwMywtODUwMDk2
+MTcwLDEzNDg1MTk4NzYsMTM1NjUzNzg0MSwxMDUwMjYxOTgzLD
+E5NTQ4NzAwNjUsODMyODA5OTEzXX0=
 -->
