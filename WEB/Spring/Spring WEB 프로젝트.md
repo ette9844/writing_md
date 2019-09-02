@@ -234,10 +234,16 @@ public class CustomerService {
 ```
 4. CustomerDAO.java 에 어노테이션 추가 (@Repositiory)
 
+5. CustomerDAO 에서 Mybatis 라이브러리 사용하도록 설정
+(1)  src\mybatis-config.xml, customer-mapper.xml
+(2) mvc1-servlet.xml 에 DataSource 객체와 SqlSessionFactory 객체 관리
+
+(3) CustomerDAO 에서 sqlSessionFactory 자동 주입
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3MDc2MDY3LC0xNDQ3MTgyNDQ3LDk3OT
-gxODA4MCwtMTU1NDEzMDA4NCwtNTg0MzcyNTE3LDExODEzMTQ5
-MzEsMTM0NzMzODQzMCwtNjAwNzIwNTY2LC0yMDk4OTUxODAzLC
-04NTAwOTYxNzAsMTM0ODUxOTg3NiwxMzU2NTM3ODQxLDEwNTAy
-NjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MTNdfQ==
+eyJoaXN0b3J5IjpbLTE0Mzg3NDUxNTgsNTY3MDc2MDY3LC0xND
+Q3MTgyNDQ3LDk3OTgxODA4MCwtMTU1NDEzMDA4NCwtNTg0Mzcy
+NTE3LDExODEzMTQ5MzEsMTM0NzMzODQzMCwtNjAwNzIwNTY2LC
+0yMDk4OTUxODAzLC04NTAwOTYxNzAsMTM0ODUxOTg3NiwxMzU2
+NTM3ODQxLDEwNTAyNjE5ODMsMTk1NDg3MDA2NSw4MzI4MDk5MT
+NdfQ==
 -->
