@@ -132,15 +132,17 @@ public class Test {
 ## Spring WEB project 생성
 1. 이클립스에 spring tool suite 플러그인 설치
 2. 이클립스 Dynamic Web Project 만들기
-3. 라이브러리
+3. 필요한 라이브러리들을 maven으로 관리 ㅁ
 spring-mvc
 spring-jdbc
 mybatis-spring
+jstl
+simple-json ... 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTAyNjc0MCwtMTA1MDIyMDIxNywxOT
-M2NDczODgyLC01MjE5MDA4MDIsNzk0OTcwMzIsMTkzNjQ3Mzg4
-MiwxNTAxMjgzOTAwLDU0MTcxNDIwNywtMzAzMDg0MDI4LC0xMz
-U5MjE2NTg3LDE5OTgxNzczODcsMzUxOTM3MDc3LC00NDgxNTAz
-MzcsMTI0NjAwNTkzNSwtMTUyNzIwNTYwNiwtNzY4NDgwODI0XX
-0=
+eyJoaXN0b3J5IjpbMzE2Mzk2ODU0LC0xMDUwMjIwMjE3LDE5Mz
+Y0NzM4ODIsLTUyMTkwMDgwMiw3OTQ5NzAzMiwxOTM2NDczODgy
+LDE1MDEyODM5MDAsNTQxNzE0MjA3LC0zMDMwODQwMjgsLTEzNT
+kyMTY1ODcsMTk5ODE3NzM4NywzNTE5MzcwNzcsLTQ0ODE1MDMz
+NywxMjQ2MDA1OTM1LC0xNTI3MjA1NjA2LC03Njg0ODA4MjRdfQ
+==
 -->
