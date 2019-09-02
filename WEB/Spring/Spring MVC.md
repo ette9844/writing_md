@@ -1,5 +1,5 @@
 
-## 컨트롤러 설정
+# 컨트롤러 설정
 
 **VIEW가 필요하다**
 Spring MVC 구조에서는 return 받은 결과를 viewer로 사용하기 때문에 jsp 경로를 return 해줘야한다
@@ -70,7 +70,8 @@ public class LoginController {
 >하위 버전에는 없는 기능
 >@RequestMapping에 post 속성을 줘서 @PostMapping 어노테이션 처럼 처리할 수 있다.
 
-## 뷰 설정
+
+# 뷰 설정
 
 ### 일반 웹프로젝트 매핑
 control.DispatcherServlet 에서 dispatcher.properties 파일과 매핑
@@ -193,5 +194,5 @@ public class PostController {
 >**addObject** : `request.setAttribute("result", str);` 와 동일한 기능 수행
 >**setViewName** : `return "/result.jsp";` 와 동일한 기능 수행
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjM3OTUyOF19
+eyJoaXN0b3J5IjpbODk4MzE2Nzc4XX0=
 -->
