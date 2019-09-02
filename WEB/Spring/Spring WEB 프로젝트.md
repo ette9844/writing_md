@@ -121,8 +121,12 @@ servlet.DispatcherServlet에서 디스패쳐서블릿이름-servlet.xml 파일�
 >기본 prefix (접두어): WEB-INF
 >기본 suffix (접미어): jsp
 >함수 이름이 a일 경우 경로: WEB-INF/a.jsp
+>
+>return "/WEB-INF/a.jsp"; 과 같은 효과를 갖는다.
+>prefix:/ dl
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxMzkyODQ1LC04NTAwOTYxNzAsMTM0OD
-UxOTg3NiwxMzU2NTM3ODQxLDEwNTAyNjE5ODMsMTk1NDg3MDA2
-NSw4MzI4MDk5MTNdfQ==
+eyJoaXN0b3J5IjpbLTQ2ODE1NDc5NCwtODUwMDk2MTcwLDEzND
+g1MTk4NzYsMTM1NjUzNzg0MSwxMDUwMjYxOTgzLDE5NTQ4NzAw
+NjUsODMyODA5OTEzXX0=
 -->
