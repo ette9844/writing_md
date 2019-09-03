@@ -29,8 +29,8 @@ public ModelAndView join(String id
 ```
 >매개변수 이름을 요청전달 된 변수 이름과 동일하게 설정하거나
 >@RequestParam("~") 을 통해 다른 이름으로 설정할 수 있다.
->@RequestParam(required="true"): 패러미터 요청전달 데이터가 반드시 전달되어야 한다.
->
+>@RequestParam(required="true"): (기본값) 패러미터 요청 전달 데이터가 반드시 전달되어야 한다.
+>그냥 매개변수에도 @RequestParam(required="true") 가 붙어있기 때문에 사용하지 않는 매개변수를 사용하면 예외가 발생한다.
 
 ## Command Object를 통해 전달되는 방식
 요청으로 전달되는 매개변수가 많을 때 유용하게 사용된다.
@@ -58,6 +58,6 @@ public ModelAndView join(Customer c,
 ```
 >자동 바인드 되지 않는 요소는 따로 매개변수로 받아 설정해줘야한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzA5NDYxNSwzODI3NTAxMDcsMTM5OT
-k2NTAwOV19
+eyJoaXN0b3J5IjpbLTE1NDg4NDExODQsMzgyNzUwMTA3LDEzOT
+k5NjUwMDldfQ==
 -->
