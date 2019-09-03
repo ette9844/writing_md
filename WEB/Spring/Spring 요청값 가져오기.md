@@ -78,15 +78,17 @@ public ModelAndView join(Customer c,
 
 ## @ModelAttribute 로 가져오기
 
-이 어노테이션은 아래와 같이 html 소스코드를 응답해, 뷰어에서 사용하고 싶을 때 사용한다.
+이 어노테이션은 아래와 같이 매개변수를 뷰어에서 사용하고 싶을 때 사용한다.
 ```
 $.ajax() 	--- 요청 --->	 DispatcherServlet		Controller
 { url: ,
-  success: function(data){
-	  $("#section").
+  success: function(data){	 <------------------	joinresult.jsp
+	  $("#section").html(data);
   }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5NjUzMjcwLC0xNTQ4ODQxMTg0LDM4Mj
-c1MDEwNywxMzk5OTY1MDA5XX0=
+eyJoaXN0b3J5IjpbMTc3ODM5MTg3MCwtMTU0ODg0MTE4NCwzOD
+I3NTAxMDcsMTM5OTk2NTAwOV19
 -->
