@@ -29,7 +29,7 @@ public ModelAndView join(String id
 >매개변수 이름을 요청전달 된 변수 이름과 동일하게 설정하거나
 >@RequestParam("~") 을 통해 다른 이름으로 설정할 수 있다.
 
-## Command Objecy를 통해 전달되는 방식
+## Command Object를 통해 전달되는 방식
 요청으로 전달되는 매개변수가 많을 때 유용하게 사용된다.
 
 아래 예제의 Customer c 처럼 
@@ -55,5 +55,5 @@ public ModelAndView join(Customer c,
 ```
 >자동 바인드 되지 않는 요소는 따로 매개변수로 받아 설정해줘야한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzNjU3NzM2XX0=
+eyJoaXN0b3J5IjpbLTU1ODU3NDM5N119
 -->
