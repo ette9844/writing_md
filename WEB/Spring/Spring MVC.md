@@ -4,7 +4,7 @@
 [사진]
 >view-resolver는 optional 하다. view 이름을 그대로 사용할 경우에는 view-resolver가 사용되지 않는다.
 >
->modelandview에 add~메서드를 사
+>ModelAndView 클래스의 add~메서드를 사용하면 HttpServletRequest에 attribute가 자동 추가된다.
 
 
 # 컨트롤러 설정
@@ -205,6 +205,6 @@ public class PostController {
 >**addObject** : `request.setAttribute("result", str);` 와 동일한 기능 수행
 >**setViewName** : `return "/result.jsp";` 와 동일한 기능 수행
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTQ2ODMwLDExMzk5MjIzMDQsLTEyND
+eyJoaXN0b3J5IjpbNzc1NDA1MjM2LDExMzk5MjIzMDQsLTEyND
 A4Nzk5NzIsODk4MzE2Nzc4XX0=
 -->
