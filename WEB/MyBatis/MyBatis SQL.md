@@ -239,6 +239,8 @@ parameterType이 **String** 타입일 경우에는 `${value}`를 써주어야 �
   SELECT * FROM customer ORDER BY ${value}
 </select>
 ```
+>Ex) LIKE '%${value}%'
+
 parameterType이 특정 매칭될 수 있는 vo 타입이라면 원하는 변수명을 적어준다.
 ```xml
 <select id="a" parameterType="Customer">
@@ -246,8 +248,8 @@ parameterType이 특정 매칭될 수 있는 vo 타입이라면 원하는 변수
 </select>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwNjM5NzIwLDIwNzk4MTgyMDEsNTMyNj
-E2NjE5LDE1Mzg4MTg5NjgsLTEzOTI1MDE5MDUsMjAyNTA0ODU2
-NywxMDE3ODU1NzIzLDE4MTE2NzAwNzMsMTAzNjYzOTQzNSwtMT
-I0MjExMTcwNCwtMTA3NDk4NTc5Ml19
+eyJoaXN0b3J5IjpbNjY4NDUzMjAwLDkyMDYzOTcyMCwyMDc5OD
+E4MjAxLDUzMjYxNjYxOSwxNTM4ODE4OTY4LC0xMzkyNTAxOTA1
+LDIwMjUwNDg1NjcsMTAxNzg1NTcyMywxODExNjcwMDczLDEwMz
+Y2Mzk0MzUsLTEyNDIxMTE3MDQsLTEwNzQ5ODU3OTJdfQ==
 -->
