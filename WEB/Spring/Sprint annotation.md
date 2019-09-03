@@ -6,11 +6,15 @@
 @Service
 @Repository
 
+프로퍼티 앞
 @Autowired
+
+메서드 앞
 @RequestMapping
 @GetMapping
 @PostMapping
 
+메서드의 파라메터(ㅁ 앞
 @RequestParam
 @ModelAttribute
 
@@ -20,5 +24,5 @@
 @Configuration
 @Bean
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM1MDkwMjJdfQ==
+eyJoaXN0b3J5IjpbMTkxODY1NzQxNV19
 -->
