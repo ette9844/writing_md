@@ -2,7 +2,7 @@
 
 [p250 사진]
 [사진]
->
+>view-resolver는 optional 하다. view 이름을 그대로 사용할 경우에는 view-resolver가 사용되지 않는다.
 
 
 # 컨트롤러 설정
@@ -203,6 +203,6 @@ public class PostController {
 >**addObject** : `request.setAttribute("result", str);` 와 동일한 기능 수행
 >**setViewName** : `return "/result.jsp";` 와 동일한 기능 수행
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTkyMjMwNCwtMTI0MDg3OTk3Miw4OT
-gzMTY3NzhdfQ==
+eyJoaXN0b3J5IjpbLTE5NjU3MjkyNzgsMTEzOTkyMjMwNCwtMT
+I0MDg3OTk3Miw4OTgzMTY3NzhdfQ==
 -->
