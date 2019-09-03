@@ -29,9 +29,11 @@ public ModelAndView join(String id
 >매개변수 이름을 요청전달 된 변수 이름과 동일하게 설정하거나
 >@RequestParam("~") 을 통해 다른 이름으로 설정할 수 있다.
 
-## 객체의 setter 메서드를 통해 자동 전달되는 방식
+## Command Objecy를 통해 전달되는 방식
 요청으로 전달되는 매개변수가 많을 때 유용하게 사용된다.
-아래 예제의 Customer c 처럼 요청전달 데이터를 자동 매칭하여 가져오는 객체를 **Command 객체**라고 한다.
+
+아래 예제의 Customer c 처럼 
+**HTTP**에서 들어오는 각 속성값들을 자동적으로 커맨드 객체에 바인딩하여 처리할 수 있게한 객체를 **Command 객체**라고 한다.
 ```java
 @RequestMapping("/join")
 public ModelAndView join(Customer c, 
@@ -51,6 +53,7 @@ public ModelAndView join(Customer c,
 	return mnv;
 }
 ```
+>자동 바인드 되지 않는 요소는 따로 매개변수로 받아 설정해줘야한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzczMDMxMThdfQ==
+eyJoaXN0b3J5IjpbMTYzODg0MDc1OV19
 -->
