@@ -1,6 +1,33 @@
 
 어노테이션을 사용함으로써 xml 코드의 길이를 줄일 수 있다.
 
+## Spring Anootation
+
+### 스프링 컨테이너에서 관리될 객체에서 사용되는 어노테이션들
+
+클래스 선언 앞
+@Controller
+@Service
+@Repository
+
+프로퍼티 앞
+@Autowired
+
+메서드 앞
+@RequestMapping
+@GetMapping
+@PostMapping
+
+메서드의 파라메터(매개변수) 앞
+@RequestParam
+@ModelAttribute
+
+---
+
+### 스프링 컨테이너 설정용 자바 클래스에서 사용되는 어노테이션들
+@Configuration
+@Bean
+
 ## @Configuration / @Bean: Spring container 설정
 
 @Configuration / @Bean
@@ -280,10 +307,11 @@ public class Second1 implements Second {
 >regex: 정규식(regular expression: 언어 독립적 표현식)
 >~~Oracle인 클래스를 객체 생성에서 제외한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzkwNDA1NDgsLTE3NjIxOTc0Nyw1MD
-M1MTE5OTMsLTE0NjY0NzI3MTgsLTc5NzQyMjg0NCwtMTY4ODE1
-NDI4NiwxNzExNjA3MTk4LDIwNzY0ODExNywtMTI3OTE4NTA5OS
-wxNDE5NDM2NDU5LDE2MjgxOTg5OTEsLTQ5NTI1NzM1MywtMTY5
-NjgyODc0NSwtMTI2Njc4MjY1MSw1ODk3MjA4MjAsLTI0MzIxNz
-YxOCw2NjA1MDA2NjcsLTE1MzQ2NjQ4NzNdfQ==
+eyJoaXN0b3J5IjpbMTU4MTk0MDEwMSwtMTU3OTA0MDU0OCwtMT
+c2MjE5NzQ3LDUwMzUxMTk5MywtMTQ2NjQ3MjcxOCwtNzk3NDIy
+ODQ0LC0xNjg4MTU0Mjg2LDE3MTE2MDcxOTgsMjA3NjQ4MTE3LC
+0xMjc5MTg1MDk5LDE0MTk0MzY0NTksMTYyODE5ODk5MSwtNDk1
+MjU3MzUzLC0xNjk2ODI4NzQ1LC0xMjY2NzgyNjUxLDU4OTcyMD
+gyMCwtMjQzMjE3NjE4LDY2MDUwMDY2NywtMTUzNDY2NDg3M119
+
 -->
