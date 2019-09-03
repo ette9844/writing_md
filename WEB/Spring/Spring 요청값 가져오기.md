@@ -18,11 +18,11 @@ public ModelAndView join(String id
 	c.setPost(p);
 
 	String str = service.join(c);
+	String path = "/result.jsp";
 
 	ModelAndView mnv = new ModelAndView();
 	mnv.addObject("result", str);
-	mnv.setViewName("/result.jsp");
-
+	mnv.setViewName(path);
 	return mnv;
 }
 ```
@@ -55,5 +55,5 @@ public ModelAndView join(Customer c,
 ```
 >자동 바인드 되지 않는 요소는 따로 매개변수로 받아 설정해줘야한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODg0MDc1OV19
+eyJoaXN0b3J5IjpbOTkzNjU3NzM2XX0=
 -->
