@@ -3,6 +3,8 @@
 [p250 사진]
 [사진]
 >view-resolver는 optional 하다. view 이름을 그대로 사용할 경우에는 view-resolver가 사용되지 않는다.
+>
+>modelandview에 add~메서드를 사
 
 
 # 컨트롤러 설정
@@ -203,6 +205,6 @@ public class PostController {
 >**addObject** : `request.setAttribute("result", str);` 와 동일한 기능 수행
 >**setViewName** : `return "/result.jsp";` 와 동일한 기능 수행
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjU3MjkyNzgsMTEzOTkyMjMwNCwtMT
-I0MDg3OTk3Miw4OTgzMTY3NzhdfQ==
+eyJoaXN0b3J5IjpbMTM1OTQ2ODMwLDExMzk5MjIzMDQsLTEyND
+A4Nzk5NzIsODk4MzE2Nzc4XX0=
 -->
