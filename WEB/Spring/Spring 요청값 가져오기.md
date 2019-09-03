@@ -88,8 +88,16 @@ $.ajax() ---요청--->	 DispatcherServlet		Controller
 											</div>
 ```
 
-
+```java
+@RequestMapping("/join")
+public ModelAndView join(
+		@ModelAttibute("c") Customer c, 
+		String buildingno, 
+		@RequestParam("addr2") String addr) {
+	...
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5NDEwMjc2LC0xNTQ4ODQxMTg0LDM4Mj
-c1MDEwNywxMzk5OTY1MDA5XX0=
+eyJoaXN0b3J5IjpbLTExMjcxODIxOTgsNTQ5NDEwMjc2LC0xNT
+Q4ODQxMTg0LDM4Mjc1MDEwNywxMzk5OTY1MDA5XX0=
 -->
