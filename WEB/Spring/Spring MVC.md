@@ -169,6 +169,9 @@ public String a(String id, @RequestParam("pwd") String p) {
 	return "result.jsp";	// view 이름
 }
 ```
+>@RequestParam("~") 을 통해 다른 이름으로 설정할 수 있다.
+>@RequestParam(required="true"): (기본값) 패러미터 요청 전달 데이터가 반드시 전달되어야 한다.
+>그냥 매개변수에도 @RequestParam(required="true") 가 붙어있기 때문에 사용하지 않는 매개변수를 사용하면 예외가 발생한다.
 
 ## ModelAndView
 controller 에서 viewer 주소와 넘길 json 값을 같이 return 할 수 있게 하는 자료구조
@@ -194,5 +197,5 @@ public class PostController {
 >**addObject** : `request.setAttribute("result", str);` 와 동일한 기능 수행
 >**setViewName** : `return "/result.jsp";` 와 동일한 기능 수행
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4MzE2Nzc4XX0=
+eyJoaXN0b3J5IjpbLTEyNDA4Nzk5NzIsODk4MzE2Nzc4XX0=
 -->
