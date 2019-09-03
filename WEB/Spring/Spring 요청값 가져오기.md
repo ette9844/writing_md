@@ -76,13 +76,17 @@ public ModelAndView join(Customer c,
 >자동 바인드 되지 않는 요소는 따로 매개변수로 받아 설정해줘야한다.
 
 
-## HTML 값을 가져오기
+## @ModelAttribute 로 가져오기
+
+이 어노테이션은 아래와 같이 html 소스코드를 응답해, 뷰어에서 사용하고 싶을 때 사용한다.
 ```
 $.ajax() 	--- 요청 --->	 DispatcherServlet		Controller
-{ url: ~~,
-  
+{ url: ,
+  success: function(data){
+	  $("#section").
+  }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjE5MTE5ODUsLTE1NDg4NDExODQsMz
-gyNzUwMTA3LDEzOTk5NjUwMDldfQ==
+eyJoaXN0b3J5IjpbODA5NjUzMjcwLC0xNTQ4ODQxMTg0LDM4Mj
+c1MDEwNywxMzk5OTY1MDA5XX0=
 -->
