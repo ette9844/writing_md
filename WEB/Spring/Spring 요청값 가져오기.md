@@ -1,6 +1,6 @@
 요청: contextPath/join?id=id1&pwd=pwd1&name=name1&addr2=addr2&buildingno=buildingno
 
-## 매개변수를 통해 요청 값을 받아오는 방식
+## 매개변수로 가져오기
 ```java
 @RequestMapping("/join")
 public ModelAndView join(String id
@@ -30,7 +30,7 @@ public ModelAndView join(String id
 >매개변수 이름을 요청전달 된 변수 이름과 동일하게 설정하거나
 >@RequestParam("~") 을 통해 다른 이름으로 설정할 수 있다.
 
-## @RequestParam 를 통해 
+## @RequestParam 로 가져오기
 
 #### required
 @RequestParam(required=true): 
@@ -48,7 +48,8 @@ public ModelAndView join(String id
 >
 >**defaultValue**값에는 **문자열 타입**을 넣어줘야 한다.
 
-## Command Object를 통해 전달되는 방식
+## Command Object 로 가져오기
+
 요청으로 전달되는 매개변수가 많을 때 유용하게 사용된다.
 
 아래 예제의 Customer c 처럼 
@@ -73,7 +74,11 @@ public ModelAndView join(Customer c,
 }
 ```
 >자동 바인드 되지 않는 요소는 따로 매개변수로 받아 설정해줘야한다.
+
+
+## HTML 값을 가져오기
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDcyOTI5LC0xNTQ4ODQxMTg0LDM4Mj
-c1MDEwNywxMzk5OTY1MDA5XX0=
+eyJoaXN0b3J5IjpbLTU1MzkwOTI5NSwtMTU0ODg0MTE4NCwzOD
+I3NTAxMDcsMTM5OTk2NTAwOV19
 -->
