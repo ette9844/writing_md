@@ -1,5 +1,6 @@
-## 매개변수를 통해 요청 값을 받아오는 방식
 요청: contextPath/join?id=id1&pwd=pwd1&name=name1&addr2=addr2&buildingno=buildingno
+
+## 매개변수를 통해 요청 값을 받아오는 방식
 ```java
 @RequestMapping("/join")
 public ModelAndView join(String id
@@ -55,5 +56,5 @@ public ModelAndView join(Customer c,
 ```
 >자동 바인드 되지 않는 요소는 따로 매개변수로 받아 설정해줘야한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODU3NDM5N119
+eyJoaXN0b3J5IjpbMTM5OTk2NTAwOV19
 -->
