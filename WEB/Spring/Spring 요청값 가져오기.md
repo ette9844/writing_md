@@ -32,11 +32,17 @@ public ModelAndView join(String id
 
 ### @RequestParam
 @RequestParam(required=true): 
-(기본값)
+기본값
 패러미터 요청 전달 데이터가 반드시 전달되어야 한다.
->그냥 매개변수에도 @RequestParam(required="true") 가 붙어있기 때문에 사용하지 않는 매개변수를 사용하면 예외가 발생한다.
+
+그냥 매개변수에도 @RequestParam(required=true) 가 붙어있기 때문에 사용하지 않는 매개변수를 사용하면 예외가 발생한다.
+
+`@RequestParam(required = false, defaultValue = "0") int age`
 >int 값으로 자동 형변환 해준다. Integer.parseInt 가 자동 호출된다.
+>
 >이 경우, required=false가 되기 위해서는 defaultValue 프로퍼티를 꼭 설정해주어야 한다.(NullPointException 방지)
+>
+>**defaultValue**값에는 **문자열 타입**을 넣어줘야 한다.
 
 ## Command Object를 통해 전달되는 방식
 요청으로 전달되는 매개변수가 많을 때 유용하게 사용된다.
@@ -64,6 +70,6 @@ public ModelAndView join(Customer c,
 ```
 >자동 바인드 되지 않는 요소는 따로 매개변수로 받아 설정해줘야한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5MzY2OTY5LC0xNTQ4ODQxMTg0LDM4Mj
-c1MDEwNywxMzk5OTY1MDA5XX0=
+eyJoaXN0b3J5IjpbMTk3NDMyOTIwMSwtMTU0ODg0MTE4NCwzOD
+I3NTAxMDcsMTM5OTk2NTAwOV19
 -->
