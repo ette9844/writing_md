@@ -27,22 +27,26 @@ public ModelAndView join(String id
 }
 	
 ```
-```java
-	// Customer 객체의 setter 메서드를 통해 자동 전달되는 방식 ( 매개변수가 확 줄어듬 ) 
-	// Customer c: command 객체
-	@RequestMapping("/join")
-	public String join(Customer c) {
-		System.out.println(c.getId() + " : " 
-				+ c.getPwd() + " : " 
-				+ c.getName());
-		//String str = service.join(c);
 
-		//ModelAndView mnv = new ModelAndView();
-		//mnv.addObject("result", str);
-		//mnv.setViewName("/result.jsp");
-		return "/result.jsp";
-	}
+## 객체의 setter 메서드를 통해 자동 전달되는 방식
+요청으로 전달되는 매개변수가 많을 때 유용하게 사용된다.
+
+```java
+@RequestMapping("/join")
+public ModelAndView join(Customer c) {
+	System.out.println(c.getId() + " : " 
+			+ c.getPwd() + " : " 
+			+ c.getName());
+			+ 
+	String str = service.join(c);
+	
+	ModelAndView mnv = new ModelAndView();
+	mnv.addObject("result", str);
+	mnv.setViewName("/result.jsp");
+	
+	return mnv;
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjAyMTY3Nl19
+eyJoaXN0b3J5IjpbNjkzNzY1MDkxXX0=
 -->
