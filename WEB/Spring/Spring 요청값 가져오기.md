@@ -77,8 +77,12 @@ public ModelAndView join(Customer c,
 
 
 ## HTML 값을 가져오기
-
+```
+$.ajax() 	--- 요청 --->	 DispatcherServlet		Controller
+{ url: ~~,
+  
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzkwOTI5NSwtMTU0ODg0MTE4NCwzOD
-I3NTAxMDcsMTM5OTk2NTAwOV19
+eyJoaXN0b3J5IjpbLTEyNjE5MTE5ODUsLTE1NDg4NDExODQsMz
+gyNzUwMTA3LDEzOTk5NjUwMDldfQ==
 -->
