@@ -1,6 +1,6 @@
 # 스프링 MVC 실행 구조
 
-[p25]
+[p250 사진]
 [사진]
 
 
@@ -203,6 +203,6 @@ public class PostController {
 >**addObject** : `request.setAttribute("result", str);` 와 동일한 기능 수행
 >**setViewName** : `return "/result.jsp";` 와 동일한 기능 수행
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2ODc1OTAsLTEyNDA4Nzk5NzIsODk4Mz
-E2Nzc4XX0=
+eyJoaXN0b3J5IjpbLTcxNzA3NzI2NiwtMTI0MDg3OTk3Miw4OT
+gzMTY3NzhdfQ==
 -->
