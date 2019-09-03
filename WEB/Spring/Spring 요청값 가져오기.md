@@ -27,7 +27,7 @@ public ModelAndView join(String id
 }
 ```
 >매개변수 이름을 요청전달 된 변수 이름과 동일하게 설정하거나
->@RequestParam("~") a
+>@RequestParam("~") 을 통해 다른 이름으로 설정할 수 있다.
 
 ## 객체의 setter 메서드를 통해 자동 전달되는 방식
 요청으로 전달되는 매개변수가 많을 때 유용하게 사용된다.
@@ -49,5 +49,5 @@ public ModelAndView join(Customer c) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjU0ODYxMl19
+eyJoaXN0b3J5IjpbMTMxNDQ4Mjk2M119
 -->
