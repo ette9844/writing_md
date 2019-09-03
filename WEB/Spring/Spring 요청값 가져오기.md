@@ -17,11 +17,13 @@ public ModelAndView join(String id
 	p.setBuildingno(buildingno);
 	c.setPost(p);
 
-//String str = service.join(c);
+	String str = service.join(c);
 
-		//ModelAndView mnv = new ModelAndView();
-		//mnv.addObject("result", str);
-		//mnv.setViewName("/result.jsp");
+	ModelAndView mnv = new ModelAndView();
+	mnv.addObject("result", str);
+	mnv.setViewName("/result.jsp");
+
+	return mnv;
 }
 	
 ```
@@ -42,5 +44,5 @@ public ModelAndView join(String id
 	}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTIxMDIxMDZdfQ==
+eyJoaXN0b3J5IjpbLTg4MjAyMTY3Nl19
 -->
