@@ -2,7 +2,7 @@
 
 [p250 사진]
 [사진]
-
+>
 
 
 # 컨트롤러 설정
@@ -203,6 +203,6 @@ public class PostController {
 >**addObject** : `request.setAttribute("result", str);` 와 동일한 기능 수행
 >**setViewName** : `return "/result.jsp";` 와 동일한 기능 수행
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzA3NzI2NiwtMTI0MDg3OTk3Miw4OT
+eyJoaXN0b3J5IjpbMTEzOTkyMjMwNCwtMTI0MDg3OTk3Miw4OT
 gzMTY3NzhdfQ==
 -->
