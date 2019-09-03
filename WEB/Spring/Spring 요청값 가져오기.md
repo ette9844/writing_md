@@ -31,23 +31,26 @@ public ModelAndView join(String id
 
 ## 객체의 setter 메서드를 통해 자동 전달되는 방식
 요청으로 전달되는 매개변수가 많을 때 유용하게 사용된다.
-아래 예제의 Customer c 처럼 요청전달 데이터를 Command 객체라고 한다.
+아래 예제의 Customer c 처럼 요청전달 데이터를 자동 매칭하여 가져오는 객체를 **Command 객체**라고 한다.
 ```java
 @RequestMapping("/join")
-public ModelAndView join(Customer c) {
-	System.out.println(c.getId() + " : " 
-			+ c.getPwd() + " : " 
-			+ c.getName());
-			+ 
+public ModelAndView join(Customer c, 
+				   String buildingno, 
+				   @RequestParam("addr2") String addr) {
+	Post post = new Post();
+	post.setBuildingno(buildingno);
+	c.setPost(post);
+	c.setAddr(addr);
+		
 	String str = service.join(c);
-	
+	String path = "/result.jsp";
+
 	ModelAndView mnv = new ModelAndView();
 	mnv.addObject("result", str);
-	mnv.setViewName("/result.jsp");
-	
+	mnv.setViewName(path);
 	return mnv;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDQ4Mjk2M119
+eyJoaXN0b3J5IjpbLTEwNzczMDMxMThdfQ==
 -->
