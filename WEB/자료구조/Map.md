@@ -21,9 +21,9 @@ public class Product{
 	
 	Product 3 = new Product();
 	p3.setProd_no("10001");
-	map.get(p3);
+	map.get(p3);	// 메모리 번지 수가 다르기 때문에 찾지 못함
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzUzMjI3OF19
+eyJoaXN0b3J5IjpbLTE2NDEyODE0NzddfQ==
 -->
