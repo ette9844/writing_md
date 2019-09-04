@@ -21,6 +21,8 @@ DefaultServlet은 요청확장자가 .html, .css, .js, .jpg, ... 인 경우 해�
 </servlet-mapping>
   ```
 >Default Servlet은 이미 서블릿이 선언되어있기 때문에, servlet-mapping만 해주면 된다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDkzNDI5MzFdfQ==
+eyJoaXN0b3J5IjpbODI3OTQ1MDk3LC0xNjQ5MzQyOTMxXX0=
 -->
