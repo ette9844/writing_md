@@ -4,6 +4,8 @@ Dispatcher Servlet의 패턴 때문에 <img src="이미지 경로> 태그가 안
 
 이런 경우에는 DefaultServlet를 Dispatcher Servlet과 분리한다.
 
+[사진]
+
 DefaultServlet은 요청확장자가 .html, .css, .js, .jpg, ... 인 경우 해당 자원을 찾아 다운로드한다. (기존 img 태그의 기능)
 
 ```xml
@@ -24,5 +26,6 @@ DefaultServlet은 요청확장자가 .html, .css, .js, .jpg, ... 인 경우 해�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3OTQ1MDk3LC0xNjQ5MzQyOTMxXX0=
+eyJoaXN0b3J5IjpbLTY0NzI4NjYwMSw4Mjc5NDUwOTcsLTE2ND
+kzNDI5MzFdfQ==
 -->
