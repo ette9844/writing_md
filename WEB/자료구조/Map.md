@@ -8,7 +8,22 @@
 
 
 
-
+```java
+public class Product{
+	p1 = new Product();
+	p2 = new Product();
+	
+	p1.setProd_no("10001");
+	p2.setProd_no("10001");
+	
+	map.put(p1, 3);
+	map.put(p2, 2);
+	
+	Product 3 = new Product();
+	p3.setProd_no("10001");
+	map.get(p3);
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDY4OTQxNV19
+eyJoaXN0b3J5IjpbLTY4MzUzMjI3OF19
 -->
