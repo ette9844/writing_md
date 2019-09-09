@@ -88,9 +88,9 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 <aop:pointer id="a" expression="execution(public void com.A.(...)"/>
 <aop:advice id=""/>
 <aop:config>
-  <aop:advisor advice-ref = "b pointcut-ref
+  <aop:advisor advice-ref = "b pointcut-ref="a"/>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDU5NjU5MiwtOTg5MTAzNjgyLC0xMz
-MxOTYyNzI2XX0=
+eyJoaXN0b3J5IjpbLTE4NjE3NzUxMzMsLTk4OTEwMzY4MiwtMT
+MzMTk2MjcyNl19
 -->
