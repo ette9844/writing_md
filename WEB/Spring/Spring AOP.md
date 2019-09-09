@@ -45,6 +45,8 @@ sop("before");	// 공통사항
 d.d();	// 핵심사항
 sop("after");	// 공통사항
 ```
+
+
 AOP는 공통사항을 핵심사항의 전 또는 후에 엮을 수 있다. 
 
 **수평 구조**
@@ -84,6 +86,6 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
   <aop:advisor advice-ref = "b pointcut-ref
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzYxNzE4OTgsLTk4OTEwMzY4MiwtMT
+eyJoaXN0b3J5IjpbLTE3MjI5NjI1OTAsLTk4OTEwMzY4MiwtMT
 MzMTk2MjcyNl19
 -->
