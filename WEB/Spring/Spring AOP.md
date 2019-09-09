@@ -86,7 +86,7 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 
 엮여있다.
 
-## PointCut
+## PointCut 설정
 ```xml
 <aop:pointer id="a" expression="execution(public void com.A.(...)"/>
 <aop:advice id=""/>
@@ -103,8 +103,10 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 ## 트랜잭션 전파
 Propagation-required
 
+unchecked exception : 컴파일러에서 감지 되지 않는 exception
+ex) NullPointExce
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjE3MDEzOCw5Nzk3MzA2MTMsMTEyNj
-Q5MjI0OCw4OTk1MDg0ODAsOTU4MTIyMDU1LDc0NDQ2ODU0Mywt
-OTg5MTAzNjgyLC0xMzMxOTYyNzI2XX0=
+eyJoaXN0b3J5IjpbMTc1MDk5Mzk0OSwtNzg2MTcwMTM4LDk3OT
+czMDYxMywxMTI2NDkyMjQ4LDg5OTUwODQ4MCw5NTgxMjIwNTUs
+NzQ0NDY4NTQzLC05ODkxMDM2ODIsLTEzMzE5NjI3MjZdfQ==
 -->
