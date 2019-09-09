@@ -17,9 +17,9 @@ Aspect Orient Programming
 
 IS - A 관계가 성립되지 않으면 상속 관계를 맺으면 안된다.
 Employee is a Person
-Customer is a Person
-Accout is a Person (X)
-Account has a Person
+Customer is a Person ()
+Account is a Person (X)
+Account has a Person (Account 에 Person 타입 멤버변수를 갖게함)
 
 ### AOP
 ```java
@@ -51,5 +51,5 @@ AOP는 공통사항을 핵심사항의 전 또는 후에 엮을 수 있다.
 공통사항에 이상이 있으면 엮었던 것을 풀기만 하면 된다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzMwOTkyODNdfQ==
+eyJoaXN0b3J5IjpbLTE5NDI2NzkxMDBdfQ==
 -->
