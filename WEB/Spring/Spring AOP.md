@@ -68,8 +68,11 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 
 호출전에 	- **Advice**(언제)
 처리되도록 
+> 1) Before Advice - b
+> 2) After Advice - c
+> 3) Around Advice - a, d
 
 엮여있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjU2MDIwNTRdfQ==
+eyJoaXN0b3J5IjpbLTEzMzE5NjI3MjZdfQ==
 -->
