@@ -31,7 +31,7 @@ sop("before");
 d.d();
 sop("after");
 ```
-
+AOP는 공통사항을 핵심사항의 전 또는 후에 엮을 수 있다. -> 수평 구조
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5NTM5ODAwXX0=
+eyJoaXN0b3J5IjpbMTI2NzY1MTY5OV19
 -->
