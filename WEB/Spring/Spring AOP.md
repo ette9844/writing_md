@@ -7,6 +7,8 @@ Aspect Orient Programming
 
 ## AOP 구조
 ### OOP
+**트랜재션에서 사용됨**
+
 공통 요소를 parent에 두고 child에 상속 시킨다.
 
 **수직 구조**
@@ -76,9 +78,12 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 
 ## PointCut
 ```xml
-<aop:pointer id="a" expression="execution
+<aop:pointer id="a" expression="execution(public void com.A.(...)"/>
+<aop:advice id=""/>
+<aop:config>
+  <aop:advisor advice-ref = "b pointcut-ref
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQ4OTY1MDAsLTk4OTEwMzY4MiwtMT
+eyJoaXN0b3J5IjpbLTIwNzYxNzE4OTgsLTk4OTEwMzY4MiwtMT
 MzMTk2MjcyNl19
 -->
