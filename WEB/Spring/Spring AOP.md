@@ -100,8 +100,11 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 [aspectjweaver](https://mvnrepository.com/artifact/org.aspectj/aspectjweaver)
 
 
+## 트랜잭션 전파
+Propagation-required
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5NzMwNjEzLDExMjY0OTIyNDgsODk5NT
-A4NDgwLDk1ODEyMjA1NSw3NDQ0Njg1NDMsLTk4OTEwMzY4Miwt
-MTMzMTk2MjcyNl19
+eyJoaXN0b3J5IjpbLTc4NjE3MDEzOCw5Nzk3MzA2MTMsMTEyNj
+Q5MjI0OCw4OTk1MDg0ODAsOTU4MTIyMDU1LDc0NDQ2ODU0Mywt
+OTg5MTAzNjgyLC0xMzMxOTYyNzI2XX0=
 -->
