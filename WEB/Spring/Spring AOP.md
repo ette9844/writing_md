@@ -64,11 +64,12 @@ AOP는 공통사항을 핵심사항의 전 또는 후에 엮을 수 있다.
 위 예제에서
 before 출력하는 공통 사항:  
 a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
+>pointcut을 묶어서 joinpoint라고 함
 
 호출전에 	- **Advice**(언제)
 처리되도록 
 
 엮여있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxNDc5NTY4XX0=
+eyJoaXN0b3J5IjpbLTEwNjU2MDIwNTRdfQ==
 -->
