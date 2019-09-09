@@ -90,7 +90,9 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 <aop:config>
   <aop:advisor advice-ref = "b pointcut-ref="a"/>
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjE3NzUxMzMsLTk4OTEwMzY4MiwtMT
-MzMTk2MjcyNl19
+eyJoaXN0b3J5IjpbNzQ0NDY4NTQzLC05ODkxMDM2ODIsLTEzMz
+E5NjI3MjZdfQ==
 -->
