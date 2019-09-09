@@ -14,8 +14,24 @@ Aspect Orient Programming
 System.out.println("before");
 a.a();
 System.out.println("after");
+
+---
+
+sop("before");
+b.b();
+
+---
+
+c.c();
+sop("after");
+
+---
+
+sop("before");
+d.d();
+sop("after");
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjk2NDgxMjddfQ==
+eyJoaXN0b3J5IjpbNDE5NTM5ODAwXX0=
 -->
