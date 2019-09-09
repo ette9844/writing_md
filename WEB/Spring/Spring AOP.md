@@ -8,6 +8,12 @@ Aspect Orient Programming
 ## AOP 구조
 ### OOP
 **트랜재션에서 사용됨**
+```
+공통사항(관점)
+[트랜잭션 시작]
+a.a(); 핵심사항(관점)
+[트랜잭션 종료](commit/rollback)
+```
 
 공통 요소를 parent에 두고 child에 상속 시킨다.
 
@@ -44,12 +50,6 @@ sop("after");	// 공통사항
 sop("before");	// 공통사항
 d.d();	// 핵심사항
 sop("after");	// 공통사항
-```
-```
-공통사항(관점)
-[트랜잭션 시작]
-a.a(); 핵심사항(관점)
-[트랜잭션 종료](commit/rollback)
 ```
 
 AOP는 공통사항을 핵심사항의 전 또는 후에 엮을 수 있다. 
@@ -93,6 +93,6 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0NDY4NTQzLC05ODkxMDM2ODIsLTEzMz
-E5NjI3MjZdfQ==
+eyJoaXN0b3J5IjpbOTU4MTIyMDU1LDc0NDQ2ODU0MywtOTg5MT
+AzNjgyLC0xMzMxOTYyNzI2XX0=
 -->
