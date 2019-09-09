@@ -51,6 +51,11 @@ AOP는 공통사항을 핵심사항의 전 또는 후에 엮을 수 있다.
 공통사항에 이상이 있으면 엮었던 것을 풀기만 하면 된다.
 
 공통사항의 관점과 핵심사항의 관점을 분리한다.
+
+## Weaving
+
+: 공통사항(관심)과 핵심사항(관심)을 엮는다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTUxMjE4MF19
+eyJoaXN0b3J5IjpbLTE2MDU5MTg4MjJdfQ==
 -->
