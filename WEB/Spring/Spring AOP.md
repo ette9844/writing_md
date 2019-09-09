@@ -115,7 +115,7 @@ public String account() {
 * 트랜잭션 내에서 UncheckedException이 발생하면 모든 트랜잭션이 롤백된다.
 * 트랜잭션 내에서 CheckedException이 발생하면 롤백되지 않음.
 >unchecked exception : 컴파일러에서 감지 되지 않는 exception
-ex) NullPointException, ArrayIndexBoundException ...
+ex) NullPointException, ArrayIndexOutOfBoundaryException, RuntimeException ...
 >
 >checked exception : 컴파일러에서 감지 되는 exception
 >ex) IOException...
@@ -131,7 +131,8 @@ ex) NullPointException, ArrayIndexBoundException ...
 PROPAGATION_REQUIRED
 PROPAGATION_REQUIRES_NEW 등
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3NjkyNjM3LC03ODYxNzAxMzgsOTc5Nz
-MwNjEzLDExMjY0OTIyNDgsODk5NTA4NDgwLDk1ODEyMjA1NSw3
-NDQ0Njg1NDMsLTk4OTEwMzY4MiwtMTMzMTk2MjcyNl19
+eyJoaXN0b3J5IjpbMTQ3OTE3Mzk5LDkyNzY5MjYzNywtNzg2MT
+cwMTM4LDk3OTczMDYxMywxMTI2NDkyMjQ4LDg5OTUwODQ4MCw5
+NTgxMjIwNTUsNzQ0NDY4NTQzLC05ODkxMDM2ODIsLTEzMzE5Nj
+I3MjZdfQ==
 -->
