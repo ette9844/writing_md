@@ -112,12 +112,16 @@ ex) NullPointException, ArrayIndexBoundException ...
 >ex) IOException...
 
 ### Propagation-not-supported
-* 호출된 메서드가 트랜잭션 없이 실행되는 경우
+* 트랜잭션 내부에서 호출된 메서드가 트랜잭션 없이 실행되는 경우
 * 첫번째 트랜잭션이 보류되면서 두 번쨰 메소드가 트랜잭션 없이 실행
 * 호출된 메서드에서 uncheckedException이 발생해도 트랜잭션이 아니기 때문에 롤백이 되지 않는다.
-* 첫번째 트랜잭션에서 
+* 첫번째 트랜잭션에서 UncheckedException이 발생하면 호출된 메서드는 롤백되지 않고 트랜잭션만 롤백된다.
+
+
+이 외에도 다양한 트랜잭션의 전파속성이 존재한다.
+PRO
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjE0NDc2NiwtNzg2MTcwMTM4LDk3OT
+eyJoaXN0b3J5IjpbMTE2MjAwMjQzOSwtNzg2MTcwMTM4LDk3OT
 czMDYxMywxMTI2NDkyMjQ4LDg5OTUwODQ4MCw5NTgxMjIwNTUs
 NzQ0NDY4NTQzLC05ODkxMDM2ODIsLTEzMzE5NjI3MjZdfQ==
 -->
