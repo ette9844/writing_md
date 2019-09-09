@@ -73,6 +73,11 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 > 3) Around Advice - a, d
 
 엮여있다.
+
+## PointCut
+```xml
+<aop:pointer id="a" expression=
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE5NjI3MjZdfQ==
+eyJoaXN0b3J5IjpbLTk4OTEwMzY4MiwtMTMzMTk2MjcyNl19
 -->
