@@ -62,7 +62,12 @@ AOP는 공통사항을 핵심사항의 전 또는 후에 엮을 수 있다.
 3. 핵심사항용 클래스 런타임시 프록시객체를 생성해서 공통사항을 추가
 
 위 예제에서
-before 출력하는 공통 사항:  a(), b(), d()
+before 출력하는 공통 사항:  
+a(), b(), d()  
+호출전에 
+처리되도록 
+
+엮여있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzAwMDU5Nl19
+eyJoaXN0b3J5IjpbLTc0MTAwMTYzMV19
 -->
