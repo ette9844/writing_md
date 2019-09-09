@@ -130,9 +130,13 @@ ex) NullPointException, ArrayIndexOutOfBoundaryException, RuntimeException ...
 이 외에도 다양한 트랜잭션의 전파속성이 존재한다.
 PROPAGATION_REQUIRED
 PROPAGATION_REQUIRES_NEW 등
+
+
+mybatis는 auto commit 이 아님->session.commit() rollback() 사용
+jdbc는 auto commit임. autocommit에 false 값을 주지 않으면 자동 커밋이 된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTYyODk0MSwxNDc5MTczOTksOTI3Nj
-kyNjM3LC03ODYxNzAxMzgsOTc5NzMwNjEzLDExMjY0OTIyNDgs
-ODk5NTA4NDgwLDk1ODEyMjA1NSw3NDQ0Njg1NDMsLTk4OTEwMz
-Y4MiwtMTMzMTk2MjcyNl19
+eyJoaXN0b3J5IjpbLTcwMzY0OTMwMSwxNTM1NjI4OTQxLDE0Nz
+kxNzM5OSw5Mjc2OTI2MzcsLTc4NjE3MDEzOCw5Nzk3MzA2MTMs
+MTEyNjQ5MjI0OCw4OTk1MDg0ODAsOTU4MTIyMDU1LDc0NDQ2OD
+U0MywtOTg5MTAzNjgyLC0xMzMxOTYyNzI2XX0=
 -->
