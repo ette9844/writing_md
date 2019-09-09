@@ -103,6 +103,12 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 ## 트랜잭션 전파 속성
 
 @Transactional(propagation="*트랜잭션 전파 속성*")
+```java
+@Transactional(propagation=Propagation.REQUIRED)
+public String account() {
+	...
+}
+```
 
 ### Propagation-required
 * 한 트랜잭션 내에서 실행되는 경우
@@ -125,7 +131,7 @@ ex) NullPointException, ArrayIndexBoundException ...
 PROPAGATION_REQUIRED
 PROPAGATION_REQUIRES_NEW 등
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTU3ODAxLC03ODYxNzAxMzgsOTc5Nz
+eyJoaXN0b3J5IjpbOTI3NjkyNjM3LC03ODYxNzAxMzgsOTc5Nz
 MwNjEzLDExMjY0OTIyNDgsODk5NTA4NDgwLDk1ODEyMjA1NSw3
 NDQ0Njg1NDMsLTk4OTEwMzY4MiwtMTMzMTk2MjcyNl19
 -->
