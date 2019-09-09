@@ -76,8 +76,9 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 
 ## PointCut
 ```xml
-<aop:pointer id="a" expression=
+<aop:pointer id="a" expression="execution
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4OTEwMzY4MiwtMTMzMTk2MjcyNl19
+eyJoaXN0b3J5IjpbLTE5NjQ4OTY1MDAsLTk4OTEwMzY4MiwtMT
+MzMTk2MjcyNl19
 -->
