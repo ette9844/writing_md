@@ -16,8 +16,8 @@ Aspect Orient Programming
 부모가 잘 못 되면 자식에 다 영향이 미친다.
 
 IS - A 관계가 성립되지 않으면 상속 관계를 맺으면 안된다.
-Employee is a Person
-Customer is a Person ()
+Employee is a Person (Person을 상속)
+Customer is a Person (Person을 상속)
 Account is a Person (X)
 Account has a Person (Account 에 Person 타입 멤버변수를 갖게함)
 
@@ -50,6 +50,7 @@ AOP는 공통사항을 핵심사항의 전 또는 후에 엮을 수 있다.
 공통사항이 핵심사항에 영향을 주지 않는다.
 공통사항에 이상이 있으면 엮었던 것을 풀기만 하면 된다.
 
+공통사항의 관점과 핵심사항의 관점을 분리한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDI2NzkxMDBdfQ==
+eyJoaXN0b3J5IjpbLTU0NTUxMjE4MF19
 -->
