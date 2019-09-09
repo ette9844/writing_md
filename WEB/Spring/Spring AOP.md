@@ -118,7 +118,7 @@ public String account() {
 ex) NullPointException, ArrayIndexOutOfBoundaryException, RuntimeException ...
 >
 >checked exception : 컴파일러에서 감지 되는 exception
->ex) IOException...
+>ex) IOException ...
 
 ### Propagation-not-supported
 * 트랜잭션 내부에서 호출된 메서드가 트랜잭션 없이 실행되는 경우
@@ -131,8 +131,8 @@ ex) NullPointException, ArrayIndexOutOfBoundaryException, RuntimeException ...
 PROPAGATION_REQUIRED
 PROPAGATION_REQUIRES_NEW 등
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTE3Mzk5LDkyNzY5MjYzNywtNzg2MT
-cwMTM4LDk3OTczMDYxMywxMTI2NDkyMjQ4LDg5OTUwODQ4MCw5
-NTgxMjIwNTUsNzQ0NDY4NTQzLC05ODkxMDM2ODIsLTEzMzE5Nj
-I3MjZdfQ==
+eyJoaXN0b3J5IjpbMTUzNTYyODk0MSwxNDc5MTczOTksOTI3Nj
+kyNjM3LC03ODYxNzAxMzgsOTc5NzMwNjEzLDExMjY0OTIyNDgs
+ODk5NTA4NDgwLDk1ODEyMjA1NSw3NDQ0Njg1NDMsLTk4OTEwMz
+Y4MiwtMTMzMTk2MjcyNl19
 -->
