@@ -103,19 +103,21 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 ## 트랜잭션 전파
 ### Propagation-required
 * 한 트랜잭션 내에서 실행되는 경우
-트랜잭션 내에서 UncheckedException이 발생하면 모든 트랜잭션이 롤백된다.
-
-unchecked exception : 컴파일러에서 감지 되지 않는 exception
+* 트랜잭션 내에서 UncheckedException이 발생하면 모든 트랜잭션이 롤백된다.
+* 트랜잭션 내에서 CheckedException이 발생하면 롤백되지 않음.
+>unchecked exception : 컴파일러에서 감지 되지 않는 exception
 ex) NullPointException, ArrayIndexBoundException ...
-checked exception은 롤백 되지 않는다
+>
+>checked exception : 컴파일러에서 감지 되는 exception
+>ex) IOException...
 
 ### Propagation-not-supported
 * 호출된 메서드가 트랜잭션 없이 실행되는 경우
-첫번째 트랜잭션이 보류되면서 두 번쨰 메소드가 트랜잭션 없이 실행
-호출된 메서드에서 uncheckedException이 발생해도 트랜잭션이 아니기 때문에 롤백이 되지 않는다.
-첫번쨰 트랜잭션이 
+* 첫번째 트랜잭션이 보류되면서 두 번쨰 메소드가 트랜잭션 없이 실행
+* 호출된 메서드에서 uncheckedException이 발생해도 트랜잭션이 아니기 때문에 롤백이 되지 않는다.
+* 첫번째 트랜잭션에서 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTQ1ODAwNiwtNzg2MTcwMTM4LDk3OT
+eyJoaXN0b3J5IjpbMTYzNjE0NDc2NiwtNzg2MTcwMTM4LDk3OT
 czMDYxMywxMTI2NDkyMjQ4LDg5OTUwODQ4MCw5NTgxMjIwNTUs
 NzQ0NDY4NTQzLC05ODkxMDM2ODIsLTEzMzE5NjI3MjZdfQ==
 -->
