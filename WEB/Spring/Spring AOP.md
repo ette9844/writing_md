@@ -96,8 +96,12 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 ```
 
 
+## AspectJ Weaver
+[aspectjweaver](https://mvnrepository.com/artifact/org.aspectj/aspectjweaver)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjQ5MjI0OCw4OTk1MDg0ODAsOTU4MT
-IyMDU1LDc0NDQ2ODU0MywtOTg5MTAzNjgyLC0xMzMxOTYyNzI2
-XX0=
+eyJoaXN0b3J5IjpbOTc5NzMwNjEzLDExMjY0OTIyNDgsODk5NT
+A4NDgwLDk1ODEyMjA1NSw3NDQ0Njg1NDMsLTk4OTEwMzY4Miwt
+MTMzMTk2MjcyNl19
 -->
