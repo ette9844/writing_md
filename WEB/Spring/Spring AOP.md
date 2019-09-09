@@ -54,6 +54,14 @@ AOP는 공통사항을 핵심사항의 전 또는 후에 엮을 수 있다.
 
 공통사항의 관점과 핵심사항의 관점을 분리한다.
 
+**트랜재션에서 사용됨**
+```
+공통사항(관점)
+[트랜잭션 시작]
+a.a(); 핵심사항(관점)
+[트랜잭션 종료](commit/rollback)
+```
+
 ## Weaving
 
 : 공통사항(관심)과 핵심사항(관심)을 엮는다.
@@ -81,11 +89,12 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 <aop:pointer id="a" expression="execution(public void com.A.(...)"/>
 <aop:advice id=""/>
 <aop:config>
-  <aop:advisor advice-ref = "b pointcut-ref="a"/>
+  <aop:advisor advice-ref="b" pointcut-ref="a"/>
+</aop:config>
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzAzNDUzOCw5NTgxMjIwNTUsNzQ0ND
-Y4NTQzLC05ODkxMDM2ODIsLTEzMzE5NjI3MjZdfQ==
+eyJoaXN0b3J5IjpbODk5NTA4NDgwLDk1ODEyMjA1NSw3NDQ0Nj
+g1NDMsLTk4OTEwMzY4MiwtMTMzMTk2MjcyNl19
 -->
