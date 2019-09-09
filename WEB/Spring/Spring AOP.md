@@ -100,7 +100,10 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 [aspectjweaver](https://mvnrepository.com/artifact/org.aspectj/aspectjweaver)
 
 
-## 트랜잭션 전파
+## 트랜잭션 전파 속성
+
+@Transactional(propagation="*트랜잭션 전파 속성*")
+
 ### Propagation-required
 * 한 트랜잭션 내에서 실행되는 경우
 * 트랜잭션 내에서 UncheckedException이 발생하면 모든 트랜잭션이 롤백된다.
@@ -119,9 +122,10 @@ ex) NullPointException, ArrayIndexBoundException ...
 
 
 이 외에도 다양한 트랜잭션의 전파속성이 존재한다.
-PRO
+PROPAGATION_REQUIRED
+PROPAGATION_REQUIRES_NEW 등
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MjAwMjQzOSwtNzg2MTcwMTM4LDk3OT
-czMDYxMywxMTI2NDkyMjQ4LDg5OTUwODQ4MCw5NTgxMjIwNTUs
-NzQ0NDY4NTQzLC05ODkxMDM2ODIsLTEzMzE5NjI3MjZdfQ==
+eyJoaXN0b3J5IjpbMTU0MTU3ODAxLC03ODYxNzAxMzgsOTc5Nz
+MwNjEzLDExMjY0OTIyNDgsODk5NTA4NDgwLDk1ODEyMjA1NSw3
+NDQ0Njg1NDMsLTk4OTEwMzY4MiwtMTMzMTk2MjcyNl19
 -->
