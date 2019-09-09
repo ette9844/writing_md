@@ -56,6 +56,10 @@ AOP는 공통사항을 핵심사항의 전 또는 후에 엮을 수 있다.
 
 : 공통사항(관심)과 핵심사항(관심)을 엮는다.
 
+### weaving 방법
+1. 핵심사항이 컴파일될시에 바이트코드에 공통사항을 추가
+2. 핵심사항용 클래스 로드시 바이트 코드에 공통사항을 추가
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDU5MTg4MjJdfQ==
+eyJoaXN0b3J5IjpbNTIxMzA1MTA3XX0=
 -->
