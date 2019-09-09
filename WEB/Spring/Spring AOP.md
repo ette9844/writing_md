@@ -11,7 +11,8 @@ Aspect Orient Programming
 
 **수직 구조**
 
-부모의 설계가 완벽해야 쓸 수 있는 구조
+부모의 설계가 완벽해야 쓸 수 있는 구조. 
+설계의 완벽함을 추구한다.(실무에 적용하기 어려움)
 부모가 잘 못 되면 자식에 다 영향이 미친다.
 
 ### AOP
@@ -44,5 +45,5 @@ AOP는 공통사항을 핵심사항의 전 또는 후에 엮을 수 있다.
 공통사항에 이상이 있으면 엮었던 것을 풀기만 하면 된다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwOTEyNzYyXX0=
+eyJoaXN0b3J5IjpbMjAyNTA0NjY1MF19
 -->
