@@ -134,9 +134,58 @@ PROPAGATION_REQUIRES_NEW 등
 
 mybatis는 auto commit 이 아님->session.commit() rollback() 사용
 jdbc는 auto commit임. autocommit에 false 값을 주지 않으면 자동 커밋이 된다.
+
+
+## AOP 설정
+  ```
+1) applicationContext.xml파일내용
+<!-- 선언적 트랜잭션 -->	
+<aop:aspectj-autoproxy/>
+<bean id="transactionManager" 
+      class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+  <property name="dataSource" ref="dataSource"/>
+</bean>	
+<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+  <constructor-arg index="0" ref="sqlSessionFactory" />
+</bean> 
+<!--아래 설정 추가하세요!-->
+<tx:annotation-driven transaction-manager="transactionManager"/>
+
+2) AccountDAO.java에서 @Transactional어노테이션 설정 
+@Repository
+public class AccountDAO {
+	@Autowired
+	private SqlSession sqlSession;	
+	@Transactional
+	public void account(){
+		HashMap<String, Object> map = new HashMap<>();
+		String no1 ="101";
+		map.put("no", no1);
+		map.put("amount", 10);
+		int rowCnt1 = 
+			sqlSession.update("com.my.vo.Account.withdraw",map);
+		if(rowCnt1 == 0) {
+			throw new RuntimeException(no1+"계좌가 없어서 출금오류");
+		}		
+		map = new HashMap<>();
+		//map.put("no", "102"); //
+		
+		String no2 = "999";
+		map.put("no", no2); //
+		map.put("amount", 10);
+
+		//내부에서 uncheckedexception발생 - 자동롤백되어야한다.
+		int rowCnt2 =sqlSession.update("com.my.vo.Account.deposit",	map);
+		if(rowCnt2 == 0) {
+			throw new RuntimeException(no1+"계좌가 없어서 입금오류");
+		}
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzY0OTMwMSwxNTM1NjI4OTQxLDE0Nz
-kxNzM5OSw5Mjc2OTI2MzcsLTc4NjE3MDEzOCw5Nzk3MzA2MTMs
-MTEyNjQ5MjI0OCw4OTk1MDg0ODAsOTU4MTIyMDU1LDc0NDQ2OD
-U0MywtOTg5MTAzNjgyLC0xMzMxOTYyNzI2XX0=
+eyJoaXN0b3J5IjpbMTE3NzU3Mzk4NCwtNzAzNjQ5MzAxLDE1Mz
+U2Mjg5NDEsMTQ3OTE3Mzk5LDkyNzY5MjYzNywtNzg2MTcwMTM4
+LDk3OTczMDYxMywxMTI2NDkyMjQ4LDg5OTUwODQ4MCw5NTgxMj
+IwNTUsNzQ0NDY4NTQzLC05ODkxMDM2ODIsLTEzMzE5NjI3MjZd
+fQ==
 -->
