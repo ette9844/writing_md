@@ -43,6 +43,9 @@
 ```
 >center의 lat, lng 에 표시하고 싶은 위치의 위도 경도를 설정해준다.
 >zoom: 확대 정도 설정
+
+## Geolocation
+현재 위치 정보를 사용하여 동적
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTUxODQ1MiwtOTg0NjEyMDY4XX0=
+eyJoaXN0b3J5IjpbLTY0MjQyNDg2OCwtOTg0NjEyMDY4XX0=
 -->
