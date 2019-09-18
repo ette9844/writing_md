@@ -47,19 +47,17 @@
 ## Geolocation
 현재 위치 정보를 사용하여 동적
 
-```html
-<script>
-      var map, infoWindow;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 6
-        });
-        infoWindow = new google.maps.InfoWindow;
+```java
+function initMap() {
+	map = new google.maps.Map(document.getElementById('map'), {
+	    center: {lat: -34.397, lng: 150.644},
+        zoom: 6
+    });
+    infoWindow = new google.maps.InfoWindow;
 
-        // Try HTML5 geolocation.
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(function(position) {
+    // Try HTML5 geolocation.
+    if (navigator.geolocation) {
+	    navigator.geolocation.getCurrentPosition(function(position) {
             var pos = {
               lat: position.coords.latitude,
               lng: position.coords.longitude
@@ -77,15 +75,6 @@
           handleLocationError(false, infoWindow, map.getCenter());
         }
       }
-
-      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-        infoWindow.setPosition(pos);
-        infoWindow.setContent(browserHasGeolocation ?
-                              'Error: The Geolocation service failed.' :
-                              'Error: Your browser doesn\'t support geolocation.');
-        infoWindow.open(map);
-      }
-    </script>
 ```
 >navigator.geolocation.getCurrentPosition: 현재 위경도를 가져오는 함수
 >getCurrentPosition내 function 의 매개변수 position: 현재 위,경도 값
@@ -147,5 +136,6 @@ function addMarker(location, map) {
      - ex) http://localhost:8080/b/*
 5. 결제 카드 등록
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA4MjUyNTMsLTk4NDYxMjA2OF19
+eyJoaXN0b3J5IjpbLTQ5MzA0ODExNywtMTY4MDgyNTI1MywtOT
+g0NjEyMDY4XX0=
 -->
