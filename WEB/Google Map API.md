@@ -58,23 +58,23 @@ function initMap() {
     // Try HTML5 geolocation.
     if (navigator.geolocation) {
 	    navigator.geolocation.getCurrentPosition(function(position) {
-            var pos = {
-              lat: position.coords.latitude,
-              lng: position.coords.longitude
-            };
+        var pos = {
+          lat: position.coords.latitude,
+          lng: position.coords.longitude
+        };
 
-            infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
-            infoWindow.open(map);
-            map.setCenter(pos);
-          }, function() {
-            handleLocationError(true, infoWindow, map.getCenter());
-          });
-        } else {
-          // Browser doesn't support Geolocation
-          handleLocationError(false, infoWindow, map.getCenter());
-        }
-      }
+        infoWindow.setPosition(pos);
+        infoWindow.setContent('Location found.');
+        infoWindow.open(map);
+        map.setCenter(pos);
+	}, function() {
+	        handleLocationError(true, infoWindow, map.getCenter());
+	    });
+    } else {
+	    // Browser doesn't support Geolocation
+        handleLocationError(false, infoWindow, map.getCenter());
+    }
+}
 ```
 >navigator.geolocation.getCurrentPosition: 현재 위경도를 가져오는 함수
 >getCurrentPosition내 function 의 매개변수 position: 현재 위,경도 값
@@ -136,6 +136,6 @@ function addMarker(location, map) {
      - ex) http://localhost:8080/b/*
 5. 결제 카드 등록
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzA0ODExNywtMTY4MDgyNTI1MywtOT
-g0NjEyMDY4XX0=
+eyJoaXN0b3J5IjpbMTc1NjQ4MTM5LC0xNjgwODI1MjUzLC05OD
+Q2MTIwNjhdfQ==
 -->
