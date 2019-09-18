@@ -87,8 +87,9 @@
       }
     </script>
 ```
->getCurrentPosition의 매개변수 position: 현재 위,경도 값
->setPosition으로 위치를 새로 잡고 open하
+>navigator.geolocation.getCurrentPosition: 현재 위경도를 가져오는 함수
+>getCurrentPosition내 function 의 매개변수 position: 현재 위,경도 값
+>setPosition으로 위치를 새로 잡고 open함수로 map을 새로 보여준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjk1OTU4MiwtOTg0NjEyMDY4XX0=
+eyJoaXN0b3J5IjpbMTU4ODg4MjYzNiwtOTg0NjEyMDY4XX0=
 -->
