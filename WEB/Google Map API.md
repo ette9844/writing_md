@@ -90,6 +90,26 @@
 >navigator.geolocation.getCurrentPosition: 현재 위경도를 가져오는 함수
 >getCurrentPosition내 function 의 매개변수 position: 현재 위,경도 값
 >setPosition으로 위치를 새로 잡고 open함수로 map을 새로 보여준다.
+
+
+## Marker
+
+```java
+function initMap() {
+    var myLatLng = {lat: -25.363, lng: 131.044};
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: myLatLng
+    });
+
+    var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+	});
+}
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODg4MjYzNiwtOTg0NjEyMDY4XX0=
+eyJoaXN0b3J5IjpbLTYyMTA1NjkyMSwtOTg0NjEyMDY4XX0=
 -->
