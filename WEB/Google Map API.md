@@ -112,8 +112,8 @@ function initMap() {
  ```
 
 
-
-### label을 가진 마커를 만들고 싶을때
+## Marker Labels
+label을 가진 마커를 만들고 싶을때
 ```java
 function addMarker(location, map) {
         // Add the marker at the clicked location, and add the next-available label
@@ -127,8 +127,13 @@ function addMarker(location, map) {
 ```
 >
 
+## Simple Marker Icons
+마커를 특정 아이콘으로 변경
 
-배열로 처리하여 마커를 여러개 생성
+>icon 속성 추가
+
+## Complex Marker Icons
+배열로 처리하여 마커를 여러 개 생성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTI0NDYxMSwtOTg0NjEyMDY4XX0=
+eyJoaXN0b3J5IjpbLTE5MjMxMTk0MTEsLTk4NDYxMjA2OF19
 -->
