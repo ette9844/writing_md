@@ -110,6 +110,11 @@ function initMap() {
 	});
 }
  ```
+
+
+
+### label을 가진 마커를 만들고 싶을때
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTA1NjkyMSwtOTg0NjEyMDY4XX0=
+eyJoaXN0b3J5IjpbMTc3OTA0NTQxNCwtOTg0NjEyMDY4XX0=
 -->
