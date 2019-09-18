@@ -114,7 +114,21 @@ function initMap() {
 
 
 ### label을 가진 마커를 만들고 싶을때
+```java
+function addMarker(location, map) {
+        // Add the marker at the clicked location, and add the next-available label
+        // from the array of alphabetical characters.
+        var marker = new google.maps.Marker({
+          position: location,
+          label: labels[labelIndex++ % labels.length],
+          map: map
+        });
+}
+```
+>
 
+
+배열로 처리하여 마커를 여러개 생성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3OTA0NTQxNCwtOTg0NjEyMDY4XX0=
+eyJoaXN0b3J5IjpbMTQ4OTI0NDYxMSwtOTg0NjEyMDY4XX0=
 -->
