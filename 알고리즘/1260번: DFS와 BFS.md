@@ -1,5 +1,7 @@
 
-### C++14
+[1260번: DFS와 BFS](https://www.acmicpc.net/problem/1260)
+
+C++14
 ```c++
 #include <cstdio>
 #include <algorithm>
@@ -74,6 +76,12 @@ int main() {
 	printf("\n");
 }
 ```
+
+>정렬은 필수가 아니나 문제 내에서 작은 것 부터 방문하라는 조건이 제시되었으므로 sort
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTYwMTQ4MV19
+eyJoaXN0b3J5IjpbMTE5OTc2OV19
 -->
