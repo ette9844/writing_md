@@ -20,8 +20,9 @@ void dfs(int x){
 	}
 }
 ```
->dfs(x) : x에 방문했다.
+>dfs(x): x에 방문했다.
 >n : 그래프 정점 개수
+>시간 복잡도: 정점의 개수 v
 
 ### 인접 리스트
 ```c++
@@ -30,15 +31,16 @@ void dfs(int x){
 	printf("%d", x);
 	for(int i=0; i<a[x].size(); i++){
 		int y = a[x][i];
-		if(a[x][i] == 1 && check[i] == false) {
-			dfs(i);
+		if(check[y] == false) {
+			dfs(y);
 		}
 	}
 }
 ```
+>인접리스트에는 실제로 존재하는 간선만 존재하므로, 방문하지 않았으면 바로 방문하여도 괜찮다
 
 ## BFS
 너비 우선 탐색
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTE0NDE3MSwxOTc4MDg3NzA5XX0=
+eyJoaXN0b3J5IjpbLTE3NTAyOTE0MTIsMTk3ODA4NzcwOV19
 -->
