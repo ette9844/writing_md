@@ -41,7 +41,13 @@ void dfs(int x){
 >시간 복잡도 : O(V+E) (V: 정점개수, E: 간선개수)
 
 ## BFS
+Breadth First Search
 너비 우선 탐색
+
+* **큐**를 이용하여 지금 위치에서 갈 수 있는 것을 모두 큐에 넣는 방식
+* 큐에 **넣을 때** 방문했다고 체크해야 한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA5NTk1MzIsMTk3ODA4NzcwOV19
+eyJoaXN0b3J5IjpbLTEyODQ0Mjc5NjUsMTk3ODA4NzcwOV19
 -->
