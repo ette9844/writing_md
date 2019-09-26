@@ -110,8 +110,8 @@ Connected Component
 DFS나 BFS가 시작되는 횟수를 통해 연결 요소를 유추해 낼 수 있다.
 
 ## 관련 문제
-[1260번: DFS와 BFS](https://www.acmicpc.net/problem/1260)
+[11724번: 연결 요소의 개수](https://www.acmicpc.net/problem/11724)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTU2MjUyNSwxOTc4MDg3NzA5XX0=
+eyJoaXN0b3J5IjpbLTIxMzY4MzAzMzcsMTk3ODA4NzcwOV19
 -->
