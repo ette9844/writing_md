@@ -100,6 +100,8 @@ while(!q.empty()) {
 
 ## 연결 요소
 Connected Component
+
+![enter image description here](https://t1.daumcdn.net/cfile/tistory/214DD33752D9233213)
 * 두 그래프가 나누어져있지 않고, 둘 사이를 잇는 간선이 없을 경우, 나누어진 각각의 그래프를 연결 요소 라고 한다.
 * 위 경우에서는 연결 요소가 2개
 * 연결 요소에 속한 모든 정점을 연결하는 경로가 있어야 한다. 
@@ -115,11 +117,12 @@ DFS나 BFS가 시작되는 횟수를 통해 연결 요소를 유추해 낼 수 �
 
 ## 이분 그래프
 Bipartite Graph
+
 * 그래프의 정점을 A와 B로 나눌 수 있으면 이분 그래프라고 한다
 * A에 포함되어 있는 정점끼리 연결된 간선이 없음
 * B에 포함되어 있는 정점끼리 연결된 간선이 없음
 * 모든 간선의 한 끝 점은 A, 다른 끝점은 B에
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc4MzAwNDMsLTIxMzY4MzAzMzcsMT
+eyJoaXN0b3J5IjpbLTE0OTcxNTU4MzcsLTIxMzY4MzAzMzcsMT
 k3ODA4NzcwOV19
 -->
