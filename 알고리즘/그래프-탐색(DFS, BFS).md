@@ -99,12 +99,11 @@ while(!q.empty()) {
 
 ## 관련 문제
 [1260번: DFS와 BFS](https://www.acmicpc.net/problem/1260)
-정렬은 필수가 아니나 문제 내에서 작은 것 부터 방문하라는 조건이 제시되었으므로 sort
-
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE0MzQ5NDMzLDkxNjY1NDI4MCwtMjU1OD
-M0Mzc2LC0yMTM2ODMwMzM3LDE5NzgwODc3MDldfQ==
+eyJoaXN0b3J5IjpbMTI0OTQ1MjQ4Myw0MTQzNDk0MzMsOTE2Nj
+U0MjgwLC0yNTU4MzQzNzYsLTIxMzY4MzAzMzcsMTk3ODA4Nzcw
+OV19
 -->
