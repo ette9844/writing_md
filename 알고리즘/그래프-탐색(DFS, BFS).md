@@ -52,8 +52,20 @@ Breadth First Search
 
 ### Queue (인접 행렬)
 ```c++
-
+queue<int> q;
+check[1] = true;
+q.push(1);
+while(!q.empty()) {
+	int x = q.front();
+	q.pop();
+	printf("%d", x);
+	for(int i=1; i<=n; i++){
+		if(a[x][i] == 1 && check[i] == false) {
+		}
+	}
+}
 ```
+>java는 `Queue<Integer>`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODQ4NDMxMSwxOTc4MDg3NzA5XX0=
+eyJoaXN0b3J5IjpbMTU2MDE4ODI4NSwxOTc4MDg3NzA5XX0=
 -->
