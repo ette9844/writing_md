@@ -70,6 +70,7 @@ while(!q.empty()) {
 }
 ```
 >java는 `Queue<Integer>`
+>시간 복잡도: O(V^2^)
 
 ### Queue (인접 리스트)
 ```c++
@@ -81,15 +82,17 @@ while(!q.empty()) {
 	int x = q.front();
 	q.pop();
 	printf("%d", x);
-	for(int i=1; i<=; i++){
-		if(a[x][i] == 1 && check[i] == false) {
+	for(int i=0; i<a[x].size(); i++){
+		int y = a[x][i];
+		if(check[y] == false) {
 			// 방문과 동시에 check
-			check[i] = true;
-			q.push(i);
+			check[y] = true;
+			q.push(y);
 		}
 	}
 }
 ```
+>시간 복잡도: O(V+E)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDkwMzMzOSwxOTc4MDg3NzA5XX0=
+eyJoaXN0b3J5IjpbLTE4OTg5ODIxNTMsMTk3ODA4NzcwOV19
 -->
