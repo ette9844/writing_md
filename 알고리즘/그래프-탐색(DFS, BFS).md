@@ -9,15 +9,21 @@ Depth First Search
 * 갈수 없으면 이전 정점으로 돌아간다
 
 ### 재귀 호출을 이용한 구현
-```java
+```c++
 void dfs(int x){
 	check[x] = true;
-	
+	printf("%d", x);
+	for(int i=1; i<=n; i++){
+		if(a[x][i] == 1 && check[i] == false) {
+			dfs(i);
+		}
+	}
 }
 ```
+>dfs(x) : x에 방문했다.
 
 ## BFS
 너비 우선 탐색
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzA4MTE5MjgsMTk3ODA4NzcwOV19
+eyJoaXN0b3J5IjpbLTExMDIzMjU0OTAsMTk3ODA4NzcwOV19
 -->
