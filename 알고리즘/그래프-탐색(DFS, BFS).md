@@ -113,8 +113,13 @@ DFS나 BFS가 시작되는 횟수를 통해 연결 요소를 유추해 낼 수 �
 [11724번: 연결 요소의 개수](https://www.acmicpc.net/problem/11724)
 
 
-
+## 이분 그래프
+Bipartite Graph
+* 그래프의 정점을 A와 B로 나눌 수 있으면 이분 그래프라고 한다
+* A에 포함되어 있는 정점끼리 연결된 간선이 없음
+* B에 포함되어 있는 정점끼리 연결된 간선이 없음
+* 모든 간선의 한 끝 점은 A, 다른 끝점은 B에
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjE3OTc0MTMsLTIxMzY4MzAzMzcsMT
+eyJoaXN0b3J5IjpbLTE2Mjc4MzAwNDMsLTIxMzY4MzAzMzcsMT
 k3ODA4NzcwOV19
 -->
