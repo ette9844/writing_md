@@ -112,6 +112,9 @@ DFS나 BFS가 시작되는 횟수를 통해 연결 요소를 유추해 낼 수 �
 ## 관련 문제
 [11724번: 연결 요소의 개수](https://www.acmicpc.net/problem/11724)
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzY4MzAzMzcsMTk3ODA4NzcwOV19
+eyJoaXN0b3J5IjpbLTEyNjE3OTc0MTMsLTIxMzY4MzAzMzcsMT
+k3ODA4NzcwOV19
 -->
