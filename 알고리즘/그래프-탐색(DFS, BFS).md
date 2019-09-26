@@ -22,7 +22,7 @@ void dfs(int x){
 ```
 >dfs(x) : x에 방문했다.
 >n : 그래프 정점 개수
->시간 복잡도 : O(v^2^)  (v: 정점개수)
+>시간 복잡도 : O(V^2^)  (V: 정점개수)
 
 ### 인접 리스트
 ```c++
@@ -38,10 +38,10 @@ void dfs(int x){
 }
 ```
 >인접리스트에는 실제로 존재하는 간선만 존재하므로, 방문하지 않았으면 바로 방문하여도 괜찮다
->시간 복잡도 : O()
+>시간 복잡도 : O(V+E) (V: 정점개수, E: 간선개수)
 
 ## BFS
 너비 우선 탐색
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTk3ODMyNywxOTc4MDg3NzA5XX0=
+eyJoaXN0b3J5IjpbLTE0ODA5NTk1MzIsMTk3ODA4NzcwOV19
 -->
