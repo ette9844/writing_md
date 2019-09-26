@@ -96,6 +96,11 @@ while(!q.empty()) {
 
 ## 관련 문제
 [1260번: DFS와 BFS](https://www.acmicpc.net/problem/1260)
+정렬은 필수가 아니나 문제 내에서 작은 것 부터 방문하라는 조건이 제시되었으므로 sort
+
+## 연결 요소
+Connected Component
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTg3NjY3MiwxOTc4MDg3NzA5XX0=
+eyJoaXN0b3J5IjpbMTQwODIyNzM2LDE5NzgwODc3MDldfQ==
 -->
