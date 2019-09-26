@@ -125,8 +125,10 @@ Bipartite Graph
 * 그래프의 정점을 A와 B로 나눌 수 있으면 이분 그래프라고 한다
 * A에 포함되어 있는 정점끼리 연결된 간선이 없음
 * B에 포함되어 있는 정점끼리 연결된 간선이 없음
-* 모든 간선의 한 끝 점은 A, 다른 끝점은 B에
+* 모든 간선의 한 끝 점은 A, 다른 끝점은 B에 존재
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDk5MTY3MDQsLTIxMzY4MzAzMzcsMT
-k3ODA4NzcwOV19
+eyJoaXN0b3J5IjpbLTI1NTgzNDM3NiwtMjEzNjgzMDMzNywxOT
+c4MDg3NzA5XX0=
 -->
