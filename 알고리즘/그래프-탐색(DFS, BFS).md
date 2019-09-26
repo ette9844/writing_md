@@ -7,6 +7,7 @@ Depth First Search
 
 * **스택**을 이용해서 갈 수 있는 만큼 최대한 많이 가고 
 * 갈수 없으면 이전 정점으로 돌아간다
+* 스택이 비면 탐색 완료
 
 ### 재귀 호출
 ```c++
@@ -46,9 +47,13 @@ Breadth First Search
 
 * **큐**를 이용하여 지금 위치에서 갈 수 있는 것을 모두 큐에 넣는 방식
 * 큐에 **넣을 때** 방문했다고 체크해야 한다.
-넣을 때 방문 체크하지 않으면, 큐에 중ㅁ
+넣을 때 방문 체크하지 않으면, 큐에 중복 정점이 들어가게 됨
+* 큐가 비면 탐색 완료
 
+### Queue (인접 행렬)
+```c++
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTk2MjkxMywxOTc4MDg3NzA5XX0=
+eyJoaXN0b3J5IjpbMTgyODQ4NDMxMSwxOTc4MDg3NzA5XX0=
 -->
