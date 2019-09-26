@@ -127,8 +127,11 @@ Bipartite Graph
 * B에 포함되어 있는 정점끼리 연결된 간선이 없음
 * 모든 간선의 한 끝 점은 A, 다른 끝점은 B에 존재
 
+그래프를 DFS, BFS를 통해 이분 그래프인지 아닌지 알 수 있다.
 
+## 관련 문제
+[1260번: DFS와 BFS](https://www.acmicpc.net/problem/1707)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTgzNDM3NiwtMjEzNjgzMDMzNywxOT
-c4MDg3NzA5XX0=
+eyJoaXN0b3J5IjpbOTMxOTE2NjE0LC0yNTU4MzQzNzYsLTIxMz
+Y4MzAzMzcsMTk3ODA4NzcwOV19
 -->
