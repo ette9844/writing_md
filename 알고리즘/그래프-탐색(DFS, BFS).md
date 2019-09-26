@@ -106,6 +106,12 @@ Connected Component
 * 다른 연결 요소에 속한 정점과 연결하는 경로가 있어서는 안된다.
 
 연결 요소를 구하는 것은 DFS/BFS 탐색을 통해 구할 수 있다.
+
+DFS나 BFS가 시작되는 횟수를 통해 연결 요소를 유추해 낼 수 있다.
+
+## 관련 문제
+[1260번: DFS와 BFS](https://www.acmicpc.net/problem/1260)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDAyMTM3NSwxOTc4MDg3NzA5XX0=
+eyJoaXN0b3J5IjpbMTA3MTU2MjUyNSwxOTc4MDg3NzA5XX0=
 -->
