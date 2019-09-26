@@ -100,7 +100,8 @@ while(!q.empty()) {
 
 ## 연결 요소
 Connected Component
-
+두 그래프가 나누어져있지 않고, 둘 사이를 잇는 간선이 없을 경우, 연결 오소가 2개 이다
+연결 요소에 속한 모든 정점
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwODIyNzM2LDE5NzgwODc3MDldfQ==
+eyJoaXN0b3J5IjpbODkxMTQ3NjIsMTk3ODA4NzcwOV19
 -->
