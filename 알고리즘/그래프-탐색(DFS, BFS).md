@@ -5,6 +5,7 @@
 Depth First Search
 깊이 우선 탐색
 
+![enter image description here](https://cdn.filepicker.io/api/file/FXAmj6SjTYSMalugzkQw)
 * **스택**을 이용해서 갈 수 있는 만큼 최대한 많이 가고 
 * 갈수 없으면 이전 정점으로 돌아간다
 * 스택이 비면 탐색 완료
@@ -44,6 +45,8 @@ void dfs(int x){
 ## BFS
 Breadth First Search
 너비 우선 탐색
+
+![enter image description here](https://cdn.filepicker.io/api/file/6sBaBZQVuci45KJTlGQ9)
 
 * **큐**를 이용하여 지금 위치에서 갈 수 있는 것을 모두 큐에 넣는 방식
 * 큐에 **넣을 때** 방문했다고 체크해야 한다.
@@ -118,11 +121,12 @@ DFS나 BFS가 시작되는 횟수를 통해 연결 요소를 유추해 낼 수 �
 ## 이분 그래프
 Bipartite Graph
 
+![enter image description here](https://t1.daumcdn.net/cfile/tistory/217915475819DCC20C)
 * 그래프의 정점을 A와 B로 나눌 수 있으면 이분 그래프라고 한다
 * A에 포함되어 있는 정점끼리 연결된 간선이 없음
 * B에 포함되어 있는 정점끼리 연결된 간선이 없음
 * 모든 간선의 한 끝 점은 A, 다른 끝점은 B에
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTcxNTU4MzcsLTIxMzY4MzAzMzcsMT
+eyJoaXN0b3J5IjpbLTEwMDk5MTY3MDQsLTIxMzY4MzAzMzcsMT
 k3ODA4NzcwOV19
 -->
