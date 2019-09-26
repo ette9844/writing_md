@@ -136,8 +136,11 @@ Bipartite Graph
 그룹 A : 1
 그룹 B : 2
 
+A + B = 3
+3-C = 다음 방문할 노드의 그룹
 
+검사: 모든 간선에 대해서 색이 다른지 검사
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODU5MzA4MzEsLTI1NTgzNDM3NiwtMj
-EzNjgzMDMzNywxOTc4MDg3NzA5XX0=
+eyJoaXN0b3J5IjpbOTE2NjU0MjgwLC0yNTU4MzQzNzYsLTIxMz
+Y4MzAzMzcsMTk3ODA4NzcwOV19
 -->
