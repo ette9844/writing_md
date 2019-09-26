@@ -93,6 +93,9 @@ while(!q.empty()) {
 }
 ```
 >시간 복잡도: O(V+E)
+
+## 관련 문제
+[1260번: DFS와 BFS](https://www.acmicpc.net/problem/1260)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg5ODIxNTMsMTk3ODA4NzcwOV19
+eyJoaXN0b3J5IjpbLTYzNTg3NjY3MiwxOTc4MDg3NzA5XX0=
 -->
