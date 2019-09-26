@@ -100,8 +100,12 @@ while(!q.empty()) {
 
 ## 연결 요소
 Connected Component
-두 그래프가 나누어져있지 않고, 둘 사이를 잇는 간선이 없을 경우, 연결 오소가 2개 이다
-연결 요소에 속한 모든 정점
+* 두 그래프가 나누어져있지 않고, 둘 사이를 잇는 간선이 없을 경우, 나누어진 각각의 그래프를 연결 요소 라고 한다.
+* 위 경우에서는 연결 요소가 2개
+* 연결 요소에 속한 모든 정점을 연결하는 경로가 있어야 한다. 
+* 다른 연결 요소에 속한 정점과 연결하는 경로가 있어서는 안된다.
+
+연결 요소를 구하는 것은 DFS/BFS 탐색을 통해 구할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxMTQ3NjIsMTk3ODA4NzcwOV19
+eyJoaXN0b3J5IjpbLTcxNDAyMTM3NSwxOTc4MDg3NzA5XX0=
 -->
