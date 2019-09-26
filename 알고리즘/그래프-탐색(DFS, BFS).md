@@ -46,8 +46,9 @@ Breadth First Search
 
 * **큐**를 이용하여 지금 위치에서 갈 수 있는 것을 모두 큐에 넣는 방식
 * 큐에 **넣을 때** 방문했다고 체크해야 한다.
+넣을 때 방문 체크하지 않으면, 큐에 중ㅁ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQ0Mjc5NjUsMTk3ODA4NzcwOV19
+eyJoaXN0b3J5IjpbLTUwOTk2MjkxMywxOTc4MDg3NzA5XX0=
 -->
