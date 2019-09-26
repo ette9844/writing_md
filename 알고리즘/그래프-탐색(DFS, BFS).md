@@ -53,6 +53,7 @@ Breadth First Search
 ### Queue (인접 행렬)
 ```c++
 queue<int> q;
+// 시작점 넣어주기
 check[1] = true;
 q.push(1);
 while(!q.empty()) {
@@ -61,11 +62,34 @@ while(!q.empty()) {
 	printf("%d", x);
 	for(int i=1; i<=n; i++){
 		if(a[x][i] == 1 && check[i] == false) {
+			// 방문과 동시에 check
+			check[i] = true;
+			q.push(i);
 		}
 	}
 }
 ```
 >java는 `Queue<Integer>`
+
+### Queue (인접 리스트)
+```c++
+queue<int> q;
+// 시작점 넣어주기
+check[1] = true;
+q.push(1);
+while(!q.empty()) {
+	int x = q.front();
+	q.pop();
+	printf("%d", x);
+	for(int i=1; i<=; i++){
+		if(a[x][i] == 1 && check[i] == false) {
+			// 방문과 동시에 check
+			check[i] = true;
+			q.push(i);
+		}
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDE4ODI4NSwxOTc4MDg3NzA5XX0=
+eyJoaXN0b3J5IjpbMTQwNDkwMzMzOSwxOTc4MDg3NzA5XX0=
 -->
