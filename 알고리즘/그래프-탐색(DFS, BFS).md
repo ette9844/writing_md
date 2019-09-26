@@ -130,8 +130,14 @@ Bipartite Graph
 그래프를 DFS, BFS를 통해 이분 그래프인지 아닌지 알 수 있다.
 
 ## 관련 문제
-[1260번: DFS와 BFS](https://www.acmicpc.net/problem/1707)
+[1707번: 이분 그래프](https://www.acmicpc.net/problem/1707)
+
+방문 x : 0
+그룹 A : 1
+그룹 B : 2
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxOTE2NjE0LC0yNTU4MzQzNzYsLTIxMz
-Y4MzAzMzcsMTk3ODA4NzcwOV19
+eyJoaXN0b3J5IjpbLTEwODU5MzA4MzEsLTI1NTgzNDM3NiwtMj
+EzNjgzMDMzNywxOTc4MDg3NzA5XX0=
 -->
