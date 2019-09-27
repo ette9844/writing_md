@@ -23,7 +23,8 @@ BFS를 이용해 해결할 수 있는 문제는 아래와 같은 조건을 만�
 
 [1697번: 숨바꼭질](https://www.acmicpc.net/problem/1697)
 
-[1]
+[14226번: 이모티콘](https://www.acmicpc.net/problem/14226)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTIyNjk4OCwtMTY3NDA4MTM1Nl19
+eyJoaXN0b3J5IjpbLTE0NDczNzA1MTgsLTE2NzQwODEzNTZdfQ
+==
 -->
