@@ -28,10 +28,12 @@ BFS를 이용해 해결할 수 있는 문제는 아래와 같은 조건을 만�
 
 [7576번: 토마토](https://www.acmicpc.net/problem/7576)
 
+## 그래프 형태 아닌 문제
+
 [1697번: 숨바꼭질](https://www.acmicpc.net/problem/1697)
 
 [14226번: 이모티콘](https://www.acmicpc.net/problem/14226)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI0MDU1MzQsLTE0NDczNzA1MTgsLT
-E2NzQwODEzNTZdfQ==
+eyJoaXN0b3J5IjpbNTMzNjc1ODQxLC0xNDQ3MzcwNTE4LC0xNj
+c0MDgxMzU2XX0=
 -->
