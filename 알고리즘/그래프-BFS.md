@@ -19,7 +19,9 @@ BFS를 이용해 해결할 수 있는 문제는 아래와 같은 조건을 만�
 * DFS 탐색으로는 풀 수 없는 문제
 * BFS는 단계별로 진행된다는 사실을 이용해야 함
 
+7579번: 토마토
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQwODEzNTZdfQ==
+eyJoaXN0b3J5IjpbODY5Nzc0NTk4LC0xNjc0MDgxMzU2XX0=
 -->
