@@ -18,6 +18,11 @@ BFS를 이용해 해결할 수 있는 문제는 아래와 같은 조건을 만�
 [2178번: 미로 탐색](https://www.acmicpc.net/problem/2178)
 * DFS 탐색으로는 풀 수 없는 문제
 * BFS는 단계별로 진행된다는 사실을 이용해야 함
+* 같은 정점을 두번 이상 방문하면 BFS가 아닌 부르트 포스 알고리즘
+
+* 정점: 1
+* 간선: 1에서 1로 이동 가능 한 것을 간선으로 취급한다.
+* 가중치: 방문한 칸의 갯수
 
 [7576번: 토마토](https://www.acmicpc.net/problem/7576)
 
@@ -25,6 +30,6 @@ BFS를 이용해 해결할 수 있는 문제는 아래와 같은 조건을 만�
 
 [14226번: 이모티콘](https://www.acmicpc.net/problem/14226)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDczNzA1MTgsLTE2NzQwODEzNTZdfQ
-==
+eyJoaXN0b3J5IjpbLTEwMjg2NDc0MDgsLTE0NDczNzA1MTgsLT
+E2NzQwODEzNTZdfQ==
 -->
