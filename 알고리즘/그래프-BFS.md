@@ -15,7 +15,11 @@ BFS를 이용해 해결할 수 있는 문제는 아래와 같은 조건을 만�
 >거리의 최솟값을 구하는 문제라면 가중치는 거리를 의미, 시간의 최솟값을 구하는 문제라면 가중치는 시간을 의미해야 함.
 
 ## 관련 문제
+[2178번: 미로 탐색](2178)
+* DFS 탐색으로는 풀 수 없는 문제
+* BFS는 단계별로 진행된다는 사실을 이용해야 함
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjYyNzQ5M119
+eyJoaXN0b3J5IjpbLTE2NzQwODEzNTZdfQ==
 -->
