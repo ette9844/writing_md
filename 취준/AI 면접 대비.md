@@ -2,7 +2,7 @@
 
 ### 1분 자기소개
 안녕하십니까. 신세계 아이앤씨의 SW개발 부서에 지원한 전혜진입니다.
-저는개발자가 되기 위한 경험을 쌓아왔습니다.
+저는 신세계 아이앤씨의 개발자가 되기 위한 경험을 쌓아왔습니다.
 
 우선 다양한 프로젝트 경험을 통한 웹 및 모바일 시스템 개발 역량을 가지고 있습니다. 대표적으로 졸업프로젝트로 모바일 키오스크를 개발한 경험이 있으며, 이를 통해 클라우드 기반 웹, 모바일 개발 역량을 기를 수 있었습니다. 
 
@@ -20,6 +20,6 @@
 [https://www.viewinter.ai/ui/index.html#/](https://www.viewinter.ai/ui/index.html#/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTQwNDk4NCwtNjQ5NDk1OTM2LC02MD
+eyJoaXN0b3J5IjpbLTY0MDc3MTM4NCwtNjQ5NDk1OTM2LC02MD
 g3Nzc0ODUsLTE5OTE2Njk5NjVdfQ==
 -->
