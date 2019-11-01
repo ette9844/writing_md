@@ -17,14 +17,14 @@
 ### 장단점  소개
 저의 장점은 책임감입니다.
  
-저의 단점은 집중ㄹ
+저의 단점은 집중하면 주위가 흐려짐
 
 ### 연습
 [https://www.viewinter.ai/ui/index.html#/](https://www.viewinter.ai/ui/index.html#/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Nzk4NDY1OCwtMTAzODAzOTc0NSwtNz
-AwMTM0NzU1LC02MDcxOTkyNDMsMTU3Nzc5MDMzMCwxMTE4MTU4
-ODIsLTY0OTQ5NTkzNiwtNjA4Nzc3NDg1LC0xOTkxNjY5OTY1XX
-0=
+eyJoaXN0b3J5IjpbMzE5MzI3NzU5LC0xMDM4MDM5NzQ1LC03MD
+AxMzQ3NTUsLTYwNzE5OTI0MywxNTc3NzkwMzMwLDExMTgxNTg4
+MiwtNjQ5NDk1OTM2LC02MDg3Nzc0ODUsLTE5OTE2Njk5NjVdfQ
+==
 -->
