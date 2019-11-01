@@ -17,13 +17,14 @@
 ### 장단점  소개
 저의 장점은 책임감입니다.
  
-저의 단점은 
+저의 단점은 집중ㄹ
 
 ### 연습
 [https://www.viewinter.ai/ui/index.html#/](https://www.viewinter.ai/ui/index.html#/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzgwMzk3NDUsLTcwMDEzNDc1NSwtNj
-A3MTk5MjQzLDE1Nzc3OTAzMzAsMTExODE1ODgyLC02NDk0OTU5
-MzYsLTYwODc3NzQ4NSwtMTk5MTY2OTk2NV19
+eyJoaXN0b3J5IjpbMTQ1Nzk4NDY1OCwtMTAzODAzOTc0NSwtNz
+AwMTM0NzU1LC02MDcxOTkyNDMsMTU3Nzc5MDMzMCwxMTE4MTU4
+ODIsLTY0OTQ5NTkzNiwtNjA4Nzc3NDg1LC0xOTkxNjY5OTY1XX
+0=
 -->
