@@ -17,7 +17,7 @@
 ### 장단점  소개
 저의 장점은 책임감입니다. 맡은 바를 최대의 퀄리티로 완수해내는것
  
-저의 단점은 집중하면 주위가 흐려짐
+저의 단점은 집중하면 주변이 잘 보이지 않게되는것입니다. 이를 보완하기 위해, 중요사항은 그 즉시 기록으로 남겨두는 습관을 들였고, 리마인더를 통해 상기시켜 보완하고 있습니다. 입사 후에도, 
 
 ### 연습
 [https://www.viewinter.ai/ui/index.html#/](https://www.viewinter.ai/ui/index.html#/)
@@ -25,8 +25,8 @@
 
 면접보고 OTP로 주민등록본 찾기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ5OTgzOTksLTEwMzgwMzk3NDUsLT
-cwMDEzNDc1NSwtNjA3MTk5MjQzLDE1Nzc3OTAzMzAsMTExODE1
-ODgyLC02NDk0OTU5MzYsLTYwODc3NzQ4NSwtMTk5MTY2OTk2NV
-19
+eyJoaXN0b3J5IjpbMTk4NzIzNTU4MCwtMTAzODAzOTc0NSwtNz
+AwMTM0NzU1LC02MDcxOTkyNDMsMTU3Nzc5MDMzMCwxMTE4MTU4
+ODIsLTY0OTQ5NTkzNiwtNjA4Nzc3NDg1LC0xOTkxNjY5OTY1XX
+0=
 -->
