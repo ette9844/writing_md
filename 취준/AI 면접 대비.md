@@ -12,7 +12,7 @@
 지금까지 쌓아온 경험을 바탕으로, 신세계 아이앤씨의 커머스 서비스 개발자로서 신세계에서 다양한 IT 서비스를 제공하고싶습니다.
 
 ### 지원동기
-졸업 프로젝트로 모바일 키오스크를 기획하면서, e-커머스와 O2O 서비스에 대한 시장조사를 통해, 신세계를 접하게 되었습니다. 이후 직접 O2O 서비스를 개발해나가며 해당 산업군에 대한 흥미가 
+졸업 프로젝트로 모바일 키오스크를 기획하면서, e-커머스와 O2O 서비스에 대한 시장조사를 통해, 신세계를 접하게 되었습니다. 이후 직접 O2O 서비스를 개발해나가며 해당 산업군에 대한 관심이 높아졌고, e-커머스의 최선단에서 개발자로서 기여하고 싶다는 꿈을 키웠습니다.
 
 ### 장단점  소개
 
@@ -21,6 +21,6 @@
 [https://www.viewinter.ai/ui/index.html#/](https://www.viewinter.ai/ui/index.html#/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU1OTgyOTIsMTExODE1ODgyLC02ND
-k0OTU5MzYsLTYwODc3NzQ4NSwtMTk5MTY2OTk2NV19
+eyJoaXN0b3J5IjpbMTU3Nzc5MDMzMCwxMTE4MTU4ODIsLTY0OT
+Q5NTkzNiwtNjA4Nzc3NDg1LC0xOTkxNjY5OTY1XX0=
 -->
