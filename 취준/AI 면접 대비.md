@@ -15,9 +15,9 @@
 졸업 프로젝트로 모바일 키오스크를 기획하면서, e-커머스와 O2O 서비스에 대한 시장조사를 통해, 신세계를 접하게 되었습니다. 이후 직접 O2O 서비스를 개발해나가며 해당 산업군에 대한 관심이 높아졌고, e-커머스의 최선단에서 개발자로서 기여하고 싶다는 꿈을 키웠습니다.
 
 ### 장단점  소개
-저의 장점은 책임감입니다. 맡은 바를 최대의 퀄리티로 완수해내는것
+저의 장점은 책임감입니다. 맡은 바를 최대의 퀄리티로 완수해내는것입니다. 주어진 업무를 완수해내는 것에 그치지않고, 늘 최대의 퀄리티를 낼 수 있도록 노력합니다. 
  
-저의 단점은 집중하면 주변이 잘 보이지 않게되는것입니다. 이를 보완하기 위해, 중요사항은 그 즉시 기록으로 남겨두는 습관을 들였고, 리마인더를 통해 상기시켜 보완하고 있습니다. 입사 후에도, 
+저의 단점은 집중하면 주변이 잘 보이지 않게되는것입니다. 이를 보완하기 위해, 중요사항은 그 즉시 기록으로 남겨두는 습관을 들였고, 리마인더를 통해 상기시켜 보완하고 있습니다. 입사 후에도, 업무에 입중하는 것과 동시에 팀내 주요사항을 놓치지 않는 모습 보여드리겠습니다.
 
 ### 연습
 [https://www.viewinter.ai/ui/index.html#/](https://www.viewinter.ai/ui/index.html#/)
@@ -25,7 +25,7 @@
 
 면접보고 OTP로 주민등록본 찾기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzIzNTU4MCwtMTAzODAzOTc0NSwtNz
+eyJoaXN0b3J5IjpbMTA3NzI4NTc0OSwtMTAzODAzOTc0NSwtNz
 AwMTM0NzU1LC02MDcxOTkyNDMsMTU3Nzc5MDMzMCwxMTE4MTU4
 ODIsLTY0OTQ5NTkzNiwtNjA4Nzc3NDg1LC0xOTkxNjY5OTY1XX
 0=
