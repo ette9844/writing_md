@@ -15,7 +15,7 @@
 졸업 프로젝트로 모바일 키오스크를 기획하면서, e-커머스와 O2O 서비스에 대한 시장조사를 통해, 신세계를 접하게 되었습니다. 이후 직접 O2O 서비스를 개발해나가며 해당 산업군에 대한 관심이 높아졌고, e-커머스의 최선단에서 개발자로서 기여하고 싶다는 꿈을 키웠습니다.
 
 ### 장단점  소개
-저의 장점은 책임감입니다.
+저의 장점은 책임감입니다. 맡은 바를 최대의 퀄리티로 완수해내는것
  
 저의 단점은 집중하면 주위가 흐려짐
 
@@ -25,7 +25,7 @@
 
 면접보고 OTP로 주민등록본 찾기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjA4NzQ3MzksLTEwMzgwMzk3NDUsLT
+eyJoaXN0b3J5IjpbLTE4ODQ5OTgzOTksLTEwMzgwMzk3NDUsLT
 cwMDEzNDc1NSwtNjA3MTk5MjQzLDE1Nzc3OTAzMzAsMTExODE1
 ODgyLC02NDk0OTU5MzYsLTYwODc3NzQ4NSwtMTk5MTY2OTk2NV
 19
