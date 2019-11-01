@@ -22,9 +22,11 @@
 ### 연습
 [https://www.viewinter.ai/ui/index.html#/](https://www.viewinter.ai/ui/index.html#/)
 
+
+면접보고 OTP로 주민등록본 찾기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5MzI3NzU5LC0xMDM4MDM5NzQ1LC03MD
-AxMzQ3NTUsLTYwNzE5OTI0MywxNTc3NzkwMzMwLDExMTgxNTg4
-MiwtNjQ5NDk1OTM2LC02MDg3Nzc0ODUsLTE5OTE2Njk5NjVdfQ
-==
+eyJoaXN0b3J5IjpbLTE2NjA4NzQ3MzksLTEwMzgwMzk3NDUsLT
+cwMDEzNDc1NSwtNjA3MTk5MjQzLDE1Nzc3OTAzMzAsMTExODE1
+ODgyLC02NDk0OTU5MzYsLTYwODc3NzQ4NSwtMTk5MTY2OTk2NV
+19
 -->
