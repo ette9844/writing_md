@@ -4,7 +4,7 @@
 안녕하십니까. 신세계 아이앤씨의 SW개발 부서에 지원한 전혜진입니다.
 저는 신세계의 준비된 커머스 서비스 개발자가 되기 위해 경험을 쌓아왔습니다.
 
-우선 다양한 프로젝트 경험을 통한 웹 및 모바일 시스템 개발 역량을 가지고 있습니다. 대표적으로 졸업프로젝트로 모바일 키오스크를 개발한 경험이 있으며, 이를 통해 클라우드 기반 웹, 모바일 개발 역량을 기를 수 있었습니다. 
+우선 다양한 프로젝트 경험을 통한 웹 및 모바일 시스템 개발 역량을 가지고 있습니다. 대표적으로 졸업프로젝트로 모바일 키오스크를 개발한 경험이 있으며, 이를 통해 클라우드 기반 웹, 모바일 개발 역량을 기를 수 있었습니다.  ~서비스 설계를 경험하고 ~에 필요한 개발 역량을 기를 수 있었습니다.
 
 또한, 웹 자바 기반 솔루션 개발자 과정을 이수하여 스프링 프레임워크 등 다양한 웹 개발 지식을 학습하였고, Oracle DBMS의 설계와 관리를 경험하였습니다. 
 
@@ -20,6 +20,6 @@
 [https://www.viewinter.ai/ui/index.html#/](https://www.viewinter.ai/ui/index.html#/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODE1ODgyLC02NDk0OTU5MzYsLTYwOD
-c3NzQ4NSwtMTk5MTY2OTk2NV19
+eyJoaXN0b3J5IjpbLTg5MDIwMjA4MiwxMTE4MTU4ODIsLTY0OT
+Q5NTkzNiwtNjA4Nzc3NDg1LC0xOTkxNjY5OTY1XX0=
 -->
