@@ -15,12 +15,13 @@
 졸업 프로젝트로 모바일 키오스크를 기획하면서, e-커머스와 O2O 서비스에 대한 시장조사를 통해, 신세계를 접하게 되었습니다. 이후 직접 O2O 서비스를 개발해나가며 해당 산업군에 대한 관심이 높아졌고, e-커머스의 최선단에서 개발자로서 기여하고 싶다는 꿈을 키웠습니다.
 
 ### 장단점  소개
-
+저의 장점은 
 
 ### 연습
 [https://www.viewinter.ai/ui/index.html#/](https://www.viewinter.ai/ui/index.html#/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3Nzc5MDMzMCwxMTE4MTU4ODIsLTY0OT
-Q5NTkzNiwtNjA4Nzc3NDg1LC0xOTkxNjY5OTY1XX0=
+eyJoaXN0b3J5IjpbLTcwMDEzNDc1NSwxNTc3NzkwMzMwLDExMT
+gxNTg4MiwtNjQ5NDk1OTM2LC02MDg3Nzc0ODUsLTE5OTE2Njk5
+NjVdfQ==
 -->
