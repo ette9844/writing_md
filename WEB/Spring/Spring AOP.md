@@ -62,7 +62,7 @@ AOP는 공통사항을 핵심사항의 전 또는 후에 엮을 수 있다.
 [트랜잭션 시작]
 a.a(); 핵심사항(관점)
 [트랜잭션 종료](commit/rollback)
-```
+``
 
 ## Weaving
 
@@ -82,7 +82,7 @@ a()**pointcut**, b(), d()  - **joinpoint**(무엇을)
 처리되도록 
 > 1) Before Advice - b
 > 2) After Advice - c
-> 3) Around Advice - a, d
+> 3) Around Advice - a, d3
 
 엮여있다.
 
@@ -183,9 +183,9 @@ public class AccountDAO {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzU3Mzk4NCwtNzAzNjQ5MzAxLDE1Mz
-U2Mjg5NDEsMTQ3OTE3Mzk5LDkyNzY5MjYzNywtNzg2MTcwMTM4
-LDk3OTczMDYxMywxMTI2NDkyMjQ4LDg5OTUwODQ4MCw5NTgxMj
-IwNTUsNzQ0NDY4NTQzLC05ODkxMDM2ODIsLTEzMzE5NjI3MjZd
-fQ==
+eyJoaXN0b3J5IjpbMTk2NTc5MjQzMywxMTc3NTczOTg0LC03MD
+M2NDkzMDEsMTUzNTYyODk0MSwxNDc5MTczOTksOTI3NjkyNjM3
+LC03ODYxNzAxMzgsOTc5NzMwNjEzLDExMjY0OTIyNDgsODk5NT
+A4NDgwLDk1ODEyMjA1NSw3NDQ0Njg1NDMsLTk4OTEwMzY4Miwt
+MTMzMTk2MjcyNl19
 -->
