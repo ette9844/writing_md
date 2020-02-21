@@ -5,8 +5,10 @@ Jsp Standard Tag Library
 EL에서 불가능한 반복문, 조건문, 변수 처리를 하기 위한 EL기반의 태그 라이브러리
 
 ### 1. 적용법
-[JSTL 다운로드 링크1](https://mvnrepository.com/artifact/javax.servlet/jstl)
-[JSTL 다운로드 링크2](http://www.java2s.com/Code/Jar/j/Downloadjstl12jar.htm)
+[Maven Repository 링크](https://mvnrepository.com/artifact/javax.servlet/jstl)
+1. pom.xml에 JSTL dependency를 추가한다.
+
+[JSTL jar파일 다운로드 링크](http://www.java2s.com/Code/Jar/j/Downloadjstl12jar.htm)
 
 1. 링크에서 jstl 1.2 jar파일을 다운받는다.
 2. jar파일을 프로젝트의 WebContent>WEB_INF>lib 폴더 아래에 붙여넣는다.
@@ -174,9 +176,9 @@ intArray={10, 20, 30, 40, 50, 60};
 ```
 >30 40 50 출력
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5MzU3MzcxLC05OTg4ODAyMzIsMTM1MD
-I2ODkxOSwxMjQ3OTIxMTYyLDMyMjY2MTc0Nyw2MDA5MTA1MDcs
-MTY4OTI4NDc4NywtNTYxODI4MDIsMTc5MDYwNzc4MSwxNTEyMj
-c4MDA3LC0xMjY4ODgzMzg2LDg5NTk2NzI3NSw3NTg3MDI2NzEs
-LTEyNzk5OTg0NDYsOTA1NDMyMTddfQ==
+eyJoaXN0b3J5IjpbLTYxMTU2ODM1OSw1OTkzNTczNzEsLTk5OD
+g4MDIzMiwxMzUwMjY4OTE5LDEyNDc5MjExNjIsMzIyNjYxNzQ3
+LDYwMDkxMDUwNywxNjg5Mjg0Nzg3LC01NjE4MjgwMiwxNzkwNj
+A3NzgxLDE1MTIyNzgwMDcsLTEyNjg4ODMzODYsODk1OTY3Mjc1
+LDc1ODcwMjY3MSwtMTI3OTk5ODQ0Niw5MDU0MzIxN119
 -->
