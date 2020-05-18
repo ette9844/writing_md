@@ -50,14 +50,14 @@ DataSource ds = (DataSource)envContext.lookup("jdbc/myoracle");
 Connection conn = ds.getConnection();
 //etc.
 ```
->이름을 통해 dataSource를 찾아온다.
+이처럼 jndi 이름을 통해 dataSource를 찾아온다.
 
 ##### config.xml
 ```xml
 <jee:jndi-lookup id="dataSource" jndi-name="jdbc/myoracle" resource-ref="true" />
 ```
->
+혹은 xml 파일 내부에서 jndi-lookup 태그를 통해 dataSource를 찾아올 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2NTEzOTY2LC0xNzQwOTQwNTk1LC01Nz
+eyJoaXN0b3J5IjpbMjQwMDIzMTYzLC0xNzQwOTQwNTk1LC01Nz
 k2NDM3OTAsLTEzOTgxNDUxMzUsLTIwMzk4MzE4NzddfQ==
 -->
