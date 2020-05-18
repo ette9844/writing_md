@@ -50,8 +50,8 @@ DataSource ds = (DataSource)envContext.lookup("jdbc/myoracle");
 Connection conn = ds.getConnection();
 //etc.
 ```
->이름을 통해 dataSource를 찾아오는 것을 볼수 있다.
+>이름을 통해 dataSource를 찾아온다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA5NDA1OTUsLTU3OTY0Mzc5MCwtMT
-M5ODE0NTEzNSwtMjAzOTgzMTg3N119
+eyJoaXN0b3J5IjpbNzU2Njg2MjY0LC0xNzQwOTQwNTk1LC01Nz
+k2NDM3OTAsLTEzOTgxNDUxMzUsLTIwMzk4MzE4NzddfQ==
 -->
