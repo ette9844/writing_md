@@ -73,9 +73,11 @@ DB 변경 마다 java 클래스명, sql 파일명에 버전 명시 필요
 
 ## ~~Liquibase~~
 [http://www.liquibase.org/](http://www.liquibase.org/)
+
 Database schema 형상 관리
 ### 장점
 이기종 DBMS간 복제 지원
+
 오픈소스 (프리 티어)
 
 ### 단점
@@ -92,5 +94,5 @@ master-master replication 지원
 Microsoft SQL Server only
 이기종 DBMS간 복제 미지원
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODEyOTI4M119
+eyJoaXN0b3J5IjpbLTE0NTU1ODcxMTFdfQ==
 -->
