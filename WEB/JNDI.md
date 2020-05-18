@@ -51,7 +51,13 @@ Connection conn = ds.getConnection();
 //etc.
 ```
 >이름을 통해 dataSource를 찾아온다.
+
+##### config.xml
+```xml
+<jee:jndi-lookup id="dataSource" jndi-name="jdbc/myoracle" resource-ref="true" />
+```
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2Njg2MjY0LC0xNzQwOTQwNTk1LC01Nz
+eyJoaXN0b3J5IjpbODg2NTEzOTY2LC0xNzQwOTQwNTk1LC01Nz
 k2NDM3OTAsLTEzOTgxNDUxMzUsLTIwMzk4MzE4NzddfQ==
 -->
